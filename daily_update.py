@@ -177,6 +177,38 @@ def main():
             fail += 1
 
     log(f"📊 完成: {success} 成功, {fail} 失败, 共 {success + fail} 个任务")
+
+    # 自动同步到 GitHub Pages
+    log("> 开始: GitHub 同步")
+    try:
+        subprocess.run(
+            ["git", "add", "data/", "index.html"],
+            capture_output=True, text=True,
+            cwd=str(BASE_DIR), env=ENV,
+            encoding="utf-8", errors="replace"
+        )
+        commit_result = subprocess.run(
+            ["git", "commit", "-m", f"📊 每日更新 {datetime.now().strftime('%Y-%m-%d')}"],
+            capture_output=True, text=True,
+            cwd=str(BASE_DIR), env=ENV,
+            encoding="utf-8", errors="replace"
+        )
+        if commit_result.returncode == 0 or "nothing to commit" in commit_result.stdout + commit_result.stderr:
+            push_result = subprocess.run(
+                ["git", "push", "origin", "main"],
+                capture_output=True, text=True,
+                timeout=120, cwd=str(BASE_DIR), env=ENV,
+                encoding="utf-8", errors="replace"
+            )
+            if push_result.returncode == 0:
+                log("✅ GitHub 同步完成 → https://angle147.github.io/job-board/")
+            else:
+                log(f"⚠️ GitHub push 失败: {push_result.stderr.strip()[:120]}")
+        else:
+            log(f"⚠️ Git commit 异常: {commit_result.stderr.strip()[:120]}")
+    except Exception as e:
+        log(f"⚠️ GitHub 同步异常: {e}")
+
     log("")
 
 

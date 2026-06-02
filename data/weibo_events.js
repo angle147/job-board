@@ -1,6 +1,6 @@
 // 微博校园招聘会 — 自动爬取
-// 2026-06-01 10:36:57
-// 13 条
+// 2026-06-02 09:10:22
+// 12 条
 
 const WEIBO_EVENTS = [
   {
@@ -73,18 +73,6 @@ const WEIBO_EVENTS = [
     source_url: "https://m.weibo.cn/detail/5300365371116372",
     author: "7531300469",
     likes: "0",
-    companies: []
-  },
-  {
-    id: "e9e0cb9c0a25",
-    title: "山东商业职业技术学院 学校举办“选择济南 共赢未来”2026年驻济高校毕业生就业双选会暨山东商业职业技术学院春季实习就业双选会",
-    description: "山东商业职业技术学院 学校举办“选择济南 共赢未来”2026年驻济高校毕业生就业双选会暨山东商业职业技术学院春季实习就业双选会",
-    date: "2026-05-18",
-    location: "山东商业职业技术学院",
-    source: "微博",
-    source_url: "https://m.weibo.cn/detail/5299896233494640",
-    author: "7879846601",
-    likes: "1",
     companies: []
   },
   {

@@ -24,6 +24,7 @@ from pathlib import Path
 PYTHON = r"D:\Python\python.exe"
 BASE_DIR = Path(__file__).parent
 LOG_FILE = BASE_DIR / "daily_update.log"
+LOCK_FILE = BASE_DIR / ".daily_update.lock"
 
 # 强制 UTF-8 编码，避免 subprocess 管道使用 GBK 导致 emoji 报错
 ENV = {**os.environ, "PYTHONIOENCODING": "utf-8"}
@@ -148,6 +149,23 @@ def main():
     parser.add_argument("--quick", action="store_true", help="仅校招，跳过校对和国考")
     args = parser.parse_args()
 
+    # 锁文件：防止重复运行
+    if LOCK_FILE.exists():
+        lock_age = datetime.now().timestamp() - LOCK_FILE.stat().st_mtime
+        if lock_age < 1800:  # 30 分钟内视为未完成
+            log("⏭ 已有运行中的更新任务，跳过")
+            return
+        else:
+            log("⚠️ 发现过期锁文件（>30分钟），强制继续")
+    LOCK_FILE.write_text(str(datetime.now()))
+
+    try:
+        _run_pipeline(args)
+    finally:
+        LOCK_FILE.unlink(missing_ok=True)
+
+
+def _run_pipeline(args):
     log("=" * 50)
     log("🚀 每日更新开始")
     log("=" * 50)

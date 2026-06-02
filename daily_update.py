@@ -229,6 +229,68 @@ def _run_pipeline(args):
 
     log("")
 
+    # 生成推送摘要
+    log("> 开始: 生成推送摘要")
+    summary = _build_summary(BASE_DIR, today)
+    SUMMARY_FILE = BASE_DIR / ".daily_summary.txt"
+    SUMMARY_FILE.write_text(summary, encoding="utf-8")
+    log("✅ 摘要已生成")
+
+
+def _build_summary(base_dir, today):
+    """统计各数据源的条目数，生成推送文案"""
+    import json, re
+    from pathlib import Path
+    data_dir = base_dir / "data"
+
+    def count_js(path):
+        if not path.exists():
+            return 0
+        text = path.read_text(encoding="utf-8")
+        # 数数组里的 { 数量
+        return text.count('\n  {') 
+
+    lines = []
+    lines.append(f"📬 校招数据已更新 ({today.strftime('%m-%d')})")
+    lines.append("")
+
+    # 校招/社招
+    lines.append("🏢 校招/社招")
+    lines.append(f"  国资委: {count_js(data_dir / 'jobs.js')} 条")
+    lines.append(f"  应届生求职网: {count_js(data_dir / 'jobs_yingjiesheng.js')} 条")
+    lines.append(f"  海投网: {count_js(data_dir / 'jobs_haitou.js')} 条")
+    lines.append(f"  51job: {count_js(data_dir / 'jobs_51job.js')} 条")
+    lines.append(f"  手动维护: {count_js(data_dir / 'jobs_manual.js')} 条")
+    lines.append("")
+
+    # 线下招聘会
+    uni_count = count_js(data_dir / 'university_events.js')
+    weibo_count = count_js(data_dir / 'weibo_events.js')
+    lines.append("🎓 线下招聘会")
+    lines.append(f"  高校就业平台: {uni_count} 场")
+    lines.append(f"  微博招聘会: {weibo_count} 场")
+    lines.append("")
+
+    # 国考（仅周日）
+    if today.weekday() == 6:
+        lines.append("🏛 公务员/事业单位")
+        lines.append(f"  国考交通职位: {count_js(data_dir / 'exams.js')} 条")
+        lines.append("")
+
+    # 过期清理统计（从日志最后一段提取）
+    log_file = base_dir / "daily_update.log"
+    if log_file.exists():
+        log_text = log_file.read_text(encoding="utf-8")
+        # 找最后一次过期清理结果
+        m = re.search(r'总计: 删除 (\d+) 条, 保留 (\d+) 条', log_text)
+        if m:
+            lines.append(f"🧹 过期清理: 删 {m.group(1)} 条, 保留 {m.group(2)} 条")
+
+    lines.append("")
+    lines.append("📱 https://angle147.github.io/job-board/")
+
+    return '\n'.join(lines)
+
 
 if __name__ == "__main__":
     main()

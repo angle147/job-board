@@ -1,10 +1,29 @@
 // 51job — 交通/物流/仓储行业
-// 2026-06-02 09:08:19
-// 共 11 条（最近 30 天）
+// 2026-06-03 09:35:44
+// 共 12 条（最近 30 天）
 
 const JOBS_51JOB = [
   {
     "id": "51job_1",
+    "companyName": "济南市醅玥录商贸",
+    "companyType": "企业",
+    "industry": "互联网/电子商务",
+    "recruitType": "社招",
+    "targetYears": "不限",
+    "location": "济南·市中区",
+    "positions": "物流专员/助理",
+    "status": "未投递",
+    "updateTime": "2026-06-03",
+    "deadline": "招满为止",
+    "applyLink": "https://jobs.51job.com/jinan-szq/172380616.html?s=sou_sou_soulb&t=0_0&req=a9235c4d2ee8156d383d6317941be6ec",
+    "noticeLink": "https://jobs.51job.com/jinan-szq/172380616.html?s=sou_sou_soulb&t=0_0&req=a9235c4d2ee8156d383d6317941be6ec",
+    "examInfo": "",
+    "companyScale": "少于50人",
+    "salary": "5.5-8千",
+    "notes": "来源: 51job | 大专 | 1年及以上"
+  },
+  {
+    "id": "51job_2",
     "companyName": "济南市醅玥录商贸",
     "companyType": "企业",
     "industry": "互联网/电子商务",
@@ -23,7 +42,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 大专 | 1年及以上"
   },
   {
-    "id": "51job_2",
+    "id": "51job_3",
     "companyName": "白山市明军劳务服务",
     "companyType": "企业",
     "industry": "交通/运输/物流",
@@ -42,7 +61,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 大专 | 1年及以上"
   },
   {
-    "id": "51job_3",
+    "id": "51job_4",
     "companyName": "济南市醅玥录商贸",
     "companyType": "企业",
     "industry": "互联网/电子商务",
@@ -61,7 +80,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 大专 | 1年及以上"
   },
   {
-    "id": "51job_4",
+    "id": "51job_5",
     "companyName": "菱感电子商务（上海）",
     "companyType": "企业",
     "industry": "批发/零售",
@@ -80,7 +99,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 大专 | 1年及以上"
   },
   {
-    "id": "51job_5",
+    "id": "51job_6",
     "companyName": "上海韵达供应链管理",
     "companyType": "企业",
     "industry": "交通/运输/物流",
@@ -99,7 +118,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 本科 | 3年及以上"
   },
   {
-    "id": "51job_6",
+    "id": "51job_7",
     "companyName": "港中旅华贸国际物流",
     "companyType": "企业",
     "industry": "交通/运输/物流",
@@ -118,7 +137,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 本科 | 1年及以上"
   },
   {
-    "id": "51job_7",
+    "id": "51job_8",
     "companyName": "港中旅华贸国际物流",
     "companyType": "企业",
     "industry": "交通/运输/物流",
@@ -137,7 +156,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 本科 | 1年及以上"
   },
   {
-    "id": "51job_8",
+    "id": "51job_9",
     "companyName": "物产中大物流投资集团",
     "companyType": "企业",
     "industry": "交通/运输/物流",
@@ -156,7 +175,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 本科 | 2年及以上"
   },
   {
-    "id": "51job_9",
+    "id": "51job_10",
     "companyName": "深圳市超算力量科技",
     "companyType": "企业",
     "industry": "新能源",
@@ -175,7 +194,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job |  | 无需经验"
   },
   {
-    "id": "51job_10",
+    "id": "51job_11",
     "companyName": "北京顶通物流",
     "companyType": "企业",
     "industry": "交通/运输/物流",
@@ -194,7 +213,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 大专 | 1年及以上"
   },
   {
-    "id": "51job_11",
+    "id": "51job_12",
     "companyName": "广东喜百年供应链科技",
     "companyType": "企业",
     "industry": "交通/运输/物流",

@@ -1,10 +1,48 @@
 // 51job — 交通/物流/仓储行业
-// 2026-06-04 09:09:00
-// 共 12 条（最近 30 天）
+// 2026-06-05 09:08:44
+// 共 15 条（最近 30 天）
 
 const JOBS_51JOB = [
   {
     "id": "51job_1",
+    "companyName": "济南市醅玥录商贸",
+    "companyType": "企业",
+    "industry": "互联网/电子商务",
+    "recruitType": "社招",
+    "targetYears": "不限",
+    "location": "济南·莱芜区",
+    "positions": "物流专员/助理",
+    "status": "未投递",
+    "updateTime": "2026-06-05",
+    "deadline": "招满为止",
+    "applyLink": "https://jobs.51job.com/jinan-lwq/172422399.html?s=sou_sou_soulb&t=0_0&req=d293c75c11d8cfcc6f374bd3f987db4e",
+    "noticeLink": "https://jobs.51job.com/jinan-lwq/172422399.html?s=sou_sou_soulb&t=0_0&req=d293c75c11d8cfcc6f374bd3f987db4e",
+    "examInfo": "",
+    "companyScale": "少于50人",
+    "salary": "5.5-8千",
+    "notes": "来源: 51job | 大专 | 1年及以上"
+  },
+  {
+    "id": "51job_2",
+    "companyName": "济南市醅玥录商贸",
+    "companyType": "企业",
+    "industry": "互联网/电子商务",
+    "recruitType": "社招",
+    "targetYears": "不限",
+    "location": "济南·章丘区",
+    "positions": "仓库管理员",
+    "status": "未投递",
+    "updateTime": "2026-06-05",
+    "deadline": "招满为止",
+    "applyLink": "https://jobs.51job.com/jinan-zqq/172422391.html?s=sou_sou_soulb&t=0_0&req=d293c75c11d8cfcc6f374bd3f987db4e",
+    "noticeLink": "https://jobs.51job.com/jinan-zqq/172422391.html?s=sou_sou_soulb&t=0_0&req=d293c75c11d8cfcc6f374bd3f987db4e",
+    "examInfo": "",
+    "companyScale": "少于50人",
+    "salary": "5-6千",
+    "notes": "来源: 51job | 大专 | 1年及以上"
+  },
+  {
+    "id": "51job_3",
     "companyName": "济南市醅玥录商贸",
     "companyType": "企业",
     "industry": "互联网/电子商务",
@@ -23,7 +61,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 大专 | 1年及以上"
   },
   {
-    "id": "51job_2",
+    "id": "51job_4",
     "companyName": "济南市醅玥录商贸",
     "companyType": "企业",
     "industry": "互联网/电子商务",
@@ -42,7 +80,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 大专 | 1年及以上"
   },
   {
-    "id": "51job_3",
+    "id": "51job_5",
     "companyName": "白山市明军劳务服务",
     "companyType": "企业",
     "industry": "交通/运输/物流",
@@ -61,7 +99,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 大专 | 1年及以上"
   },
   {
-    "id": "51job_4",
+    "id": "51job_6",
     "companyName": "济南市醅玥录商贸",
     "companyType": "企业",
     "industry": "互联网/电子商务",
@@ -80,7 +118,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 大专 | 1年及以上"
   },
   {
-    "id": "51job_5",
+    "id": "51job_7",
     "companyName": "菱感电子商务（上海）",
     "companyType": "企业",
     "industry": "批发/零售",
@@ -99,7 +137,45 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 大专 | 1年及以上"
   },
   {
-    "id": "51job_6",
+    "id": "51job_8",
+    "companyName": "深圳市源兴果品",
+    "companyType": "企业",
+    "industry": "农/林/牧/渔",
+    "recruitType": "社招",
+    "targetYears": "不限",
+    "location": "济南·章丘区",
+    "positions": "仓库管理员（济南）",
+    "status": "未投递",
+    "updateTime": "2026-05-27",
+    "deadline": "招满为止",
+    "applyLink": "https://jobs.51job.com/jinan-zqq/172017553.html?s=sou_sou_soulb&t=0_0&req=9dabaaa5687106e9d73c124b3b794e6b",
+    "noticeLink": "https://jobs.51job.com/jinan-zqq/172017553.html?s=sou_sou_soulb&t=0_0&req=9dabaaa5687106e9d73c124b3b794e6b",
+    "examInfo": "",
+    "companyScale": "500-1000人",
+    "salary": "5.5-6.5千·13薪",
+    "notes": "来源: 51job | 中技/中专 | 1-3年"
+  },
+  {
+    "id": "51job_9",
+    "companyName": "亚德客（中国）",
+    "companyType": "企业",
+    "industry": "机械/设备/重工",
+    "recruitType": "社招",
+    "targetYears": "不限",
+    "location": "济南·历城区",
+    "positions": "（济南）仓管员",
+    "status": "未投递",
+    "updateTime": "2026-05-22",
+    "deadline": "招满为止",
+    "applyLink": "https://jobs.51job.com/jinan-lcq/122334389.html?s=sou_sou_soulb&t=0_0&req=9dabaaa5687106e9d73c124b3b794e6b",
+    "noticeLink": "https://jobs.51job.com/jinan-lcq/122334389.html?s=sou_sou_soulb&t=0_0&req=9dabaaa5687106e9d73c124b3b794e6b",
+    "examInfo": "",
+    "companyScale": "5000-10000人",
+    "salary": "7-10万/年",
+    "notes": "来源: 51job | 大专 | 无需经验"
+  },
+  {
+    "id": "51job_10",
     "companyName": "上海韵达供应链管理",
     "companyType": "企业",
     "industry": "交通/运输/物流",
@@ -118,7 +194,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 本科 | 3年及以上"
   },
   {
-    "id": "51job_7",
+    "id": "51job_11",
     "companyName": "港中旅华贸国际物流",
     "companyType": "企业",
     "industry": "交通/运输/物流",
@@ -137,7 +213,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 本科 | 1年及以上"
   },
   {
-    "id": "51job_8",
+    "id": "51job_12",
     "companyName": "港中旅华贸国际物流",
     "companyType": "企业",
     "industry": "交通/运输/物流",
@@ -156,7 +232,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 本科 | 1年及以上"
   },
   {
-    "id": "51job_9",
+    "id": "51job_13",
     "companyName": "物产中大物流投资集团",
     "companyType": "企业",
     "industry": "交通/运输/物流",
@@ -175,7 +251,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 本科 | 2年及以上"
   },
   {
-    "id": "51job_10",
+    "id": "51job_14",
     "companyName": "深圳市超算力量科技",
     "companyType": "企业",
     "industry": "新能源",
@@ -194,7 +270,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job |  | 无需经验"
   },
   {
-    "id": "51job_11",
+    "id": "51job_15",
     "companyName": "北京顶通物流",
     "companyType": "企业",
     "industry": "交通/运输/物流",
@@ -211,24 +287,5 @@ const JOBS_51JOB = [
     "companyScale": "150-500人",
     "salary": "5-6千·13薪",
     "notes": "来源: 51job | 大专 | 1年及以上"
-  },
-  {
-    "id": "51job_12",
-    "companyName": "广东喜百年供应链科技",
-    "companyType": "企业",
-    "industry": "交通/运输/物流",
-    "recruitType": "社招",
-    "targetYears": "不限",
-    "location": "济南·历城区",
-    "positions": "仓储物流销售（济南）",
-    "status": "未投递",
-    "updateTime": "2026-05-05",
-    "deadline": "招满为止",
-    "applyLink": "https://jobs.51job.com/jinan-lcq/171891469.html?s=sou_sou_soulb&t=0_0&req=d7924f5d883a4aa1d461702e4395904b",
-    "noticeLink": "https://jobs.51job.com/jinan-lcq/171891469.html?s=sou_sou_soulb&t=0_0&req=d7924f5d883a4aa1d461702e4395904b",
-    "examInfo": "",
-    "companyScale": "150-500人",
-    "salary": "1.1-2万",
-    "notes": "来源: 51job | 大专 | 2年及以上"
   }
 ];

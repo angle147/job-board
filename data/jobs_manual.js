@@ -346,24 +346,6 @@ const JOBS_MANUAL = [
     notes: ""
   },
   {
-    id: 9020,
-    companyName: "临沂市水务集团",
-    companyType: "央国企",
-    industry: "水务/水利",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "临沂",
-    positions: "给排水工程岗、水利工程岗",
-    status: "未投递",
-    updateTime: "2026-05-10",
-    deadline: "2026-06-05",
-    applyLink: "#",
-    noticeLink: "#",
-    examInfo: "笔试+面试",
-    companyScale: "中型（1000-5000人）",
-    notes: ""
-  },
-  {
     id: 9021,
     companyName: "山东省交通规划设计院",
     companyType: "事业单位",
@@ -505,24 +487,6 @@ const JOBS_MANUAL = [
     noticeLink: "#",
     examInfo: "面试为主",
     companyScale: "中型（1000-5000人）",
-    notes: ""
-  },
-  {
-    id: 9029,
-    companyName: "菏泽市交投集团",
-    companyType: "央国企",
-    industry: "公路/高速",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "菏泽",
-    positions: "路桥工程岗、工程管理岗",
-    status: "未投递",
-    updateTime: "2026-05-08",
-    deadline: "2026-06-05",
-    applyLink: "#",
-    noticeLink: "#",
-    examInfo: "面试+笔试",
-    companyScale: "中型（500-1000人）",
     notes: ""
   },
   {

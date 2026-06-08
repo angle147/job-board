@@ -1,6 +1,6 @@
 // 51job — 交通/物流/仓储行业
-// 2026-06-06 09:09:03
-// 共 15 条（最近 30 天）
+// 2026-06-08 11:29:23
+// 共 13 条（最近 30 天）
 
 const JOBS_51JOB = [
   {
@@ -249,43 +249,5 @@ const JOBS_51JOB = [
     "companyScale": "1000-5000人",
     "salary": "5-8千",
     "notes": "来源: 51job | 本科 | 1年及以上"
-  },
-  {
-    "id": "51job_14",
-    "companyName": "物产中大物流投资集团",
-    "companyType": "企业",
-    "industry": "交通/运输/物流",
-    "recruitType": "社招",
-    "targetYears": "不限",
-    "location": "济南·历城区",
-    "positions": "仓储管理员",
-    "status": "未投递",
-    "updateTime": "2026-05-08",
-    "deadline": "招满为止",
-    "applyLink": "https://jobs.51job.com/jinan-lcq/171943258.html?s=sou_sou_soulb&t=0_0&req=d7924f5d883a4aa1d461702e4395904b",
-    "noticeLink": "https://jobs.51job.com/jinan-lcq/171943258.html?s=sou_sou_soulb&t=0_0&req=d7924f5d883a4aa1d461702e4395904b",
-    "examInfo": "",
-    "companyScale": "500-1000人",
-    "salary": "5-8千·13薪",
-    "notes": "来源: 51job | 本科 | 2年及以上"
-  },
-  {
-    "id": "51job_15",
-    "companyName": "深圳市超算力量科技",
-    "companyType": "企业",
-    "industry": "新能源",
-    "recruitType": "社招",
-    "targetYears": "不限",
-    "location": "济南·历城区",
-    "positions": "仓库负责人",
-    "status": "未投递",
-    "updateTime": "2026-05-07",
-    "deadline": "招满为止",
-    "applyLink": "https://jobs.51job.com/jinan-lcq/171117872.html?s=sou_sou_soulb&t=0_0&req=d7924f5d883a4aa1d461702e4395904b",
-    "noticeLink": "https://jobs.51job.com/jinan-lcq/171117872.html?s=sou_sou_soulb&t=0_0&req=d7924f5d883a4aa1d461702e4395904b",
-    "examInfo": "",
-    "companyScale": "50-150人",
-    "salary": "5-8千",
-    "notes": "来源: 51job |  | 无需经验"
   }
 ];

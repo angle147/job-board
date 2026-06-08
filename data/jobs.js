@@ -1,10 +1,46 @@
 // 校招/社招岗位数据 — 自动爬取生成
-// 更新时间: 2026-06-06 09:01:14
-// 共 66 条
+// 更新时间: 2026-06-08 11:21:40
+// 共 68 条
 
 const JOBS = [
   {
     id: 1,
+    companyName: "山东大厦工作人员",
+    companyType: "央国企",
+    industry: "综合",
+    recruitType: "校招/社招",
+    targetYears: "2026届",
+    location: "",
+    positions: "",
+    status: "未投递",
+    updateTime: "2026-06-08",
+    deadline: "招满为止",
+    applyLink: "",
+    noticeLink: "http://gzw.shandong.gov.cn/articles/ch00223/202606/9356991e-f544-4c7c-b87a-da2450fac072.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 山东省国资委 [2026-06-08]"
+  },
+  {
+    id: 2,
+    companyName: "山东高速科创投资集团有限公司",
+    companyType: "央国企",
+    industry: "公路/高速",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "",
+    positions: "",
+    status: "未投递",
+    updateTime: "2026-06-08",
+    deadline: "招满为止",
+    applyLink: "http://zhaopin.sdhsg.com/#/centralizedRecruitment?orgId=1",
+    noticeLink: "http://gzw.shandong.gov.cn/articles/ch00223/202606/839a7908-ba58-47f3-8cf9-55b9279e3b36.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "硕士及以上、博士优先 | 来源: 山东省国资委 [2026-06-08]"
+  },
+  {
+    id: 3,
     companyName: "山东省农业集团",
     companyType: "央国企",
     industry: "农业/食品",
@@ -22,7 +58,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-06-05]"
   },
   {
-    id: 2,
+    id: 4,
     companyName: "山东省科创集团有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -40,7 +76,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-06-05]"
   },
   {
-    id: 3,
+    id: 5,
     companyName: "山东省鲁统市场调查中心",
     companyType: "央国企",
     industry: "综合",
@@ -58,7 +94,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-06-05]"
   },
   {
-    id: 4,
+    id: 6,
     companyName: "山东百特展览工程有限公司",
     companyType: "央国企",
     industry: "建筑/建材",
@@ -76,7 +112,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-05-29]"
   },
   {
-    id: 5,
+    id: 7,
     companyName: "山东省纺科院",
     companyType: "央国企",
     industry: "综合",
@@ -94,7 +130,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-05-28]"
   },
   {
-    id: 6,
+    id: 8,
     companyName: "山东省水利勘测设计院",
     companyType: "事业单位",
     industry: "水务/水利",
@@ -112,7 +148,7 @@ const JOBS = [
     notes: "本科及以上 | 来源: 山东省国资委 [2026-05-21]"
   },
   {
-    id: 7,
+    id: 9,
     companyName: "兖矿能源集团",
     companyType: "央国企",
     industry: "能源/电力",
@@ -130,7 +166,7 @@ const JOBS = [
     notes: "本科及以上 | 来源: 山东省国资委 [2026-05-21]"
   },
   {
-    id: 8,
+    id: 10,
     companyName: "山东兖矿设计咨询有限公司",
     companyType: "央国企",
     industry: "能源/电力",
@@ -148,12 +184,12 @@ const JOBS = [
     notes: "本科及以上 | 来源: 山东省国资委 [2026-05-20]"
   },
   {
-    id: 9,
+    id: 11,
     companyName: "山东省土地发展集团有限公司",
     companyType: "央国企",
     industry: "地产/物业",
     recruitType: "社招",
-    targetYears: "2025届,2026届",
+    targetYears: "2026届",
     location: "",
     positions: "",
     status: "未投递",
@@ -166,7 +202,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-05-20]"
   },
   {
-    id: 10,
+    id: 12,
     companyName: "山东海洋集团有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -181,10 +217,10 @@ const JOBS = [
     noticeLink: "http://gzw.shandong.gov.cn/articles/ch00223/202605/32714bdb-7087-4ed8-ae9c-a800f76466bd.html",
     examInfo: "",
     companyScale: "",
-    notes: "硕士及以上、博士优先 | 来源: 山东省国资委 [2026-05-14]"
+    notes: "来源: 山东省国资委 [2026-05-14]"
   },
   {
-    id: 11,
+    id: 13,
     companyName: "山东省能源建筑设计院",
     companyType: "事业单位",
     industry: "交通设计/规划",
@@ -202,7 +238,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-05-12]"
   },
   {
-    id: 12,
+    id: 14,
     companyName: "山东高速集团有限公司",
     companyType: "央国企",
     industry: "公路/高速",
@@ -220,7 +256,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-05-12]"
   },
   {
-    id: 13,
+    id: 15,
     companyName: "鲁商供应链（云南）有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -238,7 +274,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-05-12]"
   },
   {
-    id: 14,
+    id: 16,
     companyName: "山东省电子口岸有限公司",
     companyType: "央国企",
     industry: "电子/半导体",
@@ -256,7 +292,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-05-09]"
   },
   {
-    id: 15,
+    id: 17,
     companyName: "上海中期期货股份有限公司",
     companyType: "银行/金融",
     industry: "金融/银行",
@@ -274,7 +310,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-05-09]"
   },
   {
-    id: 16,
+    id: 18,
     companyName: "云鼎科技股份有限公司",
     companyType: "央国企",
     industry: "软件技术",
@@ -292,7 +328,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-05-09]"
   },
   {
-    id: 17,
+    id: 19,
     companyName: "山东工业职业学院",
     companyType: "事业单位",
     industry: "综合",
@@ -310,7 +346,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-05-09]"
   },
   {
-    id: 18,
+    id: 20,
     companyName: "中泰证券股份有限公司",
     companyType: "银行/金融",
     industry: "金融/银行",
@@ -328,7 +364,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-05-07]"
   },
   {
-    id: 19,
+    id: 21,
     companyName: "山东铁投集团",
     companyType: "央国企",
     industry: "公路/高速",
@@ -346,7 +382,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-05-07]"
   },
   {
-    id: 20,
+    id: 22,
     companyName: "泰山财产保险股份有限公司",
     companyType: "银行/金融",
     industry: "金融/银行",
@@ -364,7 +400,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-04-30]"
   },
   {
-    id: 21,
+    id: 23,
     companyName: "山东省财金投资集团有限公司",
     companyType: "央国企",
     industry: "金融/银行",
@@ -382,7 +418,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-04-29]"
   },
   {
-    id: 22,
+    id: 24,
     companyName: "山东铁投能源集团",
     companyType: "央国企",
     industry: "公路/高速",
@@ -400,7 +436,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-04-29]"
   },
   {
-    id: 23,
+    id: 25,
     companyName: "山东文旅集团有限公司",
     companyType: "央国企",
     industry: "文旅/传媒",
@@ -418,7 +454,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-04-17]"
   },
   {
-    id: 24,
+    id: 26,
     companyName: "山东省智能水利装备有限公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -436,7 +472,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-04-15]"
   },
   {
-    id: 25,
+    id: 27,
     companyName: "山东铁投集团",
     companyType: "央国企",
     industry: "公路/高速",
@@ -454,7 +490,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-04-14]"
   },
   {
-    id: 26,
+    id: 28,
     companyName: "山东省水利工程试验中心",
     companyType: "央国企",
     industry: "水务/水利",
@@ -472,7 +508,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-04-13]"
   },
   {
-    id: 27,
+    id: 29,
     companyName: "山东省水利工程建设监理有限公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -490,7 +526,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-04-13]"
   },
   {
-    id: 28,
+    id: 30,
     companyName: "山东大禹水务建设集团有限公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -506,59 +542,5 @@ const JOBS = [
     examInfo: "",
     companyScale: "",
     notes: "来源: 山东省国资委 [2026-04-13]"
-  },
-  {
-    id: 29,
-    companyName: "山东省鲁信投资控股集团有限公司",
-    companyType: "央国企",
-    industry: "金融/银行",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "",
-    positions: "",
-    status: "未投递",
-    updateTime: "2026-04-09",
-    deadline: "招满为止",
-    applyLink: "",
-    noticeLink: "http://gzw.shandong.gov.cn/articles/ch00223/202604/1a4f0c12-513a-49ee-8b38-24ce6754ab98.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 山东省国资委 [2026-04-09]"
-  },
-  {
-    id: 30,
-    companyName: "中泰证券2026届春季",
-    companyType: "银行/金融",
-    industry: "金融/银行",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "",
-    positions: "",
-    status: "未投递",
-    updateTime: "2026-04-09",
-    deadline: "招满为止",
-    applyLink: "",
-    noticeLink: "http://gzw.shandong.gov.cn/articles/ch00223/202604/e6b290c0-a044-44a4-8a41-b3ec776ab5b1.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 山东省国资委 [2026-04-09]"
-  },
-  {
-    id: 31,
-    companyName: "山东能源集团",
-    companyType: "央国企",
-    industry: "能源/电力",
-    recruitType: "校招/社招",
-    targetYears: "2026届",
-    location: "",
-    positions: "",
-    status: "未投递",
-    updateTime: "2026-04-08",
-    deadline: "招满为止",
-    applyLink: "",
-    noticeLink: "http://gzw.shandong.gov.cn/articles/ch00223/202604/85fae232-1978-4b0e-be24-17f145d67010.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 山东省国资委 [2026-04-08]"
   }
 ];

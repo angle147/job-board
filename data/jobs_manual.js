@@ -202,24 +202,6 @@ const JOBS_MANUAL = [
     notes: ""
   },
   {
-    id: 9012,
-    companyName: "山东航空",
-    companyType: "央国企",
-    industry: "航空",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "济南 青岛",
-    positions: "机务维修工程师、签派员、市场营销岗",
-    status: "未投递",
-    updateTime: "2026-05-20",
-    deadline: "2026-06-10",
-    applyLink: "https://www.shandongair.com.cn",
-    noticeLink: "#",
-    examInfo: "笔试+面试",
-    companyScale: "大型（5000-10000人）",
-    notes: "民航相关专业优先"
-  },
-  {
     id: 9013,
     companyName: "中国邮政集团山东省分公司",
     companyType: "央国企",
@@ -271,24 +253,6 @@ const JOBS_MANUAL = [
     noticeLink: "#",
     examInfo: "笔试+面试",
     companyScale: "大型（万人以上）",
-    notes: ""
-  },
-  {
-    id: 9016,
-    companyName: "德州市交投物流集团",
-    companyType: "央国企",
-    industry: "邮政/物流",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "德州",
-    positions: "物流仓储管理岗、供应链规划岗",
-    status: "未投递",
-    updateTime: "2026-05-18",
-    deadline: "2026-06-10",
-    applyLink: "#",
-    noticeLink: "#",
-    examInfo: "面试为主",
-    companyScale: "中型（500-1000人）",
     notes: ""
   },
   {
@@ -400,24 +364,6 @@ const JOBS_MANUAL = [
     notes: ""
   },
   {
-    id: 9024,
-    companyName: "青岛交运集团",
-    companyType: "央国企",
-    industry: "公交/客运",
-    recruitType: "春招",
-    targetYears: "2025届,2026届",
-    location: "青岛",
-    positions: "运营管理岗、安全管理岗、机务管理岗",
-    status: "未投递",
-    updateTime: "2026-05-12",
-    deadline: "2026-06-10",
-    applyLink: "#",
-    noticeLink: "#",
-    examInfo: "面试为主",
-    companyScale: "大型（5000-10000人）",
-    notes: ""
-  },
-  {
     id: 9025,
     companyName: "中通客车",
     companyType: "央国企",
@@ -470,24 +416,6 @@ const JOBS_MANUAL = [
     examInfo: "笔试+面试",
     companyScale: "大型（5000-10000人）",
     notes: "内河港航"
-  },
-  {
-    id: 9028,
-    companyName: "潍坊港集团",
-    companyType: "央国企",
-    industry: "港口/航运",
-    recruitType: "春招",
-    targetYears: "2025届,2026届",
-    location: "潍坊",
-    positions: "港口运营岗、安全环保岗",
-    status: "未投递",
-    updateTime: "2026-05-14",
-    deadline: "2026-06-10",
-    applyLink: "#",
-    noticeLink: "#",
-    examInfo: "面试为主",
-    companyScale: "中型（1000-5000人）",
-    notes: ""
   },
   {
     id: 9030,

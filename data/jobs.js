@@ -1,5 +1,5 @@
 // 校招/社招岗位数据 — 自动爬取生成
-// 更新时间: 2026-06-11 11:34:10
+// 更新时间: 2026-06-12 11:29:53
 // 共 68 条
 
 const JOBS = [
@@ -488,59 +488,5 @@ const JOBS = [
     examInfo: "",
     companyScale: "",
     notes: "来源: 山东省国资委 [2026-04-14]"
-  },
-  {
-    id: 28,
-    companyName: "山东省水利工程试验中心",
-    companyType: "央国企",
-    industry: "水务/水利",
-    recruitType: "校招/社招",
-    targetYears: "2026届",
-    location: "",
-    positions: "",
-    status: "未投递",
-    updateTime: "2026-04-13",
-    deadline: "招满为止",
-    applyLink: "",
-    noticeLink: "http://gzw.shandong.gov.cn/articles/ch00223/202604/28dfced6-5feb-472b-9aaf-499888e0a04f.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 山东省国资委 [2026-04-13]"
-  },
-  {
-    id: 29,
-    companyName: "山东省水利工程建设监理有限公司",
-    companyType: "央国企",
-    industry: "水务/水利",
-    recruitType: "校招/社招",
-    targetYears: "2026届",
-    location: "",
-    positions: "",
-    status: "未投递",
-    updateTime: "2026-04-13",
-    deadline: "招满为止",
-    applyLink: "",
-    noticeLink: "http://gzw.shandong.gov.cn/articles/ch00223/202604/9f1651fe-a215-4ddb-b2ff-5c23045149b3.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 山东省国资委 [2026-04-13]"
-  },
-  {
-    id: 30,
-    companyName: "山东大禹水务建设集团有限公司",
-    companyType: "央国企",
-    industry: "水务/水利",
-    recruitType: "校招/社招",
-    targetYears: "2026届",
-    location: "",
-    positions: "",
-    status: "未投递",
-    updateTime: "2026-04-13",
-    deadline: "招满为止",
-    applyLink: "",
-    noticeLink: "http://gzw.shandong.gov.cn/articles/ch00223/202604/ddc07cf5-86ba-4c20-b57f-22660c76739a.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 山东省国资委 [2026-04-13]"
   }
 ];

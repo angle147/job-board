@@ -292,24 +292,6 @@ const JOBS_MANUAL = [
     notes: ""
   },
   {
-    id: 9019,
-    companyName: "青岛市水务集团",
-    companyType: "央国企",
-    industry: "水务/水利",
-    recruitType: "春招",
-    targetYears: "2025届,2026届",
-    location: "青岛",
-    positions: "水利工程技术岗、污水处理工程师、管网运维岗",
-    status: "未投递",
-    updateTime: "2026-05-15",
-    deadline: "2026-06-12",
-    applyLink: "#",
-    noticeLink: "#",
-    examInfo: "笔试+面试",
-    companyScale: "中型（1000-5000人）",
-    notes: ""
-  },
-  {
     id: 9021,
     companyName: "山东省交通规划设计院",
     companyType: "事业单位",

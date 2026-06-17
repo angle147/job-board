@@ -1,6 +1,6 @@
 // 51job — 交通/物流/仓储行业
-// 2026-06-13 11:34:57
-// 共 17 条（最近 30 天）
+// 2026-06-17 18:55:56
+// 共 16 条（最近 30 天）
 
 const JOBS_51JOB = [
   {
@@ -306,24 +306,5 @@ const JOBS_51JOB = [
     "companyScale": "5000-10000人",
     "salary": "7-10万/年",
     "notes": "来源: 51job | 大专 | 无需经验"
-  },
-  {
-    "id": "51job_17",
-    "companyName": "上海韵达供应链管理",
-    "companyType": "企业",
-    "industry": "交通/运输/物流",
-    "recruitType": "社招",
-    "targetYears": "不限",
-    "location": "济南·济阳区",
-    "positions": "仓储KA销售专家",
-    "status": "未投递",
-    "updateTime": "2026-05-14",
-    "deadline": "招满为止",
-    "applyLink": "https://jobs.51job.com/jinan-jyq/172075839.html?s=sou_sou_soulb&t=0_0&req=d7924f5d883a4aa1d461702e4395904b",
-    "noticeLink": "https://jobs.51job.com/jinan-jyq/172075839.html?s=sou_sou_soulb&t=0_0&req=d7924f5d883a4aa1d461702e4395904b",
-    "examInfo": "",
-    "companyScale": "10000人以上",
-    "salary": "1.5-2.2万",
-    "notes": "来源: 51job | 本科 | 3年及以上"
   }
 ];

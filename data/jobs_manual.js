@@ -22,24 +22,6 @@ const JOBS_MANUAL = [
     notes: "六险二金，有宿舍"
   },
   {
-    id: 9002,
-    companyName: "青岛港国际股份有限公司",
-    companyType: "央国企",
-    industry: "港口/航运",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "青岛",
-    positions: "港务管理培训生、机械设计岗、IT运维工程师",
-    status: "未投递",
-    updateTime: "2026-05-25",
-    deadline: "2026-06-15",
-    applyLink: "https://www.qingdao-port.com",
-    noticeLink: "#",
-    examInfo: "笔试+面试",
-    companyScale: "大型（万人以上）",
-    notes: ""
-  },
-  {
     id: 9003,
     companyName: "山东海运股份有限公司",
     companyType: "央国企",
@@ -112,24 +94,6 @@ const JOBS_MANUAL = [
     notes: "需接受驻外"
   },
   {
-    id: 9007,
-    companyName: "中国铁路济南局集团",
-    companyType: "央国企",
-    industry: "铁路",
-    recruitType: "春招",
-    targetYears: "2025届,2026届",
-    location: "济南 青岛 烟台 潍坊 临沂",
-    positions: "铁道运输岗、机车车辆岗、信号通信岗、工务工程岗",
-    status: "未投递",
-    updateTime: "2026-05-25",
-    deadline: "2026-06-15",
-    applyLink: "https://rczp.china-railway.com.cn",
-    noticeLink: "#",
-    examInfo: "笔试+面试",
-    companyScale: "大型（万人以上）",
-    notes: "铁路系统正式编制"
-  },
-  {
     id: 9008,
     companyName: "中车青岛四方机车车辆股份有限公司",
     companyType: "央国企",
@@ -164,24 +128,6 @@ const JOBS_MANUAL = [
     examInfo: "笔试+面试",
     companyScale: "大型（5000-10000人）",
     notes: ""
-  },
-  {
-    id: 9010,
-    companyName: "青岛地铁集团",
-    companyType: "央国企",
-    industry: "城市轨交",
-    recruitType: "春招补录",
-    targetYears: "2026届",
-    location: "青岛",
-    positions: "结构维修工、信号维修工、供电维修工、通信维修工",
-    status: "未投递",
-    updateTime: "2026-05-29",
-    deadline: "2026-06-15",
-    applyLink: "https://www.qd-metro.com",
-    noticeLink: "#",
-    examInfo: "笔试+面试",
-    companyScale: "大型（5000-10000人）",
-    notes: "有夜班"
   },
   {
     id: 9011,
@@ -274,24 +220,6 @@ const JOBS_MANUAL = [
     notes: ""
   },
   {
-    id: 9018,
-    companyName: "济南水务集团",
-    companyType: "央国企",
-    industry: "水务/水利",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "济南",
-    positions: "给排水技术岗、水处理工程师、水质检测岗",
-    status: "未投递",
-    updateTime: "2026-05-20",
-    deadline: "2026-06-15",
-    applyLink: "#",
-    noticeLink: "#",
-    examInfo: "笔试+面试",
-    companyScale: "中型（1000-5000人）",
-    notes: ""
-  },
-  {
     id: 9021,
     companyName: "山东省交通规划设计院",
     companyType: "事业单位",
@@ -328,24 +256,6 @@ const JOBS_MANUAL = [
     notes: "博士优先，有编制"
   },
   {
-    id: 9023,
-    companyName: "济南公共交通集团",
-    companyType: "央国企",
-    industry: "公交/客运",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "济南",
-    positions: "交通运输管理岗、车辆技术岗、信息化管理岗",
-    status: "未投递",
-    updateTime: "2026-05-18",
-    deadline: "2026-06-15",
-    applyLink: "#",
-    noticeLink: "#",
-    examInfo: "笔试+面试",
-    companyScale: "大型（5000-10000人）",
-    notes: ""
-  },
-  {
     id: 9025,
     companyName: "中通客车",
     companyType: "央国企",
@@ -380,24 +290,6 @@ const JOBS_MANUAL = [
     examInfo: "笔试+面试",
     companyScale: "中型（1000-5000人）",
     notes: ""
-  },
-  {
-    id: 9027,
-    companyName: "济宁能源发展集团（港航）",
-    companyType: "央国企",
-    industry: "港口/航运",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "济宁",
-    positions: "港航运营岗、物流管理岗、机械电气岗",
-    status: "未投递",
-    updateTime: "2026-05-16",
-    deadline: "2026-06-15",
-    applyLink: "#",
-    noticeLink: "#",
-    examInfo: "笔试+面试",
-    companyScale: "大型（5000-10000人）",
-    notes: "内河港航"
   },
   {
     id: 9030,

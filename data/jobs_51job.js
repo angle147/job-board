@@ -1,6 +1,6 @@
 // 51job — 交通/物流/仓储行业
-// 2026-06-17 18:55:56
-// 共 16 条（最近 30 天）
+// 2026-06-18 11:41:50
+// 共 17 条（最近 30 天）
 
 const JOBS_51JOB = [
   {
@@ -24,6 +24,25 @@ const JOBS_51JOB = [
   },
   {
     "id": "51job_2",
+    "companyName": "上海找钢网信息科技",
+    "companyType": "企业",
+    "industry": "互联网/电子商务",
+    "recruitType": "社招",
+    "targetYears": "不限",
+    "location": "济南·历下区",
+    "positions": "胖猫物流 济南 物流大客户销售经理",
+    "status": "未投递",
+    "updateTime": "2026-06-12",
+    "deadline": "招满为止",
+    "applyLink": "https://jobs.51job.com/jinan-lxq/172531607.html?s=sou_sou_soulb&t=0_0&req=ec33b1c8ed770df33f4133f082f2d1bb",
+    "noticeLink": "https://jobs.51job.com/jinan-lxq/172531607.html?s=sou_sou_soulb&t=0_0&req=ec33b1c8ed770df33f4133f082f2d1bb",
+    "examInfo": "",
+    "companyScale": "1000-5000人",
+    "salary": "6千-1.2万",
+    "notes": "来源: 51job | 大专 | 1年及以上"
+  },
+  {
+    "id": "51job_3",
     "companyName": "济南长途汽车运输",
     "companyType": "企业",
     "industry": "交通/运输/物流",
@@ -42,7 +61,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 中技/中专 | 无需经验"
   },
   {
-    "id": "51job_3",
+    "id": "51job_4",
     "companyName": "淄博正象食品",
     "companyType": "企业",
     "industry": "快速消费品(食品、饮料、化妆品)",
@@ -61,7 +80,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job |  | 无需经验"
   },
   {
-    "id": "51job_4",
+    "id": "51job_5",
     "companyName": "安徽国力物流",
     "companyType": "企业",
     "industry": "交通/运输/物流",
@@ -80,7 +99,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 大专 | 2年及以上"
   },
   {
-    "id": "51job_5",
+    "id": "51job_6",
     "companyName": "江苏中奕和创智能科技",
     "companyType": "企业",
     "industry": "机械/设备/重工",
@@ -99,7 +118,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 大专 | 3年及以上"
   },
   {
-    "id": "51job_6",
+    "id": "51job_7",
     "companyName": "前锦网络信息技术（上海）",
     "companyType": "企业",
     "industry": "专业服务(咨询、人力资源、财会)",
@@ -118,7 +137,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 本科 | 5年及以上"
   },
   {
-    "id": "51job_7",
+    "id": "51job_8",
     "companyName": "江苏江龙汽车系统",
     "companyType": "企业",
     "industry": "汽车零配件",
@@ -137,7 +156,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 大专 | 无需经验"
   },
   {
-    "id": "51job_8",
+    "id": "51job_9",
     "companyName": "济南市醅玥录商贸",
     "companyType": "企业",
     "industry": "互联网/电子商务",
@@ -156,7 +175,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 大专 | 1年及以上"
   },
   {
-    "id": "51job_9",
+    "id": "51job_10",
     "companyName": "济南市醅玥录商贸",
     "companyType": "企业",
     "industry": "互联网/电子商务",
@@ -175,7 +194,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 大专 | 1年及以上"
   },
   {
-    "id": "51job_10",
+    "id": "51job_11",
     "companyName": "济南市醅玥录商贸",
     "companyType": "企业",
     "industry": "互联网/电子商务",
@@ -194,7 +213,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 大专 | 1年及以上"
   },
   {
-    "id": "51job_11",
+    "id": "51job_12",
     "companyName": "济南市醅玥录商贸",
     "companyType": "企业",
     "industry": "互联网/电子商务",
@@ -213,7 +232,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 大专 | 1年及以上"
   },
   {
-    "id": "51job_12",
+    "id": "51job_13",
     "companyName": "白山市明军劳务服务",
     "companyType": "企业",
     "industry": "交通/运输/物流",
@@ -232,7 +251,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 大专 | 1年及以上"
   },
   {
-    "id": "51job_13",
+    "id": "51job_14",
     "companyName": "济南市醅玥录商贸",
     "companyType": "企业",
     "industry": "互联网/电子商务",
@@ -251,7 +270,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 大专 | 1年及以上"
   },
   {
-    "id": "51job_14",
+    "id": "51job_15",
     "companyName": "菱感电子商务（上海）",
     "companyType": "企业",
     "industry": "批发/零售",
@@ -270,7 +289,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 大专 | 1年及以上"
   },
   {
-    "id": "51job_15",
+    "id": "51job_16",
     "companyName": "深圳市源兴果品",
     "companyType": "企业",
     "industry": "农/林/牧/渔",
@@ -289,7 +308,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 中技/中专 | 1-3年"
   },
   {
-    "id": "51job_16",
+    "id": "51job_17",
     "companyName": "亚德客（中国）",
     "companyType": "企业",
     "industry": "机械/设备/重工",

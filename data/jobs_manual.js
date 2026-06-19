@@ -274,24 +274,6 @@ const JOBS_MANUAL = [
     notes: ""
   },
   {
-    id: 9026,
-    companyName: "山东省交通运输集团",
-    companyType: "央国企",
-    industry: "物流仓储",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "济南",
-    positions: "物流管理岗、供应链管理岗、财务管理岗",
-    status: "未投递",
-    updateTime: "2026-05-20",
-    deadline: "2026-06-18",
-    applyLink: "#",
-    noticeLink: "#",
-    examInfo: "笔试+面试",
-    companyScale: "中型（1000-5000人）",
-    notes: ""
-  },
-  {
     id: 9030,
     companyName: "烟台港集团",
     companyType: "央国企",

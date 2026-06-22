@@ -40,24 +40,6 @@ const JOBS_MANUAL = [
     notes: ""
   },
   {
-    id: 9004,
-    companyName: "日照港集团",
-    companyType: "央国企",
-    industry: "港口/航运",
-    recruitType: "春招",
-    targetYears: "2024届,2025届,2026届",
-    location: "日照",
-    positions: "机械工程师、电气自动化工程师、港口运营管理",
-    status: "未投递",
-    updateTime: "2026-05-26",
-    deadline: "2026-06-20",
-    applyLink: "https://www.rzport.com",
-    noticeLink: "#",
-    examInfo: "笔试+面试",
-    companyScale: "大型（5000-10000人）",
-    notes: ""
-  },
-  {
     id: 9005,
     companyName: "山东高速集团",
     companyType: "央国企",
@@ -110,24 +92,6 @@ const JOBS_MANUAL = [
     examInfo: "笔试+面试",
     companyScale: "大型（万人以上）",
     notes: "硕士及以上优先"
-  },
-  {
-    id: 9009,
-    companyName: "济南轨道交通集团",
-    companyType: "央国企",
-    industry: "城市轨交",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "济南",
-    positions: "运营管理培训生、车辆检修岗、信号维修工、供电维修工",
-    status: "已投递",
-    updateTime: "2026-05-28",
-    deadline: "2026-06-20",
-    applyLink: "https://www.jngdjt.cn",
-    noticeLink: "#",
-    examInfo: "笔试+面试",
-    companyScale: "大型（5000-10000人）",
-    notes: ""
   },
   {
     id: 9011,
@@ -202,24 +166,6 @@ const JOBS_MANUAL = [
     notes: ""
   },
   {
-    id: 9017,
-    companyName: "山东水发集团",
-    companyType: "央国企",
-    industry: "水务/水利",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "济南",
-    positions: "水利工程岗、环境工程岗、给排水设计岗、水务运营岗",
-    status: "未投递",
-    updateTime: "2026-05-25",
-    deadline: "2026-06-20",
-    applyLink: "#",
-    noticeLink: "#",
-    examInfo: "笔试+面试",
-    companyScale: "大型（5000-10000人）",
-    notes: ""
-  },
-  {
     id: 9021,
     companyName: "山东省交通规划设计院",
     companyType: "事业单位",
@@ -254,24 +200,6 @@ const JOBS_MANUAL = [
     examInfo: "面试+考核",
     companyScale: "中型（200-500人）",
     notes: "博士优先，有编制"
-  },
-  {
-    id: 9025,
-    companyName: "中通客车",
-    companyType: "央国企",
-    industry: "汽车/车辆",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "聊城",
-    positions: "车辆研发工程师、新能源技术岗、销售岗",
-    status: "未投递",
-    updateTime: "2026-05-25",
-    deadline: "2026-06-20",
-    applyLink: "#",
-    noticeLink: "#",
-    examInfo: "笔试+面试",
-    companyScale: "中型（1000-5000人）",
-    notes: ""
   },
   {
     id: 9030,

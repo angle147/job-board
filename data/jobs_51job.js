@@ -1,6 +1,6 @@
 // 51job — 交通/物流/仓储行业
-// 2026-06-20 17:41:18
-// 共 21 条（最近 30 天）
+// 2026-06-22 11:35:31
+// 共 20 条（最近 30 天）
 
 const JOBS_51JOB = [
   {
@@ -382,24 +382,5 @@ const JOBS_51JOB = [
     "companyScale": "500-1000人",
     "salary": "5.5-6.5千·13薪",
     "notes": "来源: 51job | 中技/中专 | 1-3年"
-  },
-  {
-    "id": "51job_21",
-    "companyName": "亚德客（中国）",
-    "companyType": "企业",
-    "industry": "机械/设备/重工",
-    "recruitType": "社招",
-    "targetYears": "不限",
-    "location": "济南·历城区",
-    "positions": "（济南）仓管员",
-    "status": "未投递",
-    "updateTime": "2026-05-22",
-    "deadline": "招满为止",
-    "applyLink": "https://jobs.51job.com/jinan-lcq/122334389.html?s=sou_sou_soulb&t=0_0&req=9dabaaa5687106e9d73c124b3b794e6b",
-    "noticeLink": "https://jobs.51job.com/jinan-lcq/122334389.html?s=sou_sou_soulb&t=0_0&req=9dabaaa5687106e9d73c124b3b794e6b",
-    "examInfo": "",
-    "companyScale": "5000-10000人",
-    "salary": "7-10万/年",
-    "notes": "来源: 51job | 大专 | 无需经验"
   }
 ];

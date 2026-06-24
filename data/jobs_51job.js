@@ -1,6 +1,6 @@
 // 51job — 交通/物流/仓储行业
-// 2026-06-22 11:35:31
-// 共 20 条（最近 30 天）
+// 2026-06-24 09:09:22
+// 共 21 条（最近 30 天）
 
 const JOBS_51JOB = [
   {
@@ -62,6 +62,25 @@ const JOBS_51JOB = [
   },
   {
     "id": "51job_4",
+    "companyName": "亚德客（中国）",
+    "companyType": "企业",
+    "industry": "机械/设备/重工",
+    "recruitType": "社招",
+    "targetYears": "不限",
+    "location": "济南·历城区",
+    "positions": "（济南）仓管员",
+    "status": "未投递",
+    "updateTime": "2026-06-15",
+    "deadline": "招满为止",
+    "applyLink": "https://jobs.51job.com/jinan-lcq/122334389.html?s=sou_sou_soulb&t=0_0&req=4f406bdaecb3b5f85f85a272a10c3e26",
+    "noticeLink": "https://jobs.51job.com/jinan-lcq/122334389.html?s=sou_sou_soulb&t=0_0&req=4f406bdaecb3b5f85f85a272a10c3e26",
+    "examInfo": "",
+    "companyScale": "5000-10000人",
+    "salary": "7-10万/年",
+    "notes": "来源: 51job | 大专 | 无需经验"
+  },
+  {
+    "id": "51job_5",
     "companyName": "上海上嘉物流",
     "companyType": "企业",
     "industry": "交通/运输/物流",
@@ -80,7 +99,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 大专 | 2年及以上"
   },
   {
-    "id": "51job_5",
+    "id": "51job_6",
     "companyName": "上海找钢网信息科技",
     "companyType": "企业",
     "industry": "互联网/电子商务",
@@ -99,7 +118,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 大专 | 1年及以上"
   },
   {
-    "id": "51job_6",
+    "id": "51job_7",
     "companyName": "宁波网捷物流",
     "companyType": "企业",
     "industry": "交通/运输/物流",
@@ -118,7 +137,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job |  | 无需经验"
   },
   {
-    "id": "51job_7",
+    "id": "51job_8",
     "companyName": "济南长途汽车运输",
     "companyType": "企业",
     "industry": "交通/运输/物流",
@@ -137,7 +156,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 中技/中专 | 无需经验"
   },
   {
-    "id": "51job_8",
+    "id": "51job_9",
     "companyName": "淄博正象食品",
     "companyType": "企业",
     "industry": "快速消费品(食品、饮料、化妆品)",
@@ -156,7 +175,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job |  | 无需经验"
   },
   {
-    "id": "51job_9",
+    "id": "51job_10",
     "companyName": "安徽国力物流",
     "companyType": "企业",
     "industry": "交通/运输/物流",
@@ -175,7 +194,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 大专 | 2年及以上"
   },
   {
-    "id": "51job_10",
+    "id": "51job_11",
     "companyName": "江苏中奕和创智能科技",
     "companyType": "企业",
     "industry": "机械/设备/重工",
@@ -194,7 +213,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 大专 | 3年及以上"
   },
   {
-    "id": "51job_11",
+    "id": "51job_12",
     "companyName": "前锦网络信息技术（上海）",
     "companyType": "企业",
     "industry": "专业服务(咨询、人力资源、财会)",
@@ -213,7 +232,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 本科 | 5年及以上"
   },
   {
-    "id": "51job_12",
+    "id": "51job_13",
     "companyName": "江苏江龙汽车系统",
     "companyType": "企业",
     "industry": "汽车零配件",
@@ -232,7 +251,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 大专 | 无需经验"
   },
   {
-    "id": "51job_13",
+    "id": "51job_14",
     "companyName": "济南市醅玥录商贸",
     "companyType": "企业",
     "industry": "互联网/电子商务",
@@ -251,7 +270,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 大专 | 1年及以上"
   },
   {
-    "id": "51job_14",
+    "id": "51job_15",
     "companyName": "济南市醅玥录商贸",
     "companyType": "企业",
     "industry": "互联网/电子商务",
@@ -270,7 +289,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 大专 | 1年及以上"
   },
   {
-    "id": "51job_15",
+    "id": "51job_16",
     "companyName": "济南市醅玥录商贸",
     "companyType": "企业",
     "industry": "互联网/电子商务",
@@ -289,7 +308,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 大专 | 1年及以上"
   },
   {
-    "id": "51job_16",
+    "id": "51job_17",
     "companyName": "济南市醅玥录商贸",
     "companyType": "企业",
     "industry": "互联网/电子商务",
@@ -308,7 +327,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 大专 | 1年及以上"
   },
   {
-    "id": "51job_17",
+    "id": "51job_18",
     "companyName": "白山市明军劳务服务",
     "companyType": "企业",
     "industry": "交通/运输/物流",
@@ -327,7 +346,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 大专 | 1年及以上"
   },
   {
-    "id": "51job_18",
+    "id": "51job_19",
     "companyName": "济南市醅玥录商贸",
     "companyType": "企业",
     "industry": "互联网/电子商务",
@@ -346,7 +365,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 大专 | 1年及以上"
   },
   {
-    "id": "51job_19",
+    "id": "51job_20",
     "companyName": "菱感电子商务（上海）",
     "companyType": "企业",
     "industry": "批发/零售",
@@ -365,7 +384,7 @@ const JOBS_51JOB = [
     "notes": "来源: 51job | 大专 | 1年及以上"
   },
   {
-    "id": "51job_20",
+    "id": "51job_21",
     "companyName": "深圳市源兴果品",
     "companyType": "企业",
     "industry": "农/林/牧/渔",

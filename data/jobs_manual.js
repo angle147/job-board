@@ -94,24 +94,6 @@ const JOBS_MANUAL = [
     notes: "硕士及以上优先"
   },
   {
-    id: 9011,
-    companyName: "山东机场管理集团",
-    companyType: "央国企",
-    industry: "航空",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "济南 青岛 烟台 威海",
-    positions: "机场运行指挥员、机务勤务员、安全检查员、航站楼运行规划员",
-    status: "未投递",
-    updateTime: "2026-05-22",
-    deadline: "2026-06-25",
-    applyLink: "#",
-    noticeLink: "#",
-    examInfo: "笔试+面试",
-    companyScale: "大型（5000-10000人）",
-    notes: ""
-  },
-  {
     id: 9013,
     companyName: "中国邮政集团山东省分公司",
     companyType: "央国企",
@@ -182,41 +164,5 @@ const JOBS_MANUAL = [
     examInfo: "笔试+面试",
     companyScale: "中型（500-1000人）",
     notes: "硕士及以上"
-  },
-  {
-    id: 9022,
-    companyName: "山东省交通科学研究院",
-    companyType: "事业单位",
-    industry: "交通设计/规划",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "济南",
-    positions: "道路材料研究岗、交通安全研究岗、智能交通研究岗",
-    status: "未投递",
-    updateTime: "2026-05-22",
-    deadline: "2026-06-25",
-    applyLink: "#",
-    noticeLink: "#",
-    examInfo: "面试+考核",
-    companyScale: "中型（200-500人）",
-    notes: "博士优先，有编制"
-  },
-  {
-    id: 9030,
-    companyName: "烟台港集团",
-    companyType: "央国企",
-    industry: "港口/航运",
-    recruitType: "实习",
-    targetYears: "2027届",
-    location: "烟台",
-    positions: "港口运营实习生、机械工程实习生、信息技术实习生",
-    status: "未投递",
-    updateTime: "2026-05-30",
-    deadline: "2026-06-25",
-    applyLink: "#",
-    noticeLink: "#",
-    examInfo: "面试",
-    companyScale: "大型（5000-10000人）",
-    notes: "表现优异可转正"
   }
 ];

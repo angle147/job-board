@@ -4,24 +4,6 @@
 
 const JOBS_MANUAL = [
   {
-    id: 9001,
-    companyName: "山东省港口集团",
-    companyType: "央国企",
-    industry: "港口/航运",
-    recruitType: "春招",
-    targetYears: "2025届,2026届",
-    location: "青岛 日照 烟台 潍坊 威海",
-    positions: "港口航道工程师、机械工程师、电气工程师、安全工程岗、信息技术岗",
-    status: "未投递",
-    updateTime: "2026-05-28",
-    deadline: "2026-06-30",
-    applyLink: "https://www.sd-port.com",
-    noticeLink: "#",
-    examInfo: "笔试+面试",
-    companyScale: "大型（万人以上）",
-    notes: "六险二金，有宿舍"
-  },
-  {
     id: 9003,
     companyName: "山东海运股份有限公司",
     companyType: "央国企",
@@ -40,42 +22,6 @@ const JOBS_MANUAL = [
     notes: ""
   },
   {
-    id: 9005,
-    companyName: "山东高速集团",
-    companyType: "央国企",
-    industry: "公路/高速",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "济南 青岛 淄博",
-    positions: "道路工程岗、桥梁工程岗、交通规划岗、财务管理岗、行政管理岗",
-    status: "已投递",
-    updateTime: "2026-05-30",
-    deadline: "2026-06-30",
-    applyLink: "https://www.sdhsg.com",
-    noticeLink: "#",
-    examInfo: "笔试+面试",
-    companyScale: "大型（万人以上）",
-    notes: "省属重点国企"
-  },
-  {
-    id: 9006,
-    companyName: "山东高速路桥集团",
-    companyType: "央国企",
-    industry: "公路/高速",
-    recruitType: "春招",
-    targetYears: "2025届,2026届",
-    location: "济南",
-    positions: "土木工程技术岗、测量岗、试验检测岗",
-    status: "未投递",
-    updateTime: "2026-05-15",
-    deadline: "招满为止",
-    applyLink: "#",
-    noticeLink: "#",
-    examInfo: "面试为主",
-    companyScale: "大型（5000-10000人）",
-    notes: "需接受驻外"
-  },
-  {
     id: 9008,
     companyName: "中车青岛四方机车车辆股份有限公司",
     companyType: "央国企",
@@ -92,24 +38,6 @@ const JOBS_MANUAL = [
     examInfo: "笔试+面试",
     companyScale: "大型（万人以上）",
     notes: "硕士及以上优先"
-  },
-  {
-    id: 9013,
-    companyName: "中国邮政集团山东省分公司",
-    companyType: "央国企",
-    industry: "邮政/物流",
-    recruitType: "春招",
-    targetYears: "2025届,2026届",
-    location: "济南 青岛 烟台 潍坊 临沂 济宁",
-    positions: "物流管理岗、金融业务岗、信息技术岗、综合管理岗",
-    status: "未投递",
-    updateTime: "2026-05-27",
-    deadline: "2026-06-30",
-    applyLink: "https://chinapost2026.zhaopin.com",
-    noticeLink: "#",
-    examInfo: "笔试+面试",
-    companyScale: "大型（万人以上）",
-    notes: "全省招录"
   },
   {
     id: 9014,
@@ -146,23 +74,5 @@ const JOBS_MANUAL = [
     examInfo: "笔试+面试",
     companyScale: "大型（万人以上）",
     notes: ""
-  },
-  {
-    id: 9021,
-    companyName: "山东省交通规划设计院",
-    companyType: "事业单位",
-    industry: "交通设计/规划",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "济南 青岛",
-    positions: "交通规划岗、道路设计岗、桥梁设计岗",
-    status: "未投递",
-    updateTime: "2026-05-28",
-    deadline: "2026-06-30",
-    applyLink: "#",
-    noticeLink: "#",
-    examInfo: "笔试+面试",
-    companyScale: "中型（500-1000人）",
-    notes: "硕士及以上"
   }
 ];

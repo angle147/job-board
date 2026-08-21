@@ -7,3 +7,4 @@ weibo_output.log
 _test_*.py
 _survey.py
 feishu_config.json
+.last_push_date.txt

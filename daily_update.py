@@ -289,8 +289,12 @@ def _run_pipeline(args):
     # 最终摘要已在增量写入中完成，这里做最后一次确认
     _write_incremental_summary()
 
-    # 推送摘要到飞书
-    push_feishu(SUMMARY_FILE.read_text(encoding="utf-8"))
+    # 推送摘要到飞书（每天仅推一次：上午已推则下午跳过）
+    if should_push_today():
+        if push_feishu(SUMMARY_FILE.read_text(encoding="utf-8")):
+            mark_pushed()
+    else:
+        log("⏭ 今日已推送过飞书，跳过")
 
 
 def _build_summary(base_dir, today):
@@ -362,6 +366,23 @@ def _load_feishu_cfg():
         return json.loads(cfg_file.read_text(encoding="utf-8"))
     except Exception:
         return None
+
+
+PUSH_DATE_FILE = BASE_DIR / ".last_push_date.txt"
+
+
+def should_push_today():
+    """当天是否还未推送过（上午推过则下午跳过）"""
+    if not PUSH_DATE_FILE.exists():
+        return True
+    try:
+        return PUSH_DATE_FILE.read_text(encoding="utf-8").strip() != datetime.now().strftime("%Y-%m-%d")
+    except Exception:
+        return True
+
+
+def mark_pushed():
+    PUSH_DATE_FILE.write_text(datetime.now().strftime("%Y-%m-%d"), encoding="utf-8")
 
 
 def push_feishu(text):

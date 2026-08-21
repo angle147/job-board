@@ -797,6 +797,7 @@ a.link-notice:hover { border-color: var(--primary); color: var(--primary); }
 <script src="data/jobs.js"></script>
 <script src="data/jobs_yingjiesheng.js"></script>
 <script src="data/jobs_haitou.js"></script>
+<script src="data/jobs_qyzp.js"></script>
 <script src="data/jobs_manual.js"></script>
 <script src="data/exams.js"></script>
 <script src="data/weibo_events.js"></script>
@@ -831,6 +832,7 @@ const ALL_JOBS = (typeof JOBS !== 'undefined' ? JOBS : [])
   .concat(typeof JOBS_YINGJIESHENG !== 'undefined' ? JOBS_YINGJIESHENG : [])
   .concat(typeof JOBS_HAITOU !== 'undefined' ? JOBS_HAITOU : [])
   .concat(typeof JOBS_51JOB !== 'undefined' ? JOBS_51JOB : [])
+  .concat(typeof JOBS_QYZP !== 'undefined' ? JOBS_QYZP : [])
   .concat(typeof JOBS_MANUAL !== 'undefined' ? JOBS_MANUAL : []);
 
 function getCurrentData() {

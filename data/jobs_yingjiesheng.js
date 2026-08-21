@@ -1,6 +1,6 @@
 // 应届生求职网 — 自动爬取 + 二次校对
-// 更新时间: 2026-08-21 12:25:41
-// 共 336 条
+// 更新时间: 2026-08-21 12:35:16
+// 共 334 条
 
 const JOBS_YINGJIESHENG = [
   {
@@ -5693,18 +5693,18 @@ const JOBS_YINGJIESHENG = [
   },
   {
     id: 317,
-    companyName: "中国邮政储蓄银行安徽省分行",
-    companyType: "银行/金融",
+    companyName: "中国邮政集团有限公司",
+    companyType: "央国企",
     industry: "邮政/物流",
     recruitType: "春招",
     targetYears: "2026届",
-    location: "安徽",
-    positions: "经营管理实习生|金融科技实习生",
+    location: "山东",
+    positions: "济南市分公司 各县区分公司支局网点柜员|金融客户经理",
     status: "未投递",
     updateTime: "2026-06-29",
     deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-008-332.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-008-332.html",
+    applyLink: "https://m.yingjiesheng.com/job-008-008-280.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-008-280.html",
     examInfo: "",
     companyScale: "",
     notes: "来源: 应届生求职网 [2026-06-29]"

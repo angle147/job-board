@@ -52,6 +52,13 @@ SCRAPERS = [
         "timeout": 90,
     },
     {
+        "name": "山东港口人才需求",
+        "script": "scrape_sdport.py",
+        "args": [],
+        "daily": True,
+        "timeout": 90,
+    },
+    {
         "name": "应届生求职网",
         "script": "scrape_yingjiesheng.py",
         "args": ["--max-pages", "1"],

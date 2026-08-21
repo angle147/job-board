@@ -45,6 +45,13 @@ SCRAPERS = [
         "timeout": 60,
     },
     {
+        "name": "山东高速招聘公告",
+        "script": "scrape_sdhsg.py",
+        "args": [],
+        "daily": True,
+        "timeout": 90,
+    },
+    {
         "name": "应届生求职网",
         "script": "scrape_yingjiesheng.py",
         "args": ["--max-pages", "1"],

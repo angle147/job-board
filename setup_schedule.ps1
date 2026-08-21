@@ -1,10 +1,10 @@
-# 创建 Windows 定时任务：每天 9:00 自动更新校招数据
+﻿# 创建 Windows 定时任务：每天 9:00 自动更新校招数据
 # 右键 → 使用 PowerShell 运行，或管理员 PowerShell 中执行
 
 $taskName = "HanaJobBoardUpdate"
 $pythonPath = "D:\Python\python.exe"
-$scriptPath = "D:\hanako\job-board\daily_update.py"
-$workDir = "D:\hanako\job-board"
+$scriptPath = "D:\hanako\招聘求职\01-招聘数据与看板\job-board\daily_update.py"
+$workDir = "D:\hanako\招聘求职\01-招聘数据与看板\job-board"
 
 # 删除旧任务（如果存在）
 Unregister-ScheduledTask -TaskName $taskName -Confirm:$false -ErrorAction SilentlyContinue

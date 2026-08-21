@@ -35,55 +35,74 @@ SCRAPERS = [
         "script": "scraper.py",
         "args": ["--source", "sasac", "--max-pages", "2", "--details", "10"],
         "daily": True,
+        "timeout": 180,
+    },
+    {
+        "name": "央企招聘公告",
+        "script": "scrape_mohrss_qyzp.py",
+        "args": [],
+        "daily": True,
+        "timeout": 60,
     },
     {
         "name": "应届生求职网",
         "script": "scrape_yingjiesheng.py",
         "args": ["--max-pages", "1"],
         "daily": True,
+        "timeout": 180,
     },
     {
         "name": "海投网交通类",
         "script": "scrape_haitou.py",
         "args": ["--max-pages", "3"],
         "daily": True,
+        "timeout": 180,
     },
     {
         "name": "应届生数据校对",
         "script": "enrich.py",
         "args": ["--source", "yingjiesheng"],
         "daily": True,
+        "timeout": 300,
     },
     {
         "name": "51job 爬虫采集",
         "script": "run_51job_collector.py",
         "args": [],
         "daily": True,
+        "enabled": False,
+        "timeout": 180,
     },
     {
         "name": "51job 数据导出+清理",
         "script": "scrape_51job.py",
         "args": [],
         "daily": True,
+        "enabled": False,
+        "timeout": 60,
     },
     {
         "name": "过期岗位清理",
         "script": "cleanup_expired_jobs.py",
         "args": [],
         "daily": True,
+        "timeout": 60,
     },
     {
         "name": "国考交通职位",
         "script": "scrape_guokao.py",
         "args": ["--transport-only"],
         "daily": False,  # 仅周日执行
+        "timeout": 300,
     },
     {
         "name": "微博校园招聘会",
         "script": "scrape_weibo.py",
         "args": ["--max-pages", "1"],
         "daily": True,
-        "pipe_safe": False,  # 输出量大，不能用 PIPE（死锁风险）
+        "enabled": False,
+        "pipe_safe": False,
+        "timeout": 120,  # 微博容易超时，2分钟为限
     },
 ]
 
@@ -99,7 +118,7 @@ def log(msg: str):
         f.write(line + "\n")
 
 
-def run_scraper(name: str, script: str, args: list[str], pipe_safe: bool = True) -> bool:
+def run_scraper(name: str, script: str, args: list[str], pipe_safe: bool = True, timeout: int = 180) -> bool:
     cmd = [PYTHON, str(BASE_DIR / script)] + args
     log(f"▶ 开始: {name}")
     log(f"  命令: {' '.join(cmd)}")
@@ -107,7 +126,7 @@ def run_scraper(name: str, script: str, args: list[str], pipe_safe: bool = True)
     try:
         if pipe_safe:
             result = subprocess.run(cmd, capture_output=True, text=True,
-                                    timeout=600, cwd=str(BASE_DIR),
+                                    timeout=timeout, cwd=str(BASE_DIR),
                                     encoding="utf-8", errors="replace",
                                     env=ENV)
             stdout = result.stdout
@@ -115,7 +134,7 @@ def run_scraper(name: str, script: str, args: list[str], pipe_safe: bool = True)
             # 输出到文件，避免 PIPE 死锁
             with open(WEIBO_LOG, "w", encoding="utf-8") as log_f:
                 result = subprocess.run(cmd, stdout=log_f, stderr=subprocess.STDOUT,
-                                        timeout=600, cwd=str(BASE_DIR),
+                                        timeout=timeout, cwd=str(BASE_DIR),
                                         env=ENV)
             # 读回最后几行
             with open(WEIBO_LOG, "r", encoding="utf-8") as log_f:
@@ -136,7 +155,7 @@ def run_scraper(name: str, script: str, args: list[str], pipe_safe: bool = True)
         return True
 
     except subprocess.TimeoutExpired:
-        log(f"⏰ {name} 超时（>10分钟），已跳过")
+        log(f"⏰ {name} 超时（>{timeout // 60}分钟），已跳过")
         return False
     except Exception as e:
         log(f"💥 {name} 异常: {e}")
@@ -149,15 +168,27 @@ def main():
     parser.add_argument("--quick", action="store_true", help="仅校招，跳过校对和国考")
     args = parser.parse_args()
 
-    # 锁文件：防止重复运行
+    # 锁文件：防止重复运行，同时记录 PID
     if LOCK_FILE.exists():
-        lock_age = datetime.now().timestamp() - LOCK_FILE.stat().st_mtime
-        if lock_age < 1800:  # 30 分钟内视为未完成
-            log("⏭ 已有运行中的更新任务，跳过")
-            return
-        else:
-            log("⚠️ 发现过期锁文件（>30分钟），强制继续")
-    LOCK_FILE.write_text(str(datetime.now()))
+        try:
+            old_content = LOCK_FILE.read_text().strip()
+            # 检查旧进程是否还活着
+            if ':' in old_content:
+                old_pid = int(old_content.split(':')[-1])
+                import ctypes
+                kernel32 = ctypes.windll.kernel32
+                handle = kernel32.OpenProcess(0x0400, False, old_pid)  # PROCESS_QUERY_INFORMATION
+                if handle:
+                    kernel32.CloseHandle(handle)
+                    lock_age = datetime.now().timestamp() - LOCK_FILE.stat().st_mtime
+                    if lock_age < 1800:
+                        log("⏭ 已有运行中的更新任务，跳过")
+                        return
+            # 进程已死但锁还在
+        except (ValueError, OSError):
+            pass
+        log("⚠️ 发现过期锁文件（进程已死或>30分钟），强制继续")
+    LOCK_FILE.write_text(f"{datetime.now()}:{os.getpid()}")
 
     try:
         _run_pipeline(args)
@@ -177,6 +208,11 @@ def _run_pipeline(args):
     fail = 0
 
     for scraper in SCRAPERS:
+        # 禁用的数据源（enabled=False）直接跳过
+        if not scraper.get("enabled", True):
+            log(f"⏭ 跳过: {scraper['name']}（已禁用）")
+            continue
+
         # 非周日跳过国考
         if not scraper["daily"] and not is_sunday:
             log(f"⏭ 跳过: {scraper['name']}（仅周日执行）")
@@ -189,10 +225,14 @@ def _run_pipeline(args):
             continue
 
         if run_scraper(scraper["name"], scraper["script"], scraper["args"],
-                       pipe_safe=scraper.get("pipe_safe", True)):
+                       pipe_safe=scraper.get("pipe_safe", True),
+                       timeout=scraper.get("timeout", 180)):
             success += 1
         else:
             fail += 1
+
+        # 每完成一个爬虫就更新摘要（即使后续失败也有数据可用）
+        _write_incremental_summary()
 
     log(f"📊 完成: {success} 成功, {fail} 失败, 共 {success + fail} 个任务")
 
@@ -229,12 +269,9 @@ def _run_pipeline(args):
 
     log("")
 
-    # 生成推送摘要
-    log("> 开始: 生成推送摘要")
-    summary = _build_summary(BASE_DIR, today)
-    SUMMARY_FILE = BASE_DIR / ".daily_summary.txt"
-    SUMMARY_FILE.write_text(summary, encoding="utf-8")
-    log("✅ 摘要已生成")
+    # 自动同步到 GitHub Pages（增量摘要已在每个爬虫后写入）
+    # 最终摘要已在增量写入中完成，这里做最后一次确认
+    _write_incremental_summary()
 
 
 def _build_summary(base_dir, today):
@@ -290,6 +327,14 @@ def _build_summary(base_dir, today):
     lines.append("📱 https://angle147.github.io/job-board/")
 
     return '\n'.join(lines)
+
+
+SUMMARY_FILE = BASE_DIR / ".daily_summary.txt"
+
+def _write_incremental_summary():
+    """每完成一个爬虫后更新摘要文件，确保 pipeline 被中断时也有数据"""
+    summary = _build_summary(BASE_DIR, datetime.now())
+    SUMMARY_FILE.write_text(summary, encoding="utf-8")
 
 
 if __name__ == "__main__":

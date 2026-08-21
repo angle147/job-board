@@ -18,6 +18,8 @@ Windows 定时任务：
 import subprocess
 import sys
 import os
+import json
+import urllib.request
 from datetime import datetime
 from pathlib import Path
 
@@ -287,6 +289,9 @@ def _run_pipeline(args):
     # 最终摘要已在增量写入中完成，这里做最后一次确认
     _write_incremental_summary()
 
+    # 推送摘要到飞书
+    push_feishu(SUMMARY_FILE.read_text(encoding="utf-8"))
+
 
 def _build_summary(base_dir, today):
     """统计各数据源的条目数，生成推送文案"""
@@ -311,6 +316,9 @@ def _build_summary(base_dir, today):
     lines.append(f"  应届生求职网: {count_js(data_dir / 'jobs_yingjiesheng.js')} 条")
     lines.append(f"  海投网: {count_js(data_dir / 'jobs_haitou.js')} 条")
     lines.append(f"  51job: {count_js(data_dir / 'jobs_51job.js')} 条")
+    lines.append(f"  央企公告: {count_js(data_dir / 'jobs_qyzp.js')} 条")
+    lines.append(f"  山东高速: {count_js(data_dir / 'jobs_sdhsg.js')} 条")
+    lines.append(f"  山东港口: {count_js(data_dir / 'jobs_sdport.js')} 条")
     lines.append(f"  手动维护: {count_js(data_dir / 'jobs_manual.js')} 条")
     lines.append("")
 
@@ -344,6 +352,46 @@ def _build_summary(base_dir, today):
 
 
 SUMMARY_FILE = BASE_DIR / ".daily_summary.txt"
+
+
+def _load_feishu_cfg():
+    cfg_file = BASE_DIR / "feishu_config.json"
+    if not cfg_file.exists():
+        return None
+    try:
+        return json.loads(cfg_file.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+
+
+def push_feishu(text):
+    """推送文本到飞书私聊（凭证从本地 feishu_config.json 读取，不入库）"""
+    cfg = _load_feishu_cfg()
+    if not cfg or not cfg.get("app_secret"):
+        log("⚠️ 无飞书配置（feishu_config.json 缺失），跳过推送")
+        return False
+    try:
+        token_url = "https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal"
+        body = json.dumps({"app_id": cfg["app_id"], "app_secret": cfg["app_secret"]}).encode("utf-8")
+        req = urllib.request.Request(token_url, data=body, headers={"Content-Type": "application/json"})
+        token_resp = json.loads(urllib.request.urlopen(req, timeout=20).read().decode("utf-8"))
+        token = token_resp.get("tenant_access_token")
+        if not token:
+            log(f"⚠️ 飞书 token 获取失败: {token_resp}")
+            return False
+        msg_url = "https://open.feishu.cn/open-apis/im/v1/messages?receive_id_type=open_id"
+        content = json.dumps({"text": text})
+        body2 = json.dumps({"receive_id": cfg["open_id"], "msg_type": "text", "content": content}).encode("utf-8")
+        req2 = urllib.request.Request(msg_url, data=body2, headers={"Content-Type": "application/json", "Authorization": f"Bearer {token}"})
+        resp2 = json.loads(urllib.request.urlopen(req2, timeout=20).read().decode("utf-8"))
+        if resp2.get("code") == 0:
+            log("✅ 飞书推送成功")
+            return True
+        log(f"⚠️ 飞书推送失败: {resp2}")
+        return False
+    except Exception as e:
+        log(f"⚠️ 飞书推送异常: {e}")
+        return False
 
 def _write_incremental_summary():
     """每完成一个爬虫后更新摘要文件，确保 pipeline 被中断时也有数据"""

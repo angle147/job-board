@@ -6,3 +6,4 @@ weibo_test.log
 weibo_output.log
 _test_*.py
 _survey.py
+feishu_config.json

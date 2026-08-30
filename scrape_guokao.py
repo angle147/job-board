@@ -18,6 +18,7 @@ import re
 import time
 import random
 import argparse
+import json
 from datetime import datetime
 from pathlib import Path
 
@@ -37,7 +38,8 @@ USER_AGENTS = [
 ]
 
 REQUEST_TIMEOUT = 10
-REQUEST_DELAY_BASE = 0.6
+REQUEST_DELAY_BASE = 2.0
+MAX_PAGES_PER_DEPT = 2
 
 # 中公内部短码 → 部门名（已验证）
 TRANSPORT_DEPT_CODES = {
@@ -134,12 +136,12 @@ def clean_text(text: str) -> str:
 # ============================================================
 # 抓取单个部门（含分页）
 # ============================================================
-def scrape_dept(code: str, name: str) -> list[dict]:
+def scrape_dept(code: str, name: str, max_pages: int = MAX_PAGES_PER_DEPT) -> list[dict]:
     """抓取一个部门的所有职位，含分页"""
     all_positions = []
     page = 1
 
-    while True:
+    while page <= max_pages:
         url = (f"https://zhiwei.offcn.com/gj/2026/bmall{code}.html"
                if page == 1
                else f"https://zhiwei.offcn.com/gj/2026/bmall{code}_{page}.html")
@@ -294,6 +296,21 @@ def output_exams_js(exams: list[dict], filepath: Path):
     print(f"\n✅ 已写入 {filepath} ({len(exams)} 条)")
 
 
+def load_existing_exams(filepath: Path) -> list[dict]:
+    """读取既有 EXAMS，限页刷新时保留未出现在本轮的历史职位。"""
+    if not filepath.exists():
+        return []
+    text = filepath.read_text(encoding="utf-8")
+    match = re.search(r"const\s+EXAMS\s*=\s*(\[.*\]);", text, re.DOTALL)
+    if not match:
+        return []
+    json_like = re.sub(r'(?m)^(\s*)([A-Za-z_]\w*)\s*:', r'\1"\2":', match.group(1))
+    try:
+        return json.loads(json_like)
+    except json.JSONDecodeError:
+        return []
+
+
 # ============================================================
 # 主入口
 # ============================================================
@@ -302,6 +319,8 @@ def main():
     parser.add_argument("--province-only", action="store_true", help="仅山东全省国考")
     parser.add_argument("--transport-only", action="store_true", help="仅交通部委")
     parser.add_argument("--year", default="2026")
+    parser.add_argument("--max-pages-per-dept", type=int, default=MAX_PAGES_PER_DEPT,
+                        help="每个部门最多采集页数，避免周任务超时")
     args = parser.parse_args()
 
     all_positions = []
@@ -311,7 +330,7 @@ def main():
         print(f"🔍 交通部委国考职位 ({len(TRANSPORT_DEPT_CODES)} 个部门)")
         print(f"{'='*60}")
         for code, name in TRANSPORT_DEPT_CODES.items():
-            positions = scrape_dept(code, name)
+            positions = scrape_dept(code, name, max(1, args.max_pages_per_dept))
             all_positions.extend(positions)
             time.sleep(REQUEST_DELAY_BASE + random.random() * 0.3)
 
@@ -332,6 +351,10 @@ def main():
             unique.append(p)
 
     exams = convert_to_exams(unique)
+    existing = load_existing_exams(OUTPUT_FILE)
+    merged = {(e.get("department", ""), e.get("positionCode", "")): e for e in existing}
+    merged.update({(e.get("department", ""), e.get("positionCode", "")): e for e in exams})
+    exams = list(merged.values())
     output_exams_js(exams, OUTPUT_FILE)
 
     dept_stats = {}

@@ -20,6 +20,7 @@ import sys
 import os
 import json
 import urllib.request
+import shutil
 from datetime import datetime
 from pathlib import Path
 
@@ -61,6 +62,20 @@ SCRAPERS = [
         "timeout": 90,
     },
     {
+        "name": "中国铁路人才招聘网",
+        "script": "scrape_railway.py",
+        "args": ["--pages", "2", "--page-size", "20"],
+        "daily": True,
+        "timeout": 120,
+    },
+    {
+        "name": "中国公共招聘网事业单位",
+        "script": "scrape_institutions.py",
+        "args": ["--max-age", "180"],
+        "daily": True,
+        "timeout": 60,
+    },
+    {
         "name": "应届生求职网",
         "script": "scrape_yingjiesheng.py",
         "args": ["--max-pages", "1"],
@@ -87,6 +102,7 @@ SCRAPERS = [
         "args": [],
         "daily": True,
         "enabled": False,
+        "status_reason": "依赖的 D:\\hanako\\Auto-JobHunter-main 已不存在，且原采集多次超过 3 分钟；保持禁用",
         "timeout": 180,
     },
     {
@@ -95,6 +111,7 @@ SCRAPERS = [
         "args": [],
         "daily": True,
         "enabled": False,
+        "status_reason": "依赖的 Auto-JobHunter SQLite 数据库已不存在；保持禁用",
         "timeout": 60,
     },
     {
@@ -107,7 +124,7 @@ SCRAPERS = [
     {
         "name": "国考交通职位",
         "script": "scrape_guokao.py",
-        "args": ["--transport-only"],
+        "args": ["--transport-only", "--max-pages-per-dept", "2"],
         "daily": False,  # 仅周日执行
         "timeout": 300,
     },
@@ -117,6 +134,7 @@ SCRAPERS = [
         "args": ["--max-pages", "1"],
         "daily": True,
         "enabled": False,
+        "status_reason": "公开搜索依赖浏览器临时 Cookie，27 个关键词历史上频繁超过 2 分钟；保持禁用",
         "pipe_safe": False,
         "timeout": 120,  # 微博容易超时，2分钟为限
     },
@@ -226,7 +244,8 @@ def _run_pipeline(args):
     for scraper in SCRAPERS:
         # 禁用的数据源（enabled=False）直接跳过
         if not scraper.get("enabled", True):
-            log(f"⏭ 跳过: {scraper['name']}（已禁用）")
+            reason = scraper.get("status_reason", "未说明原因")
+            log(f"⏭ 跳过: {scraper['name']}（已禁用：{reason}）")
             continue
 
         # 非周日跳过国考
@@ -252,36 +271,7 @@ def _run_pipeline(args):
 
     log(f"📊 完成: {success} 成功, {fail} 失败, 共 {success + fail} 个任务")
 
-    # 自动同步到 GitHub Pages
-    log("> 开始: GitHub 同步")
-    try:
-        subprocess.run(
-            ["git", "add", "data/", "index.html"],
-            capture_output=True, text=True,
-            cwd=str(BASE_DIR), env=ENV,
-            encoding="utf-8", errors="replace"
-        )
-        commit_result = subprocess.run(
-            ["git", "commit", "-m", f"📊 每日更新 {datetime.now().strftime('%Y-%m-%d')}"],
-            capture_output=True, text=True,
-            cwd=str(BASE_DIR), env=ENV,
-            encoding="utf-8", errors="replace"
-        )
-        if commit_result.returncode == 0 or "nothing to commit" in commit_result.stdout + commit_result.stderr:
-            push_result = subprocess.run(
-                ["git", "push", "origin", "main"],
-                capture_output=True, text=True,
-                timeout=120, cwd=str(BASE_DIR), env=ENV,
-                encoding="utf-8", errors="replace"
-            )
-            if push_result.returncode == 0:
-                log("✅ GitHub 同步完成 → https://angle147.github.io/job-board/")
-            else:
-                log(f"⚠️ GitHub push 失败: {push_result.stderr.strip()[:120]}")
-        else:
-            log(f"⚠️ Git commit 异常: {commit_result.stderr.strip()[:120]}")
-    except Exception as e:
-        log(f"⚠️ GitHub 同步异常: {e}")
+    sync_github()
 
     log("")
 
@@ -295,6 +285,74 @@ def _run_pipeline(args):
             mark_pushed()
     else:
         log("⏭ 今日已推送过飞书，跳过")
+
+
+def _find_git() -> str | None:
+    """定位 git.exe；任务计划程序的 PATH 通常不含 Git。"""
+    found = shutil.which("git")
+    if found:
+        return found
+    candidates = [
+        Path(r"C:\Program Files\Git\cmd\git.exe"),
+        Path(r"C:\Program Files (x86)\Git\cmd\git.exe"),
+        Path.home() / "AppData/Local/Programs/Git/cmd/git.exe",
+    ]
+    runtime_root = Path.home() / ".cache/codex-runtimes"
+    if runtime_root.exists():
+        candidates.extend(sorted(runtime_root.glob("*/dependencies/native/git/cmd/git.exe"), reverse=True))
+    return str(next((p for p in candidates if p.exists()), "")) or None
+
+
+def sync_github(dry_run: bool = False) -> bool:
+    """同步数据到 GitHub；返回可供独立验证的成功状态。"""
+    log("> 开始: GitHub 同步" + ("（dry-run）" if dry_run else ""))
+    git = _find_git()
+    if not git:
+        log("⚠️ GitHub 同步失败: 未找到 git.exe；请安装 Git for Windows 或配置 PATH")
+        return False
+    base = [git, "-c", f"safe.directory={BASE_DIR}"]
+    try:
+        if dry_run:
+            push_result = subprocess.run(
+                base + ["push", "--dry-run", "origin", "main"], capture_output=True, text=True,
+                timeout=120, cwd=str(BASE_DIR), env=ENV, encoding="utf-8", errors="replace")
+            if push_result.returncode == 0:
+                log("✅ GitHub 同步 dry-run 通过（git.exe、仓库与 remote 均可用）")
+                return True
+            log(f"⚠️ GitHub push dry-run 失败: {push_result.stderr.strip()[:160]}")
+            return False
+        add_result = subprocess.run(
+            base + ["add", "data/", "index.html"],
+            capture_output=True, text=True,
+            cwd=str(BASE_DIR), env=ENV,
+            encoding="utf-8", errors="replace"
+        )
+        if add_result.returncode != 0:
+            log(f"⚠️ Git add 失败: {add_result.stderr.strip()[:160]}")
+            return False
+        commit_result = subprocess.run(
+            base + ["commit", "-m", f"📊 每日更新 {datetime.now().strftime('%Y-%m-%d')}"],
+            capture_output=True, text=True,
+            cwd=str(BASE_DIR), env=ENV,
+            encoding="utf-8", errors="replace"
+        )
+        if commit_result.returncode == 0 or "nothing to commit" in commit_result.stdout + commit_result.stderr:
+            push_result = subprocess.run(
+                base + ["push", "origin", "main"],
+                capture_output=True, text=True,
+                timeout=120, cwd=str(BASE_DIR), env=ENV,
+                encoding="utf-8", errors="replace"
+            )
+            if push_result.returncode == 0:
+                log("✅ GitHub 同步完成 → https://angle147.github.io/job-board/")
+                return True
+            else:
+                log(f"⚠️ GitHub push 失败: {push_result.stderr.strip()[:120]}")
+        else:
+            log(f"⚠️ Git commit 异常: {commit_result.stderr.strip()[:120]}")
+    except Exception as e:
+        log(f"⚠️ GitHub 同步异常: {e}")
+    return False
 
 
 def _build_summary(base_dir, today):
@@ -323,6 +381,8 @@ def _build_summary(base_dir, today):
     lines.append(f"  央企公告: {count_js(data_dir / 'jobs_qyzp.js')} 条")
     lines.append(f"  山东高速: {count_js(data_dir / 'jobs_sdhsg.js')} 条")
     lines.append(f"  山东港口: {count_js(data_dir / 'jobs_sdport.js')} 条")
+    lines.append(f"  铁路人才招聘网: {count_js(data_dir / 'jobs_railway.js')} 条")
+    lines.append(f"  事业单位交通相关: {count_js(data_dir / 'jobs_institutions.js')} 条")
     lines.append(f"  手动维护: {count_js(data_dir / 'jobs_manual.js')} 条")
     lines.append("")
 

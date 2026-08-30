@@ -34,6 +34,8 @@ DATA_FILES = [
     "jobs_yingjiesheng.js", # 应届生
     "jobs_haitou.js",       # 海投
     "jobs_51job.js",        # 51job
+    "jobs_railway.js",      # 中国铁路人才招聘网
+    "jobs_institutions.js", # 中国公共招聘网事业单位
     "jobs_manual.js",       # 手动（只清理明确过期的）
 ]
 

@@ -800,6 +800,8 @@ a.link-notice:hover { border-color: var(--primary); color: var(--primary); }
 <script src="data/jobs_qyzp.js"></script>
 <script src="data/jobs_sdhsg.js"></script>
 <script src="data/jobs_sdport.js"></script>
+<script src="data/jobs_railway.js"></script>
+<script src="data/jobs_institutions.js"></script>
 <script src="data/jobs_manual.js"></script>
 <script src="data/exams.js"></script>
 <script src="data/weibo_events.js"></script>
@@ -837,6 +839,8 @@ const ALL_JOBS = (typeof JOBS !== 'undefined' ? JOBS : [])
   .concat(typeof JOBS_QYZP !== 'undefined' ? JOBS_QYZP : [])
   .concat(typeof JOBS_SDHSG !== 'undefined' ? JOBS_SDHSG : [])
   .concat(typeof JOBS_SDPORT !== 'undefined' ? JOBS_SDPORT : [])
+  .concat(typeof JOBS_RAILWAY !== 'undefined' ? JOBS_RAILWAY : [])
+  .concat(typeof JOBS_INSTITUTIONS !== 'undefined' ? JOBS_INSTITUTIONS : [])
   .concat(typeof JOBS_MANUAL !== 'undefined' ? JOBS_MANUAL : []);
 
 function getCurrentData() {

@@ -290,23 +290,5 @@ const JOBS = [
     examInfo: "",
     companyScale: "",
     notes: "来源: 山东省国资委 [2026-07-09]"
-  },
-  {
-    id: 18,
-    companyName: "山东省商业集团有限公司",
-    companyType: "央国企",
-    industry: "综合",
-    recruitType: "校招/社招",
-    targetYears: "2026届",
-    location: "",
-    positions: "",
-    status: "未投递",
-    updateTime: "2026-07-02",
-    deadline: "招满为止",
-    applyLink: "",
-    noticeLink: "http://gzw.shandong.gov.cn/articles/ch00223/202607/5c49e339-fbf7-4acc-8a00-b8f99a2cc72a.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 山东省国资委 [2026-07-02]"
   }
 ];

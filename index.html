@@ -462,12 +462,14 @@ tr:hover td { background: #f8fafc; }
 }
 
 .status-btn:hover { border-color: var(--primary); }
-.status-btn.status-未投递 { background: #f1f5f9; border-color: #cbd5e1; }
-.status-btn.status-已投递 { background: var(--primary-light); border-color: var(--primary); color: var(--primary); }
-.status-btn.status-已笔试 { background: var(--warning-light); border-color: var(--warning); color: #92400e; }
-.status-btn.status-已面试 { background: var(--purple-light); border-color: var(--purple); color: var(--purple); }
-.status-btn.status-已offer { background: var(--success-light); border-color: var(--success); color: var(--success); }
-.status-btn.status-不想去 { background: var(--danger-light); border-color: var(--danger); color: var(--danger); }
+.status-btn.status-新发现 { background: #f1f5f9; border-color: #cbd5e1; }
+.status-btn.status-待处理 { background: var(--warning-light); border-color: var(--warning); color: #92400e; }
+.status-btn.status-已报名 { background: var(--primary-light); border-color: var(--primary); color: var(--primary); }
+.status-btn.status-面试 { background: var(--purple-light); border-color: var(--purple); color: var(--purple); }
+.status-btn.status-已排除,
+.status-btn.status-已截止,
+.status-btn.status-审核未通过,
+.status-btn.status-主动放弃 { background: var(--danger-light); border-color: var(--danger); color: var(--danger); }
 
 /* Deadline warning */
 .deadline-soon { color: var(--danger); font-weight: 600; }
@@ -659,10 +661,10 @@ a.link-notice:hover { border-color: var(--primary); color: var(--primary); }
   <div class="header-inner">
     <div class="header-title">
       <span class="icon">🚛</span>
-      校招实习岗位汇总
+      国企校招与编制招录看板
     </div>
     <div class="header-actions">
-      <span style="font-size:13px;opacity:.85;">交通运输 · 山东优先</span>
+      <span style="font-size:13px;opacity:.85;">个人资格匹配 · 全国收录 · 山东优先</span>
     </div>
   </div>
 </header>
@@ -675,9 +677,9 @@ a.link-notice:hover { border-color: var(--primary); color: var(--primary); }
 
   <!-- Tabs -->
   <div class="tabs">
-    <button class="tab-btn active" data-tab="jobs">🏢 校招 / 社招岗位</button>
-    <button class="tab-btn" data-tab="exams">📋 国考 / 省考 / 事业编</button>
-    <button class="tab-btn" data-tab="events">📢 校园招聘会</button>
+    <button class="tab-btn active" data-tab="soe">🏢 国企校招</button>
+    <button class="tab-btn" data-tab="public">📋 国考 / 省考 / 事业编</button>
+    <button class="tab-btn" data-tab="review">🔎 待处理</button>
   </div>
 
   <!-- 国考时间线公告（仅考试视图可见） -->
@@ -737,8 +739,8 @@ a.link-notice:hover { border-color: var(--primary); color: var(--primary); }
     <div class="search-row">
       <input type="text" class="search-input" id="searchInput" placeholder="搜索公司、岗位、城市...">
       <button class="filter-toggle" id="filterToggle">🔍 高级筛选</button>
-      <button class="quick-filter-btn active" id="quickFilter2027" title="只看 2027 届可投">🎓 2027届</button>
-      <button class="quick-filter-btn" id="quickFilterAll" title="显示全部届数">全部</button>
+      <button class="quick-filter-btn active" id="quickFilter2027" style="display:none;" title="派生数据已按目标届别筛选">🎓 目标届别</button>
+      <button class="quick-filter-btn" id="quickFilterAll" style="display:none;" title="不展示未筛选原始数据">全部</button>
     </div>
     <div class="filter-panel" id="filterPanel"></div>
     <div class="filter-chips" id="activeFilters"></div>
@@ -778,43 +780,36 @@ a.link-notice:hover { border-color: var(--primary); color: var(--primary); }
 <div class="status-popup" id="statusPopup">
   <div class="status-popup-inner">
     <p style="font-weight:600;margin-bottom:8px;">更新投递状态</p>
-    <button class="status-option" data-status="未投递">⚪ 未投递</button>
-    <button class="status-option" data-status="已投递">🔵 已投递</button>
-    <button class="status-option" data-status="已笔试">🟡 已笔试</button>
-    <button class="status-option" data-status="已面试">🟣 已面试</button>
-    <button class="status-option" data-status="已offer">🟢 拿 offer</button>
-    <button class="status-option" data-status="不想去">🔴 不想去</button>
+    <button class="status-option" data-status="新发现">⚪ 新发现</button>
+    <button class="status-option" data-status="待处理">🟡 待处理</button>
+    <button class="status-option" data-status="已报名">🔵 已报名</button>
+    <button class="status-option" data-status="面试">🟣 面试</button>
+    <button class="status-option" data-status="已排除">🔴 已排除</button>
+    <button class="status-option" data-status="已截止">⚫ 已截止</button>
+    <button class="status-option" data-status="审核未通过">🟤 审核未通过</button>
+    <button class="status-option" data-status="主动放弃">➖ 主动放弃</button>
     <hr style="margin:8px 0;">
     <button class="status-option" style="color:var(--text-muted);" id="statusCancel">取消</button>
   </div>
 </div>
 
 <footer class="app-footer">
-  数据持续更新中 · 手动维护 + 计划爬虫采集 · <span id="lastUpdate"></span>
+  官方证据优先 · 原始源只读 · 个性化派生数据 · <span id="lastUpdate"></span>
 </footer>
 
 <!-- Data Files -->
-<script src="data/jobs.js"></script>
-<script src="data/jobs_yingjiesheng.js"></script>
-<script src="data/jobs_haitou.js"></script>
-<script src="data/jobs_qyzp.js"></script>
-<script src="data/jobs_sdhsg.js"></script>
-<script src="data/jobs_sdport.js"></script>
-<script src="data/jobs_railway.js"></script>
-<script src="data/jobs_institutions.js"></script>
-<script src="data/jobs_manual.js"></script>
-<script src="data/exams.js"></script>
-<script src="data/weibo_events.js"></script>
-<script src="data/university_events.js"></script>
+<script src="data/board_soe.js"></script>
+<script src="data/board_public.js"></script>
+<script src="data/board_review.js"></script>
 
 <script>
 // ============ App State ============
 const APP = {
-  currentTab: 'jobs',
+  currentTab: 'soe',
   currentView: 'table',
   editingJobId: null,
   filters: {}, // key -> [selected values]
-  quickFilter: '2027届', // default: show 2027-accessible positions
+  quickFilter: null, // 派生数据已经按本地资格画像筛选
 };
 
 // Load statuses from localStorage
@@ -830,31 +825,19 @@ function saveStatus(id, status) {
 }
 
 // ============ Data Helpers ============
-// 合并自动抓取和手动维护的数据
-// 合并三个数据源
-const ALL_JOBS = (typeof JOBS !== 'undefined' ? JOBS : [])
-  .concat(typeof JOBS_YINGJIESHENG !== 'undefined' ? JOBS_YINGJIESHENG : [])
-  .concat(typeof JOBS_HAITOU !== 'undefined' ? JOBS_HAITOU : [])
-  .concat(typeof JOBS_51JOB !== 'undefined' ? JOBS_51JOB : [])
-  .concat(typeof JOBS_QYZP !== 'undefined' ? JOBS_QYZP : [])
-  .concat(typeof JOBS_SDHSG !== 'undefined' ? JOBS_SDHSG : [])
-  .concat(typeof JOBS_SDPORT !== 'undefined' ? JOBS_SDPORT : [])
-  .concat(typeof JOBS_RAILWAY !== 'undefined' ? JOBS_RAILWAY : [])
-  .concat(typeof JOBS_INSTITUTIONS !== 'undefined' ? JOBS_INSTITUTIONS : [])
-  .concat(typeof JOBS_MANUAL !== 'undefined' ? JOBS_MANUAL : []);
+const ALL_JOBS = typeof SOE_JOBS !== 'undefined' ? SOE_JOBS : [];
+const PUBLIC_BOARD_JOBS = typeof PUBLIC_JOBS !== 'undefined' ? PUBLIC_JOBS : [];
+const REVIEW_BOARD_JOBS = typeof REVIEW_JOBS !== 'undefined' ? REVIEW_JOBS : [];
 
 function getCurrentData() {
-  if (APP.currentTab === 'events') {
-    const weibo = typeof WEIBO_EVENTS !== 'undefined' ? WEIBO_EVENTS : [];
-    const uni = typeof UNIVERSITY_EVENTS !== 'undefined' ? UNIVERSITY_EVENTS : [];
-    return weibo.concat(uni);
-  }
-  return APP.currentTab === 'jobs' ? ALL_JOBS : EXAMS;
+  if (APP.currentTab === 'public') return PUBLIC_BOARD_JOBS;
+  if (APP.currentTab === 'review') return REVIEW_BOARD_JOBS;
+  return ALL_JOBS;
 }
 
-function isJobTab() { return APP.currentTab === 'jobs'; }
-function isExamTab() { return APP.currentTab === 'exams'; }
-function isEventTab() { return APP.currentTab === 'events'; }
+function isJobTab() { return true; }
+function isExamTab() { return APP.currentTab === 'public'; }
+function isEventTab() { return false; }
 
 // ============ Parse Filters ============
 function parseFilters() {
@@ -877,29 +860,27 @@ function filterData() {
 
   let data = getCurrentData();
 
-  // Quick filter: 2027届 (only for jobs tab)
-  if (APP.quickFilter === '2027届' && isJobTab()) {
-    data = data.filter(item => {
-      const ty = item.targetYears || '';
-      return ty.includes('2027届') || ty.includes('2026届') || ty.includes('2025届');
-    });
-  }
-
   // Full-text search
   if (search) {
     data = data.filter(item => {
-      const searchable = isEventTab()
-        ? [item.title, item.description, item.location, item.date]
-        : isJobTab()
-        ? [item.companyName, item.industry, item.location, item.positions, item.notes, item.recruitType, item.targetYears]
-        : [item.department, item.position, item.location, item.majorReq, item.notes, item.examType];
+      const searchable = [
+        item.companyName, item.positions, item.boardSection, item.source,
+        item.industry, item.location, item.majorReq, item.educationReq,
+        item.fitLevel, item.fitReason, item.evidenceLevel, item.targetYears,
+        item.notes, ...(item.reviewReasons || [])
+      ];
       return searchable.some(s => (s || '').toLowerCase().includes(search));
     });
   }
 
   // Column filters
   Object.entries(APP.filters).forEach(([key, vals]) => {
-    data = data.filter(item => vals.some(v => (item[key] || '').toLowerCase().includes(v.toLowerCase())));
+    data = data.filter(item => {
+      const value = key === 'status'
+        ? (loadStatuses()[`${APP.currentTab}_${item.id}`] || item.status || '新发现')
+        : (item[key] || '');
+      return vals.some(v => String(value).toLowerCase().includes(v.toLowerCase()));
+    });
   });
 
   return data;
@@ -908,43 +889,27 @@ function filterData() {
 // ============ Render Filters ============
 function renderFilters() {
   const panel = document.getElementById('filterPanel');
-  if (isEventTab()) {
-    panel.innerHTML = '<div style="padding:8px;color:var(--text-secondary);font-size:13px;">🔍 使用顶部搜索框筛选招聘会</div>';
-    return;
-  }
-  if (isJobTab()) {
-    panel.innerHTML = `
+  const sources = [...new Set(getCurrentData().map(x => x.source).filter(Boolean))].sort();
+  panel.innerHTML = `
       <div class="filter-group">
-        <span class="filter-label">公司类型</span>
-        <select class="filter-select" data-filter="companyType">
+        <span class="filter-label">信息来源</span>
+        <select class="filter-select" data-filter="source">
           <option value="">全部</option>
-          <option>央国企</option><option>民企</option><option>外企</option>
-          <option>中外合资</option><option>事业单位</option><option>银行</option>
+          ${sources.map(x => `<option>${escapeHtml(x)}</option>`).join('')}
         </select>
       </div>
       <div class="filter-group">
-        <span class="filter-label">所属行业</span>
-        <select class="filter-select" data-filter="industry">
+        <span class="filter-label">专业适配</span>
+        <select class="filter-select" data-filter="fitLevel">
           <option value="">全部</option>
-          <option>港口/航运</option><option>铁路</option><option>城市轨交</option>
-          <option>公路/高速</option><option>航空</option><option>邮政/物流</option>
-          <option>水务/水利</option><option>交通设计/规划</option><option>公交/客运</option>
-          <option>汽车/车辆</option><option>物流仓储</option>
+          <option>已确认适配</option><option>可尝试</option><option>待核验</option>
         </select>
       </div>
       <div class="filter-group">
-        <span class="filter-label">招聘类型</span>
-        <select class="filter-select" data-filter="recruitType">
+        <span class="filter-label">证据等级</span>
+        <select class="filter-select" data-filter="evidenceLevel">
           <option value="">全部</option>
-          <option>实习</option><option>春招</option><option>春招补录</option>
-          <option>秋招</option><option>秋招提前批</option><option>社招</option>
-        </select>
-      </div>
-      <div class="filter-group">
-        <span class="filter-label">招聘对象</span>
-        <select class="filter-select" data-filter="targetYears">
-          <option value="">全部</option>
-          <option>2027届</option><option>2026届</option><option>2025届</option><option>2024届</option>
+          <option>官方</option><option>正式报名平台</option><option>第三方线索</option><option>待核验</option>
         </select>
       </div>
       <div class="filter-group">
@@ -955,37 +920,11 @@ function renderFilters() {
         <span class="filter-label">投递状态</span>
         <select class="filter-select" data-filter="status">
           <option value="">全部</option>
-          <option>未投递</option><option>已投递</option><option>已笔试</option>
-          <option>已面试</option><option>已offer</option><option>不想去</option>
+          <option>新发现</option><option>待处理</option><option>已报名</option><option>面试</option>
+          <option>已排除</option><option>已截止</option><option>审核未通过</option><option>主动放弃</option>
         </select>
       </div>
     `;
-  } else {
-    panel.innerHTML = `
-      <div class="filter-group">
-        <span class="filter-label">考试类型</span>
-        <select class="filter-select" data-filter="examType">
-          <option value="">全部</option>
-          <option>国考</option><option>省考</option><option>事业编</option>
-        </select>
-      </div>
-      <div class="filter-group">
-        <span class="filter-label">招录单位</span>
-        <input type="text" class="filter-input" data-filter="department" placeholder="如：交通运输厅">
-      </div>
-      <div class="filter-group">
-        <span class="filter-label">城市</span>
-        <input type="text" class="filter-input" data-filter="location" placeholder="如：济南">
-      </div>
-      <div class="filter-group">
-        <span class="filter-label">学历要求</span>
-        <select class="filter-select" data-filter="educationReq">
-          <option value="">全部</option>
-          <option>本科及以上</option><option>硕士研究生及以上</option>
-        </select>
-      </div>
-    `;
-  }
 }
 
 // ============ Render Table ============
@@ -993,31 +932,19 @@ function renderTable(data) {
   const thead = document.querySelector('#dataTable thead');
   const tbody = document.querySelector('#dataTable tbody');
 
-  if (isJobTab()) {
-    thead.innerHTML = `
+  thead.innerHTML = `
       <tr>
-        <th>公司名称</th><th>公司类型</th><th>所属行业</th><th>招聘类型</th>
-        <th>招聘对象</th><th>工作地点</th><th>岗位</th><th>投递状态</th>
-        <th>更新时间</th><th>投递截止</th><th>投递链接</th><th>公告链接</th>
-        <th>笔试</th><th>公司规模</th><th>备注</th>
+        <th>单位</th><th>岗位</th><th>类别 / 来源</th><th>专业适配</th>
+        <th>证据</th><th>目标届别</th><th>地点</th><th>专业要求</th>
+        <th>学历</th><th>人数</th><th>状态</th><th>截止日期</th>
+        <th>报名</th><th>官方公告</th><th>待核验事项</th>
       </tr>`;
-  } else {
-    thead.innerHTML = `
-      <tr>
-        <th>考试类型</th><th>招录单位</th><th>职位名称</th><th>职位代码</th>
-        <th>招录人数</th><th>工作地点</th><th>专业要求</th><th>学历要求</th>
-        <th>报名开始</th><th>报名截止</th><th>笔试日期</th><th>竞争比</th>
-        <th>往年进面分</th><th>报名链接</th><th>备注</th>
-      </tr>`;
-  }
 
   tbody.innerHTML = data.length === 0
     ? '<tr><td colspan="20" style="text-align:center;padding:40px;color:var(--text-muted);">没有匹配的岗位</td></tr>'
     : data.map(item => {
         const statuses = loadStatuses();
-        const currentStatus = statuses[`${APP.currentTab}_${item.id}`] || (isJobTab() ? item.status : '关注中');
-
-        if (isJobTab()) {
+        const currentStatus = statuses[`${APP.currentTab}_${item.id}`] || item.status || '新发现';
           // Check deadline urgency
           let deadlineClass = '';
           if (item.deadline && item.deadline !== '招满为止') {
@@ -1027,42 +954,24 @@ function renderTable(data) {
             if (daysLeft <= 3 && daysLeft >= 0) deadlineClass = 'deadline-soon';
           }
 
+          const reasons = (item.reviewReasons || []).join('；');
           return `<tr>
             <td><strong>${item.companyName}</strong></td>
-            <td><span class="badge badge-type">${item.companyType}</span></td>
-            <td><span class="badge badge-industry">${item.industry}</span></td>
-            <td>${item.recruitType}</td>
+            <td title="${escapeHtml(item.positions)}">${item.positions || '-'}</td>
+            <td><span class="badge badge-type">${item.boardSection}</span><br><small>${item.source}</small></td>
+            <td><span class="badge badge-target">${item.fitLevel}</span><br><small>${item.fitReason || ''}</small></td>
+            <td>${item.evidenceLevel || '待核验'}</td>
             <td><span class="badge badge-target">${item.targetYears}</span></td>
             <td>${item.location}</td>
-            <td style="max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;" title="${escapeHtml(item.positions)}">${item.positions}</td>
+            <td title="${escapeHtml(item.majorReq || '')}">${item.majorReq || '-'}</td>
+            <td>${item.educationReq || '-'}</td>
+            <td>${item.recruitmentCount || '-'}</td>
             <td><button class="status-btn status-${currentStatus}" onclick="showStatusPopup('${APP.currentTab}_${item.id}')">${currentStatus}</button></td>
-            <td>${item.updateTime}</td>
             <td class="${deadlineClass}">${item.deadline}</td>
-            <td>${item.applyLink && item.applyLink !== '#' ? `<a href="${item.applyLink}" target="_blank" class="link-btn link-apply">投递</a>` : '-'}</td>
-            <td>${item.noticeLink && item.noticeLink !== '#' ? `<a href="${item.noticeLink}" target="_blank" class="link-btn link-notice">公告</a>` : '-'}</td>
-            <td>${item.examInfo || '-'}</td>
-            <td>${item.companyScale || '-'}</td>
-            <td>${item.notes || '-'}</td>
-          </tr>`;
-        } else {
-          return `<tr>
-            <td><span class="badge badge-exam-type">${item.examType}</span></td>
-            <td><strong>${item.department}</strong></td>
-            <td>${item.position}</td>
-            <td>${item.positionCode}</td>
-            <td>${item.recruitmentCount}</td>
-            <td>${item.location}</td>
-            <td style="max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;" title="${escapeHtml(item.majorReq)}">${item.majorReq}</td>
-            <td>${item.educationReq}</td>
-            <td>${item.registrationStart}</td>
-            <td>${item.registrationEnd}</td>
-            <td>${item.examDate}</td>
-            <td>${item.competitionRatio || '-'}</td>
-            <td>${item.pastScoreLine || '-'}</td>
             <td>${item.applyLink && item.applyLink !== '#' ? `<a href="${item.applyLink}" target="_blank" class="link-btn link-apply">报名</a>` : '-'}</td>
-            <td>${item.notes || '-'}</td>
+            <td>${item.noticeLink && item.noticeLink !== '#' ? `<a href="${item.noticeLink}" target="_blank" class="link-btn link-notice">公告</a>` : '-'}</td>
+            <td title="${escapeHtml(reasons)}">${reasons || '-'}</td>
           </tr>`;
-        }
       }).join('');
 }
 
@@ -1076,9 +985,8 @@ function renderCards(data) {
     return;
   }
 
-  if (isJobTab()) {
-    container.innerHTML = data.map(item => {
-      const currentStatus = statuses[`jobs_${item.id}`] || item.status;
+  container.innerHTML = data.map(item => {
+      const currentStatus = statuses[`${APP.currentTab}_${item.id}`] || item.status || '新发现';
       let deadlineClass = '';
       if (item.deadline && item.deadline !== '招满为止') {
         const d = new Date(item.deadline);
@@ -1090,89 +998,53 @@ function renderCards(data) {
         <div class="card-header">
           <div>
             <div class="card-company">${item.companyName}</div>
-            <div class="card-title">${item.industry}</div>
+            <div class="card-title">${item.positions || '岗位待拆分'}</div>
           </div>
-          <span class="badge badge-type">${item.companyType}</span>
+          <span class="badge badge-type">${item.boardSection}</span>
         </div>
         <div class="card-meta">
-          <span class="badge badge-target">${item.targetYears}</span>
+          <span class="badge badge-target">${item.fitLevel}</span>
           <span class="badge badge-location">${item.location}</span>
-          <span style="font-size:12px;color:var(--text-secondary);">${item.recruitType}</span>
+          <span style="font-size:12px;color:var(--text-secondary);">${item.evidenceLevel}</span>
         </div>
-        <div style="font-size:13px;margin-bottom:8px;">📌 ${item.positions}</div>
+        <div style="font-size:13px;margin-bottom:8px;">📚 ${item.majorReq || item.fitReason || '专业要求待核验'}</div>
         <div style="font-size:12px;color:var(--text-secondary);display:flex;justify-content:space-between;">
           <span>⏰ ${item.deadline}</span>
           <span>📅 ${item.updateTime}</span>
         </div>
         <div class="card-footer">
-          <button class="status-btn status-${currentStatus}" onclick="showStatusPopup('jobs_${item.id}')">${currentStatus}</button>
+          <button class="status-btn status-${currentStatus}" onclick="showStatusPopup('${APP.currentTab}_${item.id}')">${currentStatus}</button>
           <div>
             ${item.applyLink && item.applyLink !== '#' ? `<a href="${item.applyLink}" target="_blank" class="link-btn link-apply">投递</a>` : ''}
             ${item.noticeLink && item.noticeLink !== '#' ? `<a href="${item.noticeLink}" target="_blank" class="link-btn link-notice">公告</a>` : ''}
           </div>
         </div>
-        ${item.notes ? `<div style="font-size:11px;color:var(--text-muted);margin-top:8px;">💬 ${item.notes}</div>` : ''}
+        ${(item.reviewReasons || []).length ? `<div style="font-size:11px;color:var(--text-muted);margin-top:8px;">🔎 ${(item.reviewReasons || []).join('；')}</div>` : ''}
         ${deadlineClass ? '<div style="font-size:11px;color:var(--danger);margin-top:4px;">⚡ 即将截止</div>' : ''}
       </div>`;
     }).join('');
-  } else {
-    container.innerHTML = data.map(item => {
-      return `<div class="job-card" style="border-left-color:var(--purple);">
-        <div class="card-header">
-          <div>
-            <div class="card-company">${item.department}</div>
-            <div class="card-title">${item.position}</div>
-          </div>
-          <span class="badge badge-exam-type">${item.examType}</span>
-        </div>
-        <div class="card-meta">
-          <span class="badge badge-location">${item.location}</span>
-          <span style="font-size:12px;">招录 ${item.recruitmentCount} 人</span>
-          <span style="font-size:12px;color:var(--text-secondary);">${item.educationReq}</span>
-        </div>
-        <div style="font-size:12px;margin-bottom:8px;">📚 ${item.majorReq}</div>
-        <div style="font-size:12px;color:var(--text-secondary);display:flex;justify-content:space-between;">
-          <span>📅 报名: ${item.registrationStart} ~ ${item.registrationEnd}</span>
-          <span>✏️ 笔试: ${item.examDate}</span>
-        </div>
-        ${item.competitionRatio ? `<div style="font-size:11px;color:var(--text-muted);margin-top:6px;">竞争比: ${item.competitionRatio} | 进面分: ${item.pastScoreLine || '-'}</div>` : ''}
-        <div class="card-footer">
-          <span style="font-size:11px;color:var(--text-muted);">职位代码: ${item.positionCode}</span>
-          ${item.applyLink ? `<a href="${item.applyLink}" target="_blank" class="link-btn link-apply">报名</a>` : ''}
-        </div>
-        ${item.notes ? `<div style="font-size:11px;color:var(--text-muted);margin-top:6px;">💬 ${item.notes}</div>` : ''}
-      </div>`;
-    }).join('');
-  }
 }
 
 // ============ Stats ============
 function renderStats(data) {
   const statuses = loadStatuses();
-  let total, urgent, applied, offer;
-
-  if (isJobTab()) {
-    total = data.length;
-    urgent = data.filter(item => {
+  const total = data.length;
+  const urgent = data.filter(item => {
       if (!item.deadline || item.deadline === '招满为止') return false;
       const d = new Date(item.deadline);
       const now = new Date();
       const daysLeft = Math.ceil((d - now) / (1000 * 60 * 60 * 24));
       return daysLeft <= 3 && daysLeft >= 0;
     }).length;
-    applied = Object.values(statuses).filter(s => s === '已投递').length;
-    offer = Object.values(statuses).filter(s => s === '已offer').length;
-  } else {
-    total = data.length;
-    urgent = 0;
-    applied = 0;
-    offer = 0;
-  }
+  const prefix = `${APP.currentTab}_`;
+  const ownStatuses = Object.entries(statuses).filter(([k]) => k.startsWith(prefix)).map(([,v]) => v);
+  const applied = ownStatuses.filter(s => s === '已报名').length;
+  const interviewing = ownStatuses.filter(s => s === '面试').length;
 
   document.getElementById('statsBar').innerHTML = `
     <div class="stat-card total">
       <div class="stat-icon">📊</div>
-      <div class="stat-info"><div class="stat-value">${total}</div><div class="stat-label">当前可投</div></div>
+      <div class="stat-info"><div class="stat-value">${total}</div><div class="stat-label">当前记录</div></div>
     </div>
     <div class="stat-card urgent">
       <div class="stat-icon">⚡</div>
@@ -1180,11 +1052,11 @@ function renderStats(data) {
     </div>
     <div class="stat-card applied">
       <div class="stat-icon">📤</div>
-      <div class="stat-info"><div class="stat-value">${applied}</div><div class="stat-label">已投递</div></div>
+      <div class="stat-info"><div class="stat-value">${applied}</div><div class="stat-label">已报名</div></div>
     </div>
     <div class="stat-card offer">
       <div class="stat-icon">🏆</div>
-      <div class="stat-info"><div class="stat-value">${offer}</div><div class="stat-label">拿offer</div></div>
+      <div class="stat-info"><div class="stat-value">${interviewing}</div><div class="stat-label">面试</div></div>
     </div>
   `;
 }
@@ -1255,37 +1127,15 @@ function updateTimelineVisibility() {
   const eventsView = document.getElementById('eventsView');
   const actionsRow = document.querySelector('.actions-row');
 
-  if (APP.currentTab === 'exams') {
-    timeline.style.display = '';
-    quickBtns.forEach(b => b.style.display = 'none');
-    tableView.style.display = '';
-    cardView.classList.remove('open');
-    eventsView.style.display = 'none';
-    eventsView.classList.remove('open');
-    searchRow.style.display = '';
-    filterToggle.style.display = '';
-    if (actionsRow) actionsRow.style.display = '';
-  } else if (APP.currentTab === 'events') {
-    timeline.style.display = 'none';
-    quickBtns.forEach(b => b.style.display = 'none');
-    tableView.style.display = 'none';
-    cardView.classList.remove('open');
-    eventsView.style.display = '';
-    eventsView.classList.add('open');
-    searchRow.style.display = '';
-    filterToggle.style.display = 'none';
-    if (actionsRow) actionsRow.style.display = 'none';
-  } else {
-    timeline.style.display = 'none';
-    quickBtns.forEach(b => b.style.display = '');
-    tableView.style.display = APP.currentView === 'table' ? '' : 'none';
-    cardView.classList.toggle('open', APP.currentView !== 'table');
-    eventsView.style.display = 'none';
-    eventsView.classList.remove('open');
-    searchRow.style.display = '';
-    filterToggle.style.display = '';
-    if (actionsRow) actionsRow.style.display = '';
-  }
+  timeline.style.display = 'none';
+  quickBtns.forEach(b => b.style.display = 'none');
+  tableView.style.display = APP.currentView === 'table' ? '' : 'none';
+  cardView.classList.toggle('open', APP.currentView !== 'table');
+  eventsView.style.display = 'none';
+  eventsView.classList.remove('open');
+  searchRow.style.display = '';
+  filterToggle.style.display = '';
+  if (actionsRow) actionsRow.style.display = '';
 }
 
 document.getElementById('timelineToggle').addEventListener('click', function() {
@@ -1355,9 +1205,8 @@ function updateFilterChips() {
 
 function getFilterLabel(key) {
   const map = {
-    companyType: '类型', industry: '行业', recruitType: '招聘类型',
-    targetYears: '招聘对象', location: '城市', status: '状态',
-    examType: '考试类型', department: '单位', educationReq: '学历'
+    source: '来源', fitLevel: '专业适配', evidenceLevel: '证据',
+    location: '城市', status: '状态'
   };
   return map[key] || key;
 }
@@ -1371,26 +1220,15 @@ function removeFilter(key, val) {
 // ============ Export CSV ============
 function exportCSV(data) {
   let csv = '\uFEFF'; // BOM for Excel
-  let headers, rows;
-
-  if (isJobTab()) {
-    headers = ['公司名称','公司类型','所属行业','招聘类型','招聘对象','工作地点','岗位','投递状态','更新时间','投递截止','投递链接','公告链接','笔试情况','公司规模','备注'];
-    rows = data.map(item => [
-      item.companyName, item.companyType, item.industry, item.recruitType,
-      item.targetYears, item.location, item.positions,
-      loadStatuses()[`jobs_${item.id}`] || item.status,
-      item.updateTime, item.deadline, item.applyLink, item.noticeLink,
-      item.examInfo || '', item.companyScale || '', item.notes || ''
-    ]);
-  } else {
-    headers = ['考试类型','招录单位','职位名称','职位代码','招录人数','工作地点','专业要求','学历要求','报名开始','报名截止','笔试日期','竞争比','往年进面分','报名链接','备注'];
-    rows = data.map(item => [
-      item.examType, item.department, item.position, item.positionCode,
-      item.recruitmentCount, item.location, item.majorReq, item.educationReq,
-      item.registrationStart, item.registrationEnd, item.examDate,
-      item.competitionRatio || '', item.pastScoreLine || '', item.applyLink || '', item.notes || ''
-    ]);
-  }
+  const headers = ['单位','岗位','类别','来源','专业适配','适配理由','证据等级','目标届别','工作地点','专业要求','学历要求','招聘人数','处理状态','截止日期','报名链接','官方公告','待核验事项'];
+  const statuses = loadStatuses();
+  const rows = data.map(item => [
+    item.companyName, item.positions, item.boardSection, item.source,
+    item.fitLevel, item.fitReason, item.evidenceLevel, item.targetYears,
+    item.location, item.majorReq, item.educationReq, item.recruitmentCount,
+    statuses[`${APP.currentTab}_${item.id}`] || item.status || '新发现',
+    item.deadline, item.applyLink, item.noticeLink, (item.reviewReasons || []).join('；')
+  ]);
 
   csv += headers.join(',') + '\n';
   csv += rows.map(r => r.map(c => `"${String(c).replace(/"/g, '""')}"`).join(',')).join('\n');
@@ -1399,7 +1237,8 @@ function exportCSV(data) {
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url;
-  a.download = `${APP.currentTab === 'jobs' ? '校招岗位' : '考公考编'}_${new Date().toISOString().slice(0,10)}.csv`;
+  const names = {soe: '国企校招', public: '国考省考事业编', review: '待处理'};
+  a.download = `${names[APP.currentTab]}_${new Date().toISOString().slice(0,10)}.csv`;
   a.click();
   URL.revokeObjectURL(url);
 }
@@ -1421,22 +1260,11 @@ function escapeHtml(str) {
 // ============ Main Render ============
 function refresh() {
   const data = filterData();
-  if (isEventTab()) {
-    renderEvents(data);
-    const now2 = new Date();
-    const cutoff2 = new Date(now2.getTime() - 14 * 24 * 60 * 60 * 1000);
-    const validCount = data.filter(e => {
-      const d = parseEventDate(e.date);
-      return d && d >= cutoff2;
-    }).length;
-    document.getElementById('resultCount').textContent = `🟢 ${validCount} 场进行中 | 共 ${data.length} 条`;
-  } else {
-    renderStats(data);
-    renderTable(data);
-    renderCards(data);
-    updateFilterChips();
-    document.getElementById('resultCount').textContent = `共 ${data.length} 条记录`;
-  }
+  renderStats(data);
+  renderTable(data);
+  renderCards(data);
+  updateFilterChips();
+  document.getElementById('resultCount').textContent = `共 ${data.length} 条记录`;
   updateViewVisibility();
   document.getElementById('lastUpdate').textContent = '数据更新: ' + new Date().toISOString().slice(0, 10);
 }

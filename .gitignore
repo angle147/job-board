@@ -7,4 +7,8 @@ weibo_output.log
 _test_*.py
 _survey.py
 feishu_config.json
+USER_PROFILE.local.md
+.board_excluded.json
 .last_push_date.txt
+.offline_source_health.json
+.offline_event_reminders.json

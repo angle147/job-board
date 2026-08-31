@@ -1,0 +1,19 @@
+[
+  {"key":"ujn","name":"济南大学","platform":"sdei","url":"https://school.gxjy.sdei.edu.cn/ujn","campus":"济南大学主校区","required":true},
+  {"key":"qlu","name":"齐鲁工业大学","platform":"sdei","url":"https://school.gxjy.sdei.edu.cn/qlu","campus":"齐鲁工业大学长清校区","required":true},
+  {"key":"sdu","name":"山东大学济南校区","platform":"generic","url":"https://jobcareer.sdu.edu.cn","campus":"山东大学济南校区","required":true},
+  {"key":"sdjtu","name":"山东交通学院","platform":"bysjy","url":"https://sdjtu.bysjy.com.cn","campus":"山东交通学院长清校区","required":true},
+  {"key":"sdjzu","name":"山东建筑大学","platform":"bysjy","url":"https://sdjzu.bysjy.com.cn","campus":"山东建筑大学","required":true},
+  {"key":"sdufe","name":"山东财经大学","platform":"generic","url":"https://job.sdufe.edu.cn","campus":"山东财经大学济南校区","required":true},
+  {"key":"sdnu","name":"山东师范大学","platform":"generic","url":"https://job.sdnu.edu.cn","campus":"山东师范大学济南校区","required":true},
+  {"key":"sdpit","name":"山东职业学院","platform":"bysjy","url":"https://sdpit.bysjy.com.cn","campus":"山东职业学院","required":true},
+  {"key":"sdutcm","name":"山东中医药大学","platform":"generic","url":"https://job.sdutcm.edu.cn","campus":"山东中医药大学长清校区"},
+  {"key":"sdwu","name":"山东女子学院","platform":"bysjy","url":"https://sdwu.bysjy.com.cn","campus":"山东女子学院长清校区"},
+  {"key":"sdyu","name":"山东青年政治学院","platform":"bysjy","url":"https://sdyu.bysjy.com.cn","campus":"山东青年政治学院"},
+  {"key":"sdmu","name":"山东管理学院","platform":"bysjy","url":"https://sdmu.bysjy.com.cn","campus":"山东管理学院长清校区"},
+  {"key":"sdaeu","name":"山东农业工程学院济南校区","platform":"generic","url":"https://www.sdaeu.edu.cn/jyxxw/","campus":"山东农业工程学院济南校区"},
+  {"key":"qlnu","name":"齐鲁师范学院济南校区","platform":"generic","url":"https://www.qlnu.edu.cn/zsjy/","campus":"齐鲁师范学院济南校区"},
+  {"key":"jnvc","name":"济南职业学院","platform":"generic","url":"https://jnvc.sdbys.com","campus":"济南职业学院"},
+  {"key":"jnhrss","name":"济南市人力资源和社会保障局","platform":"generic","url":"http://jnhrss.jinan.gov.cn","campus":"济南市"},
+  {"key":"jnjob","name":"济南市公共就业服务中心","platform":"generic","url":"http://jnhrss.jinan.gov.cn/col/col40530/","campus":"济南市"}
+]

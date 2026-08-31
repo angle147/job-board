@@ -14,7 +14,10 @@ $action = New-ScheduledTaskAction -Execute $pythonPath `
     -Argument "`"$scriptPath`"" `
     -WorkingDirectory $workDir
 
-$trigger = New-ScheduledTaskTrigger -Daily -At 9:00AM
+$triggers = @(
+    (New-ScheduledTaskTrigger -Daily -At 9:00AM),
+    (New-ScheduledTaskTrigger -Daily -At 5:00PM)
+)
 
 $settings = New-ScheduledTaskSettingsSet `
     -AllowStartIfOnBatteries `
@@ -29,13 +32,13 @@ $principal = New-ScheduledTaskPrincipal -UserId "$env:USERDOMAIN\$env:USERNAME" 
 
 Register-ScheduledTask -TaskName $taskName `
     -Action $action `
-    -Trigger $trigger `
+    -Trigger $triggers `
     -Settings $settings `
     -Principal $principal `
-    -Description "每天 9:00 自动更新校招岗位数据（国资委+应届生求职网）"
+    -Description "每天 9:00 和 17:00 更新国企编制岗位与济南线下招聘活动"
 
 Write-Host "✅ 定时任务已创建: $taskName" -ForegroundColor Green
-Write-Host "   执行时间: 每天 9:00" -ForegroundColor Yellow
+Write-Host "   执行时间: 每天 9:00、17:00" -ForegroundColor Yellow
 Write-Host "   脚本: $scriptPath" -ForegroundColor Yellow
 Write-Host ""
 Write-Host "管理命令:" -ForegroundColor Cyan

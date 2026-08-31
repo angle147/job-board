@@ -122,6 +122,13 @@ SCRAPERS = [
         "timeout": 60,
     },
     {
+        "name": "济南线下招聘活动",
+        "script": "scrape_offline_events.py",
+        "args": ["--max-details", "120"],
+        "daily": True,
+        "timeout": 600,
+    },
+    {
         "name": "国考交通职位",
         "script": "scrape_guokao.py",
         "args": ["--transport-only", "--max-pages-per-dept", "2"],
@@ -137,6 +144,13 @@ SCRAPERS = [
         "status_reason": "公开搜索依赖浏览器临时 Cookie，27 个关键词历史上频繁超过 2 分钟；保持禁用",
         "pipe_safe": False,
         "timeout": 120,  # 微博容易超时，2分钟为限
+    },
+    {
+        "name": "生成个性化国企与编制看板",
+        "script": "build_personal_board.py",
+        "args": [],
+        "daily": True,
+        "timeout": 120,
     },
 ]
 
@@ -200,7 +214,19 @@ def main():
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument("--quick", action="store_true", help="仅校招，跳过校对和国考")
+    parser.add_argument("--push-only", action="store_true", help="只重试发送现有摘要，不运行采集与 Git 同步")
     args = parser.parse_args()
+
+    if args.push_only:
+        if not SUMMARY_FILE.exists():
+            log("⚠️ 摘要文件不存在，无法补发飞书")
+            return
+        if should_push_today():
+            if push_feishu(SUMMARY_FILE.read_text(encoding="utf-8")):
+                mark_pushed()
+        else:
+            log("⏭ 今日已成功推送过飞书，无需补发")
+        return
 
     # 锁文件：防止重复运行，同时记录 PID
     if LOCK_FILE.exists():
@@ -279,12 +305,7 @@ def _run_pipeline(args):
     # 最终摘要已在增量写入中完成，这里做最后一次确认
     _write_incremental_summary()
 
-    # 推送摘要到飞书（每天仅推一次：上午已推则下午跳过）
-    if should_push_today():
-        if push_feishu(SUMMARY_FILE.read_text(encoding="utf-8")):
-            mark_pushed()
-    else:
-        log("⏭ 今日已推送过飞书，跳过")
+    push_pipeline_notifications()
 
 
 def _find_git() -> str | None:
@@ -356,7 +377,7 @@ def sync_github(dry_run: bool = False) -> bool:
 
 
 def _build_summary(base_dir, today):
-    """统计各数据源的条目数，生成推送文案"""
+    """统计个性化看板条目数，生成不含个人画像内容的推送文案。"""
     import json, re
     from pathlib import Path
     data_dir = base_dir / "data"
@@ -369,36 +390,40 @@ def _build_summary(base_dir, today):
         return text.count('\n  {') 
 
     lines = []
-    lines.append(f"📬 校招数据已更新 ({today.strftime('%m-%d')})")
+    lines.append(f"📬 国企与编制机会已更新 ({today.strftime('%m-%d')})")
+    lines.append("")
+    soe_count = count_js(data_dir / "board_soe.js")
+    public_count = count_js(data_dir / "board_public.js")
+    review_count = count_js(data_dir / "board_review.js")
+    lines.append(f"🏢 国企校招（已核验）: {soe_count} 条")
+    lines.append(f"🏛 国考 / 省考 / 事业编（已核验）: {public_count} 条")
+    lines.append(f"🔎 待处理线索: {review_count} 条")
+
+    urgent_review = 0
+    review_path = data_dir / "board_review.js"
+    if review_path.exists():
+        text = review_path.read_text(encoding="utf-8")
+        urgent_review = len(re.findall(r'"priorityScore"\s*:\s*(?:[7-9]\d|\d{3,})', text))
+    lines.append(f"⚡ 紧急人工核验: {urgent_review} 条")
+    if soe_count + public_count == 0:
+        lines.append("  当前没有证据完整且确认适配的正式岗位")
     lines.append("")
 
-    # 校招/社招
-    lines.append("🏢 校招/社招")
-    lines.append(f"  国资委: {count_js(data_dir / 'jobs.js')} 条")
-    lines.append(f"  应届生求职网: {count_js(data_dir / 'jobs_yingjiesheng.js')} 条")
-    lines.append(f"  海投网: {count_js(data_dir / 'jobs_haitou.js')} 条")
-    lines.append(f"  51job: {count_js(data_dir / 'jobs_51job.js')} 条")
-    lines.append(f"  央企公告: {count_js(data_dir / 'jobs_qyzp.js')} 条")
-    lines.append(f"  山东高速: {count_js(data_dir / 'jobs_sdhsg.js')} 条")
-    lines.append(f"  山东港口: {count_js(data_dir / 'jobs_sdport.js')} 条")
-    lines.append(f"  铁路人才招聘网: {count_js(data_dir / 'jobs_railway.js')} 条")
-    lines.append(f"  事业单位交通相关: {count_js(data_dir / 'jobs_institutions.js')} 条")
-    lines.append(f"  手动维护: {count_js(data_dir / 'jobs_manual.js')} 条")
+    event_count = count_js(data_dir / "offline_events.js")
+    lines.append(f"📅 济南线下招聘: {event_count} 场")
+    health_path = base_dir / ".offline_source_health.json"
+    if health_path.exists():
+        try:
+            health = json.loads(health_path.read_text(encoding="utf-8"))
+            source_states = [value for key, value in health.items() if key != "_meta" and isinstance(value, dict)]
+            healthy = sum(1 for value in source_states if value.get("lastSuccessAt"))
+            alerted = sum(1 for value in source_states if int(value.get("consecutiveFailures", 0)) >= 3)
+            lines.append(f"  来源成功覆盖: {healthy}/{len(source_states)}")
+            if alerted:
+                lines.append(f"  ⚠ 连续失败来源: {alerted} 个")
+        except Exception:
+            pass
     lines.append("")
-
-    # 线下招聘会
-    uni_count = count_js(data_dir / 'university_events.js')
-    weibo_count = count_js(data_dir / 'weibo_events.js')
-    lines.append("🎓 线下招聘会")
-    lines.append(f"  高校就业平台: {uni_count} 场")
-    lines.append(f"  微博招聘会: {weibo_count} 场")
-    lines.append("")
-
-    # 国考（仅周日）
-    if today.weekday() == 6:
-        lines.append("🏛 公务员/事业单位")
-        lines.append(f"  国考交通职位: {count_js(data_dir / 'exams.js')} 条")
-        lines.append("")
 
     # 过期清理统计（从日志最后一段提取）
     log_file = base_dir / "daily_update.log"
@@ -416,6 +441,7 @@ def _build_summary(base_dir, today):
 
 
 SUMMARY_FILE = BASE_DIR / ".daily_summary.txt"
+OFFLINE_REMINDER_FILE = BASE_DIR / ".offline_event_reminders.json"
 
 
 def _load_feishu_cfg():
@@ -445,34 +471,148 @@ def mark_pushed():
     PUSH_DATE_FILE.write_text(datetime.now().strftime("%Y-%m-%d"), encoding="utf-8")
 
 
+def _load_offline_events():
+    path = BASE_DIR / "data" / "offline_events.js"
+    if not path.exists():
+        return []
+    try:
+        text = path.read_text(encoding="utf-8")
+        return json.loads(text[text.index("["):text.rindex("]") + 1])
+    except Exception:
+        return []
+
+
+def _load_reminder_state():
+    if not OFFLINE_REMINDER_FILE.exists():
+        return {}
+    try:
+        return json.loads(OFFLINE_REMINDER_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def _offline_notifications(now):
+    """返回活动提醒正文、成功发送后应保存的状态。"""
+    state = _load_reminder_state()
+    next_state = json.loads(json.dumps(state))
+    blocks = []
+    morning = now.hour < 12
+    today = now.date()
+    for event in sorted(_load_offline_events(), key=lambda item: (item.get("startDate", ""), item.get("timeText", ""))):
+        try:
+            event_date = datetime.strptime(event["startDate"], "%Y-%m-%d").date()
+        except Exception:
+            continue
+        if event_date < today:
+            continue
+        event_id = event.get("id")
+        if not event_id:
+            continue
+        saved = next_state.setdefault(event_id, {"sent": [], "exhibitorStatus": ""})
+        sent = set(saved.get("sent", []))
+        reasons = []
+        if "new" not in sent:
+            reasons.append("新发现")
+            sent.add("new")
+        current_exhibitor = event.get("exhibitorStatus", "企业名单未公布")
+        if (saved.get("exhibitorStatus") in ("", "企业名单未公布")
+                and current_exhibitor != "企业名单未公布" and "exhibitor" not in sent):
+            reasons.append("企业名单公布")
+            sent.add("exhibitor")
+        days_left = (event_date - today).days
+        if morning and days_left in (7, 3, 1, 0):
+            key = f"d{days_left}"
+            if key not in sent:
+                reasons.append("今天开展" if days_left == 0 else f"提前 {days_left} 天")
+                sent.add(key)
+        if reasons:
+            exhibitor = current_exhibitor
+            if event.get("exhibitorUrl"):
+                exhibitor += f": {event['exhibitorUrl']}"
+            blocks.append("\n".join([
+                f"📍 {event.get('organizer', '')}｜{event.get('eventType', '')}",
+                f"{event.get('title', '')}",
+                f"🕒 {event.get('startDate', '')} {event.get('timeText', '')}",
+                f"🏫 {event.get('location', '')}",
+                f"🏢 {exhibitor}",
+                f"🔗 {event.get('sourceUrl', '')}",
+                f"🔔 {'、'.join(reasons)}",
+            ]))
+        saved["sent"] = sorted(sent)
+        saved["exhibitorStatus"] = current_exhibitor
+        saved["lastSeenAt"] = now.isoformat(timespec="seconds")
+    return blocks, next_state
+
+
+def push_pipeline_notifications():
+    """早间发送岗位摘要；早晚均可发送线下活动增量提醒。"""
+    now = datetime.now()
+    blocks, next_state = _offline_notifications(now)
+    parts = []
+    include_summary = should_push_today()
+    if include_summary:
+        parts.append(SUMMARY_FILE.read_text(encoding="utf-8"))
+    if blocks:
+        parts.append("📅 济南线下招聘提醒\n\n" + "\n\n".join(blocks))
+    if not parts:
+        log("⏭ 无新增活动或到期提醒，飞书不发送空消息")
+        return
+    if push_feishu("\n\n".join(parts)):
+        if include_summary:
+            mark_pushed()
+        OFFLINE_REMINDER_FILE.write_text(json.dumps(next_state, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
 def push_feishu(text):
-    """推送文本到飞书私聊（凭证从本地 feishu_config.json 读取，不入库）"""
+    """推送文本到飞书私聊；依次尝试稳定本地代理、环境代理和直连。"""
     cfg = _load_feishu_cfg()
     if not cfg or not cfg.get("app_secret"):
         log("⚠️ 无飞书配置（feishu_config.json 缺失），跳过推送")
         return False
-    try:
-        token_url = "https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal"
-        body = json.dumps({"app_id": cfg["app_id"], "app_secret": cfg["app_secret"]}).encode("utf-8")
-        req = urllib.request.Request(token_url, data=body, headers={"Content-Type": "application/json"})
-        token_resp = json.loads(urllib.request.urlopen(req, timeout=20).read().decode("utf-8"))
-        token = token_resp.get("tenant_access_token")
-        if not token:
-            log(f"⚠️ 飞书 token 获取失败: {token_resp}")
+
+    stable_proxy = "http://127.0.0.1:7890"
+    channels = [
+        ("mihomo:7890", urllib.request.build_opener(urllib.request.ProxyHandler({
+            "http": stable_proxy, "https": stable_proxy,
+        }))),
+        ("环境代理", urllib.request.build_opener()),
+        ("直连", urllib.request.build_opener(urllib.request.ProxyHandler({}))),
+    ]
+    token_url = "https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal"
+    msg_url = "https://open.feishu.cn/open-apis/im/v1/messages?receive_id_type=open_id"
+
+    for channel_name, opener in channels:
+        try:
+            body = json.dumps({
+                "app_id": cfg["app_id"], "app_secret": cfg["app_secret"],
+            }).encode("utf-8")
+            req = urllib.request.Request(
+                token_url, data=body, headers={"Content-Type": "application/json"})
+            token_resp = json.loads(opener.open(req, timeout=20).read().decode("utf-8"))
+            token = token_resp.get("tenant_access_token")
+            if not token:
+                # 鉴权失败与网络通道无关，不继续重试，也不输出完整响应或凭据。
+                log(f"⚠️ 飞书鉴权失败（code={token_resp.get('code', 'unknown')}）")
+                return False
+
+            content = json.dumps({"text": text})
+            body2 = json.dumps({
+                "receive_id": cfg["open_id"], "msg_type": "text", "content": content,
+            }).encode("utf-8")
+            req2 = urllib.request.Request(msg_url, data=body2, headers={
+                "Content-Type": "application/json", "Authorization": f"Bearer {token}",
+            })
+            resp2 = json.loads(opener.open(req2, timeout=20).read().decode("utf-8"))
+            if resp2.get("code") == 0:
+                log(f"✅ 飞书推送成功（{channel_name}）")
+                return True
+            log(f"⚠️ 飞书推送失败（{channel_name}, code={resp2.get('code', 'unknown')}）")
             return False
-        msg_url = "https://open.feishu.cn/open-apis/im/v1/messages?receive_id_type=open_id"
-        content = json.dumps({"text": text})
-        body2 = json.dumps({"receive_id": cfg["open_id"], "msg_type": "text", "content": content}).encode("utf-8")
-        req2 = urllib.request.Request(msg_url, data=body2, headers={"Content-Type": "application/json", "Authorization": f"Bearer {token}"})
-        resp2 = json.loads(urllib.request.urlopen(req2, timeout=20).read().decode("utf-8"))
-        if resp2.get("code") == 0:
-            log("✅ 飞书推送成功")
-            return True
-        log(f"⚠️ 飞书推送失败: {resp2}")
-        return False
-    except Exception as e:
-        log(f"⚠️ 飞书推送异常: {e}")
-        return False
+        except Exception as e:
+            log(f"⚠️ 飞书通道不可用（{channel_name}）: {type(e).__name__}: {str(e)[:120]}")
+
+    log("❌ 飞书推送失败：所有网络通道均不可用")
+    return False
 
 def _write_incremental_summary():
     """每完成一个爬虫后更新摘要文件，确保 pipeline 被中断时也有数据"""

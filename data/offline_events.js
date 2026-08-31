@@ -1,5 +1,5 @@
 // 济南线下招聘活动 — 由 scrape_offline_events.py 生成
-// 更新时间: 2026-08-31 21:45:56
+// 更新时间: 2026-08-31 22:20:55
 
 const OFFLINE_EVENTS = [
   {
@@ -20,7 +20,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-08-31 21:44:37"
+    "updatedAt": "2026-08-31 22:20:36"
   },
   {
     "id": "3e76817b62c75afc",
@@ -40,7 +40,87 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-08-31 21:44:37"
+    "updatedAt": "2026-08-31 22:20:37"
+  },
+  {
+    "id": "b0af12fc1acb9dcc",
+    "title": "浪潮集团有限公司招聘",
+    "eventType": "综合招聘会",
+    "organizer": "山东大学济南校区",
+    "school": "山东大学济南校区",
+    "startDate": "2026-09-02",
+    "endDate": "2026-09-02",
+    "timeText": "时间待公布",
+    "location": "千佛山校区浪潮报告厅（主楼报告厅）",
+    "city": "济南",
+    "sourceKey": "sdu",
+    "sourceName": "山东大学济南校区",
+    "sourceUrl": "https://jobcareer.sdu.edu.cn/eweb/jygl/index.so?modcode=jygl_xjhxxck&subsyscode=zpfw&rklx=jyw&type=ssoXnzpView&id=Mobr1HNd4VC8kgAi1WgR7F",
+    "evidenceLevel": "官方",
+    "exhibitorStatus": "企业名单未公布",
+    "exhibitorUrl": "",
+    "admissionNotes": "未明确拒绝则默认可尝试入场",
+    "updatedAt": "2026-08-31 22:20:00"
+  },
+  {
+    "id": "900a05389cdfbcbb",
+    "title": "浪潮集团有限公司招聘",
+    "eventType": "综合招聘会",
+    "organizer": "山东大学济南校区",
+    "school": "山东大学济南校区",
+    "startDate": "2026-09-02",
+    "endDate": "2026-09-02",
+    "timeText": "时间待公布",
+    "location": "中心校区邵馆报告厅",
+    "city": "济南",
+    "sourceKey": "sdu",
+    "sourceName": "山东大学济南校区",
+    "sourceUrl": "https://jobcareer.sdu.edu.cn/eweb/jygl/index.so?modcode=jygl_xjhxxck&subsyscode=zpfw&rklx=jyw&type=ssoXnzpView&id=P3B397UeM42fjwW4Tw7ffz",
+    "evidenceLevel": "官方",
+    "exhibitorStatus": "企业名单未公布",
+    "exhibitorUrl": "",
+    "admissionNotes": "未明确拒绝则默认可尝试入场",
+    "updatedAt": "2026-08-31 22:20:00"
+  },
+  {
+    "id": "70fdb7f82ad5388e",
+    "title": "浪潮集团有限公司招聘",
+    "eventType": "综合招聘会",
+    "organizer": "山东大学济南校区",
+    "school": "山东大学济南校区",
+    "startDate": "2026-09-02",
+    "endDate": "2026-09-02",
+    "timeText": "时间待公布",
+    "location": "软件园校区圆形报告厅（软件学院二层）",
+    "city": "济南",
+    "sourceKey": "sdu",
+    "sourceName": "山东大学济南校区",
+    "sourceUrl": "https://jobcareer.sdu.edu.cn/eweb/jygl/index.so?modcode=jygl_xjhxxck&subsyscode=zpfw&rklx=jyw&type=ssoXnzpView&id=SxuCdVFddkyWapD878NgYg",
+    "evidenceLevel": "官方",
+    "exhibitorStatus": "企业名单未公布",
+    "exhibitorUrl": "",
+    "admissionNotes": "未明确拒绝则默认可尝试入场",
+    "updatedAt": "2026-08-31 22:20:00"
+  },
+  {
+    "id": "069137aa8fbdbe8d",
+    "title": "苏州华为技术研发有限公司招聘",
+    "eventType": "综合招聘会",
+    "organizer": "山东大学济南校区",
+    "school": "山东大学济南校区",
+    "startDate": "2026-09-03",
+    "endDate": "2026-09-03",
+    "timeText": "时间待公布",
+    "location": "千佛山校区浪潮报告厅（主楼报告厅）",
+    "city": "济南",
+    "sourceKey": "sdu",
+    "sourceName": "山东大学济南校区",
+    "sourceUrl": "https://jobcareer.sdu.edu.cn/eweb/jygl/index.so?modcode=jygl_xjhxxck&subsyscode=zpfw&rklx=jyw&type=ssoXnzpView&id=WAwhJpYyEoLUYkb25Ljbqt",
+    "evidenceLevel": "官方",
+    "exhibitorStatus": "企业名单未公布",
+    "exhibitorUrl": "",
+    "admissionNotes": "未明确拒绝则默认可尝试入场",
+    "updatedAt": "2026-08-31 22:20:00"
   },
   {
     "id": "01f1bd25fc566573",
@@ -60,7 +140,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-08-31 21:44:07"
+    "updatedAt": "2026-08-31 22:19:59"
   },
   {
     "id": "eabb2b174f10653b",
@@ -80,7 +160,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-08-31 21:44:07"
+    "updatedAt": "2026-08-31 22:19:59"
   },
   {
     "id": "8c2d47b5446a8cb4",
@@ -100,7 +180,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-08-31 21:44:07"
+    "updatedAt": "2026-08-31 22:19:59"
   },
   {
     "id": "f30cc8892a79b2a2",
@@ -120,7 +200,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-08-31 21:44:07"
+    "updatedAt": "2026-08-31 22:19:59"
   },
   {
     "id": "145f88c69b93256a",
@@ -140,6 +220,6 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-08-31 21:44:32"
+    "updatedAt": "2026-08-31 22:20:33"
   }
 ];

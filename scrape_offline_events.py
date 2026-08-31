@@ -5,10 +5,12 @@
 from __future__ import annotations
 
 import argparse
+import base64
 import hashlib
 import json
 import re
 import time
+import zlib
 from datetime import date, datetime, timedelta
 from pathlib import Path
 from urllib.parse import urljoin
@@ -203,6 +205,117 @@ def scrape_sdei(source: dict, max_details: int) -> tuple[bool, list[dict], str]:
     return True, events, channel
 
 
+def scrape_sdu(source: dict, max_details: int) -> tuple[bool, list[dict], str]:
+    """山东大学列表将详情地址放在 onclick 中，直接解析活动卡片。"""
+    html, final_url, channel = fetch(source["url"])
+    if not html:
+        return False, [], channel
+    soup = BeautifulSoup(html, "lxml")
+    rows = [row for row in soup.select("li.xjhli") if row.select_one("a[onclick*='viewXjhxx']")]
+    if not rows:
+        return False, [], "页面可达但未识别山东大学宣讲卡片"
+    today, horizon = date.today(), date.today() + timedelta(days=370)
+    events = []
+    for row in rows[:max_details]:
+        links = row.select("a[onclick*='viewXjhxx']")
+        cells = [re.sub(r"\s+", " ", div.get_text(" ", strip=True)) for div in row.find_all("div", recursive=False)]
+        if len(cells) < 3:
+            continue
+        title, location, date_text = cells[:3]
+        if EXCLUDE_WORDS.search(title + " " + location) or re.search(r"威海|青岛", location):
+            continue
+        event_date = parse_date(date_text)
+        if not event_date or event_date < today or event_date > horizon:
+            continue
+        match = re.search(r"viewXjhxx\(['\"]([^'\"]+)", links[0].get("onclick", ""))
+        if not match:
+            continue
+        detail_url = urljoin(final_url, f"/eweb/jygl/index.so?modcode=jygl_xjhxxck&subsyscode=zpfw&rklx=jyw&type=ssoXnzpView&id={match.group(1)}")
+        event = make_event(source, title, event_date, detail_url, f"{date_text}\n{location}", row)
+        if event:
+            event["location"] = location
+            event["timeText"] = parse_time_text(date_text)
+            events.append(event)
+    return True, events, channel
+
+
+def decode_sdwu_payload(html: str) -> str:
+    """女院列表把 HTML 先 Base64、再 zlib 压缩嵌入页面。"""
+    marker = 'Base64.decode(unzip("'
+    start = html.find(marker)
+    if start < 0:
+        return ""
+    start += len(marker)
+    end = html.find('"', start)
+    try:
+        encoded = zlib.decompress(base64.b64decode(html[start:end])).decode("utf-8")
+        # 站点在 Base64 正文前附加 view2d 标识；解码后还有 view1d 标识。
+        decoded = base64.b64decode(encoded[6:]).decode("utf-8", errors="replace")
+        return decoded[decoded.find("<"):] if "<" in decoded else ""
+    except Exception:
+        return ""
+
+
+def scrape_sdwu(source: dict, max_details: int) -> tuple[bool, list[dict], str]:
+    html, final_url, channel = fetch(source["url"])
+    if not html:
+        return False, [], channel
+    payload = decode_sdwu_payload(html)
+    if not payload:
+        return False, [], "页面可达但未识别山东女子学院动态列表"
+    soup = BeautifulSoup(payload, "lxml")
+    rows = soup.select("ul.infoList")
+    today, horizon = date.today(), date.today() + timedelta(days=370)
+    events = []
+    for row in rows[:max_details]:
+        link = row.select_one("a[href]")
+        cells = [re.sub(r"\s+", " ", li.get_text(" ", strip=True)) for li in row.select(":scope > li")]
+        if not link or len(cells) < 3:
+            continue
+        title, location, date_text = link.get("title", link.get_text(" ", strip=True)), cells[1], cells[2]
+        event_date = parse_date(date_text)
+        if not event_date or event_date < today or event_date > horizon:
+            continue
+        event = make_event(source, title, event_date, urljoin(final_url, link["href"]), f"{date_text}\n{location}", row)
+        if event:
+            event["location"] = location
+            event["timeText"] = parse_time_text(date_text)
+            events.append(event)
+    return True, events, f"{channel}；动态列表结构有效"
+
+
+def scrape_jinan_hrss(source: dict, max_details: int) -> tuple[bool, list[dict], str]:
+    """济南公共就业站栏目正文由 JPaas 官方接口动态加载。"""
+    api = "https://jnhrss.jinan.gov.cn/api-gateway/jpaas-publish-server/front/page/build/unit"
+    params = {"parseType": "bulidstatic", "webId": "16", "tplSetId": "MAMvqpH003gztRDn5troz",
+              "pageType": "column", "tagId": "内容", "editType": "null", "pageId": "40476"}
+    payload, channel = fetch_json(api, params)
+    html = payload.get("data", {}).get("html", "") if payload else ""
+    if not html:
+        return False, [], channel or "政府栏目接口结构异常"
+    soup = BeautifulSoup(html, "lxml")
+    anchors = [a for a in soup.select("a[href*='/col/col40476/art/']") if EVENT_WORDS.search(a.get("title", a.get_text(" ", strip=True)))]
+    today, horizon = date.today(), date.today() + timedelta(days=370)
+    events = []
+    for anchor in anchors[:max_details]:
+        title = anchor.get("title", anchor.get_text(" ", strip=True)).strip()
+        if EXCLUDE_WORDS.search(title):
+            continue
+        detail_url = urljoin(source["url"], anchor["href"])
+        detail_html, resolved_url, _ = fetch(detail_url)
+        if not detail_html:
+            continue
+        detail_soup = BeautifulSoup(detail_html, "lxml")
+        detail_text = detail_soup.get_text("\n", strip=True)
+        event_date = parse_date(detail_text)
+        if not event_date or event_date < today or event_date > horizon:
+            continue
+        event = make_event(source, title, event_date, resolved_url, detail_text, detail_soup)
+        if event:
+            events.append(event)
+    return True, events, f"{channel}；JPaas 栏目接口有效"
+
+
 def scrape_single_page(source: dict, max_details: int) -> tuple[bool, list[dict], str]:
     """采集单个列表页；多栏目来源由 scrape_source 统一汇总。"""
     html, final_url, channel = fetch(source["url"])
@@ -258,6 +371,27 @@ def scrape_single_page(source: dict, max_details: int) -> tuple[bool, list[dict]
 def scrape_source(source: dict, max_details: int) -> tuple[bool, list[dict], str]:
     if source.get("platform") == "sdei":
         return scrape_sdei(source, max_details)
+
+    if source["key"] == "sdu":
+        return scrape_sdu(source, max_details)
+    if source["key"] == "sdwu":
+        combined, messages, successes = {}, [], 0
+        for url in source.get("urls") or [source["url"]]:
+            ok, events, message = scrape_sdwu({**source, "url": url}, max_details)
+            if ok:
+                successes += 1
+                for event in events:
+                    combined[canonical_key(event)] = event
+            else:
+                messages.append(f"{url}: {message}")
+        if not successes:
+            return False, [], "；".join(messages)
+        status = f"{successes}/{len(source.get('urls') or [source['url']])} 个动态栏目有效"
+        if messages:
+            status += f"；部分失败：{'；'.join(messages)}"
+        return True, list(combined.values()), status
+    if source["key"] in {"jnhrss", "jnjob"}:
+        return scrape_jinan_hrss(source, max_details)
 
     urls = source.get("urls") or [source["url"]]
     combined = {}

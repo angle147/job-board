@@ -203,9 +203,8 @@ def scrape_sdei(source: dict, max_details: int) -> tuple[bool, list[dict], str]:
     return True, events, channel
 
 
-def scrape_source(source: dict, max_details: int) -> tuple[bool, list[dict], str]:
-    if source.get("platform") == "sdei":
-        return scrape_sdei(source, max_details)
+def scrape_single_page(source: dict, max_details: int) -> tuple[bool, list[dict], str]:
+    """采集单个列表页；多栏目来源由 scrape_source 统一汇总。"""
     html, final_url, channel = fetch(source["url"])
     if not html:
         return False, [], channel
@@ -254,6 +253,32 @@ def scrape_source(source: dict, max_details: int) -> tuple[bool, list[dict], str
             events.append(event)
         time.sleep(0.25)
     return True, events, channel
+
+
+def scrape_source(source: dict, max_details: int) -> tuple[bool, list[dict], str]:
+    if source.get("platform") == "sdei":
+        return scrape_sdei(source, max_details)
+
+    urls = source.get("urls") or [source["url"]]
+    combined = {}
+    successes = 0
+    messages = []
+    for url in urls:
+        page_source = {**source, "url": url}
+        ok, events, message = scrape_single_page(page_source, max_details)
+        if ok:
+            successes += 1
+            for event in events:
+                combined[canonical_key(event)] = event
+        else:
+            messages.append(f"{url}: {message}")
+
+    if not successes:
+        return False, [], "；".join(messages) or "全部列表页采集失败"
+    status = f"{successes}/{len(urls)} 个列表页有效"
+    if messages:
+        status += f"；部分失败：{'；'.join(messages)}"
+    return True, list(combined.values()), status
 
 
 def parse_existing() -> list[dict]:
@@ -309,6 +334,7 @@ def main():
             state.update({
                 "lastSuccessAt": datetime.now().isoformat(timespec="seconds"),
                 "lastError": "", "consecutiveFailures": 0,
+                "lastWarning": message if "部分失败" in message else "",
                 "lastRunCount": len(events), "lastNewCount": new_count,
             })
             if new_count:

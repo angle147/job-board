@@ -913,7 +913,8 @@ function filterData() {
         item.companyName, item.positions, item.boardSection, item.source,
         item.industry, item.location, item.majorReq, item.educationReq,
         item.fitLevel, item.fitReason, item.evidenceLevel, item.targetYears,
-        item.notes, ...(item.reviewReasons || [])
+        item.ownershipRelation, item.employmentType, item.actualEmployer,
+        item.contractEmployer, item.notes, ...(item.reviewReasons || [])
       ];
       return searchable.some(s => (s || '').toLowerCase().includes(search));
     });
@@ -922,6 +923,9 @@ function filterData() {
   // Column filters
   Object.entries(APP.filters).forEach(([key, vals]) => {
     data = data.filter(item => {
+      if (key === 'employmentMode' && vals.includes('directOnly')) {
+        return !['劳务派遣', '劳务外包', '政府购买服务', '人才派驻'].includes(item.employmentType || '');
+      }
       const value = key === 'status'
         ? (loadStatuses()[`${APP.currentTab}_${item.id}`] || item.status || '新发现')
         : (item[key] || '');
@@ -969,6 +973,21 @@ function renderFilters() {
         </select>
       </div>
       <div class="filter-group">
+        <span class="filter-label">国资关系</span>
+        <select class="filter-select" data-filter="ownershipRelation">
+          <option value="">全部</option>
+          <option>国有独资</option><option>国有全资</option><option>国有控股</option>
+          <option>国有实际控制</option><option>国有参股</option><option>控制关系待核验</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <span class="filter-label">用工形式</span>
+        <select class="filter-select" data-filter="employmentMode">
+          <option value="">全部（默认展示）</option>
+          <option value="directOnly">隐藏非直接用工</option>
+        </select>
+      </div>
+      <div class="filter-group">
         <span class="filter-label">城市</span>
         <input type="text" class="filter-input" data-filter="location" placeholder="如：济南 青岛">
       </div>
@@ -990,7 +1009,7 @@ function renderTable(data) {
 
   thead.innerHTML = `
       <tr>
-        <th>单位</th><th>岗位</th><th>类别 / 来源</th><th>专业适配</th>
+        <th>单位</th><th>岗位</th><th>国资 / 用工</th><th>类别 / 来源</th><th>专业适配</th>
         <th>证据</th><th>目标届别</th><th>地点</th><th>专业要求</th>
         <th>学历</th><th>人数</th><th>状态</th><th>截止日期</th>
         <th>报名</th><th>官方公告</th><th>待核验事项</th>
@@ -1014,6 +1033,7 @@ function renderTable(data) {
           return `<tr>
             <td><strong>${item.companyName}</strong></td>
             <td title="${escapeHtml(item.positions)}">${item.positions || '-'}</td>
+            <td><span class="badge badge-type">${item.ownershipRelation || '待核验'}</span><br><small>${item.employmentType || '用工形式待核验'}</small></td>
             <td><span class="badge badge-type">${item.boardSection}</span><br><small>${item.source}</small></td>
             <td><span class="badge badge-target">${item.fitLevel}</span><br><small>${item.fitReason || ''}</small></td>
             <td>${item.evidenceLevel || '待核验'}</td>
@@ -1061,6 +1081,8 @@ function renderCards(data) {
         <div class="card-meta">
           <span class="badge badge-target">${item.fitLevel}</span>
           <span class="badge badge-location">${item.location}</span>
+          <span class="badge badge-type">${item.ownershipRelation || '国资关系待核验'}</span>
+          <span class="badge badge-type">${item.employmentType || '用工形式待核验'}</span>
           <span style="font-size:12px;color:var(--text-secondary);">${item.evidenceLevel}</span>
         </div>
         <div style="font-size:13px;margin-bottom:8px;">📚 ${item.majorReq || item.fitReason || '专业要求待核验'}</div>
@@ -1274,6 +1296,7 @@ function updateFilterChips() {
 function getFilterLabel(key) {
   const map = {
     source: '来源', fitLevel: '专业适配', evidenceLevel: '证据',
+    ownershipRelation: '国资关系', employmentMode: '用工形式',
     location: '城市', status: '状态', organizer: '主办方', eventType: '活动类型',
     dateFrom: '开始日期', dateTo: '结束日期', planned: '个人计划'
   };
@@ -1289,10 +1312,11 @@ function removeFilter(key, val) {
 // ============ Export CSV ============
 function exportCSV(data) {
   let csv = '\uFEFF'; // BOM for Excel
-  const headers = ['单位','岗位','类别','来源','专业适配','适配理由','证据等级','目标届别','工作地点','专业要求','学历要求','招聘人数','处理状态','截止日期','报名链接','官方公告','待核验事项'];
+  const headers = ['单位','岗位','国资关系','用工形式','实际用工单位','签约主体','类别','来源','专业适配','适配理由','证据等级','目标届别','工作地点','专业要求','学历要求','招聘人数','处理状态','截止日期','报名链接','官方公告','待核验事项'];
   const statuses = loadStatuses();
   const rows = data.map(item => [
-    item.companyName, item.positions, item.boardSection, item.source,
+      item.companyName, item.positions, item.ownershipRelation, item.employmentType,
+      item.actualEmployer, item.contractEmployer, item.boardSection, item.source,
     item.fitLevel, item.fitReason, item.evidenceLevel, item.targetYears,
     item.location, item.majorReq, item.educationReq, item.recruitmentCount,
     statuses[`${APP.currentTab}_${item.id}`] || item.status || '新发现',

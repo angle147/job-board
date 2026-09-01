@@ -12,3 +12,4 @@ USER_PROFILE.local.md
 .last_push_date.txt
 .offline_source_health.json
 .offline_event_reminders.json
+.local_soe_source_health.json

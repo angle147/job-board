@@ -85,6 +85,13 @@ SCRAPERS = [
         "timeout": 60,
     },
     {
+        "name": "济南地方国企官方招聘",
+        "script": "scrape_local_soe.py",
+        "args": ["--max-details", "40"],
+        "daily": True,
+        "timeout": 180,
+    },
+    {
         "name": "应届生求职网",
         "script": "scrape_yingjiesheng.py",
         "args": ["--max-pages", "1"],

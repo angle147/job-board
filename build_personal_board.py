@@ -56,6 +56,7 @@ SOURCES = (
     SourceSpec("jobs_sdhsg.js", "JOBS_SDHSG", "山东高速", "soe", "官方"),
     SourceSpec("jobs_sdport.js", "JOBS_SDPORT", "山东港口", "soe", "官方"),
     SourceSpec("jobs_railway.js", "JOBS_RAILWAY", "中国铁路人才招聘网", "soe", "官方"),
+    SourceSpec("jobs_local_soe.js", "JOBS_LOCAL_SOE", "济南地方国企官方招聘", "soe", "官方"),
     SourceSpec("jobs_institutions.js", "JOBS_INSTITUTIONS", "中国公共招聘网事业单位", "public", "官方"),
     SourceSpec("jobs_yingjiesheng.js", "JOBS_YINGJIESHENG", "应届生求职网", "lead", "第三方线索"),
     SourceSpec("jobs_haitou.js", "JOBS_HAITOU", "海投网", "lead", "第三方线索"),
@@ -221,6 +222,11 @@ def normalize_job(item: dict, spec: SourceSpec) -> dict:
         "examDate": item.get("examDate") or "",
         "competitionRatio": item.get("competitionRatio") or "",
         "pastScoreLine": item.get("pastScoreLine") or "",
+        "actualEmployer": item.get("actualEmployer") or item.get("companyName") or "",
+        "contractEmployer": item.get("contractEmployer") or "待核验",
+        "employmentType": item.get("employmentType") or "待核验",
+        "ownershipRelation": item.get("ownershipRelation") or "待核验",
+        "ownershipEvidenceUrl": item.get("ownershipEvidenceUrl") or "",
     }
 
 
@@ -229,6 +235,7 @@ def slug(value: str) -> str:
         "山东省国资委": "sasac", "央企招聘公告": "qyzp", "山东高速": "sdhsg",
         "山东港口": "sdport", "中国铁路人才招聘网": "railway",
         "中国公共招聘网事业单位": "institution", "应届生求职网": "yingjiesheng",
+        "济南地方国企官方招聘": "jinan_local_soe",
         "海投网": "haitou", "手动维护": "manual", "国考职位库": "exam",
     }
     return aliases.get(value, re.sub(r"\W+", "_", value).strip("_").lower())

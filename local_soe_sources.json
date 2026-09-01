@@ -1,0 +1,24 @@
+[
+  {
+    "key": "jinan_sasac",
+    "name": "济南市国资委招聘专栏",
+    "region": "济南市",
+    "platform": "jpaas",
+    "url": "https://jngzw.jinan.gov.cn/col/col23870/index.html",
+    "apiUrl": "https://jngzw.jinan.gov.cn/api-gateway/jpaas-publish-server/front/page/build/unit",
+    "apiParams": {"parseType":"bulidstatic","webId":"37","tplSetId":"qRnIbtU5GwoFGC9hjemFn","pageType":"column","tagId":"信息标题","editType":"null","pageId":"23870"},
+    "status": "active"
+  },
+  {"key":"lixia","name":"历下区政府","region":"历下区","platform":"government_portal","url":"http://www.lixia.gov.cn/","status":"discovery"},
+  {"key":"shizhong","name":"市中区政府","region":"市中区","platform":"government_portal","url":"http://www.shizhong.gov.cn/","status":"discovery"},
+  {"key":"huaiyin","name":"槐荫区政府","region":"槐荫区","platform":"government_portal","url":"http://www.huaiyin.gov.cn/","status":"discovery"},
+  {"key":"tianqiao","name":"天桥区政府","region":"天桥区","platform":"government_portal","url":"http://www.tianqiao.gov.cn/","status":"discovery"},
+  {"key":"licheng","name":"历城区政府","region":"历城区","platform":"government_portal","url":"http://www.licheng.gov.cn/","status":"discovery"},
+  {"key":"changqing","name":"长清区政府","region":"长清区","platform":"government_portal","url":"http://www.jncq.gov.cn/","status":"discovery"},
+  {"key":"zhangqiu","name":"章丘区政府","region":"章丘区","platform":"government_portal","url":"http://www.jnzq.gov.cn/","status":"discovery"},
+  {"key":"jiyang","name":"济阳区政府","region":"济阳区","platform":"government_portal","url":"https://www.jiyang.gov.cn/","status":"discovery"},
+  {"key":"laiwu","name":"莱芜区政府","region":"莱芜区","platform":"government_portal","url":"http://www.laiwu.gov.cn/","status":"discovery"},
+  {"key":"gangcheng","name":"钢城区政府","region":"钢城区","platform":"government_portal","url":"http://www.gangcheng.gov.cn/","status":"discovery"},
+  {"key":"pingyin","name":"平阴县政府","region":"平阴县","platform":"government_portal","url":"http://www.pingyin.gov.cn/","status":"discovery"},
+  {"key":"shanghe","name":"商河县政府","region":"商河县","platform":"government_portal","url":"http://www.shanghe.gov.cn/","status":"discovery"}
+]

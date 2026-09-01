@@ -1,5 +1,5 @@
 // 济南线下招聘活动 — 由 scrape_offline_events.py 生成
-// 更新时间: 2026-08-31 22:20:55
+// 更新时间: 2026-09-01 09:10:22
 
 const OFFLINE_EVENTS = [
   {

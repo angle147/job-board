@@ -1,5 +1,5 @@
 // 线下活动来源健康 — 由 scrape_offline_events.py 生成
-// 更新时间: 2026-08-31 22:20:55
+// 更新时间: 2026-09-01 09:10:22
 
 const OFFLINE_SOURCES = [
   {
@@ -10,7 +10,7 @@ const OFFLINE_SOURCES = [
     "lastSuccessAt": "2026-08-31T22:19:59",
     "lastNewAt": "2026-08-31T22:19:59",
     "activeCount": 4,
-    "consecutiveFailures": 0
+    "consecutiveFailures": 1
   },
   {
     "key": "qlu",
@@ -20,7 +20,7 @@ const OFFLINE_SOURCES = [
     "lastSuccessAt": "2026-08-31T22:19:59",
     "lastNewAt": "",
     "activeCount": 0,
-    "consecutiveFailures": 0
+    "consecutiveFailures": 1
   },
   {
     "key": "sdu",
@@ -30,7 +30,7 @@ const OFFLINE_SOURCES = [
     "lastSuccessAt": "2026-08-31T22:20:00",
     "lastNewAt": "2026-08-31T22:20:00",
     "activeCount": 4,
-    "consecutiveFailures": 0
+    "consecutiveFailures": 1
   },
   {
     "key": "sdjtu",
@@ -40,7 +40,7 @@ const OFFLINE_SOURCES = [
     "lastSuccessAt": "2026-08-31T22:20:03",
     "lastNewAt": "",
     "activeCount": 0,
-    "consecutiveFailures": 0
+    "consecutiveFailures": 1
   },
   {
     "key": "sdjzu",
@@ -50,7 +50,7 @@ const OFFLINE_SOURCES = [
     "lastSuccessAt": "2026-08-31T22:20:13",
     "lastNewAt": "",
     "activeCount": 0,
-    "consecutiveFailures": 0
+    "consecutiveFailures": 1
   },
   {
     "key": "sdufe",
@@ -60,7 +60,7 @@ const OFFLINE_SOURCES = [
     "lastSuccessAt": "2026-08-31T22:20:37",
     "lastNewAt": "2026-08-31T22:20:37",
     "activeCount": 3,
-    "consecutiveFailures": 0
+    "consecutiveFailures": 1
   },
   {
     "key": "sdnu",
@@ -70,7 +70,7 @@ const OFFLINE_SOURCES = [
     "lastSuccessAt": "2026-08-31T22:20:38",
     "lastNewAt": "",
     "activeCount": 0,
-    "consecutiveFailures": 0
+    "consecutiveFailures": 1
   },
   {
     "key": "sdpit",
@@ -80,7 +80,7 @@ const OFFLINE_SOURCES = [
     "lastSuccessAt": "2026-08-31T22:20:38",
     "lastNewAt": "",
     "activeCount": 0,
-    "consecutiveFailures": 0
+    "consecutiveFailures": 1
   },
   {
     "key": "sdutcm",
@@ -90,7 +90,7 @@ const OFFLINE_SOURCES = [
     "lastSuccessAt": "2026-08-31T22:20:39",
     "lastNewAt": "",
     "activeCount": 0,
-    "consecutiveFailures": 0
+    "consecutiveFailures": 1
   },
   {
     "key": "sdwu",
@@ -100,7 +100,7 @@ const OFFLINE_SOURCES = [
     "lastSuccessAt": "2026-08-31T22:20:40",
     "lastNewAt": "",
     "activeCount": 0,
-    "consecutiveFailures": 0
+    "consecutiveFailures": 1
   },
   {
     "key": "sdyu",
@@ -110,7 +110,7 @@ const OFFLINE_SOURCES = [
     "lastSuccessAt": "2026-08-31T22:20:41",
     "lastNewAt": "",
     "activeCount": 0,
-    "consecutiveFailures": 0
+    "consecutiveFailures": 1
   },
   {
     "key": "sdmu",
@@ -120,7 +120,7 @@ const OFFLINE_SOURCES = [
     "lastSuccessAt": "2026-08-31T22:20:42",
     "lastNewAt": "",
     "activeCount": 0,
-    "consecutiveFailures": 0
+    "consecutiveFailures": 1
   },
   {
     "key": "sdaeu",
@@ -130,7 +130,7 @@ const OFFLINE_SOURCES = [
     "lastSuccessAt": "2026-08-31T22:20:42",
     "lastNewAt": "",
     "activeCount": 0,
-    "consecutiveFailures": 0
+    "consecutiveFailures": 1
   },
   {
     "key": "qlnu",
@@ -140,7 +140,7 @@ const OFFLINE_SOURCES = [
     "lastSuccessAt": "2026-08-31T22:20:46",
     "lastNewAt": "",
     "activeCount": 0,
-    "consecutiveFailures": 0
+    "consecutiveFailures": 1
   },
   {
     "key": "jnvc",
@@ -150,7 +150,7 @@ const OFFLINE_SOURCES = [
     "lastSuccessAt": "2026-08-31T22:20:53",
     "lastNewAt": "",
     "activeCount": 0,
-    "consecutiveFailures": 0
+    "consecutiveFailures": 1
   },
   {
     "key": "jnhrss",
@@ -160,7 +160,7 @@ const OFFLINE_SOURCES = [
     "lastSuccessAt": "2026-08-31T22:20:54",
     "lastNewAt": "",
     "activeCount": 0,
-    "consecutiveFailures": 0
+    "consecutiveFailures": 1
   },
   {
     "key": "jnjob",
@@ -170,6 +170,6 @@ const OFFLINE_SOURCES = [
     "lastSuccessAt": "2026-08-31T22:20:55",
     "lastNewAt": "",
     "activeCount": 0,
-    "consecutiveFailures": 0
+    "consecutiveFailures": 1
   }
 ];

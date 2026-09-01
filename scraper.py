@@ -356,10 +356,10 @@ def scrape_sasac(max_pages: int = 3, detail_limit: int = 15) -> list[dict]:
             job = {
                 "id": 0,
                 "companyName": info["companyName"],
-                "companyType": classify_company(info["companyName"]),
+                "companyType": "央国企",
                 "industry": guess_industry(info["companyName"]),
                 "recruitType": info["recruitType"],
-                "targetYears": "2026届",
+                "targetYears": ",".join(f"{year}届" for year in sorted(set(re.findall(r"20\d{2}(?=届|年)", title)))) or "待核验",
                 "location": "",
                 "positions": "",
                 "status": "未投递",

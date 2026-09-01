@@ -69,16 +69,25 @@ def classify(title: str):
 
 def main():
     all_items = []
+    failed = False
     for page in range(1, PAGES + 1):
         try:
             html = fetch_page(page)
             items = parse_items(html)
+            if not items and page == 1:
+                print("[error] 首页可达但未识别央企招聘列表，保留上次成功数据")
+                failed = True
+                break
             if not items:
                 break
             all_items.extend(items)
         except Exception as e:
             print(f"[warn] 第 {page} 页抓取失败: {e}")
+            failed = True
             break
+
+    if failed:
+        raise SystemExit(1)
 
     # 去重（按链接）
     seen = set()
@@ -104,7 +113,8 @@ def main():
             'updateTime': it['date'],
             'deadline': '',
             'applyLink': it['link'],
-            'noticeLink': '',
+            # 人社部央企招聘栏目是官方发现证据，公众号文章保留为申请/详情入口。
+            'noticeLink': BASE_URL,
             'examInfo': '',
         })
 

@@ -71,6 +71,10 @@ def main():
             'examInfo': '',
         })
 
+    if not jobs:
+        print("[error] 页面可达但未识别山东港口招聘列表，保留上次成功数据")
+        raise SystemExit(1)
+
     now = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     header = (
         "// 山东港口集团 — 人才需求公告\n"

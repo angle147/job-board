@@ -30,7 +30,16 @@ LOG_FILE = BASE_DIR / "daily_update.log"
 LOCK_FILE = BASE_DIR / ".daily_update.lock"
 
 # 强制 UTF-8 编码，避免 subprocess 管道使用 GBK 导致 emoji 报错
-ENV = {**os.environ, "PYTHONIOENCODING": "utf-8"}
+# 定时任务继承到的系统代理可能指向已停用端口；统一使用工作区 mihomo。
+# 子脚本仍可自行选择直连，但不得因失效的环境代理把采集结果覆盖为空。
+ENV = {
+    **os.environ,
+    "PYTHONIOENCODING": "utf-8",
+    "PYTHONUTF8": "1",
+    "HTTP_PROXY": "http://127.0.0.1:7890",
+    "HTTPS_PROXY": "http://127.0.0.1:7890",
+    "ALL_PROXY": "",
+}
 
 SCRAPERS = [
     {

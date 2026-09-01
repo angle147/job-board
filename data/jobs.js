@@ -1,5 +1,5 @@
 // 校招/社招岗位数据 — 自动爬取生成
-// 更新时间: 2026-08-30 21:04:50
+// 更新时间: 2026-09-01 20:22:47
 // 共 83 条
 
 const JOBS = [
@@ -78,7 +78,7 @@ const JOBS = [
   {
     id: 5,
     companyName: "山东省轻工业设计院",
-    companyType: "事业单位",
+    companyType: "央国企",
     industry: "交通设计/规划",
     recruitType: "社招",
     targetYears: "2026届",
@@ -96,7 +96,7 @@ const JOBS = [
   {
     id: 6,
     companyName: "山东省能源建筑设计院",
-    companyType: "事业单位",
+    companyType: "央国企",
     industry: "交通设计/规划",
     recruitType: "春招",
     targetYears: "2026届",
@@ -204,10 +204,10 @@ const JOBS = [
   {
     id: 13,
     companyName: "中泰证券2027届秋季",
-    companyType: "银行/金融",
+    companyType: "央国企",
     industry: "金融/银行",
     recruitType: "春招",
-    targetYears: "2026届",
+    targetYears: "2026届,2027届",
     location: "",
     positions: "",
     status: "未投递",
@@ -240,7 +240,7 @@ const JOBS = [
   {
     id: 15,
     companyName: "泰山财产保险股份有限公司",
-    companyType: "银行/金融",
+    companyType: "央国企",
     industry: "金融/银行",
     recruitType: "社招",
     targetYears: "2026届",

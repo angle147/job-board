@@ -37,6 +37,7 @@ def company_from(title):
 
 def main():
     jobs = []
+    failed_types = []
     for rt, rtype in RTYPE.items():
         try:
             url = f"{API}?recruitType={rt}&page=1&limit=50&sidx=release_time&order=desc"
@@ -68,6 +69,11 @@ def main():
                 })
         except Exception as e:
             print(f"[warn] recruitType={rt} 抓取失败: {e}")
+            failed_types.append(rt)
+
+    if failed_types:
+        print(f"[error] {len(failed_types)} 个招聘类型采集失败，保留上次成功数据")
+        raise SystemExit(1)
 
     now = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     header = (

@@ -96,7 +96,11 @@ def explicit_target_year(text: str) -> bool:
 
 
 def has_other_explicit_cohort(text: str) -> bool:
-    years = set(re.findall(r"20(2[4-9])\s*(?:届|年(?:校招|毕业|招聘))", text))
+    years = set(re.findall(r"20(2[4-9])\s*届", text))
+    years.update(re.findall(
+        r"20(2[4-9])\s*(?:年度?|年)?[^|。；]{0,10}(?:春季|秋季|校园|高校毕业生)?招聘",
+        text,
+    ))
     return bool(years) and "27" not in years
 
 
@@ -336,8 +340,14 @@ def main() -> None:
         key = canonical_key(record)
         if key in merged:
             old_bucket, old_record = merged[key]
-            merged_bucket = "review" if "review" in (old_bucket, bucket) else old_bucket
-            merged[key] = (merged_bucket, merge_record(old_record, record))
+            merged_record = merge_record(old_record, record)
+            if merged_record.get("exclusionReasons"):
+                merged_bucket = "excluded"
+            elif "review" in (old_bucket, bucket):
+                merged_bucket = "review"
+            else:
+                merged_bucket = old_bucket
+            merged[key] = (merged_bucket, merged_record)
         else:
             merged[key] = (bucket, record)
 

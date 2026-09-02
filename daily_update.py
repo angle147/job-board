@@ -441,14 +441,14 @@ def _build_summary(base_dir, today):
             pass
     lines.append("")
 
-    # 过期清理统计（从日志最后一段提取）
+    # 过期清理统计：日志是追加写入的，必须取最后一次结果，不能命中历史首条。
     log_file = base_dir / "daily_update.log"
     if log_file.exists():
         log_text = log_file.read_text(encoding="utf-8")
-        # 找最后一次过期清理结果
-        m = re.search(r'总计: 删除 (\d+) 条, 保留 (\d+) 条', log_text)
-        if m:
-            lines.append(f"🧹 过期清理: 删 {m.group(1)} 条, 保留 {m.group(2)} 条")
+        cleanup_results = re.findall(r'总计: 删除 (\d+) 条, 保留 (\d+) 条', log_text)
+        if cleanup_results:
+            deleted, kept = cleanup_results[-1]
+            lines.append(f"🧹 本轮过期过滤: {deleted} 条，过滤后源数据 {kept} 条")
 
     lines.append("")
     lines.append("📱 https://angle147.github.io/job-board/")

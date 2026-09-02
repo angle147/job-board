@@ -48,6 +48,19 @@ def throttled_get(session: requests.Session, url: str, **kwargs):
     return session.get(url, **kwargs)
 
 
+def throttled_get_with_retries(session: requests.Session, url: str, *, attempts: int = 2, **kwargs):
+    """政府站点偶发慢响应；在同一通道内有限重试，仍遵守全局请求间隔。"""
+    last_error = None
+    for attempt in range(attempts):
+        try:
+            return throttled_get(session, url, **kwargs)
+        except requests.RequestException as exc:
+            last_error = exc
+            if attempt + 1 == attempts:
+                raise
+    raise last_error
+
+
 def get(url: str, *, params=None, json_response=False):
     errors = []
     for channel, session in sessions():
@@ -244,7 +257,12 @@ def scrape_govdoc_search(source: dict, max_details: int):
             candidates = {}
             valid_queries = 0
             for query in source.get("queries", []):
-                response = throttled_get(session, source["searchUrl"], params={"keyword": query}, timeout=20)
+                params = dict(source.get("searchParams", {}))
+                params["keyword"] = query
+                response = throttled_get_with_retries(
+                    session, source["searchUrl"], params=params,
+                    timeout=int(source.get("requestTimeout", 30)),
+                )
                 response.raise_for_status()
                 response.encoding = response.apparent_encoding or "utf-8"
                 soup = BeautifulSoup(response.text, "lxml")

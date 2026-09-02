@@ -89,7 +89,7 @@ SCRAPERS = [
         "script": "scrape_local_soe.py",
         "args": ["--max-details", "40"],
         "daily": True,
-        "timeout": 180,
+        "timeout": 600,
     },
     {
         "name": "应届生求职网",

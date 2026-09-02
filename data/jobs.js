@@ -1,10 +1,28 @@
 // 校招/社招岗位数据 — 自动爬取生成
-// 更新时间: 2026-09-02 09:00:30
-// 共 83 条
+// 更新时间: 2026-09-02 17:09:05
+// 共 18 条
 
 const JOBS = [
   {
     id: 1,
+    companyName: "山东省商业集团有限公司",
+    companyType: "央国企",
+    industry: "综合",
+    recruitType: "校招/社招",
+    targetYears: "2026届",
+    location: "",
+    positions: "",
+    status: "未投递",
+    updateTime: "2026-09-02",
+    deadline: "招满为止",
+    applyLink: "https://lushang.hotjob.cn/",
+    noticeLink: "http://gzw.shandong.gov.cn/articles/ch00223/202609/2798a42e-a66b-4328-9e70-71cde78d3f07.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 山东省国资委 [2026-09-02]"
+  },
+  {
+    id: 2,
     companyName: "兖矿资本管理有限公司",
     companyType: "央国企",
     industry: "能源/电力",
@@ -22,7 +40,7 @@ const JOBS = [
     notes: "本科及以上 | 来源: 山东省国资委 [2026-08-24]"
   },
   {
-    id: 2,
+    id: 3,
     companyName: "山东发展投资控股集团有限公司",
     companyType: "央国企",
     industry: "金融/银行",
@@ -40,7 +58,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-08-21]"
   },
   {
-    id: 3,
+    id: 4,
     companyName: "关于延长山东健康集团有限公司",
     companyType: "央国企",
     industry: "医药健康",
@@ -58,7 +76,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-08-20]"
   },
   {
-    id: 4,
+    id: 5,
     companyName: "山东省土地发展集团有限公司",
     companyType: "央国企",
     industry: "地产/物业",
@@ -76,7 +94,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-08-19]"
   },
   {
-    id: 5,
+    id: 6,
     companyName: "山东省轻工业设计院",
     companyType: "央国企",
     industry: "交通设计/规划",
@@ -94,7 +112,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-08-18]"
   },
   {
-    id: 6,
+    id: 7,
     companyName: "山东省能源建筑设计院",
     companyType: "央国企",
     industry: "交通设计/规划",
@@ -112,7 +130,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-08-18]"
   },
   {
-    id: 7,
+    id: 8,
     companyName: "山东省科创集团有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -130,7 +148,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-08-17]"
   },
   {
-    id: 8,
+    id: 9,
     companyName: "山能融资租赁（深圳）有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -148,7 +166,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-08-14]"
   },
   {
-    id: 9,
+    id: 10,
     companyName: "山东健康集团有限公司",
     companyType: "央国企",
     industry: "医药健康",
@@ -170,6 +188,24 @@ const JOBS = [
     companyName: "山东省环保发展集团有限公司",
     companyType: "央国企",
     industry: "环保",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "",
+    positions: "",
+    status: "未投递",
+    updateTime: "2026-08-11",
+    deadline: "招满为止",
+    applyLink: "",
+    noticeLink: "http://gzw.shandong.gov.cn/articles/ch00223/202608/eaeb5db0-691f-4b4a-bb7c-7c121cd35f71.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 山东省国资委 [2026-08-11]"
+  },
+  {
+    id: 12,
+    companyName: "山东省环保发展集团有限公司",
+    companyType: "央国企",
+    industry: "环保",
     recruitType: "社招",
     targetYears: "2026届",
     location: "",
@@ -184,7 +220,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-08-11]"
   },
   {
-    id: 12,
+    id: 13,
     companyName: "山东铁投集团",
     companyType: "央国企",
     industry: "公路/高速",
@@ -202,7 +238,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-08-10]"
   },
   {
-    id: 13,
+    id: 14,
     companyName: "中泰证券2027届秋季",
     companyType: "央国企",
     industry: "金融/银行",
@@ -220,7 +256,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-07-31]"
   },
   {
-    id: 14,
+    id: 15,
     companyName: "山东发展投资控股集团有限公司",
     companyType: "央国企",
     industry: "金融/银行",
@@ -238,7 +274,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-07-17]"
   },
   {
-    id: 15,
+    id: 16,
     companyName: "泰山财产保险股份有限公司",
     companyType: "央国企",
     industry: "金融/银行",
@@ -256,7 +292,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-07-14]"
   },
   {
-    id: 16,
+    id: 17,
     companyName: "超越科技股份有限公司",
     companyType: "央国企",
     industry: "软件技术",
@@ -274,7 +310,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-07-10]"
   },
   {
-    id: 17,
+    id: 18,
     companyName: "山钢资本控股（深圳）有限公司",
     companyType: "央国企",
     industry: "综合",

@@ -1,5 +1,5 @@
 // 济南线下招聘活动 — 由 scrape_offline_events.py 生成
-// 更新时间: 2026-09-02 09:06:26
+// 更新时间: 2026-09-02 17:09:54
 
 const OFFLINE_EVENTS = [
   {
@@ -20,7 +20,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-02 09:05:37"
+    "updatedAt": "2026-09-02 17:09:08"
   },
   {
     "id": "900a05389cdfbcbb",
@@ -40,7 +40,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-02 09:05:37"
+    "updatedAt": "2026-09-02 17:09:08"
   },
   {
     "id": "70fdb7f82ad5388e",
@@ -60,7 +60,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-02 09:05:37"
+    "updatedAt": "2026-09-02 17:09:08"
   },
   {
     "id": "069137aa8fbdbe8d",
@@ -80,7 +80,47 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-02 09:05:37"
+    "updatedAt": "2026-09-02 17:09:08"
+  },
+  {
+    "id": "2415c2d7bf10e12d",
+    "title": "精进电动科技（菏泽）有限公司2027届校园招聘",
+    "eventType": "综合招聘会",
+    "organizer": "济南大学",
+    "school": "济南大学",
+    "startDate": "2026-09-09",
+    "endDate": "2026-09-09",
+    "timeText": "14:30 - 16:30",
+    "location": "宣讲-就业指导中心403室【主校区】",
+    "city": "济南",
+    "sourceKey": "ujn",
+    "sourceName": "济南大学",
+    "sourceUrl": "https://school.gxjy.sdei.edu.cn/ujn/school/TblCareerFairReviewRecord/detail/202609011714587ea400a9",
+    "evidenceLevel": "官方",
+    "exhibitorStatus": "企业名单未公布",
+    "exhibitorUrl": "",
+    "admissionNotes": "未明确拒绝则默认可尝试入场",
+    "updatedAt": "2026-09-02 17:09:06"
+  },
+  {
+    "id": "11dbee8e6aaa5a8a",
+    "title": "【中国500强】道恩集团专场宣讲会",
+    "eventType": "企业宣讲会",
+    "organizer": "济南大学",
+    "school": "济南大学",
+    "startDate": "2026-09-10",
+    "endDate": "2026-09-10",
+    "timeText": "09:30 - 11:30",
+    "location": "宣讲-就业指导中心403室【主校区】",
+    "city": "济南",
+    "sourceKey": "ujn",
+    "sourceName": "济南大学",
+    "sourceUrl": "https://school.gxjy.sdei.edu.cn/ujn/school/TblCareerFairReviewRecord/detail/202609011000119ce30c7e",
+    "evidenceLevel": "官方",
+    "exhibitorStatus": "企业名单未公布",
+    "exhibitorUrl": "",
+    "admissionNotes": "未明确拒绝则默认可尝试入场",
+    "updatedAt": "2026-09-02 17:09:06"
   },
   {
     "id": "01f1bd25fc566573",
@@ -100,7 +140,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-02 09:05:36"
+    "updatedAt": "2026-09-02 17:09:06"
   },
   {
     "id": "eabb2b174f10653b",
@@ -120,7 +160,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-02 09:05:36"
+    "updatedAt": "2026-09-02 17:09:06"
   },
   {
     "id": "8c2d47b5446a8cb4",
@@ -140,7 +180,27 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-02 09:05:36"
+    "updatedAt": "2026-09-02 17:09:06"
+  },
+  {
+    "id": "b6fc97e319d6edcc",
+    "title": "2027届豪迈集团秋季校园招聘宣讲会",
+    "eventType": "企业宣讲会",
+    "organizer": "济南大学",
+    "school": "济南大学",
+    "startDate": "2026-09-21",
+    "endDate": "2026-09-21",
+    "timeText": "18:30 - 20:30",
+    "location": "面试-就业指导中心401-1室【主校区】",
+    "city": "济南",
+    "sourceKey": "ujn",
+    "sourceName": "济南大学",
+    "sourceUrl": "https://school.gxjy.sdei.edu.cn/ujn/school/TblCareerFairReviewRecord/detail/202609011638532ed8af93",
+    "evidenceLevel": "官方",
+    "exhibitorStatus": "企业名单未公布",
+    "exhibitorUrl": "",
+    "admissionNotes": "未明确拒绝则默认可尝试入场",
+    "updatedAt": "2026-09-02 17:09:06"
   },
   {
     "id": "f30cc8892a79b2a2",
@@ -160,7 +220,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-02 09:05:36"
+    "updatedAt": "2026-09-02 17:09:06"
   },
   {
     "id": "145f88c69b93256a",
@@ -180,6 +240,26 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-02 09:06:05"
+    "updatedAt": "2026-09-02 17:09:34"
+  },
+  {
+    "id": "c3785b4e60fd70fd",
+    "title": "星宇安防科技集团股份有限公司27届校招宣讲会",
+    "eventType": "企业宣讲会",
+    "organizer": "济南大学",
+    "school": "济南大学",
+    "startDate": "2026-10-16",
+    "endDate": "2026-10-16",
+    "timeText": "09:30 - 11:30",
+    "location": "宣讲-就业指导中心403室【主校区】",
+    "city": "济南",
+    "sourceKey": "ujn",
+    "sourceName": "济南大学",
+    "sourceUrl": "https://school.gxjy.sdei.edu.cn/ujn/school/TblCareerFairReviewRecord/detail/20260902105954b464067d",
+    "evidenceLevel": "官方",
+    "exhibitorStatus": "企业名单未公布",
+    "exhibitorUrl": "",
+    "admissionNotes": "未明确拒绝则默认可尝试入场",
+    "updatedAt": "2026-09-02 17:09:06"
   }
 ];

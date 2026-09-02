@@ -190,6 +190,40 @@ def scrape_jsearch(source: dict, max_details: int):
     raise RuntimeError("; ".join(errors))
 
 
+def scrape_govdoc_search(source: dict, max_details: int):
+    """采集济南区县政府信息公开检索结果页。"""
+    errors = []
+    for channel, session in sessions():
+        try:
+            candidates = {}
+            valid_queries = 0
+            for query in source.get("queries", []):
+                response = session.get(source["searchUrl"], params={"keyword": query}, timeout=20)
+                response.raise_for_status()
+                response.encoding = response.apparent_encoding or "utf-8"
+                soup = BeautifulSoup(response.text, "lxml")
+                marker = soup.select_one(".zc_zs span")
+                if marker is None or not re.fullmatch(r"\d+", marker.get_text(strip=True)):
+                    raise RuntimeError(f"政府文件检索结构异常: {query}")
+                valid_queries += 1
+                for anchor in soup.select("a.lt-title[href]"):
+                    title = (anchor.get("title") or anchor.get_text(" ", strip=True)).strip()
+                    row_text = anchor.find_parent(class_="item-list").get_text(" ", strip=True) if anchor.find_parent(class_="item-list") else title
+                    if JOB_WORDS.search(title) and SOE_CONTEXT_WORDS.search(title + " " + row_text):
+                        candidates[urljoin(source["url"], anchor["href"])] = (title, first_date(row_text))
+            if valid_queries != len(source.get("queries", [])):
+                raise RuntimeError(f"政府文件查询结构不完整 {valid_queries}/{len(source.get('queries', []))}")
+            jobs = []
+            for index, (url, (title, published)) in enumerate(list(candidates.items())[:max_details], 1):
+                detail_html = session.get(url, timeout=20).text
+                detail_text = BeautifulSoup(detail_html, "lxml").get_text("\n", strip=True)
+                jobs.append(to_job(source, title, url, detail_text, published or first_date(detail_text) or date.today().isoformat(), index))
+            return jobs, channel
+        except Exception as exc:
+            errors.append(f"{channel}:{type(exc).__name__}:{exc}")
+    raise RuntimeError("; ".join(errors))
+
+
 def write_output(jobs):
     header = ("// 济南地方国企官方招聘 — 自动采集\n"
               f"// 更新时间: {datetime.now():%Y-%m-%d %H:%M:%S}\n"
@@ -215,6 +249,8 @@ def main():
                 jobs, channel = scrape_jpaas(source, args.max_details)
             elif source["platform"] == "jsearch":
                 jobs, channel = scrape_jsearch(source, args.max_details)
+            elif source["platform"] == "govdoc_search":
+                jobs, channel = scrape_govdoc_search(source, args.max_details)
             else:
                 raise RuntimeError(f"尚未适配平台族 {source['platform']}")
             merged[source["key"]] = jobs

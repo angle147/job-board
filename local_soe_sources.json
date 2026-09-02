@@ -26,7 +26,7 @@
   {"key":"licheng","name":"历城区政府","region":"历城区","platform":"government_portal","url":"http://www.licheng.gov.cn/","status":"discovery"},
   {"key":"changqing","name":"长清区政府","region":"长清区","platform":"government_portal","url":"http://www.jncq.gov.cn/","status":"discovery"},
   {"key":"zhangqiu","name":"章丘区政府","region":"章丘区","platform":"government_portal","url":"http://www.jnzq.gov.cn/","status":"discovery"},
-  {"key":"jiyang","name":"济阳区政府","region":"济阳区","platform":"government_portal","url":"https://www.jiyang.gov.cn/","status":"discovery"},
+  {"key":"jiyang","name":"济阳区政府","region":"济阳区","platform":"government_portal","url":"http://www.jiyang.gov.cn/","status":"discovery"},
   {"key":"laiwu","name":"莱芜区政府","region":"莱芜区","platform":"government_portal","url":"http://www.laiwu.gov.cn/","status":"discovery"},
   {"key":"gangcheng","name":"钢城区政府","region":"钢城区","platform":"government_portal","url":"http://www.gangcheng.gov.cn/","status":"discovery"},
   {"key":"pingyin","name":"平阴县政府","region":"平阴县","platform":"government_portal","url":"http://www.pingyin.gov.cn/","status":"discovery"},

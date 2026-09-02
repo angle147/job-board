@@ -9,7 +9,17 @@
     "apiParams": {"parseType":"bulidstatic","webId":"37","tplSetId":"qRnIbtU5GwoFGC9hjemFn","pageType":"column","tagId":"信息标题","editType":"null","pageId":"23870"},
     "status": "active"
   },
-  {"key":"lixia","name":"历下区政府","region":"历下区","platform":"government_portal","url":"http://www.lixia.gov.cn/","status":"discovery"},
+  {
+    "key": "lixia",
+    "name": "历下区政府国企招聘检索",
+    "region": "历下区",
+    "platform": "jsearch",
+    "url": "http://www.lixia.gov.cn/",
+    "searchBaseUrl": "http://www.lixia.gov.cn/api-gateway/jpaas-jsearch-web-server",
+    "serviceId": "BOjWj6V4PL0P6tz00kjyI",
+    "queries": ["国有企业招聘", "区属国企招聘", "人才集团招聘", "历下控股招聘"],
+    "status": "active"
+  },
   {"key":"shizhong","name":"市中区政府","region":"市中区","platform":"government_portal","url":"http://www.shizhong.gov.cn/","status":"discovery"},
   {"key":"huaiyin","name":"槐荫区政府","region":"槐荫区","platform":"government_portal","url":"http://www.huaiyin.gov.cn/","status":"discovery"},
   {"key":"tianqiao","name":"天桥区政府","region":"天桥区","platform":"government_portal","url":"http://www.tianqiao.gov.cn/","status":"discovery"},

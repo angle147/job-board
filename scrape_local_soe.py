@@ -21,6 +21,7 @@ OUTPUT_FILE = BASE_DIR / "data" / "jobs_local_soe.js"
 HEALTH_FILE = BASE_DIR / ".local_soe_source_health.json"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 JOB_WORDS = re.compile(r"招聘|招录|校园招聘|校招|人才引进")
+SOE_CONTEXT_WORDS = re.compile(r"国有企业|国企|区属企业|控股集团|人才集团|历下控股")
 DATE_RE = re.compile(r"(20\d{2})[年./-](\d{1,2})[月./-](\d{1,2})日?")
 
 
@@ -136,6 +137,59 @@ def scrape_jpaas(source: dict, max_details: int):
     return jobs, channel
 
 
+def scrape_jsearch(source: dict, max_details: int):
+    """采集 JPaas 站内检索；先验证分类与结果结构，再筛选真实招聘标题。"""
+    errors = []
+    for channel, session in sessions():
+        try:
+            base = source["searchBaseUrl"].rstrip("/")
+            service_id = source["serviceId"]
+            landing = session.get(f"{base}/search", params={"serviceId": service_id, "q": "招聘"}, timeout=20)
+            landing.raise_for_status()
+            categories = session.get(
+                f"{base}/interface/structure/list-category",
+                params={"serviceId": service_id}, timeout=20,
+                headers={"Referer": landing.url},
+            ).json()
+            category_list = categories.get("data", {}).get("categories", [])
+            if not categories.get("success") or not category_list:
+                raise RuntimeError("JSearch 分类结构异常")
+            category_id = next((x["iid"] for x in category_list if x.get("categoryName") == "全部"), category_list[0]["iid"])
+            candidates = {}
+            valid_queries = 0
+            for query in source.get("queries", []):
+                payload = session.get(
+                    f"{base}/interface/search/info",
+                    params={"websiteid": "", "q": query, "pg": 50, "p": 1,
+                            "serviceId": service_id, "cateid": category_id},
+                    timeout=20, headers={"Referer": landing.url},
+                ).json()
+                result = payload.get("data", {}).get("searchResult")
+                if payload.get("success") and isinstance(result, dict) and isinstance(result.get("result"), list):
+                    valid_queries += 1
+                    for fragment in result["result"]:
+                        soup = BeautifulSoup(fragment, "lxml")
+                        anchor = soup.select_one("a.textTitle[href], a[data-title][href]")
+                        if not anchor:
+                            continue
+                        title = (anchor.get("data-title") or anchor.get_text(" ", strip=True)).strip()
+                        url = urljoin(source["url"], anchor["href"])
+                        text = soup.get_text(" ", strip=True)
+                        if JOB_WORDS.search(title) and SOE_CONTEXT_WORDS.search(title + " " + text):
+                            candidates[url] = (title, first_date(text))
+            if valid_queries != len(source.get("queries", [])):
+                raise RuntimeError(f"JSearch 查询结构不完整 {valid_queries}/{len(source.get('queries', []))}")
+            jobs = []
+            for index, (url, (title, published)) in enumerate(list(candidates.items())[:max_details], 1):
+                detail_html = session.get(url, timeout=20).text
+                detail_text = BeautifulSoup(detail_html, "lxml").get_text("\n", strip=True)
+                jobs.append(to_job(source, title, url, detail_text, published or first_date(detail_text) or date.today().isoformat(), index))
+            return jobs, channel
+        except Exception as exc:
+            errors.append(f"{channel}:{type(exc).__name__}:{exc}")
+    raise RuntimeError("; ".join(errors))
+
+
 def write_output(jobs):
     header = ("// 济南地方国企官方招聘 — 自动采集\n"
               f"// 更新时间: {datetime.now():%Y-%m-%d %H:%M:%S}\n"
@@ -157,9 +211,12 @@ def main():
     health = load_json(HEALTH_FILE, {})
     for source in active:
         try:
-            if source["platform"] != "jpaas":
+            if source["platform"] == "jpaas":
+                jobs, channel = scrape_jpaas(source, args.max_details)
+            elif source["platform"] == "jsearch":
+                jobs, channel = scrape_jsearch(source, args.max_details)
+            else:
                 raise RuntimeError(f"尚未适配平台族 {source['platform']}")
-            jobs, channel = scrape_jpaas(source, args.max_details)
             merged[source["key"]] = jobs
             health[source["key"]] = {"name": source["name"], "lastSuccessAt": datetime.now().isoformat(timespec="seconds"),
                                      "lastError": "", "consecutiveFailures": 0, "activeCount": len(jobs)}
@@ -174,7 +231,7 @@ def main():
     jobs = [job for records in merged.values() for job in records]
     write_output(jobs)
     HEALTH_FILE.write_text(json.dumps(health, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"地方国企来源完成: {len(jobs)} 条，{len(active)} 个活动源")
+    print(f"地方国企来源完成: {len(jobs)} 条，{len(active)} 个有效来源")
 
 
 if __name__ == "__main__":

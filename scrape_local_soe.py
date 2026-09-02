@@ -38,22 +38,29 @@ def sessions():
     return (("mihomo:7890", proxy), ("direct", direct))
 
 
-def throttled_get(session: requests.Session, url: str, **kwargs):
+def throttled_request(session: requests.Session, method: str, url: str, **kwargs):
     """统一限制所有外部请求的起始间隔，避免平台族适配器绕过限速。"""
     global _last_request_at
     wait = REQUEST_INTERVAL_SECONDS - (time.monotonic() - _last_request_at)
     if wait > 0:
         time.sleep(wait)
     _last_request_at = time.monotonic()
-    return session.get(url, **kwargs)
+    return session.request(method, url, **kwargs)
+
+
+def throttled_get(session: requests.Session, url: str, **kwargs):
+    return throttled_request(session, "GET", url, **kwargs)
 
 
 def throttled_get_with_retries(session: requests.Session, url: str, *, attempts: int = 2, **kwargs):
-    """政府站点偶发慢响应；在同一通道内有限重试，仍遵守全局请求间隔。"""
+    """政府站点偶发慢响应或临时拒绝；在同一通道内有限重试。"""
     last_error = None
     for attempt in range(attempts):
         try:
-            return throttled_get(session, url, **kwargs)
+            response = throttled_get(session, url, **kwargs)
+            if response.status_code in {400, 408, 429, 500, 502, 503, 504} and attempt + 1 < attempts:
+                continue
+            return response
         except requests.RequestException as exc:
             last_error = exc
             if attempt + 1 == attempts:
@@ -88,7 +95,9 @@ def load_existing():
         return []
     text = OUTPUT_FILE.read_text(encoding="utf-8")
     try:
-        return json.loads(text[text.index("["):text.rindex("]") + 1])
+        payload = text[text.index("["):text.rindex("]") + 1]
+        payload = re.sub(r'(?m)^(\s*)([A-Za-z_]\w*)\s*:', r'\1"\2":', payload)
+        return json.loads(payload)
     except Exception:
         return []
 
@@ -126,6 +135,12 @@ def company_from_detail(title: str, detail: str) -> str:
         r"(?=（以下简称|\(以下简称|是|隶属)", opening,
     )
     return match.group(1).strip("“”《》 ") if match else company_from_title(title)
+
+
+def has_soe_context(source: dict, text: str) -> bool:
+    """通用国企词或已核验区属企业全称任一命中即可。"""
+    company_pattern = source.get("companyPattern")
+    return bool(SOE_CONTEXT_WORDS.search(text) or (company_pattern and re.search(company_pattern, text)))
 
 
 def to_job(source: dict, title: str, url: str, detail: str, published: str, index: int):
@@ -234,7 +249,7 @@ def scrape_jsearch(source: dict, max_details: int):
                         title = (anchor.get("data-title") or anchor.get_text(" ", strip=True)).strip()
                         url = urljoin(source["url"], anchor["href"])
                         text = soup.get_text(" ", strip=True)
-                        if JOB_WORDS.search(title) and SOE_CONTEXT_WORDS.search(title + " " + text):
+                        if JOB_WORDS.search(title) and has_soe_context(source, title + " " + text):
                             candidates[url] = (title, first_date(text))
             if valid_queries != len(source.get("queries", [])):
                 raise RuntimeError(f"JSearch 查询结构不完整 {valid_queries}/{len(source.get('queries', []))}")
@@ -261,6 +276,7 @@ def scrape_govdoc_search(source: dict, max_details: int):
                 params["keyword"] = query
                 response = throttled_get_with_retries(
                     session, source["searchUrl"], params=params,
+                    attempts=3,
                     timeout=int(source.get("requestTimeout", 30)),
                 )
                 response.raise_for_status()
@@ -273,7 +289,7 @@ def scrape_govdoc_search(source: dict, max_details: int):
                 for anchor in soup.select("a.lt-title[href]"):
                     title = (anchor.get("title") or anchor.get_text(" ", strip=True)).strip()
                     row_text = anchor.find_parent(class_="item-list").get_text(" ", strip=True) if anchor.find_parent(class_="item-list") else title
-                    if JOB_WORDS.search(title) and SOE_CONTEXT_WORDS.search(title + " " + row_text):
+                    if JOB_WORDS.search(title) and has_soe_context(source, title + " " + row_text):
                         candidates[urljoin(source["url"], anchor["href"])] = (title, first_date(row_text))
             if valid_queries != len(source.get("queries", [])):
                 raise RuntimeError(f"政府文件查询结构不完整 {valid_queries}/{len(source.get('queries', []))}")
@@ -282,6 +298,78 @@ def scrape_govdoc_search(source: dict, max_details: int):
                 detail_html = throttled_get(session, url, timeout=20).text
                 detail_text = BeautifulSoup(detail_html, "lxml").get_text("\n", strip=True)
                 jobs.append(to_job(source, title, url, detail_text, published or first_date(detail_text) or date.today().isoformat(), index))
+            return jobs, channel
+        except Exception as exc:
+            errors.append(f"{channel}:{type(exc).__name__}:{exc}")
+    raise RuntimeError("; ".join(errors))
+
+
+def scrape_zhaopin_zk(source: dict, max_details: int):
+    """采集智联招考公开岗位接口；站点身份由独立招聘子域的 Origin 确认。"""
+    errors = []
+    for channel, session in sessions():
+        try:
+            headers = {
+                "Origin": source["url"].rstrip("/"),
+                "Referer": source["url"].rstrip("/") + "/zk/",
+                "Source-Channel": "2",
+            }
+            api_base = source["apiBase"].rstrip("/") + "/"
+            site_response = throttled_get_with_retries(
+                session, api_base + "site/portal/pc/site", timeout=30, headers=headers,
+            )
+            site_response.raise_for_status()
+            site_payload = site_response.json()
+            site = site_payload.get("data") if site_payload.get("success") else None
+            if not isinstance(site, dict) or not site.get("siteName"):
+                raise RuntimeError("智联招考站点结构异常")
+
+            list_response = throttled_request(
+                session, "POST", api_base + "site/portal/pc/job-info/portal-list-reformc",
+                json={}, timeout=30, headers=headers,
+            )
+            list_response.raise_for_status()
+            list_payload = list_response.json()
+            rows = list_payload.get("data") if list_payload.get("success") else None
+            if not isinstance(rows, list):
+                raise RuntimeError("智联招考岗位结构异常")
+
+            deadline_value = first_date(str(site.get("applyEnd") or "")) or "待核验"
+            jobs = []
+            for row in rows[:max_details]:
+                job_id = str(row.get("id") or "")
+                if not job_id or not row.get("jobName"):
+                    continue
+                # 站点可能跨批次复用；只采信岗位数据中明确出现的届别，避免把未来批次写死成旧届别。
+                row_text = json.dumps(row, ensure_ascii=False)
+                target_years = "、".join(sorted(set(re.findall(r"20\d{2}届", row_text))))
+                company = str(row.get(source.get("companyField", "")) or site["siteName"]).strip()
+                identifier = hashlib.sha256(
+                    f"{source['key']}|{job_id}".encode("utf-8")
+                ).hexdigest()[:16]
+                conditions = "；".join(filter(None, (
+                    str(row.get(source.get("conditionField", "")) or "").strip(),
+                    str(row.get("workYearStr") or "").strip(),
+                )))
+                jobs.append({
+                    "id": f"local_soe_{identifier}", "companyName": company,
+                    "companyType": "地方国企线索", "industry": "综合",
+                    "recruitType": "公开招聘", "targetYears": target_years,
+                    "location": row.get("prvCityArea") or row.get("address") or source["region"],
+                    "positions": row["jobName"], "status": "未投递",
+                    "updateTime": first_date(str(site.get("applyStart") or "")) or date.today().isoformat(),
+                    "deadline": deadline_value, "applyLink": source["url"],
+                    "noticeLink": source.get("noticeUrl") or source["url"],
+                    "examInfo": "以招聘站通知为准", "companyScale": "",
+                    "notes": f"来源: {source['name']}；{conditions}",
+                    "majorReq": row.get(source.get("majorField", "")) or "",
+                    "educationReq": row.get("eduRecord") or "",
+                    "recruitmentCount": row.get("enrollmentPlaces") or "",
+                    "actualEmployer": company, "contractEmployer": company,
+                    "employmentType": "直接用工", "ownershipRelation": "区属国企线索",
+                    "ownershipEvidenceUrl": source.get("noticeUrl") or source["url"],
+                    "sourceKey": source["key"],
+                })
             return jobs, channel
         except Exception as exc:
             errors.append(f"{channel}:{type(exc).__name__}:{exc}")
@@ -315,6 +403,8 @@ def main():
                 jobs, channel = scrape_jsearch(source, args.max_details)
             elif source["platform"] == "govdoc_search":
                 jobs, channel = scrape_govdoc_search(source, args.max_details)
+            elif source["platform"] == "zhaopin_zk":
+                jobs, channel = scrape_zhaopin_zk(source, args.max_details)
             else:
                 raise RuntimeError(f"尚未适配平台族 {source['platform']}")
             merged[source["key"]] = jobs

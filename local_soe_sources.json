@@ -33,12 +33,13 @@
     "queries": ["国有企业招聘", "区属国企招聘", "人才集团招聘", "历下控股招聘"],
     "status": "active"
   },
-  {"key":"shizhong","name":"市中区政府国企招聘检索","region":"市中区","platform":"govdoc_search","url":"http://www.shizhong.gov.cn/","searchUrl":"http://www.shizhong.gov.cn/gongkai/channel_6389a1293759918282633a78/","searchParams":{"topSearch":1},"queries":["国有企业招聘","区属国企招聘","人才集团招聘","控股集团招聘"],"status":"active"},
+  {"key":"shizhong","name":"市中区政府国企招聘检索","region":"市中区","platform":"govdoc_search","url":"http://www.shizhong.gov.cn/","searchUrl":"http://www.shizhong.gov.cn/gongkai/channel_6389a1293759918282633a78/","searchParams":{"topSearch":1},"queries":["国有企业招聘","区属国企招聘","人才集团招聘","控股集团招聘","城市发展集团","市中政投"],"companyPattern":"济南市中城市发展集团|济南市市中政投","status":"active"},
   {"key":"huaiyin","name":"槐荫区政府国企招聘检索","region":"槐荫区","platform":"govdoc_search","url":"http://www.huaiyin.gov.cn/","searchUrl":"http://www.huaiyin.gov.cn/gongkai/channel_6389a6a5375991828263c1c2/","queries":["国有企业招聘","区属国企招聘","人才集团招聘","控股集团招聘"],"status":"active"},
-  {"key":"tianqiao","name":"天桥区政府国企招聘检索","region":"天桥区","platform":"govdoc_search","url":"http://www.tianqiao.gov.cn/","searchUrl":"http://www.tianqiao.gov.cn/gongkai/channel_6389a085375991828263217e/","queries":["国有企业招聘","区属国企招聘","人才集团招聘","控股集团招聘"],"status":"active"},
+  {"key":"tianqiao","name":"天桥区政府国企招聘检索","region":"天桥区","platform":"govdoc_search","url":"http://www.tianqiao.gov.cn/","searchUrl":"http://www.tianqiao.gov.cn/gongkai/channel_6389a085375991828263217e/","queries":["国有企业招聘","区属国企招聘","人才集团招聘","控股集团招聘","天桥投资发展集团招聘"],"companyPattern":"济南天桥投资发展集团","status":"active"},
   {"key":"licheng","name":"历城区政府国企招聘检索","region":"历城区","platform":"govdoc_search","url":"http://www.licheng.gov.cn/","searchUrl":"http://www.licheng.gov.cn/gongkai/channel_63899ccd3759918282629980/","queries":["国有企业招聘","区属国企招聘","人才集团招聘","控股集团招聘"],"status":"active"},
-  {"key":"changqing","name":"长清区政府国企招聘检索","region":"长清区","platform":"govdoc_search","url":"http://www.jncq.gov.cn/","searchUrl":"http://www.jncq.gov.cn/gongkai/channel_6389b6fa3759918282650649/","queries":["国有企业招聘","区属国企招聘","人才集团招聘","控股集团招聘"],"status":"active"},
-  {"key":"zhangqiu","name":"章丘区政府国企招聘检索","region":"章丘区","platform":"govdoc_search","url":"http://www.jnzq.gov.cn/","searchUrl":"http://www.jnzq.gov.cn/gongkai/channel_6389aee7375991828264650e/","queries":["国有企业招聘","区属国企招聘","人才集团招聘","控股集团招聘"],"status":"active"},
+  {"key":"changqing","name":"长清区政府国企招聘检索","region":"长清区","platform":"govdoc_search","url":"http://www.jncq.gov.cn/","searchUrl":"http://www.jncq.gov.cn/gongkai/channel_6389b6fa3759918282650649/","queries":["国有企业招聘","区属国企招聘","人才集团招聘","控股集团招聘","济清控股招聘"],"companyPattern":"山东济清控股","status":"active"},
+  {"key":"zhangqiu","name":"章丘区政府国企招聘检索","region":"章丘区","platform":"govdoc_search","url":"http://www.jnzq.gov.cn/","searchUrl":"http://www.jnzq.gov.cn/gongkai/channel_6389aee7375991828264650e/","queries":["国有企业招聘","区属国企招聘","人才集团招聘","控股集团招聘","龙山产业发展投资集团招聘","章丘控股招聘"],"companyPattern":"山东龙山产业发展投资集团|章丘控股集团","status":"active"},
+  {"key":"zhangqiu_longshan_zk","name":"山东龙山产业发展投资集团招聘站","region":"章丘区","platform":"zhaopin_zk","url":"https://lscy.zhaopin.com","apiBase":"https://zkapi.zhaopin.com/zhaokao/api","noticeUrl":"https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_2262754ff6fa4f128c93e0ed654c08b9.html","majorField":"customkey3c9c46cc5547","companyField":"customkey1152d440eafa","conditionField":"customkey06948020a46c","status":"active"},
   {"key":"jiyang","name":"济阳区政府国企招聘检索","region":"济阳区","platform":"govdoc_search","url":"http://www.jiyang.gov.cn/","searchUrl":"http://www.jiyang.gov.cn/gongkai/channel_6389ae153759918282644cc8/","queries":["国有企业招聘","区属国企招聘","人才集团招聘","控股集团招聘"],"status":"active"},
   {
     "key": "laiwu",
@@ -47,7 +48,8 @@
     "platform": "govdoc_search",
     "url": "http://www.laiwu.gov.cn/",
     "searchUrl": "http://www.laiwu.gov.cn/gongkai/channel_6389aff43759918282648327/",
-    "queries": ["国有企业招聘", "区属国企招聘", "人才集团招聘", "控股集团招聘"],
+    "queries": ["国有企业招聘", "区属国企招聘", "人才集团招聘", "控股集团招聘", "莱芜高新投资控股招聘"],
+    "companyPattern": "莱芜高新投资控股",
     "status": "active"
   },
   {"key":"gangcheng","name":"钢城区政府国企招聘检索","region":"钢城区","platform":"govdoc_search","url":"http://www.gangcheng.gov.cn/","searchUrl":"http://www.gangcheng.gov.cn/gongkai/channel_6389b1c5375991828264b1fa/","queries":["国有企业招聘","区属国企招聘","人才集团招聘","控股集团招聘"],"status":"active"},

@@ -76,8 +76,8 @@ def first_date(text: str) -> str:
 
 def deadline(text: str) -> str:
     for pattern in (
-        r"(?:报名|申请)?截止(?:时间|日期)?[：:\s]*([^。；\n]{0,30})",
-        r"报名时间[^。；\n]{0,80}?至[：:\s]*([^。；\n]{0,30})",
+        r"(?:报名|申请)截止(?:时间|日期)?[：:\s]*([^。；\n]{0,30})",
+        r"报名时间[\s\S]{0,120}?至[：:\s]*([^。；\n]{0,30})",
     ):
         match = re.search(pattern, text)
         if match:
@@ -92,8 +92,22 @@ def company_from_title(title: str) -> str:
     return match.group(1).strip("“”《》 ") if match else title.split("招聘", 1)[0].strip("“”《》 ")
 
 
+def company_from_detail(title: str, detail: str) -> str:
+    """优先从正文开头识别真实招聘单位，避免保留“这家央企”类媒体标题。"""
+    opening = (detail or "")[:1800]
+    match = re.search(
+        r"([\u4e00-\u9fa5A-Za-z0-9（）()·]{2,45}?(?:集团有限公司|有限责任公司|有限公司|集团|联通))"
+        r"(?=（以下简称|\(以下简称|是|隶属)", opening,
+    )
+    return match.group(1).strip("“”《》 ") if match else company_from_title(title)
+
+
 def to_job(source: dict, title: str, url: str, detail: str, published: str, index: int):
-    years = sorted(set(re.findall(r"20\d{2}(?=届|年)", title + " " + detail)))
+    cohort_text = title + " " + detail
+    years = sorted(set(
+        re.findall(r"20\d{2}(?=届)", cohort_text)
+        + re.findall(r"(20\d{2})(?=年(?:应届|毕业生|校园招聘|高校毕业生))", cohort_text)
+    ))
     employment = "直接用工"
     if "劳务派遣" in detail:
         employment = "劳务派遣"
@@ -102,14 +116,20 @@ def to_job(source: dict, title: str, url: str, detail: str, published: str, inde
     elif "政府购买服务" in detail:
         employment = "政府购买服务"
     identifier = hashlib.sha256(url.encode("utf-8")).hexdigest()[:16]
+    company_type = "地方国企线索"
+    if "央企" in title:
+        company_type = "央企线索"
+    elif "省属" in title:
+        company_type = "省属国企线索"
+    company = company_from_detail(title, detail)
     return {
-        "id": f"local_soe_{identifier}", "companyName": company_from_title(title),
-        "companyType": "地方国企线索", "industry": "综合", "recruitType": "公开招聘",
+        "id": f"local_soe_{identifier}", "companyName": company,
+        "companyType": company_type, "industry": "综合", "recruitType": "公开招聘",
         "targetYears": ",".join(f"{year}届" for year in years), "location": source["region"],
         "positions": title, "status": "未投递", "updateTime": published,
         "deadline": deadline(detail), "applyLink": url, "noticeLink": url,
         "examInfo": "以公告为准", "companyScale": "", "notes": f"来源: {source['name']}",
-        "actualEmployer": company_from_title(title), "contractEmployer": "待核验",
+        "actualEmployer": company, "contractEmployer": "待核验",
         "employmentType": employment, "ownershipRelation": "控制关系待核验",
         "ownershipEvidenceUrl": source["url"], "sourceKey": source["key"],
     }
@@ -124,7 +144,9 @@ def scrape_jpaas(source: dict, max_details: int):
     anchors = []
     for anchor in soup.select("a[href]"):
         title = (anchor.get("title") or anchor.get_text(" ", strip=True)).strip()
-        if title and JOB_WORDS.search(title):
+        title = re.sub(r"\s*20\d{2}年\d{1,2}月\d{1,2}日\s*$", "", title)
+        required = source.get("titleRequirePattern")
+        if title and JOB_WORDS.search(title) and (not required or re.search(required, title)):
             anchors.append((title, urljoin(source["url"], anchor["href"]), anchor.parent.get_text(" ", strip=True)))
     if not anchors:
         raise RuntimeError("页面可达但未识别招聘列表")

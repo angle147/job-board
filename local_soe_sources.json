@@ -10,6 +10,17 @@
     "status": "active"
   },
   {
+    "key": "jinan_hrss_soe",
+    "name": "济南市人社局国企招聘动态",
+    "region": "济南市",
+    "platform": "jpaas",
+    "url": "https://jnhrss.jinan.gov.cn/col/col18309/index.html",
+    "apiUrl": "https://jnhrss.jinan.gov.cn/api-gateway/jpaas-publish-server/front/page/build/unit",
+    "apiParams": {"parseType":"bulidstatic","webId":"16","tplSetId":"MAMvqpH003gztRDn5troz","pageType":"column","tagId":"当前栏目标题","editType":"null","pageId":"18309"},
+    "titleRequirePattern": "央企|国企|国有企业|省属企业|市属企业|区属企业|县属企业",
+    "status": "active"
+  },
+  {
     "key": "lixia",
     "name": "历下区政府国企招聘检索",
     "region": "历下区",

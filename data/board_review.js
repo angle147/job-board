@@ -1,8 +1,109 @@
 // 待人工核验队列 — 由 build_personal_board.py 生成
-// 更新时间: 2026-09-02 09:06:26
-// 共 33 条
+// 更新时间: 2026-09-02 09:51:23
+// 共 38 条
 
 const REVIEW_JOBS = [
+  {
+    "id": "jinan_local_soe_local_soe_26cba3889c4905b0",
+    "boardSection": "国企校招",
+    "source": "济南地方国企官方招聘",
+    "companyName": "山东铁投建工有限公司",
+    "companyType": "省属国企线索",
+    "industry": "综合",
+    "recruitType": "公开招聘",
+    "targetYears": "待核验",
+    "location": "济南市",
+    "positions": "不要错过！这家驻济省属企业公开招聘了",
+    "status": "待处理",
+    "updateTime": "2026-08-29",
+    "deadline": "2026-09-13",
+    "applyLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_586e82c351b44c8aa0ee126c35809f59.html",
+    "noticeLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_586e82c351b44c8aa0ee126c35809f59.html",
+    "examInfo": "以公告为准",
+    "companyScale": "",
+    "notes": "来源: 济南市人社局国企招聘动态",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "2026-09-13",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "山东铁投建工有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接用工",
+    "ownershipRelation": "控制关系待核验",
+    "ownershipEvidenceUrl": "https://jnhrss.jinan.gov.cn/col/col18309/index.html",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_586e82c351b44c8aa0ee126c35809f59.html"
+    ],
+    "discoverySources": [
+      "济南地方国企官方招聘"
+    ],
+    "reviewReasons": [
+      "尚未取得可验证的专业要求",
+      "当前为公告级记录，职位表尚未拆分",
+      "目标届别尚未明确确认"
+    ],
+    "priorityScore": 70
+  },
+  {
+    "id": "jinan_local_soe_local_soe_0947bb01d68e67e1",
+    "boardSection": "国企校招",
+    "source": "济南地方国企官方招聘",
+    "companyName": "中建安装集团有限公司",
+    "companyType": "央企线索",
+    "industry": "综合",
+    "recruitType": "公开招聘",
+    "targetYears": "待核验",
+    "location": "济南市",
+    "positions": "济南40人 中专可报！这家央企公开招聘了",
+    "status": "待处理",
+    "updateTime": "2026-08-30",
+    "deadline": "待核验",
+    "applyLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_32f483756a144a17b2908de5bd018b84.html",
+    "noticeLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_32f483756a144a17b2908de5bd018b84.html",
+    "examInfo": "以公告为准",
+    "companyScale": "",
+    "notes": "来源: 济南市人社局国企招聘动态",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "待核验",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "中建安装集团有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接用工",
+    "ownershipRelation": "控制关系待核验",
+    "ownershipEvidenceUrl": "https://jnhrss.jinan.gov.cn/col/col18309/index.html",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_32f483756a144a17b2908de5bd018b84.html"
+    ],
+    "discoverySources": [
+      "济南地方国企官方招聘"
+    ],
+    "reviewReasons": [
+      "尚未取得可验证的专业要求",
+      "当前为公告级记录，职位表尚未拆分",
+      "明确截止日期待核验",
+      "目标届别尚未明确确认"
+    ],
+    "priorityScore": 50
+  },
   {
     "id": "jinan_local_soe_local_soe_c3313d2fd48fd978",
     "boardSection": "国企校招",
@@ -42,6 +143,159 @@ const REVIEW_JOBS = [
     "evidenceLevel": "官方原文",
     "sourceLinks": [
       "https://jngzw.jinan.gov.cn/col/col23870/art/2026/art_f192818b1b194d65a0fbb33ebede6d6b.html"
+    ],
+    "discoverySources": [
+      "济南地方国企官方招聘"
+    ],
+    "reviewReasons": [
+      "尚未取得可验证的专业要求",
+      "当前为公告级记录，职位表尚未拆分",
+      "明确截止日期待核验",
+      "目标届别尚未明确确认"
+    ],
+    "priorityScore": 50
+  },
+  {
+    "id": "jinan_local_soe_local_soe_b87aa9184bb8998f",
+    "boardSection": "国企校招",
+    "source": "济南地方国企官方招聘",
+    "companyName": "山东联通",
+    "companyType": "央企线索",
+    "industry": "综合",
+    "recruitType": "公开招聘",
+    "targetYears": "待核验",
+    "location": "济南市",
+    "positions": "济南有岗位！这家央企公开招聘了",
+    "status": "待处理",
+    "updateTime": "2026-08-28",
+    "deadline": "待核验",
+    "applyLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_0cf2650e228c4891bfe966aef937d31a.html",
+    "noticeLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_0cf2650e228c4891bfe966aef937d31a.html",
+    "examInfo": "以公告为准",
+    "companyScale": "",
+    "notes": "来源: 济南市人社局国企招聘动态",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "待核验",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "山东联通",
+    "contractEmployer": "待核验",
+    "employmentType": "直接用工",
+    "ownershipRelation": "控制关系待核验",
+    "ownershipEvidenceUrl": "https://jnhrss.jinan.gov.cn/col/col18309/index.html",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_0cf2650e228c4891bfe966aef937d31a.html"
+    ],
+    "discoverySources": [
+      "济南地方国企官方招聘"
+    ],
+    "reviewReasons": [
+      "尚未取得可验证的专业要求",
+      "当前为公告级记录，职位表尚未拆分",
+      "明确截止日期待核验",
+      "目标届别尚未明确确认"
+    ],
+    "priorityScore": 50
+  },
+  {
+    "id": "jinan_local_soe_local_soe_cc8d74cadfab56e8",
+    "boardSection": "国企校招",
+    "source": "济南地方国企官方招聘",
+    "companyName": "济钢集团",
+    "companyType": "地方国企线索",
+    "industry": "综合",
+    "recruitType": "公开招聘",
+    "targetYears": "待核验",
+    "location": "济南市",
+    "positions": "济钢集团部分岗位公开招聘公告",
+    "status": "待处理",
+    "updateTime": "2026-08-24",
+    "deadline": "待核验",
+    "applyLink": "https://jngzw.jinan.gov.cn/col/col23870/art/2026/art_69050d855be14fcb89b4c0f23d0e2f6e.html",
+    "noticeLink": "https://jngzw.jinan.gov.cn/col/col23870/art/2026/art_69050d855be14fcb89b4c0f23d0e2f6e.html",
+    "examInfo": "以公告为准",
+    "companyScale": "",
+    "notes": "来源: 济南市国资委招聘专栏",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "待核验",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "济钢集团",
+    "contractEmployer": "待核验",
+    "employmentType": "直接用工",
+    "ownershipRelation": "控制关系待核验",
+    "ownershipEvidenceUrl": "https://jngzw.jinan.gov.cn/col/col23870/index.html",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://jngzw.jinan.gov.cn/col/col23870/art/2026/art_69050d855be14fcb89b4c0f23d0e2f6e.html"
+    ],
+    "discoverySources": [
+      "济南地方国企官方招聘"
+    ],
+    "reviewReasons": [
+      "尚未取得可验证的专业要求",
+      "当前为公告级记录，职位表尚未拆分",
+      "明确截止日期待核验",
+      "目标届别尚未明确确认"
+    ],
+    "priorityScore": 50
+  },
+  {
+    "id": "jinan_local_soe_local_soe_bf389309029cef30",
+    "boardSection": "国企校招",
+    "source": "济南地方国企官方招聘",
+    "companyName": "葛洲坝集团生态环保有限公司",
+    "companyType": "央企线索",
+    "industry": "综合",
+    "recruitType": "公开招聘",
+    "targetYears": "待核验",
+    "location": "济南市",
+    "positions": "济南有岗位！这家央企公开招聘了",
+    "status": "待处理",
+    "updateTime": "2026-08-31",
+    "deadline": "待核验",
+    "applyLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_6fcd7dc6d8954660896698191a3543ee.html",
+    "noticeLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_6fcd7dc6d8954660896698191a3543ee.html",
+    "examInfo": "以公告为准",
+    "companyScale": "",
+    "notes": "来源: 济南市人社局国企招聘动态",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "待核验",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "葛洲坝集团生态环保有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接用工",
+    "ownershipRelation": "控制关系待核验",
+    "ownershipEvidenceUrl": "https://jnhrss.jinan.gov.cn/col/col18309/index.html",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_6fcd7dc6d8954660896698191a3543ee.html"
     ],
     "discoverySources": [
       "济南地方国企官方招聘"

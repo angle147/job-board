@@ -166,6 +166,13 @@ def cleanup_file(filepath: Path, max_age: int, dry_run: bool) -> tuple[int, int]
             else:
                 break
 
+        # 派生数据条数变化后同步头部元数据，避免健康检查读取到旧计数。
+        for index, line in enumerate(comment_lines):
+            if line.startswith("// 更新时间:"):
+                comment_lines[index] = f"// 更新时间: {datetime.now():%Y-%m-%d %H:%M:%S}"
+            elif re.match(r"// 共 \d+ 条$", line):
+                comment_lines[index] = f"// 共 {len(kept)} 条"
+
         new_json = json.dumps(kept, ensure_ascii=False, indent=2)
         # 恢复 JS 格式：去掉键名的引号（"key": → key:）
         new_json = re.sub(r'"(\w+)":', r'\1:', new_json)

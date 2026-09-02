@@ -47,7 +47,7 @@ SCRAPERS = [
         "script": "scraper.py",
         "args": ["--source", "sasac", "--max-pages", "2", "--details", "10"],
         "daily": True,
-        "timeout": 180,
+        "timeout": 300,
     },
     {
         "name": "央企招聘公告",

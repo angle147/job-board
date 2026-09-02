@@ -8,6 +8,7 @@ import argparse
 import hashlib
 import json
 import re
+import time
 from datetime import date, datetime
 from pathlib import Path
 from urllib.parse import urljoin
@@ -23,6 +24,8 @@ UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 JOB_WORDS = re.compile(r"招聘|招录|校园招聘|校招|人才引进")
 SOE_CONTEXT_WORDS = re.compile(r"国有企业|国企|区属企业|控股集团|人才集团|历下控股")
 DATE_RE = re.compile(r"(20\d{2})[年./-](\d{1,2})[月./-](\d{1,2})日?")
+REQUEST_INTERVAL_SECONDS = 2.0
+_last_request_at = 0.0
 
 
 def sessions():
@@ -35,11 +38,21 @@ def sessions():
     return (("mihomo:7890", proxy), ("direct", direct))
 
 
+def throttled_get(session: requests.Session, url: str, **kwargs):
+    """统一限制所有外部请求的起始间隔，避免平台族适配器绕过限速。"""
+    global _last_request_at
+    wait = REQUEST_INTERVAL_SECONDS - (time.monotonic() - _last_request_at)
+    if wait > 0:
+        time.sleep(wait)
+    _last_request_at = time.monotonic()
+    return session.get(url, **kwargs)
+
+
 def get(url: str, *, params=None, json_response=False):
     errors = []
     for channel, session in sessions():
         try:
-            response = session.get(url, params=params, timeout=20)
+            response = throttled_get(session, url, params=params, timeout=20)
             response.raise_for_status()
             if json_response:
                 return response.json(), channel
@@ -136,18 +149,27 @@ def to_job(source: dict, title: str, url: str, detail: str, published: str, inde
 
 
 def scrape_jpaas(source: dict, max_details: int):
-    payload, channel = get(source["apiUrl"], params=source["apiParams"], json_response=True)
-    html = payload.get("data", {}).get("html", "") if isinstance(payload, dict) else ""
-    if not html:
-        raise RuntimeError("JPaas 列表结构异常")
-    soup = BeautifulSoup(html, "lxml")
-    anchors = []
-    for anchor in soup.select("a[href]"):
-        title = (anchor.get("title") or anchor.get_text(" ", strip=True)).strip()
-        title = re.sub(r"\s*20\d{2}年\d{1,2}月\d{1,2}日\s*$", "", title)
-        required = source.get("titleRequirePattern")
-        if title and JOB_WORDS.search(title) and (not required or re.search(required, title)):
-            anchors.append((title, urljoin(source["url"], anchor["href"]), anchor.parent.get_text(" ", strip=True)))
+    anchors_by_url = {}
+    channel = ""
+    pages = max(1, int(source.get("pages", 1)))
+    page_size = max(1, int(source.get("pageSize", 15)))
+    for page_no in range(1, pages + 1):
+        params = dict(source["apiParams"])
+        if pages > 1:
+            params["paramJson"] = json.dumps({"pageNo": page_no, "pageSize": page_size})
+        payload, channel = get(source["apiUrl"], params=params, json_response=True)
+        html = payload.get("data", {}).get("html", "") if isinstance(payload, dict) else ""
+        if not html:
+            raise RuntimeError(f"JPaas 第 {page_no} 页结构异常")
+        soup = BeautifulSoup(html, "lxml")
+        for anchor in soup.select("a[href]"):
+            title = (anchor.get("title") or anchor.get_text(" ", strip=True)).strip()
+            title = re.sub(r"\s*20\d{2}年\d{1,2}月\d{1,2}日\s*$", "", title)
+            required = source.get("titleRequirePattern")
+            if title and JOB_WORDS.search(title) and (not required or re.search(required, title)):
+                url = urljoin(source["url"], anchor["href"])
+                anchors_by_url[url] = (title, url, anchor.parent.get_text(" ", strip=True))
+    anchors = list(anchors_by_url.values())
     if not anchors:
         raise RuntimeError("页面可达但未识别招聘列表")
     jobs = []
@@ -166,9 +188,10 @@ def scrape_jsearch(source: dict, max_details: int):
         try:
             base = source["searchBaseUrl"].rstrip("/")
             service_id = source["serviceId"]
-            landing = session.get(f"{base}/search", params={"serviceId": service_id, "q": "招聘"}, timeout=20)
+            landing = throttled_get(session, f"{base}/search", params={"serviceId": service_id, "q": "招聘"}, timeout=20)
             landing.raise_for_status()
-            categories = session.get(
+            categories = throttled_get(
+                session,
                 f"{base}/interface/structure/list-category",
                 params={"serviceId": service_id}, timeout=20,
                 headers={"Referer": landing.url},
@@ -180,7 +203,8 @@ def scrape_jsearch(source: dict, max_details: int):
             candidates = {}
             valid_queries = 0
             for query in source.get("queries", []):
-                payload = session.get(
+                payload = throttled_get(
+                    session,
                     f"{base}/interface/search/info",
                     params={"websiteid": "", "q": query, "pg": 50, "p": 1,
                             "serviceId": service_id, "cateid": category_id},
@@ -203,7 +227,7 @@ def scrape_jsearch(source: dict, max_details: int):
                 raise RuntimeError(f"JSearch 查询结构不完整 {valid_queries}/{len(source.get('queries', []))}")
             jobs = []
             for index, (url, (title, published)) in enumerate(list(candidates.items())[:max_details], 1):
-                detail_html = session.get(url, timeout=20).text
+                detail_html = throttled_get(session, url, timeout=20).text
                 detail_text = BeautifulSoup(detail_html, "lxml").get_text("\n", strip=True)
                 jobs.append(to_job(source, title, url, detail_text, published or first_date(detail_text) or date.today().isoformat(), index))
             return jobs, channel
@@ -220,7 +244,7 @@ def scrape_govdoc_search(source: dict, max_details: int):
             candidates = {}
             valid_queries = 0
             for query in source.get("queries", []):
-                response = session.get(source["searchUrl"], params={"keyword": query}, timeout=20)
+                response = throttled_get(session, source["searchUrl"], params={"keyword": query}, timeout=20)
                 response.raise_for_status()
                 response.encoding = response.apparent_encoding or "utf-8"
                 soup = BeautifulSoup(response.text, "lxml")
@@ -237,7 +261,7 @@ def scrape_govdoc_search(source: dict, max_details: int):
                 raise RuntimeError(f"政府文件查询结构不完整 {valid_queries}/{len(source.get('queries', []))}")
             jobs = []
             for index, (url, (title, published)) in enumerate(list(candidates.items())[:max_details], 1):
-                detail_html = session.get(url, timeout=20).text
+                detail_html = throttled_get(session, url, timeout=20).text
                 detail_text = BeautifulSoup(detail_html, "lxml").get_text("\n", strip=True)
                 jobs.append(to_job(source, title, url, detail_text, published or first_date(detail_text) or date.today().isoformat(), index))
             return jobs, channel

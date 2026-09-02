@@ -18,6 +18,8 @@
     "apiUrl": "https://jnhrss.jinan.gov.cn/api-gateway/jpaas-publish-server/front/page/build/unit",
     "apiParams": {"parseType":"bulidstatic","webId":"16","tplSetId":"MAMvqpH003gztRDn5troz","pageType":"column","tagId":"当前栏目标题","editType":"null","pageId":"18309"},
     "titleRequirePattern": "央企|国企|国有企业|省属企业|市属企业|区属企业|县属企业",
+    "pages": 10,
+    "pageSize": 15,
     "status": "active"
   },
   {

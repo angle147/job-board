@@ -825,6 +825,7 @@ a.link-notice:hover { border-color: var(--primary); color: var(--primary); }
 <script src="data/board_soe.js"></script>
 <script src="data/board_public.js"></script>
 <script src="data/board_review.js"></script>
+<script src="data/job_status_history.js"></script>
 <script src="data/offline_events.js"></script>
 <script src="data/offline_sources.js"></script>
 
@@ -844,10 +845,74 @@ function loadStatuses() {
   catch { return {}; }
 }
 
-function saveStatus(id, status) {
+const JOB_STATUS_ALIASES = {
+  'job_status_v2|review|https://campus.niuqizp.com/schedule-7ksUNNttZ.html': ['review_haitou_1'],
+  'job_status_v2|review|https://m.yingjiesheng.com/job-008-039-837.html': ['review_yingjiesheng_159','review_yingjiesheng_80'],
+  'job_status_v2|review|https://m.yingjiesheng.com/job-008-043-399.html': ['review_yingjiesheng_2','review_yingjiesheng_145'],
+  'job_status_v2|review|https://m.yingjiesheng.com/job-008-041-013.html': ['review_yingjiesheng_143','review_yingjiesheng_164'],
+  'job_status_v2|review|https://m.yingjiesheng.com/job-008-041-014.html': ['review_yingjiesheng_144','review_yingjiesheng_165'],
+  'job_status_v2|review|https://campus.niuqizp.com/schedule-78lU5CnNN.html': ['review_haitou_48'],
+  'job_status_v2|review|https://m.yingjiesheng.com/job-008-046-686.html': ['review_yingjiesheng_79'],
+  'job_status_v2|review|https://m.yingjiesheng.com/job-008-046-425.html': ['review_yingjiesheng_73'],
+  'job_status_v2|review|https://m.yingjiesheng.com/job-008-046-353.html': ['review_yingjiesheng_74'],
+  'job_status_v2|review|https://m.yingjiesheng.com/job-008-046-844.html': ['review_yingjiesheng_76'],
+  'job_status_v2|review|https://m.yingjiesheng.com/job-008-046-846.html': ['review_yingjiesheng_77'],
+  'job_status_v2|review|https://m.yingjiesheng.com/job-008-046-404.html': ['review_yingjiesheng_81'],
+  'job_status_v2|review|https://m.yingjiesheng.com/job-008-046-405.html': ['review_yingjiesheng_82']
+};
+
+function stableJobIdentity(item) {
+  const url = item.noticeLink || item.applyLink || '';
+  if (url && !url.replace(/\/$/, '').endsWith('index.jhtml')) return url;
+  return [item.source, item.companyName, item.positions, item.location].join('|');
+}
+
+function stableStatusKey(item, tab = APP.currentTab) {
+  return `job_status_v2|${tab}|${stableJobIdentity(item)}`;
+}
+
+function jobStatus(item, tab = APP.currentTab) {
   const s = loadStatuses();
-  s[id] = status;
+  const stableKey = stableStatusKey(item, tab);
+  if (s[stableKey]) return s[stableKey];
+  const legacyKeys = [`${tab}_${item.id}`, ...(item._legacyStatusKeys || []), ...(JOB_STATUS_ALIASES[stableKey] || [])];
+  const legacyKey = legacyKeys.find(key => s[key]);
+  if (legacyKey) {
+    s[stableKey] = s[legacyKey];
+    localStorage.setItem('job_statuses', JSON.stringify(s));
+    return s[legacyKey];
+  }
+  return item.status || '新发现';
+}
+
+function saveStatus(item, tab, status) {
+  const s = loadStatuses();
+  const key = stableStatusKey(item, tab);
+  s[key] = status;
   localStorage.setItem('job_statuses', JSON.stringify(s));
+  const snapshots = loadStatusSnapshots();
+  snapshots[key] = {...item, savedTab: tab, savedAt: new Date().toISOString()};
+  localStorage.setItem('job_status_snapshots', JSON.stringify(snapshots));
+}
+
+function loadStatusSnapshots() {
+  try { return JSON.parse(localStorage.getItem('job_status_snapshots') || '{}'); }
+  catch { return {}; }
+}
+
+function withProcessedSnapshots(items, tab) {
+  const statuses = loadStatuses();
+  const identities = new Set(items.map(stableJobIdentity));
+  const archived = Object.entries(loadStatusSnapshots())
+    .filter(([key, item]) => item.savedTab === tab && !identities.has(stableJobIdentity(item))
+      && ['已报名','面试','已排除','已截止','审核未通过','主动放弃'].includes(statuses[key]))
+    .map(([, item]) => ({...item, notes: `${item.notes || ''}｜该记录已从最新来源下架，保留个人处理状态`}));
+  const migratedHistory = (typeof JOB_STATUS_HISTORY === 'undefined' ? [] : JOB_STATUS_HISTORY)
+    .filter(item => item.savedTab === tab && !identities.has(stableJobIdentity(item)))
+    .filter(item => ['已报名','面试','已排除','已截止','审核未通过','主动放弃'].includes(jobStatus(item, tab)))
+    .map(item => ({...item, notes: `${item.notes || ''}｜该记录已从最新来源下架，已恢复昨日个人处理状态`}));
+  const archivedIdentities = new Set(archived.map(stableJobIdentity));
+  return [...items, ...archived, ...migratedHistory.filter(item => !archivedIdentities.has(stableJobIdentity(item)))];
 }
 
 // ============ Data Helpers ============
@@ -858,9 +923,9 @@ const OFFLINE_BOARD_EVENTS = typeof OFFLINE_EVENTS !== 'undefined' ? OFFLINE_EVE
 
 function getCurrentData() {
   if (APP.currentTab === 'offline') return OFFLINE_BOARD_EVENTS;
-  if (APP.currentTab === 'public') return PUBLIC_BOARD_JOBS;
-  if (APP.currentTab === 'review') return REVIEW_BOARD_JOBS;
-  return ALL_JOBS;
+  if (APP.currentTab === 'public') return withProcessedSnapshots(PUBLIC_BOARD_JOBS, 'public');
+  if (APP.currentTab === 'review') return withProcessedSnapshots(REVIEW_BOARD_JOBS, 'review');
+  return withProcessedSnapshots(ALL_JOBS, 'soe');
 }
 
 function isJobTab() { return APP.currentTab !== 'offline'; }
@@ -927,7 +992,7 @@ function filterData() {
         return !['劳务派遣', '劳务外包', '政府购买服务', '人才派驻'].includes(item.employmentType || '');
       }
       const value = key === 'status'
-        ? (loadStatuses()[`${APP.currentTab}_${item.id}`] || item.status || '新发现')
+        ? jobStatus(item)
         : (item[key] || '');
       return vals.some(v => String(value).toLowerCase().includes(v.toLowerCase()));
     });
@@ -1018,8 +1083,7 @@ function renderTable(data) {
   tbody.innerHTML = data.length === 0
     ? '<tr><td colspan="20" style="text-align:center;padding:40px;color:var(--text-muted);">没有匹配的岗位</td></tr>'
     : data.map(item => {
-        const statuses = loadStatuses();
-        const currentStatus = statuses[`${APP.currentTab}_${item.id}`] || item.status || '新发现';
+        const currentStatus = jobStatus(item);
           // Check deadline urgency
           let deadlineClass = '';
           if (item.deadline && item.deadline !== '招满为止') {
@@ -1042,7 +1106,7 @@ function renderTable(data) {
             <td title="${escapeHtml(item.majorReq || '')}">${item.majorReq || '-'}</td>
             <td>${item.educationReq || '-'}</td>
             <td>${item.recruitmentCount || '-'}</td>
-            <td><button class="status-btn status-${currentStatus}" onclick="showStatusPopup('${APP.currentTab}_${item.id}')">${currentStatus}</button></td>
+            <td><button class="status-btn status-${currentStatus}" onclick="showStatusPopup('${APP.currentTab}','${item.id}')">${currentStatus}</button></td>
             <td class="${deadlineClass}">${item.deadline}</td>
             <td>${item.applyLink && item.applyLink !== '#' ? `<a href="${item.applyLink}" target="_blank" class="link-btn link-apply">报名</a>` : '-'}</td>
             <td>${item.noticeLink && item.noticeLink !== '#' ? `<a href="${item.noticeLink}" target="_blank" class="link-btn link-notice">公告</a>` : '-'}</td>
@@ -1054,15 +1118,13 @@ function renderTable(data) {
 // ============ Render Cards ============
 function renderCards(data) {
   const container = document.getElementById('cardView');
-  const statuses = loadStatuses();
-
   if (data.length === 0) {
     container.innerHTML = '<div class="empty-state"><div class="icon">📭</div><p>没有匹配的岗位</p></div>';
     return;
   }
 
   container.innerHTML = data.map(item => {
-      const currentStatus = statuses[`${APP.currentTab}_${item.id}`] || item.status || '新发现';
+      const currentStatus = jobStatus(item);
       let deadlineClass = '';
       if (item.deadline && item.deadline !== '招满为止') {
         const d = new Date(item.deadline);
@@ -1091,7 +1153,7 @@ function renderCards(data) {
           <span>📅 ${item.updateTime}</span>
         </div>
         <div class="card-footer">
-          <button class="status-btn status-${currentStatus}" onclick="showStatusPopup('${APP.currentTab}_${item.id}')">${currentStatus}</button>
+          <button class="status-btn status-${currentStatus}" onclick="showStatusPopup('${APP.currentTab}','${item.id}')">${currentStatus}</button>
           <div>
             ${item.applyLink && item.applyLink !== '#' ? `<a href="${item.applyLink}" target="_blank" class="link-btn link-apply">投递</a>` : ''}
             ${item.noticeLink && item.noticeLink !== '#' ? `<a href="${item.noticeLink}" target="_blank" class="link-btn link-notice">公告</a>` : ''}
@@ -1105,7 +1167,6 @@ function renderCards(data) {
 
 // ============ Stats ============
 function renderStats(data) {
-  const statuses = loadStatuses();
   const total = data.length;
   const urgent = data.filter(item => {
       if (!item.deadline || item.deadline === '招满为止') return false;
@@ -1114,8 +1175,7 @@ function renderStats(data) {
       const daysLeft = Math.ceil((d - now) / (1000 * 60 * 60 * 24));
       return daysLeft <= 3 && daysLeft >= 0;
     }).length;
-  const prefix = `${APP.currentTab}_`;
-  const ownStatuses = Object.entries(statuses).filter(([k]) => k.startsWith(prefix)).map(([,v]) => v);
+  const ownStatuses = data.map(item => jobStatus(item));
   const applied = ownStatuses.filter(s => s === '已报名').length;
   const interviewing = ownStatuses.filter(s => s === '面试').length;
 
@@ -1140,8 +1200,9 @@ function renderStats(data) {
 }
 
 // ============ Status Popup ============
-function showStatusPopup(jobKey) {
-  APP.editingJobId = jobKey;
+function showStatusPopup(tab, itemId) {
+  const item = getCurrentData().find(row => String(row.id) === String(itemId));
+  APP.editingJobId = item ? {item, tab} : null;
   document.getElementById('statusPopup').classList.add('open');
 }
 
@@ -1154,7 +1215,7 @@ document.getElementById('statusCancel').addEventListener('click', closeStatusPop
 document.querySelectorAll('.status-option[data-status]').forEach(btn => {
   btn.addEventListener('click', function() {
     if (APP.editingJobId) {
-      saveStatus(APP.editingJobId, this.dataset.status);
+      saveStatus(APP.editingJobId.item, APP.editingJobId.tab, this.dataset.status);
       closeStatusPopup();
       refresh();
     }
@@ -1313,13 +1374,12 @@ function removeFilter(key, val) {
 function exportCSV(data) {
   let csv = '\uFEFF'; // BOM for Excel
   const headers = ['单位','岗位','国资关系','用工形式','实际用工单位','签约主体','类别','来源','专业适配','适配理由','证据等级','目标届别','工作地点','专业要求','学历要求','招聘人数','处理状态','截止日期','报名链接','官方公告','待核验事项'];
-  const statuses = loadStatuses();
   const rows = data.map(item => [
       item.companyName, item.positions, item.ownershipRelation, item.employmentType,
       item.actualEmployer, item.contractEmployer, item.boardSection, item.source,
     item.fitLevel, item.fitReason, item.evidenceLevel, item.targetYears,
     item.location, item.majorReq, item.educationReq, item.recruitmentCount,
-    statuses[`${APP.currentTab}_${item.id}`] || item.status || '新发现',
+    jobStatus(item),
     item.deadline, item.applyLink, item.noticeLink, (item.reviewReasons || []).join('；')
   ]);
 

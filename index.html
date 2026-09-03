@@ -1218,6 +1218,7 @@ document.getElementById('statusCancel').addEventListener('click', closeStatusPop
 document.querySelectorAll('.status-option[data-status]').forEach(btn => {
   btn.addEventListener('click', function() {
     if (APP.editingJobId) {
+      if (window.BoardSync && !window.BoardSync.consumeGuestAction('保存岗位状态')) return;
       saveStatus(APP.editingJobId.item, APP.editingJobId.tab, this.dataset.status);
       closeStatusPopup();
       refresh();
@@ -1375,6 +1376,7 @@ function removeFilter(key, val) {
 
 // ============ Export CSV ============
 function exportCSV(data) {
+  if (window.BoardSync && !window.BoardSync.consumeGuestAction('导出 CSV')) return;
   let csv = '\uFEFF'; // BOM for Excel
   const headers = ['单位','岗位','国资关系','用工形式','实际用工单位','签约主体','类别','来源','专业适配','适配理由','证据等级','目标届别','工作地点','专业要求','学历要求','招聘人数','处理状态','截止日期','报名链接','官方公告','待核验事项'];
   const rows = data.map(item => [
@@ -1447,6 +1449,7 @@ function saveOfflinePlans(plans) {
 }
 
 function toggleOfflinePlan(id) {
+  if (window.BoardSync && !window.BoardSync.consumeGuestAction('设置线下招聘计划')) return;
   const plans = loadOfflinePlans();
   plans.has(id) ? plans.delete(id) : plans.add(id);
   saveOfflinePlans(plans);

@@ -4,6 +4,8 @@
   const TOKEN_KEY = "job_board_sync_token";
   const USER_KEY = "job_board_sync_user";
   const META_KEY = "job_board_sync_meta";
+  const GUEST_ACTION_KEY = "job_board_guest_action_count";
+  const GUEST_ACTION_LIMIT = 20;
   const API_BASE = String(window.JOB_BOARD_SYNC_CONFIG?.apiBase || "").replace(/\/$/, "");
   const state = { token: localStorage.getItem(TOKEN_KEY) || "", username: localStorage.getItem(USER_KEY) || "", status: "local", timer: null, callbacks: null };
 
@@ -12,6 +14,26 @@
   }
 
   function saveJson(key, value) { localStorage.setItem(key, JSON.stringify(value)); }
+  function guestActionCount() {
+    const value = Number.parseInt(localStorage.getItem(GUEST_ACTION_KEY) || "0", 10);
+    return Number.isFinite(value) && value > 0 ? Math.min(value, GUEST_ACTION_LIMIT) : 0;
+  }
+
+  function isAuthenticated() { return Boolean(state.token); }
+
+  function consumeGuestAction(label = "此操作") {
+    if (isAuthenticated()) return true;
+    const next = guestActionCount() + 1;
+    localStorage.setItem(GUEST_ACTION_KEY, String(Math.min(next, GUEST_ACTION_LIMIT)));
+    renderAccount();
+    // 第 20 次点击开始锁定；游客可正常完成前 19 次受限操作。
+    if (next >= GUEST_ACTION_LIMIT) {
+      openModal("register");
+      message(`${label}需要登录。游客试用次数已用完，创建账号后可继续使用全部功能并跨设备同步。`, true);
+      return false;
+    }
+    return true;
+  }
   function meta() { return loadJson(META_KEY, {}); }
   function stamp(kind, key, updatedAt = new Date().toISOString()) {
     const values = meta();
@@ -258,7 +280,9 @@
   function renderAccount() {
     const button = document.getElementById("accountButton");
     if (!button) return;
-    button.textContent = state.token ? `${state.username} · ${state.status === "synced" ? "已同步" : state.status === "syncing" ? "同步中" : "待同步"}` : "登录 / 注册";
+    button.textContent = state.token
+      ? `${state.username} · ${state.status === "synced" ? "已同步" : state.status === "syncing" ? "同步中" : "待同步"}`
+      : `登录 / 注册 · 游客剩余 ${Math.max(0, GUEST_ACTION_LIMIT - guestActionCount())} 次`;
     button.classList.toggle("pending", state.token && state.status !== "synced");
   }
 
@@ -291,6 +315,14 @@
     document.getElementById("passwordSubmit").onclick = submitPasswordChange;
     document.getElementById("logoutSubmit").onclick = doLogout;
     document.getElementById("deleteSubmit").onclick = deleteAccount;
+    document.addEventListener("click", (event) => {
+      const link = event.target.closest?.("a.link-apply, a.link-notice");
+      if (!link || !link.href) return;
+      if (!consumeGuestAction("查看报名或公告")) {
+        event.preventDefault();
+        event.stopImmediatePropagation();
+      }
+    }, true);
     renderAccount();
   }
 
@@ -311,5 +343,13 @@
     window.addEventListener("online", fullSync);
   }
 
-  window.BoardSync = { init, recordJobStatus, recordOfflinePlan, syncNow: fullSync, open: openModal };
+  window.BoardSync = {
+    init,
+    recordJobStatus,
+    recordOfflinePlan,
+    syncNow: fullSync,
+    open: openModal,
+    isAuthenticated,
+    consumeGuestAction,
+  };
 })();

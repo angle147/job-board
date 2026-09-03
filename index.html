@@ -828,6 +828,8 @@ a.link-notice:hover { border-color: var(--primary); color: var(--primary); }
 <script src="data/job_status_history.js"></script>
 <script src="data/offline_events.js"></script>
 <script src="data/offline_sources.js"></script>
+<script src="sync-config.js"></script>
+<script src="sync-client.js"></script>
 
 <script>
 // ============ App State ============
@@ -893,6 +895,7 @@ function saveStatus(item, tab, status) {
   const snapshots = loadStatusSnapshots();
   snapshots[key] = {...item, savedTab: tab, savedAt: new Date().toISOString()};
   localStorage.setItem('job_status_snapshots', JSON.stringify(snapshots));
+  window.BoardSync?.recordJobStatus(key, status, snapshots[key]);
 }
 
 function loadStatusSnapshots() {
@@ -1447,6 +1450,7 @@ function toggleOfflinePlan(id) {
   const plans = loadOfflinePlans();
   plans.has(id) ? plans.delete(id) : plans.add(id);
   saveOfflinePlans(plans);
+  window.BoardSync?.recordOfflinePlan(id, plans.has(id));
   refresh();
 }
 
@@ -1616,6 +1620,18 @@ function renderEvents(events) {
 // ============ Init ============
 renderFilters();
 refresh();
+window.BoardSync?.init({
+  onStateApplied: refresh,
+  getActiveKeys: () => {
+    const jobs = [
+      ...ALL_JOBS.map(item => ({item, tab:'soe'})),
+      ...PUBLIC_BOARD_JOBS.map(item => ({item, tab:'public'})),
+      ...REVIEW_BOARD_JOBS.map(item => ({item, tab:'review'})),
+    ].map(({item, tab}) => ({kind:'job_status', key:stableStatusKey(item, tab)}));
+    const events = OFFLINE_BOARD_EVENTS.map(item => ({kind:'offline_plan', key:item.id}));
+    return [...jobs, ...events];
+  },
+});
 </script>
 
 </body>

@@ -1,0 +1,4 @@
+project_id = "gevdzlathbeklndyatac"
+
+[functions.job-board-sync]
+verify_jwt = false

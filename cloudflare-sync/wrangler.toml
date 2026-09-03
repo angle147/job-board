@@ -1,0 +1,16 @@
+name = "job-board-sync"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+workers_dev = true
+preview_urls = false
+
+[[d1_databases]]
+binding = "DB"
+database_name = "job-board-sync"
+database_id = "2ca96b4f-bf7b-4df2-9562-1632178a66c8"
+
+[vars]
+ALLOWED_ORIGINS = "https://angle147.github.io,http://127.0.0.1:8000,http://localhost:8000"
+
+[triggers]
+crons = ["17 2 * * *"]

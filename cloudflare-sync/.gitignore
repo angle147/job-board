@@ -1,0 +1,6 @@
+node_modules/
+.npm-cache/
+.wrangler/
+.dev.vars
+DEPLOYMENT_SECRETS.local.json
+.wrangler-config/

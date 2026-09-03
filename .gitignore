@@ -13,3 +13,8 @@ USER_PROFILE.local.md
 .offline_source_health.json
 .offline_event_reminders.json
 .local_soe_source_health.json
+.access-token.local/
+supabase-sync/.access-token.local/
+.npm-cache/
+.daily_update.lock
+supabase-sync/supabase/.temp/

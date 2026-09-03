@@ -1,5 +1,5 @@
 // 济南线下招聘活动 — 由 scrape_offline_events.py 生成
-// 更新时间: 2026-09-03 09:09:59
+// 更新时间: 2026-09-03 17:10:34
 
 const OFFLINE_EVENTS = [
   {
@@ -20,7 +20,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-03 09:09:20"
+    "updatedAt": "2026-09-03 17:09:33"
   },
   {
     "id": "2415c2d7bf10e12d",
@@ -40,7 +40,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-03 09:09:18"
+    "updatedAt": "2026-09-03 17:09:32"
   },
   {
     "id": "11dbee8e6aaa5a8a",
@@ -60,7 +60,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-03 09:09:18"
+    "updatedAt": "2026-09-03 17:09:32"
   },
   {
     "id": "01f1bd25fc566573",
@@ -80,7 +80,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-03 09:09:18"
+    "updatedAt": "2026-09-03 17:09:32"
   },
   {
     "id": "eabb2b174f10653b",
@@ -100,7 +100,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-03 09:09:18"
+    "updatedAt": "2026-09-03 17:09:32"
   },
   {
     "id": "8c2d47b5446a8cb4",
@@ -120,7 +120,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-03 09:09:18"
+    "updatedAt": "2026-09-03 17:09:32"
   },
   {
     "id": "b6fc97e319d6edcc",
@@ -140,7 +140,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-03 09:09:18"
+    "updatedAt": "2026-09-03 17:09:32"
   },
   {
     "id": "6e53240eb3c10667",
@@ -160,7 +160,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-03 09:09:18"
+    "updatedAt": "2026-09-03 17:09:32"
   },
   {
     "id": "f30cc8892a79b2a2",
@@ -180,7 +180,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-03 09:09:18"
+    "updatedAt": "2026-09-03 17:09:32"
   },
   {
     "id": "145f88c69b93256a",
@@ -200,7 +200,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-03 09:09:38"
+    "updatedAt": "2026-09-03 17:10:13"
   },
   {
     "id": "c3785b4e60fd70fd",
@@ -220,6 +220,6 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-03 09:09:18"
+    "updatedAt": "2026-09-03 17:09:32"
   }
 ];

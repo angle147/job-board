@@ -37,7 +37,8 @@ HARD_WORK_PATTERNS = (
 )
 OFFICIAL_DOMAINS = (
     "gov.cn", "shandong.gov.cn", "sd-port.com", "sdhsg.com", "china-railway.com.cn",
-    "mohrss.gov.cn", "iguopin.com",
+    "mohrss.gov.cn", "iguopin.com", "sasac.gov.cn",
+    "ncss.cn",
 )
 
 
@@ -53,6 +54,8 @@ class SourceSpec:
 SOURCES = (
     SourceSpec("jobs.js", "JOBS", "山东省国资委", "soe", "官方"),
     SourceSpec("jobs_qyzp.js", "JOBS_QYZP", "央企招聘公告", "soe", "官方"),
+    SourceSpec("jobs_ncss_soe.js", "JOBS_NCSS_SOE", "国家大学生就业服务平台国企专题", "soe", "官方"),
+    SourceSpec("jobs_sasac_central.js", "JOBS_SASAC_CENTRAL", "国务院国资委人才招聘", "soe", "官方"),
     SourceSpec("jobs_sdhsg.js", "JOBS_SDHSG", "山东高速", "soe", "官方"),
     SourceSpec("jobs_sdport.js", "JOBS_SDPORT", "山东港口", "soe", "官方"),
     SourceSpec("jobs_railway.js", "JOBS_RAILWAY", "中国铁路人才招聘网", "soe", "官方"),

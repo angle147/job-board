@@ -57,6 +57,20 @@ SCRAPERS = [
         "timeout": 60,
     },
     {
+        "name": "国家大学生就业服务平台国企专题",
+        "script": "scrape_ncss_soe.py",
+        "args": [],
+        "daily": True,
+        "timeout": 90,
+    },
+    {
+        "name": "国务院国资委人才招聘",
+        "script": "scrape_sasac_central.py",
+        "args": [],
+        "daily": True,
+        "timeout": 90,
+    },
+    {
         "name": "山东高速招聘公告",
         "script": "scrape_sdhsg.py",
         "args": [],

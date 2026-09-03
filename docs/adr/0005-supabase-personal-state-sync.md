@@ -16,6 +16,8 @@ Cloudflare Worker 与 D1 已完成实现和本地测试，但当前网络访问 
 
 跨域请求只允许 `https://angle147.github.io`。管理员凭据、班级邀请码和限频密钥仅保存在 Supabase Secrets，本地部署副本和临时访问令牌均由 Git 忽略。
 
+管理员界面由 GitHub Pages 的 `admin.html` 承载并调用相同 Edge Function API。Supabase 网关会把函数直接返回的 HTML 标记为 `text/plain`，因此函数内置 `/admin` 页面不作为正式入口。
+
 ## 验证
 
 线上集成测试覆盖注册、账号名大小写不敏感登录、第二设备读取、岗位状态与线下计划同步、管理员人数统计、一次性密码重置、旧会话失效和成员删号；测试账号在流程末尾删除。

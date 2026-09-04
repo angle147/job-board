@@ -28,8 +28,11 @@ def fetch(year: int) -> str | None:
         if error.code == 404:
             return None
         raise
-    # 页面声明 UTF-8，但实际响应长期使用 GBK/GB18030。
-    return raw.decode("gb18030", "replace")
+    # 该页面曾在 UTF-8 与 GBK/GB18030 之间切换；优先严格 UTF-8，失败再回退。
+    try:
+        return raw.decode("utf-8")
+    except UnicodeDecodeError:
+        return raw.decode("gb18030", "replace")
 
 
 def parse_embedded_list(html: str) -> list[dict]:

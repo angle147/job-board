@@ -108,6 +108,13 @@ def has_other_explicit_cohort(text: str) -> bool:
     return bool(years) and "27" not in years
 
 
+def is_graduate_recruitment(text: str) -> bool:
+    """国企正式栏只要求属于应届毕业生或校园招聘，不再限定具体届次。"""
+    return explicit_target_year(text) or any(term in text for term in (
+        "应届", "校园招聘", "校招", "高校毕业生", "毕业生招聘", "毕业生招录", "管培生",
+    ))
+
+
 def parse_date(value: object) -> date | None:
     if not value:
         return None
@@ -138,7 +145,7 @@ def hard_exclusion_reasons(item: dict, kind: str) -> list[str]:
         reasons.append("已截止")
     if "社招" in text and not any(term in text for term in ("校招", "应届", "校园招聘")):
         reasons.append("纯社会招聘")
-    if has_other_explicit_cohort(text) and not explicit_target_year(text):
+    if kind == "public" and has_other_explicit_cohort(text) and not explicit_target_year(text):
         reasons.append("不面向目标届别")
     if re.search(r"(?:须|限|要求)[^。；|]{0,12}(?:中共)?党员", text) and "党员优先" not in text:
         reasons.append("党员硬性限制")
@@ -312,14 +319,20 @@ def classify_record(item: dict, spec: SourceSpec) -> tuple[str, dict]:
         review_reasons.append("第三方来源仅作线索，需反查官方原文和国企控制关系")
     if record["evidenceLevel"] != "官方原文":
         review_reasons.append("缺少可验证的官方原文")
-    if not is_specific_position(item):
-        review_reasons.append("当前为公告级记录，职位表尚未拆分")
-    if fit == "待核验":
-        review_reasons.append(fit_reason)
-    if not explicit_target_year(combined_text(item)):
-        review_reasons.append("目标届别尚未明确确认")
-    if not record.get("deadline") or record.get("deadline") in ("待核验", "以公告为准", "招满为止"):
-        review_reasons.append("明确截止日期待核验")
+    if spec.kind == "soe":
+        # 国企正式栏采用宽口径：官方证据 + 应届/校招属性即可。
+        # 具体岗位、专业匹配和明确截止日期仍展示，但不再作为入栏门槛。
+        if not is_graduate_recruitment(combined_text(item)):
+            review_reasons.append("应届毕业生或校园招聘属性尚未确认")
+    else:
+        if not is_specific_position(item):
+            review_reasons.append("当前为公告级记录，职位表尚未拆分")
+        if fit == "待核验":
+            review_reasons.append(fit_reason)
+        if not explicit_target_year(combined_text(item)):
+            review_reasons.append("目标届别尚未明确确认")
+        if not record.get("deadline") or record.get("deadline") in ("待核验", "以公告为准", "招满为止"):
+            review_reasons.append("明确截止日期待核验")
     record["reviewReasons"] = sorted(set(review_reasons))
     record["priorityScore"] = priority_score(record)
 

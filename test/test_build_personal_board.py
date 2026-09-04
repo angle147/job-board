@@ -1,6 +1,6 @@
 import unittest
 
-from build_personal_board import SourceSpec, classify_record
+from build_personal_board import SourceSpec, classify_record, merge_bucket
 
 
 class BroadSoeEntryTests(unittest.TestCase):
@@ -81,6 +81,13 @@ class BroadSoeEntryTests(unittest.TestCase):
             "noticeLink": "https://www.gov.cn/example4",
         }, self.public)
         self.assertEqual(bucket, "excluded")
+
+    def test_formal_soe_wins_over_review_duplicate_in_either_order(self):
+        self.assertEqual(merge_bucket("soe", "review"), "soe")
+        self.assertEqual(merge_bucket("review", "soe"), "soe")
+
+    def test_excluded_duplicate_still_wins_over_formal_bucket(self):
+        self.assertEqual(merge_bucket("soe", "excluded"), "excluded")
 
 
 if __name__ == "__main__":

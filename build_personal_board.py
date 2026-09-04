@@ -302,6 +302,17 @@ def merge_record(existing: dict, incoming: dict) -> dict:
     return merged
 
 
+def merge_bucket(old_bucket: str, new_bucket: str) -> str:
+    """同一规范记录只进入一个栏目：排除优先，其次正式栏，最后待处理。"""
+    if "excluded" in (old_bucket, new_bucket):
+        return "excluded"
+    if old_bucket in ("soe", "public"):
+        return old_bucket
+    if new_bucket in ("soe", "public"):
+        return new_bucket
+    return "review"
+
+
 def classify_record(item: dict, spec: SourceSpec) -> tuple[str, dict]:
     record = normalize_job(item, spec)
     exclusions = hard_exclusion_reasons(item, spec.kind)
@@ -368,12 +379,10 @@ def main() -> None:
         if key in merged:
             old_bucket, old_record = merged[key]
             merged_record = merge_record(old_record, record)
-            if merged_record.get("exclusionReasons"):
-                merged_bucket = "excluded"
-            elif "review" in (old_bucket, bucket):
-                merged_bucket = "review"
-            else:
-                merged_bucket = old_bucket
+            merged_bucket = merge_bucket(old_bucket, bucket)
+            if merged_bucket in ("soe", "public"):
+                merged_record["reviewReasons"] = []
+                merged_record["status"] = "新发现"
             merged[key] = (merged_bucket, merged_record)
         else:
             merged[key] = (bucket, record)

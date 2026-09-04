@@ -1,5 +1,5 @@
 // 济南线下招聘活动 — 由 scrape_offline_events.py 生成
-// 更新时间: 2026-09-04 09:10:21
+// 更新时间: 2026-09-04 17:11:38
 
 const OFFLINE_EVENTS = [
   {
@@ -20,7 +20,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-04 09:09:26"
+    "updatedAt": "2026-09-04 17:10:00"
   },
   {
     "id": "11dbee8e6aaa5a8a",
@@ -40,7 +40,47 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-04 09:09:26"
+    "updatedAt": "2026-09-04 17:10:00"
+  },
+  {
+    "id": "0abbcce77e2df48a",
+    "title": "卓尔坞英语教师招聘",
+    "eventType": "综合招聘会",
+    "organizer": "济南大学",
+    "school": "济南大学",
+    "startDate": "2026-09-10",
+    "endDate": "2026-09-10",
+    "timeText": "09:30 - 11:30",
+    "location": "宣讲-就业指导中心402室【主校区】",
+    "city": "济南",
+    "sourceKey": "ujn",
+    "sourceName": "济南大学",
+    "sourceUrl": "https://school.gxjy.sdei.edu.cn/ujn/school/TblCareerFairReviewRecord/detail/202609031424592ec96d7d",
+    "evidenceLevel": "官方",
+    "exhibitorStatus": "企业名单未公布",
+    "exhibitorUrl": "",
+    "admissionNotes": "未明确拒绝则默认可尝试入场",
+    "updatedAt": "2026-09-04 17:10:00"
+  },
+  {
+    "id": "974458e18a302c45",
+    "title": "卓尔坞英语教师招聘",
+    "eventType": "综合招聘会",
+    "organizer": "济南大学",
+    "school": "济南大学",
+    "startDate": "2026-09-10",
+    "endDate": "2026-09-10",
+    "timeText": "14:30 - 16:30",
+    "location": "宣讲-就业指导中心403室【主校区】",
+    "city": "济南",
+    "sourceKey": "ujn",
+    "sourceName": "济南大学",
+    "sourceUrl": "https://school.gxjy.sdei.edu.cn/ujn/school/TblCareerFairReviewRecord/detail/20260903142730a081cb45",
+    "evidenceLevel": "官方",
+    "exhibitorStatus": "企业名单未公布",
+    "exhibitorUrl": "",
+    "admissionNotes": "未明确拒绝则默认可尝试入场",
+    "updatedAt": "2026-09-04 17:10:00"
   },
   {
     "id": "01f1bd25fc566573",
@@ -60,7 +100,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-04 09:09:26"
+    "updatedAt": "2026-09-04 17:10:00"
   },
   {
     "id": "eabb2b174f10653b",
@@ -80,7 +120,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-04 09:09:26"
+    "updatedAt": "2026-09-04 17:10:00"
   },
   {
     "id": "8c2d47b5446a8cb4",
@@ -100,27 +140,47 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-04 09:09:26"
+    "updatedAt": "2026-09-04 17:10:00"
   },
   {
-    "id": "b6fc97e319d6edcc",
-    "title": "2027届豪迈集团秋季校园招聘宣讲会",
-    "eventType": "企业宣讲会",
+    "id": "fb166f7b16e7ff36",
+    "title": "兴森科技校园招聘",
+    "eventType": "综合招聘会",
     "organizer": "济南大学",
     "school": "济南大学",
-    "startDate": "2026-09-21",
-    "endDate": "2026-09-21",
-    "timeText": "18:30 - 20:30",
-    "location": "面试-就业指导中心401-1室【主校区】",
+    "startDate": "2026-09-16",
+    "endDate": "2026-09-16",
+    "timeText": "14:30 - 16:30",
+    "location": "宣讲-就业指导中心403室【主校区】",
     "city": "济南",
     "sourceKey": "ujn",
     "sourceName": "济南大学",
-    "sourceUrl": "https://school.gxjy.sdei.edu.cn/ujn/school/TblCareerFairReviewRecord/detail/202609011638532ed8af93",
+    "sourceUrl": "https://school.gxjy.sdei.edu.cn/ujn/school/TblCareerFairReviewRecord/detail/20260903142110760da8a4",
     "evidenceLevel": "官方",
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-04 09:09:26"
+    "updatedAt": "2026-09-04 17:10:00"
+  },
+  {
+    "id": "c3bd2c16934390d9",
+    "title": "中核四0四有限公司2027届秋季校园招聘",
+    "eventType": "综合招聘会",
+    "organizer": "济南大学",
+    "school": "济南大学",
+    "startDate": "2026-09-18",
+    "endDate": "2026-09-18",
+    "timeText": "09:30 - 11:30",
+    "location": "宣讲-就业指导中心403室【主校区】",
+    "city": "济南",
+    "sourceKey": "ujn",
+    "sourceName": "济南大学",
+    "sourceUrl": "https://school.gxjy.sdei.edu.cn/ujn/school/TblCareerFairReviewRecord/detail/20260903160237248c7e61",
+    "evidenceLevel": "官方",
+    "exhibitorStatus": "企业名单未公布",
+    "exhibitorUrl": "",
+    "admissionNotes": "未明确拒绝则默认可尝试入场",
+    "updatedAt": "2026-09-04 17:10:00"
   },
   {
     "id": "6e53240eb3c10667",
@@ -140,7 +200,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-04 09:09:26"
+    "updatedAt": "2026-09-04 17:10:00"
   },
   {
     "id": "f30cc8892a79b2a2",
@@ -160,7 +220,27 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-04 09:09:26"
+    "updatedAt": "2026-09-04 17:10:00"
+  },
+  {
+    "id": "bec14cb89aa9fafc",
+    "title": "新达盟-珠海万达商管2027届校园招聘宣讲会 燕山校区2号教学楼105教室",
+    "eventType": "企业宣讲会",
+    "organizer": "山东财经大学",
+    "school": "山东财经大学",
+    "startDate": "2026-09-24",
+    "endDate": "2026-09-24",
+    "timeText": "14:30-16:00",
+    "location": "燕山校区2号教学楼105教室",
+    "city": "济南",
+    "sourceKey": "sdufe",
+    "sourceName": "山东财经大学",
+    "sourceUrl": "https://jobsdufe.sdbys.com/teachin/view/id/135244",
+    "evidenceLevel": "官方",
+    "exhibitorStatus": "企业名单未公布",
+    "exhibitorUrl": "",
+    "admissionNotes": "未明确拒绝则默认可尝试入场",
+    "updatedAt": "2026-09-04 17:11:21"
   },
   {
     "id": "145f88c69b93256a",
@@ -180,7 +260,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-04 09:09:57"
+    "updatedAt": "2026-09-04 17:11:18"
   },
   {
     "id": "c3785b4e60fd70fd",
@@ -200,6 +280,6 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-04 09:09:26"
+    "updatedAt": "2026-09-04 17:10:00"
   }
 ];

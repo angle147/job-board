@@ -12,13 +12,46 @@ class BroadSoeEntryTests(unittest.TestCase):
         bucket, record = classify_record({
             "id": "1",
             "companyName": "某央企",
-            "positions": "某央企2026届校园招聘公告",
-            "targetYears": "2026届",
+            "positions": "某央企校园招聘公告",
+            "targetYears": "",
             "noticeLink": "https://www.sasac.gov.cn/example",
         }, self.soe)
         self.assertEqual(bucket, "soe")
         self.assertEqual(record["fitLevel"], "待核验")
         self.assertEqual(record["deadline"], "待核验")
+
+    def test_explicit_2026_soe_is_excluded(self):
+        bucket, record = classify_record({
+            "id": "2026",
+            "companyName": "某央企",
+            "positions": "某央企2026届校园招聘公告",
+            "targetYears": "2026届",
+            "noticeLink": "https://www.sasac.gov.cn/example-2026",
+        }, self.soe)
+        self.assertEqual(bucket, "excluded")
+        self.assertIn("不面向目标届别", record["exclusionReasons"])
+
+    def test_mixed_2026_and_2027_notice_is_excluded(self):
+        bucket, record = classify_record({
+            "id": "mixed",
+            "companyName": "某央企",
+            "positions": "2026届校园招聘、2027届实习生招聘",
+            "targetYears": "2027届",
+            "noticeLink": "https://www.sasac.gov.cn/example-mixed",
+        }, self.soe)
+        self.assertEqual(bucket, "excluded")
+        self.assertIn("不面向目标届别", record["exclusionReasons"])
+
+    def test_explicit_2026_campus_year_is_excluded(self):
+        bucket, record = classify_record({
+            "id": "2026-campus",
+            "companyName": "某央企",
+            "positions": "某央企2026年校招补招公告",
+            "targetYears": "待核验",
+            "noticeLink": "https://www.sasac.gov.cn/example-2026-campus",
+        }, self.soe)
+        self.assertEqual(bucket, "excluded")
+        self.assertIn("不面向目标届别", record["exclusionReasons"])
 
     def test_non_graduate_recruitment_stays_in_review(self):
         bucket, _ = classify_record({

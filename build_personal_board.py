@@ -102,14 +102,18 @@ def explicit_target_year(text: str) -> bool:
 def has_other_explicit_cohort(text: str) -> bool:
     years = set(re.findall(r"20(2[4-9])\s*届", text))
     years.update(re.findall(
+        r"20(2[4-9])\s*年?[^|。；]{0,8}(?:应届|校园招聘|校招|高校毕业生)",
+        text,
+    ))
+    years.update(re.findall(
         r"20(2[4-9])\s*(?:年度?|年)?[^|。；]{0,10}(?:春季|秋季|校园|高校毕业生)?招聘",
         text,
     ))
-    return bool(years) and "27" not in years
+    return any(year != "27" for year in years)
 
 
 def is_graduate_recruitment(text: str) -> bool:
-    """国企正式栏只要求属于应届毕业生或校园招聘，不再限定具体届次。"""
+    """识别应届毕业生或校园招聘；具体届次由硬性排除规则单独判断。"""
     return explicit_target_year(text) or any(term in text for term in (
         "应届", "校园招聘", "校招", "高校毕业生", "毕业生招聘", "毕业生招录", "管培生",
     ))
@@ -145,7 +149,7 @@ def hard_exclusion_reasons(item: dict, kind: str) -> list[str]:
         reasons.append("已截止")
     if "社招" in text and not any(term in text for term in ("校招", "应届", "校园招聘")):
         reasons.append("纯社会招聘")
-    if kind == "public" and has_other_explicit_cohort(text) and not explicit_target_year(text):
+    if has_other_explicit_cohort(text):
         reasons.append("不面向目标届别")
     if re.search(r"(?:须|限|要求)[^。；|]{0,12}(?:中共)?党员", text) and "党员优先" not in text:
         reasons.append("党员硬性限制")

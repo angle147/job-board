@@ -1,10 +1,46 @@
 // 海投网 — 交通/物流/仓储行业校招
-// 2026-09-04 17:06:06
+// 2026-09-05 09:05:15
 // 90 条
 
 const JOBS_HAITOU = [
   {
     id: "1",
+    companyName: "ANTA Logistics 27届校招",
+    companyType: "企业",
+    industry: "综合",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "全国",
+    positions: "ANTA Logistics 27届校招",
+    status: "未投递",
+    updateTime: "2026-09-05",
+    deadline: "招满为止",
+    applyLink: "https://campus.niuqizp.com/schedule-7YwUNttNC.html",
+    noticeLink: "https://campus.niuqizp.com/schedule-7YwUNttNC.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 海投网 [2026-09-05] | "
+  },
+  {
+    id: "2",
+    companyName: "极兔速递 28届",
+    companyType: "企业",
+    industry: "综合",
+    recruitType: "秋招",
+    targetYears: "2026届",
+    location: "全国",
+    positions: "秋招",
+    status: "未投递",
+    updateTime: "2026-09-05",
+    deadline: "招满为止",
+    applyLink: "https://campus.niuqizp.com/schedule-7rlrNtNzt.html",
+    noticeLink: "https://campus.niuqizp.com/schedule-7rlrNtNzt.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 海投网 [2026-09-05] | "
+  },
+  {
+    id: "3",
     companyName: "盛威,Safewell 27届校招",
     companyType: "企业",
     industry: "综合",
@@ -13,16 +49,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "盛威,Safewell 27届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7rw8NNnLZ.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7rw8NNnLZ.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "2",
+    id: "4",
     companyName: "传化Transfar 27届校招",
     companyType: "企业",
     industry: "综合",
@@ -31,16 +67,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "传化Transfar 27届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7klrNNnNC.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7klrNNnNC.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "3",
+    id: "5",
     companyName: "北京航天万源科技 27届",
     companyType: "企业",
     industry: "综合",
@@ -49,16 +85,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "秋招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7l8yNNZzN.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7l8yNNZzN.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "4",
+    id: "6",
     companyName: "河北高速 2026年社招",
     companyType: "企业",
     industry: "公路/高速",
@@ -67,16 +103,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "河北高速 2026年社招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7YwmNNznL.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7YwmNNznL.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "5",
+    id: "7",
     companyName: "德邦快递,DEPPON EXPRESS 2027届校招宣讲会",
     companyType: "企业",
     industry: "邮政/物流",
@@ -85,16 +121,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "德邦快递,DEPPON EXPRESS 2027届校招宣讲会",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7ws8NNztL.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7ws8NNztL.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "6",
+    id: "8",
     companyName: "中交第三 27届",
     companyType: "企业",
     industry: "综合",
@@ -103,16 +139,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "秋招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7ksUNNttZ.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7ksUNNttZ.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "7",
+    id: "9",
     companyName: "新石器 NEOLIX AI 27届校招",
     companyType: "企业",
     industry: "综合",
@@ -121,16 +157,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "新石器 NEOLIX AI 27届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7ysYNNtaN.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7ysYNNtaN.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "8",
+    id: "10",
     companyName: "华夏航空 27届校招",
     companyType: "企业",
     industry: "航空",
@@ -139,16 +175,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "华夏航空 27届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7rysNNNnN.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7rysNNNnN.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "9",
+    id: "11",
     companyName: "菜鸟 27届",
     companyType: "企业",
     industry: "综合",
@@ -157,16 +193,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "秋招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7lysNNNtM.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7lysNNNtM.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "10",
+    id: "12",
     companyName: "象屿,XMXYG 27届校招",
     companyType: "企业",
     industry: "综合",
@@ -175,16 +211,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "象屿,XMXYG 27届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7syUNN5M5.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7syUNN5M5.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "11",
+    id: "13",
     companyName: "航天恒星 27届",
     companyType: "企业",
     industry: "综合",
@@ -193,16 +229,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "秋招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7swsN5Maz.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7swsN5Maz.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "12",
+    id: "14",
     companyName: "满帮 27届",
     companyType: "企业",
     industry: "综合",
@@ -211,16 +247,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "秋招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7lk8N5MCN.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7lk8N5MCN.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "13",
+    id: "15",
     companyName: "中通快递 27届",
     companyType: "企业",
     industry: "邮政/物流",
@@ -229,16 +265,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "秋招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7wrrN5Mnt.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7wrrN5Mnt.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "14",
+    id: "16",
     companyName: "遨森电商AOSOM 27届校招",
     companyType: "企业",
     industry: "综合",
@@ -247,16 +283,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "遨森电商AOSOM 27届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7sYmNNL5n.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7sYmNNL5n.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "15",
+    id: "17",
     companyName: "中通快递 27届校招",
     companyType: "企业",
     industry: "邮政/物流",
@@ -265,16 +301,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "中通快递 27届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-78wUN5MLz.html",
     noticeLink: "https://campus.niuqizp.com/schedule-78wUN5MLz.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "16",
+    id: "18",
     companyName: "满帮 27届校招",
     companyType: "企业",
     industry: "综合",
@@ -283,16 +319,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "满帮 27届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7YwmN5nCt.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7YwmN5nCt.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "17",
+    id: "19",
     companyName: "智加科技 2027届校招",
     companyType: "企业",
     industry: "综合",
@@ -301,16 +337,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "智加科技 2027届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7lkyN5nMN.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7lkyN5nMN.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "18",
+    id: "20",
     companyName: "中远海运船员管理 27届校招",
     companyType: "企业",
     industry: "港口/航运",
@@ -319,16 +355,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "中远海运船员管理 27届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7YkYN5CMN.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7YkYN5CMN.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "19",
+    id: "21",
     companyName: "倍通供应链 27届校招",
     companyType: "企业",
     industry: "邮政/物流",
@@ -337,16 +373,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "倍通供应链 27届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7lYkN5C5N.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7lYkN5C5N.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "20",
+    id: "22",
     companyName: "春秋航空 2027届校招",
     companyType: "企业",
     industry: "航空",
@@ -355,16 +391,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "春秋航空 2027届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7ymrN5zaN.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7ymrN5zaN.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "21",
+    id: "23",
     companyName: "哈啰 27年",
     companyType: "企业",
     industry: "综合",
@@ -373,16 +409,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "招聘",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7YmUN5Zna.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7YmUN5Zna.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "22",
+    id: "24",
     companyName: "荣盛 27届校招",
     companyType: "企业",
     industry: "综合",
@@ -391,16 +427,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "荣盛 27届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7mrsN5NZn.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7mrsN5NZn.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "23",
+    id: "25",
     companyName: "京东 27届校招",
     companyType: "企业",
     industry: "综合",
@@ -409,16 +445,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "京东 27届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7U8yN5LZa.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7U8yN5LZa.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "24",
+    id: "26",
     companyName: "圆通速递 27届",
     companyType: "企业",
     industry: "综合",
@@ -427,16 +463,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "秋招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-78mkNLMt5.html",
     noticeLink: "https://campus.niuqizp.com/schedule-78mkNLMt5.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "25",
+    id: "27",
     companyName: "圆通 27届校招",
     companyType: "企业",
     industry: "综合",
@@ -445,16 +481,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "圆通 27届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7YlYNLazn.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7YlYNLazn.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "26",
+    id: "28",
     companyName: "福建港口 26届校招",
     companyType: "企业",
     industry: "港口/航运",
@@ -463,16 +499,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "福建港口 26届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7kYUNLaZL.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7kYUNLaZL.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "27",
+    id: "29",
     companyName: "山东铁投 26届社招",
     companyType: "企业",
     industry: "综合",
@@ -481,16 +517,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "山东铁投 26届社招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-78rYNLz5C.html",
     noticeLink: "https://campus.niuqizp.com/schedule-78rYNLz5C.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "28",
+    id: "30",
     companyName: "鸿擎科技 27届",
     companyType: "企业",
     industry: "综合",
@@ -499,16 +535,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "秋招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7k8YNLNtM.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7k8YNLNtM.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "29",
+    id: "31",
     companyName: "山东铁投 26届正式批",
     companyType: "企业",
     industry: "综合",
@@ -517,16 +553,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "山东铁投 26届正式批",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-788UNLtLZ.html",
     noticeLink: "https://campus.niuqizp.com/schedule-788UNLtLZ.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "30",
+    id: "32",
     companyName: "航天控制",
     companyType: "企业",
     industry: "综合",
@@ -535,16 +571,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "提前批",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7UmYNL5LL.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7UmYNL5LL.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "31",
+    id: "33",
     companyName: "湘潭城乡建设发展 26届校招",
     companyType: "企业",
     industry: "综合",
@@ -553,16 +589,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "湘潭城乡建设发展 26届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7myyNL5MZ.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7myyNL5MZ.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "32",
+    id: "34",
     companyName: "Eling 社招",
     companyType: "企业",
     industry: "综合",
@@ -571,16 +607,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "Eling 社招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7kYrNLL5t.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7kYrNLL5t.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "33",
+    id: "35",
     companyName: "四川蜀道铁路运营管理 26届校招",
     companyType: "企业",
     industry: "铁路/轨交",
@@ -589,16 +625,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "四川蜀道铁路运营管理 26届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7yls5MMnC.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7yls5MMnC.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "34",
+    id: "36",
     companyName: "Alibaba International Airlines 27",
     companyType: "企业",
     industry: "综合",
@@ -607,16 +643,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "招聘",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7sr85MMML.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7sr85MMML.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "35",
+    id: "37",
     companyName: "德邦快递 27届校招",
     companyType: "企业",
     industry: "邮政/物流",
@@ -625,16 +661,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "德邦快递 27届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-78YyNLLtC.html",
     noticeLink: "https://campus.niuqizp.com/schedule-78YyNLLtC.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "36",
+    id: "38",
     companyName: "内蒙古交通 正式批",
     companyType: "企业",
     industry: "公路/高速",
@@ -643,16 +679,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "内蒙古交通 正式批",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7mU85Mna5.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7mU85Mna5.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "37",
+    id: "39",
     companyName: "万海航运 26届校招",
     companyType: "企业",
     industry: "港口/航运",
@@ -661,16 +697,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "万海航运 26届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7lUr5MCZz.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7lUr5MCZz.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "38",
+    id: "40",
     companyName: "东莞轨道公交 26届校招",
     companyType: "企业",
     industry: "公交/客运",
@@ -679,16 +715,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "东莞轨道公交 26届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7rsm5MZnN.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7rsm5MZnN.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "39",
+    id: "41",
     companyName: "中国物流 26届校招",
     companyType: "企业",
     industry: "邮政/物流",
@@ -697,16 +733,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "中国物流 26届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7kY85MZNa.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7kY85MZNa.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "40",
+    id: "42",
     companyName: "中国兵器",
     companyType: "企业",
     industry: "综合",
@@ -715,16 +751,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "提前批",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7kw85MNMt.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7kw85MNMt.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "41",
+    id: "43",
     companyName: "蜀道智联 2026年社招校招",
     companyType: "企业",
     industry: "综合",
@@ -733,16 +769,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "蜀道智联 2026年社招校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7sUr5MLtL.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7sUr5MLtL.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "42",
+    id: "44",
     companyName: "卡尔动力KargoBot 27届",
     companyType: "企业",
     industry: "综合",
@@ -751,16 +787,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "提前批校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7lrm5MLz5.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7lrm5MLz5.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "43",
+    id: "45",
     companyName: "易动宇航",
     companyType: "企业",
     industry: "综合",
@@ -769,16 +805,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "提前批",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7sUU5nMzL.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7sUU5nMzL.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "44",
+    id: "46",
     companyName: "航天智能 27届",
     companyType: "企业",
     industry: "综合",
@@ -787,16 +823,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "秋招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7wyk5nnLn.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7wyk5nnLn.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "45",
+    id: "47",
     companyName: "成都天顺保利新材料,四川天华化工,四川新火炬化工,首众贸易,泸州市公共交通 26届校招,社招",
     companyType: "企业",
     industry: "公路/高速",
@@ -805,16 +841,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "成都天顺保利新材料,四川天华化工,四川新火炬化工,首众贸易,泸州市公共交通 26届校招,社招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7kYs5nCz5.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7kYs5nCz5.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "46",
+    id: "48",
     companyName: "航空工业雷达所",
     companyType: "企业",
     industry: "航空",
@@ -823,16 +859,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "提前批",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7syY5naMa.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7syY5naMa.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "47",
+    id: "49",
     companyName: "蓉达航运 26届校招",
     companyType: "企业",
     industry: "港口/航运",
@@ -841,16 +877,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "蓉达航运 26届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7lyU5naaZ.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7lyU5naaZ.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "48",
+    id: "50",
     companyName: "合聚新物流 26届校招",
     companyType: "企业",
     industry: "邮政/物流",
@@ -859,16 +895,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "合聚新物流 26届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7klk5naaz.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7klk5naaz.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "49",
+    id: "51",
     companyName: "青岛航空 26",
     companyType: "企业",
     industry: "航空",
@@ -877,16 +913,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "春招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7rlY5nza5.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7rlY5nza5.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "50",
+    id: "52",
     companyName: "华夏航空 27",
     companyType: "企业",
     industry: "航空",
@@ -895,16 +931,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "秋招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7mry5nzLL.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7mry5nzLL.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "51",
+    id: "53",
     companyName: "滨州邮政 26届",
     companyType: "企业",
     industry: "邮政/物流",
@@ -913,16 +949,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "春招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7YrY5nZLZ.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7YrY5nZLZ.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "52",
+    id: "54",
     companyName: "中国航天科技",
     companyType: "企业",
     industry: "综合",
@@ -931,16 +967,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "提前批",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7YsY5n5NZ.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7YsY5n5NZ.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "53",
+    id: "55",
     companyName: "苏州地铁 26",
     companyType: "企业",
     industry: "铁路/轨交",
@@ -949,16 +985,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "春招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7ssy5CMLM.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7ssy5CMLM.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "54",
+    id: "56",
     companyName: "航空工业通飞 27届",
     companyType: "企业",
     industry: "航空",
@@ -967,16 +1003,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "秋招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-78lU5CnNN.html",
     noticeLink: "https://campus.niuqizp.com/schedule-78lU5CnNN.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "55",
+    id: "57",
     companyName: "航空工业通飞 27",
     companyType: "企业",
     industry: "航空",
@@ -985,16 +1021,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "秋招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7yrk5Cn5t.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7yrk5Cn5t.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "56",
+    id: "58",
     companyName: "米瑞可供应链 社招",
     companyType: "企业",
     industry: "邮政/物流",
@@ -1003,16 +1039,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "米瑞可供应链 社招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7slm5CnLN.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7slm5CnLN.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "57",
+    id: "59",
     companyName: "航空工业通",
     companyType: "企业",
     industry: "航空",
@@ -1021,16 +1057,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "提前批",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7U885CzM5.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7U885CzM5.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "58",
+    id: "60",
     companyName: "山东交运 26届校招",
     companyType: "企业",
     industry: "公交/客运",
@@ -1039,16 +1075,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "山东交运 26届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7Ukr5Ca5n.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7Ukr5Ca5n.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "59",
+    id: "61",
     companyName: "福建罗源湾鲁能海港 26",
     companyType: "企业",
     industry: "综合",
@@ -1057,16 +1093,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "春招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7w8m5CtaC.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7w8m5CtaC.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "60",
+    id: "62",
     companyName: "东营邮政 26届",
     companyType: "企业",
     industry: "邮政/物流",
@@ -1075,16 +1111,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "春招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7wYy5CNN5.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7wYy5CNN5.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "61",
+    id: "63",
     companyName: "温州机场 社招",
     companyType: "企业",
     industry: "航空",
@@ -1093,16 +1129,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "温州机场 社招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7rmU5CNan.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7rmU5CNan.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "62",
+    id: "64",
     companyName: "嘉兴机场 26届校园",
     companyType: "企业",
     industry: "航空",
@@ -1111,16 +1147,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "招聘",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7UrU5aMCn.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7UrU5aMCn.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "63",
+    id: "65",
     companyName: "宇通 2027届校招",
     companyType: "企业",
     industry: "综合",
@@ -1129,16 +1165,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "提前批",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7rkl5aMnC.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7rkl5aMnC.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "64",
+    id: "66",
     companyName: "中国航发南方",
     companyType: "企业",
     industry: "航空",
@@ -1147,16 +1183,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "日常实习",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7lY85aa5L.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7lY85aa5L.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "65",
+    id: "67",
     companyName: "中国铁路呼和浩特局 26",
     companyType: "企业",
     industry: "铁路/轨交",
@@ -1165,16 +1201,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "春招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-78Yl5aznN.html",
     noticeLink: "https://campus.niuqizp.com/schedule-78Yl5aznN.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "66",
+    id: "68",
     companyName: "中国铁路郑州局 26",
     companyType: "企业",
     industry: "铁路/轨交",
@@ -1183,16 +1219,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "春招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7wmY5azn5.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7wmY5azn5.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "67",
+    id: "69",
     companyName: "中国铁路呼和浩特局 26届",
     companyType: "企业",
     industry: "铁路/轨交",
@@ -1201,16 +1237,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "春招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7Ull5azaZ.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7Ull5azaZ.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "68",
+    id: "70",
     companyName: "康尼机电",
     companyType: "企业",
     industry: "综合",
@@ -1219,16 +1255,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "日常实习",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7mmU5azzt.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7mmU5azzt.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "69",
+    id: "71",
     companyName: "中国铁路郑州局 26届",
     companyType: "企业",
     industry: "铁路/轨交",
@@ -1237,16 +1273,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "春招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7YyU5azat.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7YyU5azat.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "70",
+    id: "72",
     companyName: "顺丰 27届实习",
     companyType: "企业",
     industry: "综合",
@@ -1255,16 +1291,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "顺丰 27届实习",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7mls5aZCN.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7mls5aZCN.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "71",
+    id: "73",
     companyName: "中国铁路西安局 26届",
     companyType: "企业",
     industry: "铁路/轨交",
@@ -1273,16 +1309,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "春招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7yym5az5M.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7yym5az5M.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "72",
+    id: "74",
     companyName: "浙江海港内河航运 26",
     companyType: "企业",
     industry: "港口/航运",
@@ -1291,16 +1327,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "春招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7lYr5aZML.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7lYr5aZML.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "73",
+    id: "75",
     companyName: "成都轨道 26届校招",
     companyType: "企业",
     industry: "综合",
@@ -1309,16 +1345,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "成都轨道 26届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7yls5aZzN.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7yls5aZzN.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "74",
+    id: "76",
     companyName: "中国铁路济南局 26届",
     companyType: "企业",
     industry: "铁路/轨交",
@@ -1327,16 +1363,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "春招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7lU85attL.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7lU85attL.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "75",
+    id: "77",
     companyName: "顺丰",
     companyType: "企业",
     industry: "综合",
@@ -1345,16 +1381,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "日常实习",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7Uws5atNz.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7Uws5atNz.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "76",
+    id: "78",
     companyName: "中铁集装箱 26届校招面试通知",
     companyType: "企业",
     industry: "综合",
@@ -1363,16 +1399,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "中铁集装箱 26届校招面试通知",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7UyY5atZa.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7UyY5atZa.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "77",
+    id: "79",
     companyName: "瑞云冷链 26届校招",
     companyType: "企业",
     industry: "综合",
@@ -1381,16 +1417,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "瑞云冷链 26届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7Uky5aNZZ.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7Uky5aNZZ.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "78",
+    id: "80",
     companyName: "中国铁路乌鲁木齐局 26",
     companyType: "企业",
     industry: "铁路/轨交",
@@ -1399,16 +1435,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "春招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7yUk5aNaa.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7yUk5aNaa.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "79",
+    id: "81",
     companyName: "中远海运 26届校招",
     companyType: "企业",
     industry: "港口/航运",
@@ -1417,16 +1453,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "中远海运 26届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7y885a5nz.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7y885a5nz.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "80",
+    id: "82",
     companyName: "湖北港口 26届校招",
     companyType: "企业",
     industry: "港口/航运",
@@ -1435,16 +1471,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "湖北港口 26届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7mks5a5MN.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7mks5a5MN.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "81",
+    id: "83",
     companyName: "乌鲁木齐局 26届校招",
     companyType: "企业",
     industry: "综合",
@@ -1453,16 +1489,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "乌鲁木齐局 26届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7mUY5a5aa.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7mUY5a5aa.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "82",
+    id: "84",
     companyName: "中国铁路乌鲁木齐局 26届校招",
     companyType: "企业",
     industry: "铁路/轨交",
@@ -1471,16 +1507,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "中国铁路乌鲁木齐局 26届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7wsl5a5aC.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7wsl5a5aC.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "83",
+    id: "85",
     companyName: "中国铁路青藏 26届校招",
     companyType: "企业",
     industry: "铁路/轨交",
@@ -1489,16 +1525,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "中国铁路青藏 26届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-78kY5a5an.html",
     noticeLink: "https://campus.niuqizp.com/schedule-78kY5a5an.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "84",
+    id: "86",
     companyName: "华远陆港 26",
     companyType: "企业",
     industry: "综合",
@@ -1507,16 +1543,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "春招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7wsk5a5NC.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7wsk5a5NC.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "85",
+    id: "87",
     companyName: "中航 26届校招",
     companyType: "企业",
     industry: "综合",
@@ -1525,16 +1561,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "中航 26届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7ssU5zMCz.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7ssU5zMCz.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "86",
+    id: "88",
     companyName: "现代投资 26届校招",
     companyType: "企业",
     industry: "综合",
@@ -1543,16 +1579,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "现代投资 26届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7msU5zMCM.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7msU5zMCM.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "87",
+    id: "89",
     companyName: "山东高速 26届校招",
     companyType: "企业",
     industry: "公路/高速",
@@ -1561,16 +1597,16 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "山东高速 26届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7w8U5zMMt.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7w8U5zMMt.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   },
   {
-    id: "88",
+    id: "90",
     companyName: "中国铁路广州局 26届校招",
     companyType: "企业",
     industry: "铁路/轨交",
@@ -1579,48 +1615,12 @@ const JOBS_HAITOU = [
     location: "全国",
     positions: "中国铁路广州局 26届校招",
     status: "未投递",
-    updateTime: "2026-09-04",
+    updateTime: "2026-09-05",
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7yws5zaNa.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7yws5zaNa.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
-  },
-  {
-    id: "89",
-    companyName: "中国铁路兰州局 26",
-    companyType: "企业",
-    industry: "铁路/轨交",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "全国",
-    positions: "春招",
-    status: "未投递",
-    updateTime: "2026-09-04",
-    deadline: "招满为止",
-    applyLink: "https://campus.niuqizp.com/schedule-7r885zZaa.html",
-    noticeLink: "https://campus.niuqizp.com/schedule-7r885zZaa.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
-  },
-  {
-    id: "90",
-    companyName: "重庆铁马 26届",
-    companyType: "企业",
-    industry: "综合",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "全国",
-    positions: "春招",
-    status: "未投递",
-    updateTime: "2026-09-04",
-    deadline: "招满为止",
-    applyLink: "https://campus.niuqizp.com/schedule-7rkU5zZ5t.html",
-    noticeLink: "https://campus.niuqizp.com/schedule-7rkU5zZ5t.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 海投网 [2026-09-04] | "
+    notes: "来源: 海投网 [2026-09-05] | "
   }
 ];

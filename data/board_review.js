@@ -1,5 +1,5 @@
 // 待人工核验队列 — 由 build_personal_board.py 生成
-// 更新时间: 2026-09-04 17:11:38
+// 更新时间: 2026-09-05 09:09:55
 // 共 22 条
 
 const REVIEW_JOBS = [
@@ -733,7 +733,7 @@ const REVIEW_JOBS = [
     "priorityScore": 50
   },
   {
-    "id": "yingjiesheng_35",
+    "id": "yingjiesheng_27",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "上海液化天然气有限责任公司",
@@ -784,7 +784,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_36",
+    "id": "yingjiesheng_28",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "上海液化天然气有限责任公司",
@@ -835,21 +835,21 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_37",
+    "id": "yingjiesheng_18",
     "boardSection": "国企校招",
     "source": "应届生求职网",
-    "companyName": "上海液化天然气有限责任公司",
+    "companyName": "中国信息通信科技集团有限公司",
     "companyType": "央国企",
-    "industry": "综合",
+    "industry": "建筑/建材",
     "recruitType": "春招",
     "targetYears": "2027届",
-    "location": "上海",
-    "positions": "上海LNG机械检修（2027届）",
+    "location": "北京",
+    "positions": "职位描述",
     "status": "待处理",
     "updateTime": "2026-09-04",
     "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-055-738.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-055-738.html",
+    "applyLink": "https://m.yingjiesheng.com/job-008-057-775.html",
+    "noticeLink": "https://m.yingjiesheng.com/job-008-057-775.html",
     "examInfo": "",
     "companyScale": "",
     "notes": "来源: 应届生求职网 [2026-09-04] | 来源: 前程无忧(51JOB)",
@@ -862,7 +862,7 @@ const REVIEW_JOBS = [
     "examDate": "",
     "competitionRatio": "",
     "pastScoreLine": "",
-    "actualEmployer": "上海液化天然气有限责任公司",
+    "actualEmployer": "中国信息通信科技集团有限公司",
     "contractEmployer": "待核验",
     "employmentType": "待核验",
     "ownershipRelation": "待核验",
@@ -872,7 +872,7 @@ const REVIEW_JOBS = [
     "fitReason": "尚未取得可验证的专业要求",
     "evidenceLevel": "第三方线索",
     "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-055-738.html"
+      "https://m.yingjiesheng.com/job-008-057-775.html"
     ],
     "discoverySources": [
       "应届生求职网"
@@ -886,7 +886,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_61",
+    "id": "yingjiesheng_50",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "中国航发航空科技股份有限公司",
@@ -937,24 +937,24 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_16",
+    "id": "yingjiesheng_60",
     "boardSection": "国企校招",
     "source": "应届生求职网",
-    "companyName": "北京极兔供应链管理有限公司",
+    "companyName": "碧桂园生活服务集团股份有限公司",
     "companyType": "央国企",
-    "industry": "邮政/物流",
+    "industry": "综合",
     "recruitType": "春招",
     "targetYears": "2027届",
-    "location": "北京天津河北",
+    "location": "辽宁",
     "positions": "职位描述",
     "status": "待处理",
     "updateTime": "2026-09-04",
     "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-056-679.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-056-679.html",
+    "applyLink": "https://m.yingjiesheng.com/job-008-056-040.html",
+    "noticeLink": "https://m.yingjiesheng.com/job-008-056-040.html",
     "examInfo": "",
     "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-04] | 来源: 山西农业大学",
+    "notes": "来源: 应届生求职网 [2026-09-04] | 来源: 黑龙江大学",
     "majorReq": "",
     "educationReq": "",
     "positionCode": "",
@@ -964,7 +964,7 @@ const REVIEW_JOBS = [
     "examDate": "",
     "competitionRatio": "",
     "pastScoreLine": "",
-    "actualEmployer": "北京极兔供应链管理有限公司",
+    "actualEmployer": "碧桂园生活服务集团股份有限公司",
     "contractEmployer": "待核验",
     "employmentType": "待核验",
     "ownershipRelation": "待核验",
@@ -974,7 +974,7 @@ const REVIEW_JOBS = [
     "fitReason": "尚未取得可验证的专业要求",
     "evidenceLevel": "第三方线索",
     "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-056-679.html"
+      "https://m.yingjiesheng.com/job-008-056-040.html"
     ],
     "discoverySources": [
       "应届生求职网"
@@ -1039,7 +1039,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_60",
+    "id": "yingjiesheng_49",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "阳春新钢铁有限责任公司",

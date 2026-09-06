@@ -1,6 +1,6 @@
 // 待人工核验队列 — 由 build_personal_board.py 生成
-// 更新时间: 2026-09-06 09:34:24
-// 共 19 条
+// 更新时间: 2026-09-06 17:15:10
+// 共 18 条
 
 const REVIEW_JOBS = [
   {
@@ -733,7 +733,7 @@ const REVIEW_JOBS = [
     "priorityScore": 50
   },
   {
-    "id": "yingjiesheng_22",
+    "id": "yingjiesheng_36",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "上海液化天然气有限责任公司",
@@ -784,7 +784,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_44",
+    "id": "yingjiesheng_58",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "中国航发航空科技股份有限公司",
@@ -835,58 +835,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_10",
-    "boardSection": "国企校招",
-    "source": "应届生求职网",
-    "companyName": "长航货运有限公司",
-    "companyType": "央国企",
-    "industry": "综合",
-    "recruitType": "春招",
-    "targetYears": "2027届",
-    "location": "安徽",
-    "positions": "职位描述",
-    "status": "待处理",
-    "updateTime": "2026-09-04",
-    "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-056-313.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-056-313.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-04] | 来源: 阜阳师范大学",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "招满为止",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "长航货运有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "第三方线索",
-    "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-056-313.html"
-    ],
-    "discoverySources": [
-      "应届生求职网"
-    ],
-    "reviewReasons": [
-      "尚未取得可验证的专业要求",
-      "明确截止日期待核验",
-      "第三方来源仅作线索，需反查官方原文和国企控制关系",
-      "缺少可验证的官方原文"
-    ],
-    "priorityScore": 0
-  },
-  {
-    "id": "yingjiesheng_43",
+    "id": "yingjiesheng_57",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "阳春新钢铁有限责任公司",

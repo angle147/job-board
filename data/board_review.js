@@ -1,6 +1,6 @@
 // 待人工核验队列 — 由 build_personal_board.py 生成
-// 更新时间: 2026-09-05 17:10:31
-// 共 22 条
+// 更新时间: 2026-09-06 09:34:24
+// 共 19 条
 
 const REVIEW_JOBS = [
   {
@@ -733,57 +733,7 @@ const REVIEW_JOBS = [
     "priorityScore": 50
   },
   {
-    "id": "yingjiesheng_3",
-    "boardSection": "国企校招",
-    "source": "应届生求职网",
-    "companyName": "小仙炖霸州食品有限公司",
-    "companyType": "央国企",
-    "industry": "邮政/物流",
-    "recruitType": "春招",
-    "targetYears": "2027届",
-    "location": "北京",
-    "positions": "供应链管培生2027届（北京）",
-    "status": "待处理",
-    "updateTime": "2026-09-05",
-    "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-058-027.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-058-027.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-05] | 来源: 前程无忧(51JOB)",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "招满为止",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "小仙炖霸州食品有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "可尝试",
-    "fitReason": "专业名称或范围相近",
-    "evidenceLevel": "第三方线索",
-    "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-058-027.html"
-    ],
-    "discoverySources": [
-      "应届生求职网"
-    ],
-    "reviewReasons": [
-      "明确截止日期待核验",
-      "第三方来源仅作线索，需反查官方原文和国企控制关系",
-      "缺少可验证的官方原文"
-    ],
-    "priorityScore": 20
-  },
-  {
-    "id": "yingjiesheng_28",
+    "id": "yingjiesheng_22",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "上海液化天然气有限责任公司",
@@ -834,58 +784,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_29",
-    "boardSection": "国企校招",
-    "source": "应届生求职网",
-    "companyName": "上海液化天然气有限责任公司",
-    "companyType": "央国企",
-    "industry": "综合",
-    "recruitType": "春招",
-    "targetYears": "2027届",
-    "location": "上海",
-    "positions": "上海LNG生产运行（2027届）",
-    "status": "待处理",
-    "updateTime": "2026-09-04",
-    "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-055-804.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-055-804.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-04] | 来源: 前程无忧(51JOB)",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "招满为止",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "上海液化天然气有限责任公司",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "第三方线索",
-    "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-055-804.html"
-    ],
-    "discoverySources": [
-      "应届生求职网"
-    ],
-    "reviewReasons": [
-      "尚未取得可验证的专业要求",
-      "明确截止日期待核验",
-      "第三方来源仅作线索，需反查官方原文和国企控制关系",
-      "缺少可验证的官方原文"
-    ],
-    "priorityScore": 0
-  },
-  {
-    "id": "yingjiesheng_51",
+    "id": "yingjiesheng_44",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "中国航发航空科技股份有限公司",
@@ -936,58 +835,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_61",
-    "boardSection": "国企校招",
-    "source": "应届生求职网",
-    "companyName": "碧桂园生活服务集团股份有限公司",
-    "companyType": "央国企",
-    "industry": "综合",
-    "recruitType": "春招",
-    "targetYears": "2027届",
-    "location": "辽宁",
-    "positions": "职位描述",
-    "status": "待处理",
-    "updateTime": "2026-09-04",
-    "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-056-040.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-056-040.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-04] | 来源: 黑龙江大学",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "招满为止",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "碧桂园生活服务集团股份有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "第三方线索",
-    "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-056-040.html"
-    ],
-    "discoverySources": [
-      "应届生求职网"
-    ],
-    "reviewReasons": [
-      "尚未取得可验证的专业要求",
-      "明确截止日期待核验",
-      "第三方来源仅作线索，需反查官方原文和国企控制关系",
-      "缺少可验证的官方原文"
-    ],
-    "priorityScore": 0
-  },
-  {
-    "id": "yingjiesheng_11",
+    "id": "yingjiesheng_10",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "长航货运有限公司",
@@ -1038,7 +886,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_50",
+    "id": "yingjiesheng_43",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "阳春新钢铁有限责任公司",

@@ -1,6 +1,6 @@
 // 校招/社招岗位数据 — 自动爬取生成
-// 更新时间: 2026-09-06 17:09:47
-// 共 19 条
+// 更新时间: 2026-09-07 09:10:25
+// 共 18 条
 
 const JOBS = [
   {
@@ -326,23 +326,5 @@ const JOBS = [
     examInfo: "",
     companyScale: "",
     notes: "来源: 山东省国资委 [2026-07-10]"
-  },
-  {
-    id: 19,
-    companyName: "山钢资本控股（深圳）有限公司",
-    companyType: "央国企",
-    industry: "综合",
-    recruitType: "社招",
-    targetYears: "2026届",
-    location: "",
-    positions: "",
-    status: "未投递",
-    updateTime: "2026-07-09",
-    deadline: "招满为止",
-    applyLink: "",
-    noticeLink: "http://gzw.shandong.gov.cn/articles/ch00223/202607/d62fe7e3-4d5b-4287-920c-b056711987fd.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 山东省国资委 [2026-07-09]"
   }
 ];

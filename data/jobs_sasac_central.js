@@ -1,8 +1,27 @@
 // 国务院国资委 — 人才招聘栏目
-// 更新时间: 2026-09-06 17:09:47
+// 更新时间: 2026-09-07 09:10:25
 // 共 28 条
 
 const JOBS_SASAC_CENTRAL = [
+  {
+    id: "sasac-central-35866983",
+    companyName: "航天科工九院",
+    companyType: "央国企",
+    industry: "综合",
+    recruitType: "校招",
+    targetYears: "2027届",
+    location: "全国",
+    positions: "航天科工九院2027届校园招聘全面启动",
+    majorReq: "",
+    educationReq: "",
+    status: "未投递",
+    updateTime: "2026-09-07",
+    deadline: "",
+    applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35866983/content.html",
+    noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35866983/content.html",
+    examInfo: "",
+    notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
+  },
   {
     id: "sasac-central-35860611",
     companyName: "陕西飞机工业有限责任公司",
@@ -513,25 +532,6 @@ const JOBS_SASAC_CENTRAL = [
     deadline: "",
     applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35687596/content.html",
     noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35687596/content.html",
-    examInfo: "",
-    notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
-  },
-  {
-    id: "sasac-central-35666878",
-    companyName: "中国一汽",
-    companyType: "央国企",
-    industry: "综合",
-    recruitType: "校招",
-    targetYears: "2026届",
-    location: "全国",
-    positions: "中国一汽2026夏季校园招聘火热进行中",
-    majorReq: "",
-    educationReq: "",
-    status: "未投递",
-    updateTime: "2026-07-24",
-    deadline: "",
-    applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35666878/content.html",
-    noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35666878/content.html",
     examInfo: "",
     notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
   }

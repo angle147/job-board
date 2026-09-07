@@ -1,6 +1,6 @@
 // 国企校招岗位 — 由 build_personal_board.py 生成
-// 更新时间: 2026-09-06 17:15:10
-// 共 22 条
+// 更新时间: 2026-09-07 09:11:35
+// 共 23 条
 
 const SOE_JOBS = [
   {
@@ -920,6 +920,52 @@ const SOE_JOBS = [
     "evidenceLevel": "官方原文",
     "sourceLinks": [
       "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35848177/content.html"
+    ],
+    "discoverySources": [
+      "国务院国资委人才招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 0
+  },
+  {
+    "id": "国务院国资委人才招聘_sasac-central-35866983",
+    "boardSection": "国企校招",
+    "source": "国务院国资委人才招聘",
+    "companyName": "航天科工九院",
+    "companyType": "央国企",
+    "industry": "综合",
+    "recruitType": "校招",
+    "targetYears": "2027届",
+    "location": "全国",
+    "positions": "航天科工九院2027届校园招聘全面启动",
+    "status": "新发现",
+    "updateTime": "2026-09-07",
+    "deadline": "待核验",
+    "applyLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35866983/content.html",
+    "noticeLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35866983/content.html",
+    "examInfo": "",
+    "companyScale": "",
+    "notes": "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "航天科工九院",
+    "contractEmployer": "待核验",
+    "employmentType": "待核验",
+    "ownershipRelation": "待核验",
+    "ownershipEvidenceUrl": "",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35866983/content.html"
     ],
     "discoverySources": [
       "国务院国资委人才招聘"

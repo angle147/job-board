@@ -1,5 +1,5 @@
 // 济南地方国企官方招聘 — 自动采集
-// 更新时间: 2026-09-07 09:10:25
+// 更新时间: 2026-09-07 17:09:53
 // 共 36 条
 
 const JOBS_LOCAL_SOE = [
@@ -314,6 +314,30 @@ const JOBS_LOCAL_SOE = [
     ownershipRelation: "控制关系待核验",
     ownershipEvidenceUrl: "https://jngzw.jinan.gov.cn/col/col23870/index.html",
     sourceKey: "jinan_sasac"
+  },
+  {
+    id: "local_soe_79fae84147266ba5",
+    companyName: "这家驻济央企公开",
+    companyType: "央企线索",
+    industry: "综合",
+    recruitType: "公开招聘",
+    targetYears: "",
+    location: "济南市",
+    positions: "这家驻济央企公开招聘啦~",
+    status: "未投递",
+    updateTime: "2026-09-07",
+    deadline: "待核验",
+    applyLink: "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_3c33b6bdc3cb426a9b8258d15e8af6af.html",
+    noticeLink: "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_3c33b6bdc3cb426a9b8258d15e8af6af.html",
+    examInfo: "以公告为准",
+    companyScale: "",
+    notes: "来源: 济南市人社局国企招聘动态",
+    actualEmployer: "这家驻济央企公开",
+    contractEmployer: "待核验",
+    employmentType: "直接用工",
+    ownershipRelation: "控制关系待核验",
+    ownershipEvidenceUrl: "https://jnhrss.jinan.gov.cn/col/col18309/index.html",
+    sourceKey: "jinan_hrss_soe"
   },
   {
     id: "local_soe_1d76a753ce13ccf6",
@@ -837,30 +861,6 @@ const JOBS_LOCAL_SOE = [
     companyScale: "",
     notes: "来源: 济南市人社局国企招聘动态",
     actualEmployer: "济南有岗位！这家央企公开",
-    contractEmployer: "待核验",
-    employmentType: "直接用工",
-    ownershipRelation: "控制关系待核验",
-    ownershipEvidenceUrl: "https://jnhrss.jinan.gov.cn/col/col18309/index.html",
-    sourceKey: "jinan_hrss_soe"
-  },
-  {
-    id: "local_soe_1d5fd4c7921463b9",
-    companyName: "济南水务集团",
-    companyType: "地方国企线索",
-    industry: "综合",
-    recruitType: "公开招聘",
-    targetYears: "",
-    location: "济南市",
-    positions: "118人！这家市属国有企业公开招聘了",
-    status: "未投递",
-    updateTime: "2026-07-11",
-    deadline: "待核验",
-    applyLink: "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_52a5f35c11fb45649e3a18a4e0a93e5f.html",
-    noticeLink: "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_52a5f35c11fb45649e3a18a4e0a93e5f.html",
-    examInfo: "以公告为准",
-    companyScale: "",
-    notes: "来源: 济南市人社局国企招聘动态",
-    actualEmployer: "济南水务集团",
     contractEmployer: "待核验",
     employmentType: "直接用工",
     ownershipRelation: "控制关系待核验",

@@ -1,5 +1,5 @@
 // 待人工核验队列 — 由 build_personal_board.py 生成
-// 更新时间: 2026-09-07 09:11:35
+// 更新时间: 2026-09-07 17:11:32
 // 共 17 条
 
 const REVIEW_JOBS = [
@@ -589,54 +589,6 @@ const REVIEW_JOBS = [
     "priorityScore": 50
   },
   {
-    "id": "jinan_local_soe_local_soe_1d5fd4c7921463b9",
-    "boardSection": "国企校招",
-    "source": "济南地方国企官方招聘",
-    "companyName": "济南水务集团",
-    "companyType": "地方国企线索",
-    "industry": "综合",
-    "recruitType": "公开招聘",
-    "targetYears": "待核验",
-    "location": "济南市",
-    "positions": "118人！这家市属国有企业公开招聘了",
-    "status": "待处理",
-    "updateTime": "2026-07-11",
-    "deadline": "待核验",
-    "applyLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_52a5f35c11fb45649e3a18a4e0a93e5f.html",
-    "noticeLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_52a5f35c11fb45649e3a18a4e0a93e5f.html",
-    "examInfo": "以公告为准",
-    "companyScale": "",
-    "notes": "来源: 济南市人社局国企招聘动态",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "待核验",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "济南水务集团",
-    "contractEmployer": "待核验",
-    "employmentType": "直接用工",
-    "ownershipRelation": "控制关系待核验",
-    "ownershipEvidenceUrl": "https://jnhrss.jinan.gov.cn/col/col18309/index.html",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "官方原文",
-    "sourceLinks": [
-      "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_52a5f35c11fb45649e3a18a4e0a93e5f.html"
-    ],
-    "discoverySources": [
-      "济南地方国企官方招聘"
-    ],
-    "reviewReasons": [
-      "应届毕业生或校园招聘属性尚未确认"
-    ],
-    "priorityScore": 50
-  },
-  {
     "id": "jinan_local_soe_local_soe_cc8d74cadfab56e8",
     "boardSection": "国企校招",
     "source": "济南地方国企官方招聘",
@@ -733,24 +685,72 @@ const REVIEW_JOBS = [
     "priorityScore": 50
   },
   {
-    "id": "yingjiesheng_77",
+    "id": "jinan_local_soe_local_soe_79fae84147266ba5",
+    "boardSection": "国企校招",
+    "source": "济南地方国企官方招聘",
+    "companyName": "这家驻济央企公开",
+    "companyType": "央企线索",
+    "industry": "综合",
+    "recruitType": "公开招聘",
+    "targetYears": "待核验",
+    "location": "济南市",
+    "positions": "这家驻济央企公开招聘啦~",
+    "status": "待处理",
+    "updateTime": "2026-09-07",
+    "deadline": "待核验",
+    "applyLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_3c33b6bdc3cb426a9b8258d15e8af6af.html",
+    "noticeLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_3c33b6bdc3cb426a9b8258d15e8af6af.html",
+    "examInfo": "以公告为准",
+    "companyScale": "",
+    "notes": "来源: 济南市人社局国企招聘动态",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "待核验",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "这家驻济央企公开",
+    "contractEmployer": "待核验",
+    "employmentType": "直接用工",
+    "ownershipRelation": "控制关系待核验",
+    "ownershipEvidenceUrl": "https://jnhrss.jinan.gov.cn/col/col18309/index.html",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_3c33b6bdc3cb426a9b8258d15e8af6af.html"
+    ],
+    "discoverySources": [
+      "济南地方国企官方招聘"
+    ],
+    "reviewReasons": [
+      "应届毕业生或校园招聘属性尚未确认"
+    ],
+    "priorityScore": 50
+  },
+  {
+    "id": "yingjiesheng_33",
     "boardSection": "国企校招",
     "source": "应届生求职网",
-    "companyName": "中国航发航空科技股份有限公司",
+    "companyName": "中国铁路通信信号股份有限公司",
     "companyType": "央国企",
-    "industry": "航空",
+    "industry": "铁路/轨交",
     "recruitType": "春招",
     "targetYears": "2027届",
-    "location": "成都",
+    "location": "广州",
     "positions": "职位描述",
     "status": "待处理",
-    "updateTime": "2026-09-04",
+    "updateTime": "2026-09-07",
     "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-013-084.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-013-084.html",
+    "applyLink": "https://m.yingjiesheng.com/job-008-054-932.html",
+    "noticeLink": "https://m.yingjiesheng.com/job-008-054-932.html",
     "examInfo": "",
     "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-04] | 来源: 前程无忧(51JOB)",
+    "notes": "来源: 应届生求职网 [2026-09-07] | 来源: 前程无忧(51JOB)",
     "majorReq": "",
     "educationReq": "",
     "positionCode": "",
@@ -760,7 +760,7 @@ const REVIEW_JOBS = [
     "examDate": "",
     "competitionRatio": "",
     "pastScoreLine": "",
-    "actualEmployer": "中国航发航空科技股份有限公司",
+    "actualEmployer": "中国铁路通信信号股份有限公司",
     "contractEmployer": "待核验",
     "employmentType": "待核验",
     "ownershipRelation": "待核验",
@@ -770,7 +770,7 @@ const REVIEW_JOBS = [
     "fitReason": "尚未取得可验证的专业要求",
     "evidenceLevel": "第三方线索",
     "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-013-084.html"
+      "https://m.yingjiesheng.com/job-008-054-932.html"
     ],
     "discoverySources": [
       "应届生求职网"
@@ -784,24 +784,24 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_76",
+    "id": "yingjiesheng_43",
     "boardSection": "国企校招",
     "source": "应届生求职网",
-    "companyName": "阳春新钢铁有限责任公司",
+    "companyName": "蒂升机场系统有限公司",
     "companyType": "央国企",
-    "industry": "公路/高速",
-    "recruitType": "春招",
+    "industry": "航空",
+    "recruitType": "实习",
     "targetYears": "2027届",
-    "location": "广东",
+    "location": "中山-火炬开发区",
     "positions": "职位描述",
     "status": "待处理",
-    "updateTime": "2026-09-04",
+    "updateTime": "2026-09-07",
     "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-055-810.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-055-810.html",
+    "applyLink": "https://m.yingjiesheng.com/job-007-954-810.html",
+    "noticeLink": "https://m.yingjiesheng.com/job-007-954-810.html",
     "examInfo": "",
     "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-04] | 来源: 昆明理工大学",
+    "notes": "来源: 应届生求职网 [2026-09-07] | 来源: 前程无忧(51JOB)",
     "majorReq": "",
     "educationReq": "",
     "positionCode": "",
@@ -811,7 +811,7 @@ const REVIEW_JOBS = [
     "examDate": "",
     "competitionRatio": "",
     "pastScoreLine": "",
-    "actualEmployer": "阳春新钢铁有限责任公司",
+    "actualEmployer": "蒂升机场系统有限公司",
     "contractEmployer": "待核验",
     "employmentType": "待核验",
     "ownershipRelation": "待核验",
@@ -821,7 +821,7 @@ const REVIEW_JOBS = [
     "fitReason": "尚未取得可验证的专业要求",
     "evidenceLevel": "第三方线索",
     "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-055-810.html"
+      "https://m.yingjiesheng.com/job-007-954-810.html"
     ],
     "discoverySources": [
       "应届生求职网"

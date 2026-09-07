@@ -37,6 +37,7 @@ DATA_FILES = [
     "jobs_railway.js",      # 中国铁路人才招聘网
     "jobs_ncss_soe.js",     # 国家大学生就业服务平台国企专题
     "jobs_sasac_central.js",# 国务院国资委人才招聘栏目
+    "jobs_cosco.js",        # 中远海运、招商局集团官方人才招聘平台
     "jobs_local_soe.js",    # 济南市及区县地方国企官方招聘
     "jobs_institutions.js", # 中国公共招聘网事业单位
     "jobs_manual.js",       # 手动（只清理明确过期的）

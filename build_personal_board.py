@@ -56,6 +56,7 @@ SOURCES = (
     SourceSpec("jobs_qyzp.js", "JOBS_QYZP", "央企招聘公告", "soe", "官方"),
     SourceSpec("jobs_ncss_soe.js", "JOBS_NCSS_SOE", "国家大学生就业服务平台国企专题", "soe", "官方"),
     SourceSpec("jobs_sasac_central.js", "JOBS_SASAC_CENTRAL", "国务院国资委人才招聘", "soe", "官方"),
+    SourceSpec("jobs_cosco.js", "JOBS_COSCO", "中远海运与招商局官方招聘", "soe", "官方"),
     SourceSpec("jobs_sdhsg.js", "JOBS_SDHSG", "山东高速", "soe", "官方"),
     SourceSpec("jobs_sdport.js", "JOBS_SDPORT", "山东港口", "soe", "官方"),
     SourceSpec("jobs_railway.js", "JOBS_RAILWAY", "中国铁路人才招聘网", "soe", "官方"),
@@ -250,6 +251,7 @@ def slug(value: str) -> str:
         "山东港口": "sdport", "中国铁路人才招聘网": "railway",
         "中国公共招聘网事业单位": "institution", "应届生求职网": "yingjiesheng",
         "济南地方国企官方招聘": "jinan_local_soe",
+        "中远海运与招商局官方招聘": "transport_iguopin",
         "海投网": "haitou", "手动维护": "manual", "国考职位库": "exam",
     }
     return aliases.get(value, re.sub(r"\W+", "_", value).strip("_").lower())

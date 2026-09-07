@@ -71,6 +71,13 @@ SCRAPERS = [
         "timeout": 90,
     },
     {
+        "name": "中远海运与招商局集团校园招聘",
+        "script": "scrape_cosco_iguopin.py",
+        "args": ["--page-size", "50", "--max-pages", "5"],
+        "daily": True,
+        "timeout": 120,
+    },
+    {
         "name": "山东高速招聘公告",
         "script": "scrape_sdhsg.py",
         "args": [],

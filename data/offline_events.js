@@ -1,107 +1,7 @@
 // 济南线下招聘活动 — 由 scrape_offline_events.py 生成
-// 更新时间: 2026-09-07 17:11:32
+// 更新时间: 2026-09-08 09:10:30
 
 const OFFLINE_EVENTS = [
-  {
-    "id": "4e20c0df6ee8fabe",
-    "title": "南京南瑞继保电气有限公司招聘",
-    "eventType": "综合招聘会",
-    "organizer": "山东大学济南校区",
-    "school": "山东大学济南校区",
-    "startDate": "2026-09-07",
-    "endDate": "2026-09-07",
-    "timeText": "时间待公布",
-    "location": "千佛山校区浪潮报告厅（主楼报告厅）",
-    "city": "济南",
-    "sourceKey": "sdu",
-    "sourceName": "山东大学济南校区",
-    "sourceUrl": "https://jobcareer.sdu.edu.cn/eweb/jygl/index.so?modcode=jygl_xjhxxck&subsyscode=zpfw&rklx=jyw&type=ssoXnzpView&id=KjHLgfy2kfz7Ld8Zx9dVrz",
-    "evidenceLevel": "官方",
-    "exhibitorStatus": "企业名单未公布",
-    "exhibitorUrl": "",
-    "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
-  },
-  {
-    "id": "821094ee0f3fc9df",
-    "title": "西南交通大学招聘",
-    "eventType": "综合招聘会",
-    "organizer": "山东大学济南校区",
-    "school": "山东大学济南校区",
-    "startDate": "2026-09-07",
-    "endDate": "2026-09-07",
-    "timeText": "时间待公布",
-    "location": "中心校区歌尔报告厅（就业中心第一报告厅）",
-    "city": "济南",
-    "sourceKey": "sdu",
-    "sourceName": "山东大学济南校区",
-    "sourceUrl": "https://jobcareer.sdu.edu.cn/eweb/jygl/index.so?modcode=jygl_xjhxxck&subsyscode=zpfw&rklx=jyw&type=ssoXnzpView&id=BEvGt9yWyyfVVvZb9xbc4q",
-    "evidenceLevel": "官方",
-    "exhibitorStatus": "企业名单未公布",
-    "exhibitorUrl": "",
-    "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
-  },
-  {
-    "id": "b245e69882191e62",
-    "title": "烟台睿创微纳技术股份有限公司招聘",
-    "eventType": "综合招聘会",
-    "organizer": "山东大学济南校区",
-    "school": "山东大学济南校区",
-    "startDate": "2026-09-07",
-    "endDate": "2026-09-07",
-    "timeText": "时间待公布",
-    "location": "中心校区海尔报告厅（就业中心第三报告厅）",
-    "city": "济南",
-    "sourceKey": "sdu",
-    "sourceName": "山东大学济南校区",
-    "sourceUrl": "https://jobcareer.sdu.edu.cn/eweb/jygl/index.so?modcode=jygl_xjhxxck&subsyscode=zpfw&rklx=jyw&type=ssoXnzpView&id=XZBt9XWhyJmkKUEMC4Fr9U",
-    "evidenceLevel": "官方",
-    "exhibitorStatus": "企业名单未公布",
-    "exhibitorUrl": "",
-    "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
-  },
-  {
-    "id": "7ce0f4263d9b9112",
-    "title": "【已取消】招商蛇口招聘",
-    "eventType": "综合招聘会",
-    "organizer": "山东大学济南校区",
-    "school": "山东大学济南校区",
-    "startDate": "2026-09-07",
-    "endDate": "2026-09-07",
-    "timeText": "时间待公布",
-    "location": "中心校区就业中心第二报告厅",
-    "city": "济南",
-    "sourceKey": "sdu",
-    "sourceName": "山东大学济南校区",
-    "sourceUrl": "https://jobcareer.sdu.edu.cn/eweb/jygl/index.so?modcode=jygl_xjhxxck&subsyscode=zpfw&rklx=jyw&type=ssoXnzpView&id=BX4X6juRnJJ6dHAdGyHrg2",
-    "evidenceLevel": "官方",
-    "exhibitorStatus": "企业名单未公布",
-    "exhibitorUrl": "",
-    "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
-  },
-  {
-    "id": "dea7ec7601cb1266",
-    "title": "海尔智家股份有限公司招聘",
-    "eventType": "综合招聘会",
-    "organizer": "山东大学济南校区",
-    "school": "山东大学济南校区",
-    "startDate": "2026-09-07",
-    "endDate": "2026-09-07",
-    "timeText": "时间待公布",
-    "location": "千佛山校区浪潮报告厅（主楼报告厅）",
-    "city": "济南",
-    "sourceKey": "sdu",
-    "sourceName": "山东大学济南校区",
-    "sourceUrl": "https://jobcareer.sdu.edu.cn/eweb/jygl/index.so?modcode=jygl_xjhxxck&subsyscode=zpfw&rklx=jyw&type=ssoXnzpView&id=BeTJ5QuxFRtw1qRs63RLd7",
-    "evidenceLevel": "官方",
-    "exhibitorStatus": "企业名单未公布",
-    "exhibitorUrl": "",
-    "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
-  },
   {
     "id": "b9e5b3056f02b53c",
     "title": "中建八局第二建设有限公司",
@@ -120,7 +20,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:10:31"
+    "updatedAt": "2026-09-08 09:09:47"
   },
   {
     "id": "e9b55a247554be9f",
@@ -160,7 +60,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:10:35"
+    "updatedAt": "2026-09-08 09:09:52"
   },
   {
     "id": "d5db8cc5ff0778c3",
@@ -180,7 +80,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "88aae1cf8fd05424",
@@ -200,7 +100,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "3c7345da8869f030",
@@ -220,7 +120,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "920459a86512935b",
@@ -240,7 +140,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "2d006ad6ad7e5394",
@@ -260,7 +160,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "11362f3eb88d3ef6",
@@ -280,7 +180,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "530a0277909dc775",
@@ -300,7 +200,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "e92f1dd38f5ae894",
@@ -320,7 +220,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "15f6407d74f61505",
@@ -340,7 +240,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "446f05bb4858bb98",
@@ -360,7 +260,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "7c02871b6b3b3f1b",
@@ -380,7 +280,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "fabe3459da3b79fd",
@@ -400,7 +300,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "6feae2328f7196c6",
@@ -420,7 +320,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "c4c236b78b4f432c",
@@ -460,7 +360,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:10:38"
+    "updatedAt": "2026-09-08 09:09:54"
   },
   {
     "id": "36b043ecec4a4872",
@@ -480,7 +380,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:10:40"
+    "updatedAt": "2026-09-08 09:09:55"
   },
   {
     "id": "2415c2d7bf10e12d",
@@ -520,7 +420,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "760a3de86fbfbaf1",
@@ -540,7 +440,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "b87427fd6bf86708",
@@ -560,7 +460,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "f2f636c3d4ff847c",
@@ -580,7 +480,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "db7015a924f5b093",
@@ -600,7 +500,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "9453e973dbb7ab52",
@@ -620,7 +520,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "a018b97d447e7367",
@@ -640,7 +540,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "9756f14294d93b28",
@@ -660,7 +560,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "a154acf84844935a",
@@ -680,7 +580,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "11dbee8e6aaa5a8a",
@@ -740,7 +640,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:10:42"
+    "updatedAt": "2026-09-08 09:09:58"
   },
   {
     "id": "7fa462e3fe95c34a",
@@ -760,7 +660,27 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:10:43"
+    "updatedAt": "2026-09-08 09:09:59"
+  },
+  {
+    "id": "ba8fee77f6148135",
+    "title": "北京学纳百川教育科技有限公司",
+    "eventType": "综合招聘会",
+    "organizer": "山东建筑大学",
+    "school": "山东建筑大学",
+    "startDate": "2026-09-10",
+    "endDate": "2026-09-10",
+    "timeText": "13:30\n",
+    "location": "山东建筑大学 · 博文楼203室",
+    "city": "济南",
+    "sourceKey": "sdjzu",
+    "sourceName": "山东建筑大学",
+    "sourceUrl": "https://sdjzu.bysjy.com.cn/detail/career?id=715993",
+    "evidenceLevel": "官方",
+    "exhibitorStatus": "企业名单未公布",
+    "exhibitorUrl": "",
+    "admissionNotes": "未明确拒绝则默认可尝试入场",
+    "updatedAt": "2026-09-08 09:10:01"
   },
   {
     "id": "974458e18a302c45",
@@ -783,6 +703,26 @@ const OFFLINE_EVENTS = [
     "updatedAt": "2026-09-07 17:09:54"
   },
   {
+    "id": "1734168bac225684",
+    "title": "中国水利水电第五工程局有限公司",
+    "eventType": "综合招聘会",
+    "organizer": "山东建筑大学",
+    "school": "山东建筑大学",
+    "startDate": "2026-09-10",
+    "endDate": "2026-09-10",
+    "timeText": "16:00\n",
+    "location": "山东建筑大学 · 博文楼105室",
+    "city": "济南",
+    "sourceKey": "sdjzu",
+    "sourceName": "山东建筑大学",
+    "sourceUrl": "https://sdjzu.bysjy.com.cn/detail/career?id=709310",
+    "evidenceLevel": "官方",
+    "exhibitorStatus": "企业名单未公布",
+    "exhibitorUrl": "",
+    "admissionNotes": "未明确拒绝则默认可尝试入场",
+    "updatedAt": "2026-09-08 09:10:03"
+  },
+  {
     "id": "be2a092cea28d1d8",
     "title": "豪迈集团股份有限公司招聘",
     "eventType": "综合招聘会",
@@ -800,7 +740,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "592f047a0b680c4c",
@@ -820,7 +760,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "130701978a96a415",
@@ -840,7 +780,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "cd3d5535c8d793e7",
@@ -860,7 +800,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "f18c57c00a79f082",
@@ -880,7 +820,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "27767f6d75d4ad31",
@@ -900,7 +840,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "85a8283f23afd823",
@@ -920,7 +860,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "d936ce47d70c5d4c",
@@ -940,7 +880,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "4ca079d67fe97714",
@@ -960,7 +900,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "7bfe9d20d9dd63fc",
@@ -980,7 +920,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "63586a2d8a77bf3e",
@@ -1000,7 +940,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "e8f9d50af427d5cc",
@@ -1020,7 +960,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "8defb8eab94f971a",
@@ -1040,7 +980,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "01f1bd25fc566573",
@@ -1100,7 +1040,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "3bf73438921f5d6d",
@@ -1120,7 +1060,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "ed9366811ceacc87",
@@ -1140,7 +1080,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "23309cbb8eacc452",
@@ -1160,7 +1100,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "e6c517f00bee653f",
@@ -1180,7 +1120,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "fdc4ffe7ea291a87",
@@ -1200,7 +1140,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "ba1c36523b1c77ed",
@@ -1220,7 +1160,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "5debe51b852f1cad",
@@ -1240,7 +1180,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "b1b0325cc2b61d7a",
@@ -1260,7 +1200,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:09:56"
+    "updatedAt": "2026-09-08 09:09:31"
   },
   {
     "id": "8c2d47b5446a8cb4",
@@ -1500,7 +1440,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:11:15"
+    "updatedAt": "2026-09-08 09:10:14"
   },
   {
     "id": "ff23ed9309761df7",
@@ -1560,7 +1500,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-09-07 17:11:12"
+    "updatedAt": "2026-09-08 09:10:10"
   },
   {
     "id": "c3785b4e60fd70fd",

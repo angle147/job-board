@@ -676,7 +676,9 @@ a.link-notice:hover { border-color: var(--primary); color: var(--primary); }
 .calendar-day { min-height:68px; border:1px solid #eef2f7; border-radius:6px; padding:4px; font-size:11px; overflow:hidden; }
 .calendar-day.other { opacity:.35; }
 .calendar-day.today { border-color:var(--primary); }
-.calendar-event { margin-top:3px; padding:3px 4px; border-radius:4px; background:var(--purple-light); color:var(--purple); cursor:pointer; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.calendar-event { display:block; margin-top:3px; padding:3px 4px; border-radius:4px; background:var(--purple-light); color:var(--purple); cursor:pointer; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; text-decoration:none; }
+.calendar-event:hover { background:#e9ddff; color:#6d28d9; }
+.calendar-event:focus-visible { outline:2px solid var(--primary); outline-offset:1px; }
 .offline-empty { background:#fff; border:1px dashed var(--border); border-radius:var(--radius); padding:32px; text-align:center; color:var(--text-muted); }
 @media (max-width:900px) { .offline-layout { grid-template-columns:1fr; } .calendar-panel { position:static; } }
 </style>
@@ -1514,7 +1516,10 @@ function renderOfflineCalendar(events, plans) {
   for (let i=0; i<42; i++) {
     const d = new Date(start); d.setDate(start.getDate()+i);
     const key = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
-    const items = (plannedByDate[key] || []).map(e => `<div class="calendar-event" title="${escapeHtml(e.title)}｜${escapeHtml(e.location)}">${escapeHtml(e.timeText.split('-')[0])} ${escapeHtml(e.title)}</div>`).join('');
+    const items = (plannedByDate[key] || []).map(e => e.sourceUrl
+      ? `<a class="calendar-event" href="${escapeHtml(e.sourceUrl)}" target="_blank" rel="noopener noreferrer" title="打开官方公告：${escapeHtml(e.title)}｜${escapeHtml(e.location)}">${escapeHtml(e.timeText.split('-')[0])} ${escapeHtml(e.title)}</a>`
+      : `<div class="calendar-event" title="${escapeHtml(e.title)}｜${escapeHtml(e.location)}">${escapeHtml(e.timeText.split('-')[0])} ${escapeHtml(e.title)}</div>`
+    ).join('');
     days += `<div class="calendar-day${d.getMonth()!==month?' other':''}${key===todayKey?' today':''}"><strong>${d.getDate()}</strong>${items}</div>`;
   }
   return `<aside class="calendar-panel"><div class="calendar-head"><button class="calendar-nav" onclick="changeOfflineMonth(-1)">‹</button><strong>${year}年${month+1}月</strong><button class="calendar-nav" onclick="changeOfflineMonth(1)">›</button></div><div class="calendar-grid">${weekdays}${days}</div></aside>`;

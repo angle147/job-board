@@ -192,6 +192,8 @@ def major_fit(item: dict, public_strict: bool = False) -> tuple[str, str]:
 
 
 def evidence_level(item: dict, spec: SourceSpec) -> str:
+    if item.get("verificationStatus") == "cross_verified" and int(item.get("sourceChannelCount") or 0) >= 2:
+        return "多源印证"
     links = [str(item.get("noticeLink") or ""), str(item.get("applyLink") or "")]
     if spec.evidence == "官方" and any(
         any(domain in urlparse(link).netloc for domain in OFFICIAL_DOMAINS) for link in links if link
@@ -209,7 +211,7 @@ def is_specific_position(item: dict) -> bool:
 
 
 def normalize_job(item: dict, spec: SourceSpec) -> dict:
-    return {
+    record = {
         "id": f"{slug(spec.source)}_{item.get('id', '')}",
         "boardSection": "国企校招" if spec.kind in ("soe", "lead") else "国考/省考/事业编",
         "source": spec.source,
@@ -243,6 +245,10 @@ def normalize_job(item: dict, spec: SourceSpec) -> dict:
         "ownershipRelation": item.get("ownershipRelation") or "待核验",
         "ownershipEvidenceUrl": item.get("ownershipEvidenceUrl") or "",
     }
+    for key in ("verificationStatus", "verificationChannels", "corroborationLinks", "attachmentLink", "sourceChannelCount"):
+        if item.get(key):
+            record[key] = item[key]
+    return record
 
 
 def slug(value: str) -> str:
@@ -258,7 +264,8 @@ def slug(value: str) -> str:
 
 
 def source_links(record: dict) -> list[str]:
-    return list(dict.fromkeys(link for link in (record.get("noticeLink"), record.get("applyLink")) if link))
+    links = [record.get("noticeLink"), record.get("applyLink"), record.get("attachmentLink"), *record.get("corroborationLinks", [])]
+    return list(dict.fromkeys(link for link in links if link))
 
 
 def priority_score(record: dict) -> int:
@@ -292,7 +299,7 @@ def canonical_key(record: dict) -> tuple[str, ...]:
 
 
 def merge_record(existing: dict, incoming: dict) -> dict:
-    evidence_rank = {"官方原文": 3, "官方": 2, "待核验": 1, "第三方线索": 0}
+    evidence_rank = {"多源印证": 4, "官方原文": 3, "官方": 2, "待核验": 1, "第三方线索": 0}
     primary, secondary = (incoming, existing) if evidence_rank.get(incoming.get("evidenceLevel"), 0) > evidence_rank.get(existing.get("evidenceLevel"), 0) else (existing, incoming)
     merged = dict(primary)
     for key, value in secondary.items():
@@ -334,7 +341,7 @@ def classify_record(item: dict, spec: SourceSpec) -> tuple[str, dict]:
     review_reasons = []
     if spec.kind == "lead":
         review_reasons.append("第三方来源仅作线索，需反查官方原文和国企控制关系")
-    if record["evidenceLevel"] != "官方原文":
+    if record["evidenceLevel"] not in ("官方原文", "多源印证"):
         review_reasons.append("缺少可验证的官方原文")
     if spec.kind == "soe":
         # 国企正式栏采用宽口径：官方证据 + 应届/校招属性即可。

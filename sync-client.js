@@ -74,7 +74,7 @@
     localStorage.removeItem(TOKEN_KEY);
     localStorage.removeItem(USER_KEY);
     if (clearPersonal) {
-      ["job_statuses", "job_status_snapshots", "offline_event_plans", META_KEY].forEach((key) => localStorage.removeItem(key));
+      ["job_statuses", "job_status_snapshots", "offline_event_plans", "offline_event_declines", META_KEY].forEach((key) => localStorage.removeItem(key));
     }
     state.status = "local";
     renderAccount();
@@ -95,6 +95,7 @@
     const statuses = loadJson("job_statuses", {});
     const snapshots = loadJson("job_status_snapshots", {});
     const plans = new Set(loadJson("offline_event_plans", []));
+    const declines = new Set(loadJson("offline_event_declines", []));
     const now = new Date().toISOString();
     const items = [];
     for (const [key, status] of Object.entries(statuses)) {
@@ -106,7 +107,12 @@
     for (const id of plans) {
       const mapKey = `offline_plan|${id}`;
       if (!metadata[mapKey]) metadata[mapKey] = now;
-      items.push({ kind: "offline_plan", key: id, value: true, updatedAt: metadata[mapKey] });
+      items.push({ kind: "offline_plan", key: id, value: "planned", updatedAt: metadata[mapKey] });
+    }
+    for (const id of declines) {
+      const mapKey = `offline_plan|${id}`;
+      if (!metadata[mapKey]) metadata[mapKey] = now;
+      items.push({ kind: "offline_plan", key: id, value: "declined", updatedAt: metadata[mapKey] });
     }
     saveJson(META_KEY, metadata);
     return items;
@@ -117,6 +123,7 @@
     const statuses = loadJson("job_statuses", {});
     const snapshots = loadJson("job_status_snapshots", {});
     const plans = new Set(loadJson("offline_event_plans", []));
+    const declines = new Set(loadJson("offline_event_declines", []));
     let changed = false;
     for (const item of items || []) {
       const mapKey = `${item.kind}|${item.key}`;
@@ -128,7 +135,11 @@
         if (value.status) statuses[item.key] = value.status;
         if (value.snapshot) snapshots[item.key] = value.snapshot;
       } else if (item.kind === "offline_plan") {
-        item.value ? plans.add(item.key) : plans.delete(item.key);
+        // 兼容旧版 true=计划参加；两个集合始终互斥。
+        plans.delete(item.key);
+        declines.delete(item.key);
+        if (item.value === true || item.value === "planned") plans.add(item.key);
+        if (item.value === "declined") declines.add(item.key);
       }
       metadata[mapKey] = item.updatedAt;
       changed = true;
@@ -137,6 +148,7 @@
       saveJson("job_statuses", statuses);
       saveJson("job_status_snapshots", snapshots);
       saveJson("offline_event_plans", [...plans]);
+      saveJson("offline_event_declines", [...declines]);
       saveJson(META_KEY, metadata);
       state.callbacks?.onStateApplied?.();
     }
@@ -177,12 +189,16 @@
     queueSync();
   }
 
-  function recordOfflinePlan(key, planned) {
+  function recordOfflinePlan(key, choice) {
     stamp("offline_plan", key);
-    if (!planned) {
-      // 取消计划也必须作为显式 false 同步，不能只从本地数组删除。
+    if (!choice) {
+      // 清除选择也必须作为显式 false 同步，不能只从本地数组删除。
       const pending = loadJson("job_board_sync_tombstones", {});
       pending[key] = new Date().toISOString();
+      saveJson("job_board_sync_tombstones", pending);
+    } else {
+      const pending = loadJson("job_board_sync_tombstones", {});
+      delete pending[key];
       saveJson("job_board_sync_tombstones", pending);
     }
     queueSync();

@@ -658,12 +658,16 @@ a.link-notice:hover { border-color: var(--primary); color: var(--primary); }
 .offline-list { display:flex; flex-direction:column; gap:10px; }
 .offline-row { background:#fff; border:1px solid var(--border); border-left:4px solid var(--primary); border-radius:var(--radius); padding:14px 16px; box-shadow:var(--shadow-sm); }
 .offline-row.planned { border-left-color:var(--purple); background:#faf8ff; }
+.offline-row.declined { border-left-color:#94a3b8; background:#f8fafc; opacity:.82; }
 .offline-row-head { display:flex; justify-content:space-between; gap:12px; align-items:flex-start; }
+.offline-choice-actions { display:flex; flex-wrap:wrap; justify-content:flex-end; gap:6px; flex-shrink:0; }
 .offline-row-title { font-size:15px; font-weight:650; color:var(--text); margin-top:3px; }
 .offline-row-meta { display:flex; flex-wrap:wrap; gap:8px 16px; margin-top:9px; color:var(--text-secondary); font-size:12px; }
 .offline-row-links { display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; align-items:center; }
 .plan-btn { border:1px solid var(--purple); color:var(--purple); background:#fff; border-radius:8px; padding:5px 10px; cursor:pointer; font-size:12px; }
 .plan-btn.active { color:#fff; background:var(--purple); }
+.decline-btn { border-color:#94a3b8; color:#64748b; }
+.decline-btn.active { color:#fff; background:#64748b; border-color:#64748b; }
 .calendar-panel { background:#fff; border:1px solid var(--border); border-radius:var(--radius); padding:14px; position:sticky; top:12px; }
 .calendar-head { display:flex; align-items:center; justify-content:space-between; margin-bottom:10px; }
 .calendar-nav { border:1px solid var(--border); background:#fff; border-radius:6px; padding:4px 8px; cursor:pointer; }
@@ -958,19 +962,20 @@ function filterData() {
 
   if (APP.currentTab === 'offline') {
     const planned = loadOfflinePlans();
+    const declined = loadOfflineDeclines();
     if (search) data = data.filter(item => [item.title, item.organizer, item.location, item.eventType]
       .some(value => (value || '').toLowerCase().includes(search)));
     Object.entries(APP.filters).forEach(([key, vals]) => {
       data = data.filter(item => {
-        if (key === 'planned') return !vals.length || planned.has(item.id);
+        if (key === 'planned') return !vals.length || vals.some(value => value === 'planned' ? planned.has(item.id) : declined.has(item.id));
         if (key === 'dateFrom') return !vals[0] || item.startDate >= vals[0];
         if (key === 'dateTo') return !vals[0] || item.startDate <= vals[0];
         return vals.some(value => String(item[key] || '').includes(value));
       });
     });
     return data.sort((a,b) => {
-      const planDelta = Number(planned.has(b.id)) - Number(planned.has(a.id));
-      return planDelta || `${a.startDate} ${a.timeText}`.localeCompare(`${b.startDate} ${b.timeText}`);
+      const rank = item => planned.has(item.id) ? 0 : declined.has(item.id) ? 2 : 1;
+      return rank(a) - rank(b) || `${a.startDate} ${a.timeText}`.localeCompare(`${b.startDate} ${b.timeText}`);
     });
   }
 
@@ -1014,7 +1019,7 @@ function renderFilters() {
       <div class="filter-group"><span class="filter-label">活动类型</span><select class="filter-select" data-filter="eventType"><option value="">全部</option><option>双选会</option><option>企业宣讲会</option><option>综合招聘会</option><option>专场招聘会</option><option>人才引进活动</option></select></div>
       <div class="filter-group"><span class="filter-label">开始日期</span><input type="date" class="filter-input" data-filter="dateFrom"></div>
       <div class="filter-group"><span class="filter-label">结束日期</span><input type="date" class="filter-input" data-filter="dateTo"></div>
-      <div class="filter-group"><span class="filter-label">个人计划</span><select class="filter-select" data-filter="planned"><option value="">全部活动</option><option value="1">仅看计划参加</option></select></div>`;
+      <div class="filter-group"><span class="filter-label">个人计划</span><select class="filter-select" data-filter="planned"><option value="">全部活动</option><option value="planned">仅看计划参加</option><option value="declined">仅看暂不参加</option></select></div>`;
     return;
   }
   const sources = [...new Set(getCurrentData().map(x => x.source).filter(Boolean))].sort();
@@ -1112,7 +1117,7 @@ function renderTable(data) {
             <td><button class="status-btn status-${currentStatus}" onclick="showStatusPopup('${APP.currentTab}','${item.id}')">${currentStatus}</button></td>
             <td class="${deadlineClass}">${item.deadline}</td>
             <td>${item.applyLink && item.applyLink !== '#' ? `<a href="${item.applyLink}" target="_blank" class="link-btn link-apply">报名</a>` : '-'}</td>
-            <td>${item.noticeLink && item.noticeLink !== '#' ? `<a href="${item.noticeLink}" target="_blank" class="link-btn link-notice">公告</a>` : '-'}</td>
+            <td>${item.noticeLink && item.noticeLink !== '#' ? `<a href="${item.noticeLink}" target="_blank" class="link-btn link-notice">公告</a>` : '-'}${item.attachmentLink ? ` <a href="${item.attachmentLink}" target="_blank" class="link-btn link-notice">计划表</a>` : ''}</td>
             <td title="${escapeHtml(reasons)}">${reasons || '-'}</td>
           </tr>`;
       }).join('');
@@ -1160,6 +1165,7 @@ function renderCards(data) {
           <div>
             ${item.applyLink && item.applyLink !== '#' ? `<a href="${item.applyLink}" target="_blank" class="link-btn link-apply">投递</a>` : ''}
             ${item.noticeLink && item.noticeLink !== '#' ? `<a href="${item.noticeLink}" target="_blank" class="link-btn link-notice">公告</a>` : ''}
+            ${item.attachmentLink ? `<a href="${item.attachmentLink}" target="_blank" class="link-btn link-notice">计划表</a>` : ''}
           </div>
         </div>
         ${(item.reviewReasons || []).length ? `<div style="font-size:11px;color:var(--text-muted);margin-top:8px;">🔎 ${(item.reviewReasons || []).join('；')}</div>` : ''}
@@ -1448,14 +1454,32 @@ function saveOfflinePlans(plans) {
   localStorage.setItem('offline_event_plans', JSON.stringify([...plans]));
 }
 
-function toggleOfflinePlan(id) {
+function loadOfflineDeclines() {
+  try { return new Set(JSON.parse(localStorage.getItem('offline_event_declines') || '[]')); }
+  catch { return new Set(); }
+}
+
+function saveOfflineDeclines(declines) {
+  localStorage.setItem('offline_event_declines', JSON.stringify([...declines]));
+}
+
+function setOfflineChoice(id, choice) {
   if (window.BoardSync && !window.BoardSync.consumeGuestAction('设置线下招聘计划')) return;
   const plans = loadOfflinePlans();
-  plans.has(id) ? plans.delete(id) : plans.add(id);
+  const declines = loadOfflineDeclines();
+  const alreadySelected = choice === 'planned' ? plans.has(id) : declines.has(id);
+  plans.delete(id);
+  declines.delete(id);
+  if (!alreadySelected && choice === 'planned') plans.add(id);
+  if (!alreadySelected && choice === 'declined') declines.add(id);
   saveOfflinePlans(plans);
-  window.BoardSync?.recordOfflinePlan(id, plans.has(id));
+  saveOfflineDeclines(declines);
+  window.BoardSync?.recordOfflinePlan(id, alreadySelected ? false : choice);
   refresh();
 }
+
+function toggleOfflinePlan(id) { setOfflineChoice(id, 'planned'); }
+function toggleOfflineDecline(id) { setOfflineChoice(id, 'declined'); }
 
 function changeOfflineMonth(delta) {
   offlineCalendarMonth = new Date(offlineCalendarMonth.getFullYear(), offlineCalendarMonth.getMonth() + delta, 1);
@@ -1499,13 +1523,15 @@ function renderOfflineCalendar(events, plans) {
 function renderOfflineEvents(events) {
   const container = document.getElementById('eventsView');
   const plans = loadOfflinePlans();
+  const declines = loadOfflineDeclines();
   const list = events.length ? events.map(event => {
     const planned = plans.has(event.id);
+    const declined = declines.has(event.id);
     const exhibitorLink = event.exhibitorUrl
       ? `<a href="${event.exhibitorUrl}" target="_blank" class="link-btn link-notice">${escapeHtml(event.exhibitorStatus)}</a>`
       : `<span style="font-size:12px;color:var(--text-muted);">${escapeHtml(event.exhibitorStatus || '企业名单未公布')}</span>`;
-    return `<article class="offline-row${planned?' planned':''}">
-      <div class="offline-row-head"><div><span class="badge badge-type">${escapeHtml(event.organizer)}</span><span class="badge badge-target" style="margin-left:6px;">${escapeHtml(event.eventType)}</span><div class="offline-row-title">${escapeHtml(event.title)}</div></div><button class="plan-btn${planned?' active':''}" onclick="toggleOfflinePlan('${event.id}')">${planned?'✓ 计划参加':'＋ 计划参加'}</button></div>
+    return `<article class="offline-row${planned?' planned':''}${declined?' declined':''}">
+      <div class="offline-row-head"><div><span class="badge badge-type">${escapeHtml(event.organizer)}</span><span class="badge badge-target" style="margin-left:6px;">${escapeHtml(event.eventType)}</span><div class="offline-row-title">${escapeHtml(event.title)}</div></div><div class="offline-choice-actions"><button class="plan-btn${planned?' active':''}" onclick="toggleOfflinePlan('${event.id}')">${planned?'✓ 计划参加':'＋ 计划参加'}</button><button class="plan-btn decline-btn${declined?' active':''}" onclick="toggleOfflineDecline('${event.id}')">${declined?'✓ 暂不参加':'－ 暂不参加'}</button></div></div>
       <div class="offline-row-meta"><span>📅 ${escapeHtml(event.startDate)} ${escapeHtml(event.timeText)}</span><span>📍 ${escapeHtml(event.location)}</span><span>证据：${escapeHtml(event.evidenceLevel)}</span></div>
       <div class="offline-row-links"><a href="${event.sourceUrl}" target="_blank" class="link-btn link-apply">官方公告</a>${exhibitorLink}</div>
     </article>`;

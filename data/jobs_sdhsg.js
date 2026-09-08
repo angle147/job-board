@@ -1,5 +1,5 @@
 // 山东高速多渠道招聘探测 — 官网公告 / 招聘平台 / 省国资委
-// 2026-09-08 14:43:36
+// 2026-09-08 17:00:46
 // 4 条；多源印证 4 条
 
 const JOBS_SDHSG = [
@@ -79,15 +79,21 @@ const JOBS_SDHSG = [
         "name": "山东高速招聘平台岗位计划表",
         "url": "https://zhaopin.sdhsg.com/sdhsghr/hr/upload/downloadFile?fileName=2026/6/announcement/3d4d340f-4f50-40e0-97be-d4b53626151f.xlsx",
         "matched": true
+      },
+      {
+        "name": "山东省国资委招聘公告",
+        "url": "http://gzw.shandong.gov.cn/articles/ch00223/202606/839a7908-ba58-47f3-8cf9-55b9279e3b36.html",
+        "matched": true
       }
     ],
     "corroborationLinks": [
       "https://www.sdhsg.com/article/category/rlzyZcyz",
-      "https://zhaopin.sdhsg.com/sdhsghr/hr/upload/downloadFile?fileName=2026/6/announcement/3d4d340f-4f50-40e0-97be-d4b53626151f.xlsx"
+      "https://zhaopin.sdhsg.com/sdhsghr/hr/upload/downloadFile?fileName=2026/6/announcement/3d4d340f-4f50-40e0-97be-d4b53626151f.xlsx",
+      "http://gzw.shandong.gov.cn/articles/ch00223/202606/839a7908-ba58-47f3-8cf9-55b9279e3b36.html"
     ],
     "attachmentLink": "https://zhaopin.sdhsg.com/sdhsghr/hr/upload/downloadFile?fileName=2026/6/announcement/3d4d340f-4f50-40e0-97be-d4b53626151f.xlsx",
-    "sourceChannelCount": 2,
-    "notes": "来源核验：2/3 个渠道匹配"
+    "sourceChannelCount": 3,
+    "notes": "来源核验：3/4 个渠道匹配"
   },
   {
     "id": "374",
@@ -165,14 +171,20 @@ const JOBS_SDHSG = [
         "name": "山东高速招聘平台岗位计划表",
         "url": "https://zhaopin.sdhsg.com/sdhsghr/hr/upload/downloadFile?fileName=2026/5/announcement/26664adc-df18-4cbc-9dfc-5205176c51e8.xlsx",
         "matched": true
+      },
+      {
+        "name": "山东省国资委招聘公告",
+        "url": "http://gzw.shandong.gov.cn/articles/ch00223/202605/62d93318-aa01-4fee-88f9-75a4e40e9995.html",
+        "matched": true
       }
     ],
     "corroborationLinks": [
       "https://www.sdhsg.com/article/category/rlzyZcyz",
-      "https://zhaopin.sdhsg.com/sdhsghr/hr/upload/downloadFile?fileName=2026/5/announcement/26664adc-df18-4cbc-9dfc-5205176c51e8.xlsx"
+      "https://zhaopin.sdhsg.com/sdhsghr/hr/upload/downloadFile?fileName=2026/5/announcement/26664adc-df18-4cbc-9dfc-5205176c51e8.xlsx",
+      "http://gzw.shandong.gov.cn/articles/ch00223/202605/62d93318-aa01-4fee-88f9-75a4e40e9995.html"
     ],
     "attachmentLink": "https://zhaopin.sdhsg.com/sdhsghr/hr/upload/downloadFile?fileName=2026/5/announcement/26664adc-df18-4cbc-9dfc-5205176c51e8.xlsx",
-    "sourceChannelCount": 2,
-    "notes": "来源核验：2/3 个渠道匹配"
+    "sourceChannelCount": 3,
+    "notes": "来源核验：3/4 个渠道匹配"
   }
 ];

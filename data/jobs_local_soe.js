@@ -1,5 +1,5 @@
 // 济南地方国企官方招聘 — 自动采集
-// 更新时间: 2026-09-08 09:09:30
+// 更新时间: 2026-09-08 17:09:27
 // 共 36 条
 
 const JOBS_LOCAL_SOE = [
@@ -314,6 +314,30 @@ const JOBS_LOCAL_SOE = [
     ownershipRelation: "控制关系待核验",
     ownershipEvidenceUrl: "https://jngzw.jinan.gov.cn/col/col23870/index.html",
     sourceKey: "jinan_sasac"
+  },
+  {
+    id: "local_soe_fc8ef297a2bff8d7",
+    companyName: "这家区属国有企业公开",
+    companyType: "地方国企线索",
+    industry: "综合",
+    recruitType: "公开招聘",
+    targetYears: "",
+    location: "济南市",
+    positions: "这家区属国有企业公开招聘了",
+    status: "未投递",
+    updateTime: "2026-09-08",
+    deadline: "2026-09-14",
+    applyLink: "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_01b7a896ef8948c183de0dba8d6c9127.html",
+    noticeLink: "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_01b7a896ef8948c183de0dba8d6c9127.html",
+    examInfo: "以公告为准",
+    companyScale: "",
+    notes: "来源: 济南市人社局国企招聘动态",
+    actualEmployer: "这家区属国有企业公开",
+    contractEmployer: "待核验",
+    employmentType: "直接用工",
+    ownershipRelation: "控制关系待核验",
+    ownershipEvidenceUrl: "https://jnhrss.jinan.gov.cn/col/col18309/index.html",
+    sourceKey: "jinan_hrss_soe"
   },
   {
     id: "local_soe_79fae84147266ba5",
@@ -833,30 +857,6 @@ const JOBS_LOCAL_SOE = [
     deadline: "待核验",
     applyLink: "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_54b9f3a47e1344beb3b32295b93753ce.html",
     noticeLink: "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_54b9f3a47e1344beb3b32295b93753ce.html",
-    examInfo: "以公告为准",
-    companyScale: "",
-    notes: "来源: 济南市人社局国企招聘动态",
-    actualEmployer: "济南有岗位！这家央企公开",
-    contractEmployer: "待核验",
-    employmentType: "直接用工",
-    ownershipRelation: "控制关系待核验",
-    ownershipEvidenceUrl: "https://jnhrss.jinan.gov.cn/col/col18309/index.html",
-    sourceKey: "jinan_hrss_soe"
-  },
-  {
-    id: "local_soe_8e7e0aa1a1ebc36a",
-    companyName: "济南有岗位！这家央企公开",
-    companyType: "央企线索",
-    industry: "综合",
-    recruitType: "公开招聘",
-    targetYears: "",
-    location: "济南市",
-    positions: "济南有岗位！这家央企公开招聘了",
-    status: "未投递",
-    updateTime: "2026-07-14",
-    deadline: "待核验",
-    applyLink: "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_df0d2d1300964de8ba6c2def4b349f5e.html",
-    noticeLink: "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_df0d2d1300964de8ba6c2def4b349f5e.html",
     examInfo: "以公告为准",
     companyScale: "",
     notes: "来源: 济南市人社局国企招聘动态",

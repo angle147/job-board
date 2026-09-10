@@ -1,6 +1,6 @@
 // 中远海运集团、招商局集团官方人才招聘平台 — 校园招聘岗位
-// 更新时间: 2026-09-10 09:00:41
-// 共 107 条
+// 更新时间: 2026-09-10 17:00:43
+// 共 106 条
 
 const JOBS_COSCO = [
   {
@@ -1510,32 +1510,6 @@ const JOBS_COSCO = [
     "employmentType": "直接招聘",
     "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
     "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com"
-  },
-  {
-    "id": "cmhk-214733092282172787",
-    "companyName": "招商局仁和人寿保险股份有限公司",
-    "companyType": "央国企",
-    "industry": "金融业",
-    "recruitType": "校园招聘",
-    "targetYears": "",
-    "location": "深圳-南山区",
-    "positions": "人力资源部实习生",
-    "majorReq": "",
-    "educationReq": "本科",
-    "recruitmentCount": "1",
-    "status": "未投递",
-    "updateTime": "2026-09-09",
-    "deadline": "2026-09-30",
-    "applyLink": "https://cmhk.iguopin.com/job/detail?id=214733092282172787",
-    "noticeLink": "https://cmhk.iguopin.com/job",
-    "examInfo": "",
-    "companyScale": "500-1000人",
-    "notes": "任职资格：\n1.学历要求：统招全日制本科及以上学历，在校学生（非今年毕业）；\n2.专业要求：相关专业；\n3.其它要求：\n(1)良好数据分析能力，熟练使用业务系统与办公软件，较强的文字表达能力；\n(2)责任心强，沟通协调能力强，规划和推动组织能力强，乐于接受新的事物；\n(3)每周实习五天，实习时间不少于三个月。",
-    "actualEmployer": "招商局仁和人寿保险股份有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "直接招聘",
-    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
-    "ownershipEvidenceUrl": "https://cmhk.iguopin.com"
   },
   {
     "id": "cmhk-211208205760465141",

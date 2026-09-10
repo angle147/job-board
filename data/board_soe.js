@@ -1,6 +1,6 @@
 // 国企校招岗位 — 由 build_personal_board.py 生成
-// 更新时间: 2026-09-10 09:11:07
-// 共 112 条
+// 更新时间: 2026-09-10 17:10:31
+// 共 115 条
 
 const SOE_JOBS = [
   {
@@ -1928,53 +1928,6 @@ const SOE_JOBS = [
     ],
     "reviewReasons": [],
     "priorityScore": 2
-  },
-  {
-    "id": "transport_iguopin_cmhk-214733092282172787",
-    "boardSection": "国企校招",
-    "source": "中远海运与招商局官方招聘",
-    "companyName": "招商局仁和人寿保险股份有限公司",
-    "companyType": "央国企",
-    "industry": "金融业",
-    "recruitType": "校园招聘",
-    "targetYears": "待核验",
-    "location": "深圳-南山区",
-    "positions": "人力资源部实习生",
-    "status": "新发现",
-    "updateTime": "2026-09-09",
-    "deadline": "2026-09-30",
-    "applyLink": "https://cmhk.iguopin.com/job/detail?id=214733092282172787",
-    "noticeLink": "https://cmhk.iguopin.com/job",
-    "examInfo": "",
-    "companyScale": "500-1000人",
-    "notes": "任职资格：\n1.学历要求：统招全日制本科及以上学历，在校学生（非今年毕业）；\n2.专业要求：相关专业；\n3.其它要求：\n(1)良好数据分析能力，熟练使用业务系统与办公软件，较强的文字表达能力；\n(2)责任心强，沟通协调能力强，规划和推动组织能力强，乐于接受新的事物；\n(3)每周实习五天，实习时间不少于三个月。",
-    "majorReq": "",
-    "educationReq": "本科",
-    "positionCode": "",
-    "recruitmentCount": "1",
-    "registrationStart": "",
-    "registrationEnd": "2026-09-30",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "招商局仁和人寿保险股份有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "直接招聘",
-    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
-    "ownershipEvidenceUrl": "https://cmhk.iguopin.com",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "官方原文",
-    "sourceLinks": [
-      "https://cmhk.iguopin.com/job",
-      "https://cmhk.iguopin.com/job/detail?id=214733092282172787"
-    ],
-    "discoverySources": [
-      "中远海运与招商局官方招聘"
-    ],
-    "reviewReasons": [],
-    "priorityScore": 1
   },
   {
     "id": "transport_iguopin_cmhk-211208205760465141",
@@ -4183,6 +4136,53 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
+    "id": "qyzp_1",
+    "boardSection": "国企校招",
+    "source": "央企招聘公告",
+    "companyName": "中国国新2027",
+    "companyType": "央国企",
+    "industry": "综合",
+    "recruitType": "校招",
+    "targetYears": "2027届",
+    "location": "全国",
+    "positions": "中国国新2027届校园招聘正式启动",
+    "status": "新发现",
+    "updateTime": "2026-09-10",
+    "deadline": "待核验",
+    "applyLink": "https://mp.weixin.qq.com/s/mnjTZc5qYiULBNuxE3lW1g",
+    "noticeLink": "http://job.mohrss.gov.cn/qyzp/index.jhtml",
+    "examInfo": "",
+    "companyScale": "",
+    "notes": "",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "中国国新2027",
+    "contractEmployer": "待核验",
+    "employmentType": "待核验",
+    "ownershipRelation": "待核验",
+    "ownershipEvidenceUrl": "",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "http://job.mohrss.gov.cn/qyzp/index.jhtml",
+      "https://mp.weixin.qq.com/s/mnjTZc5qYiULBNuxE3lW1g"
+    ],
+    "discoverySources": [
+      "央企招聘公告"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 0
+  },
+  {
     "id": "国务院国资委人才招聘_sasac-central-35826490",
     "boardSection": "国企校招",
     "source": "国务院国资委人才招聘",
@@ -4505,6 +4505,53 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
+    "id": "qyzp_3",
+    "boardSection": "国企校招",
+    "source": "央企招聘公告",
+    "companyName": "中国能建2027",
+    "companyType": "央国企",
+    "industry": "综合",
+    "recruitType": "校招",
+    "targetYears": "2027届",
+    "location": "全国",
+    "positions": "中国能建2027届全球校园招聘正式启动",
+    "status": "新发现",
+    "updateTime": "2026-09-10",
+    "deadline": "待核验",
+    "applyLink": "https://mp.weixin.qq.com/s/DsFR2PzMvd0Xf7RLD4txZA",
+    "noticeLink": "http://job.mohrss.gov.cn/qyzp/index.jhtml",
+    "examInfo": "",
+    "companyScale": "",
+    "notes": "",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "中国能建2027",
+    "contractEmployer": "待核验",
+    "employmentType": "待核验",
+    "ownershipRelation": "待核验",
+    "ownershipEvidenceUrl": "",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "http://job.mohrss.gov.cn/qyzp/index.jhtml",
+      "https://mp.weixin.qq.com/s/DsFR2PzMvd0Xf7RLD4txZA"
+    ],
+    "discoverySources": [
+      "央企招聘公告"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 0
+  },
+  {
     "id": "国务院国资委人才招聘_sasac-central-35842071",
     "boardSection": "国企校招",
     "source": "国务院国资委人才招聘",
@@ -4597,7 +4644,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_6",
+    "id": "qyzp_9",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "中汽中心",
@@ -4828,7 +4875,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_3",
+    "id": "qyzp_6",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "兵器未来科学家·",
@@ -4875,7 +4922,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_21",
+    "id": "qyzp_24",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "国家管网春季招聘",
@@ -4922,7 +4969,54 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_9",
+    "id": "qyzp_2",
+    "boardSection": "国企校招",
+    "source": "央企招聘公告",
+    "companyName": "招商局集团",
+    "companyType": "央国企",
+    "industry": "综合",
+    "recruitType": "校招",
+    "targetYears": "2027届",
+    "location": "全国",
+    "positions": "招商局集团2027届校园招聘正式启动",
+    "status": "新发现",
+    "updateTime": "2026-09-10",
+    "deadline": "待核验",
+    "applyLink": "https://mp.weixin.qq.com/s/30oqzMHSWfdYq7mRSwHIsw",
+    "noticeLink": "http://job.mohrss.gov.cn/qyzp/index.jhtml",
+    "examInfo": "",
+    "companyScale": "",
+    "notes": "",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "招商局集团",
+    "contractEmployer": "待核验",
+    "employmentType": "待核验",
+    "ownershipRelation": "待核验",
+    "ownershipEvidenceUrl": "",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "http://job.mohrss.gov.cn/qyzp/index.jhtml",
+      "https://mp.weixin.qq.com/s/30oqzMHSWfdYq7mRSwHIsw"
+    ],
+    "discoverySources": [
+      "央企招聘公告"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 0
+  },
+  {
+    "id": "qyzp_12",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "正元地理信息集团",
@@ -5240,6 +5334,52 @@ const SOE_JOBS = [
     ],
     "discoverySources": [
       "国务院国资委人才招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 0
+  },
+  {
+    "id": "sasac_1",
+    "boardSection": "国企校招",
+    "source": "山东省国资委",
+    "companyName": "山东能源集团",
+    "companyType": "央国企",
+    "industry": "能源/电力",
+    "recruitType": "春招",
+    "targetYears": "2027届",
+    "location": "",
+    "positions": "",
+    "status": "新发现",
+    "updateTime": "2026-09-10",
+    "deadline": "招满为止",
+    "applyLink": "",
+    "noticeLink": "http://gzw.shandong.gov.cn/articles/ch00223/202609/f7e252a8-8061-440a-b361-ac036d7e1ea7.html",
+    "examInfo": "",
+    "companyScale": "",
+    "notes": "来源: 山东省国资委 [2026-09-10]",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "招满为止",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "山东能源集团",
+    "contractEmployer": "待核验",
+    "employmentType": "待核验",
+    "ownershipRelation": "待核验",
+    "ownershipEvidenceUrl": "",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "http://gzw.shandong.gov.cn/articles/ch00223/202609/f7e252a8-8061-440a-b361-ac036d7e1ea7.html"
+    ],
+    "discoverySources": [
+      "山东省国资委"
     ],
     "reviewReasons": [],
     "priorityScore": 0

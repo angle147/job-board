@@ -1,6 +1,6 @@
 // 国企校招岗位 — 由 build_personal_board.py 生成
-// 更新时间: 2026-09-09 17:11:02
-// 共 111 条
+// 更新时间: 2026-09-10 09:11:07
+// 共 112 条
 
 const SOE_JOBS = [
   {
@@ -237,53 +237,6 @@ const SOE_JOBS = [
     ],
     "reviewReasons": [],
     "priorityScore": 33
-  },
-  {
-    "id": "transport_iguopin_cosco-197446996678676306",
-    "boardSection": "国企校招",
-    "source": "中远海运与招商局官方招聘",
-    "companyName": "上海新远海集融资租赁有限公司",
-    "companyType": "央国企",
-    "industry": "金融业",
-    "recruitType": "校园招聘",
-    "targetYears": "待核验",
-    "location": "上海-浦东新区",
-    "positions": "科研管理岗",
-    "status": "新发现",
-    "updateTime": "2026-08-27",
-    "deadline": "2026-09-10",
-    "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=197446996678676306",
-    "noticeLink": "https://coscoshipping.iguopin.com/job",
-    "examInfo": "",
-    "companyScale": "50-100人",
-    "notes": "岗位职责：\n1.负责收集公司科技创新和数字化项目需求，协助确定解决方案；\n2.参与公司科研项目和数字化项目管理，参与项目的申报、立项、中期检查及结题验收等全过程管理工作。 \n3.负责科研项目档案的整理及归档；完成科研成果（论文、专利、奖项）的申报和统计。\n4.负责科研经费的预算编制、执行监督及统计归集工作。\n5.负责科技创新和数字化转型相关材料的编写；\n6.完成部门交办的其他任务。\n任职资格：\n1.硕士及以上学历，计算机、软件、船舶、交通运输、项目管理等相关专业；\n2.有科研项目经历，参与过科研项目或申报科研成果（专利、奖项）者优先；熟悉船舶设计、建造、管理等相关技术者优先；熟悉人工智能、大数据等数字化转型新兴技术者优先；熟悉航运业以及航运金融、智能航运等航运相关复合型科研领域者优先。\n3.具备较好的问题分析能力、沟通协调能力、学习能力、写作能力、团队协作意识和执行力。",
-    "majorReq": "计算机科学与技术类、计算机类、机械工程类、电子科学与技术类、信息与通信工程类、计算机科学与技术类、交通运输工程类、船舶与海洋工程类、软件工程类",
-    "educationReq": "硕士",
-    "positionCode": "",
-    "recruitmentCount": "2",
-    "registrationStart": "",
-    "registrationEnd": "2026-09-10",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "上海新远海集融资租赁有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "直接招聘",
-    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
-    "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com",
-    "exclusionReasons": [],
-    "fitLevel": "可尝试",
-    "fitReason": "专业名称或范围相近",
-    "evidenceLevel": "官方原文",
-    "sourceLinks": [
-      "https://coscoshipping.iguopin.com/job",
-      "https://coscoshipping.iguopin.com/job/detail?id=197446996678676306"
-    ],
-    "discoverySources": [
-      "中远海运与招商局官方招聘"
-    ],
-    "reviewReasons": [],
-    "priorityScore": 32
   },
   {
     "id": "transport_iguopin_cosco-207017717201371924",
@@ -1984,11 +1937,11 @@ const SOE_JOBS = [
     "companyType": "央国企",
     "industry": "金融业",
     "recruitType": "校园招聘",
-    "targetYears": "2027届",
+    "targetYears": "待核验",
     "location": "深圳-南山区",
-    "positions": "人力资源部实习生（2027届）",
+    "positions": "人力资源部实习生",
     "status": "新发现",
-    "updateTime": "2026-08-26",
+    "updateTime": "2026-09-09",
     "deadline": "2026-09-30",
     "applyLink": "https://cmhk.iguopin.com/job/detail?id=214733092282172787",
     "noticeLink": "https://cmhk.iguopin.com/job",
@@ -2016,6 +1969,53 @@ const SOE_JOBS = [
     "sourceLinks": [
       "https://cmhk.iguopin.com/job",
       "https://cmhk.iguopin.com/job/detail?id=214733092282172787"
+    ],
+    "discoverySources": [
+      "中远海运与招商局官方招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 1
+  },
+  {
+    "id": "transport_iguopin_cmhk-211208205760465141",
+    "boardSection": "国企校招",
+    "source": "中远海运与招商局官方招聘",
+    "companyName": "招商局仁和人寿保险股份有限公司",
+    "companyType": "央国企",
+    "industry": "金融业",
+    "recruitType": "校园招聘",
+    "targetYears": "2027届",
+    "location": "深圳-南山区",
+    "positions": "财务部实习生（2027届）",
+    "status": "新发现",
+    "updateTime": "2026-09-09",
+    "deadline": "2026-09-30",
+    "applyLink": "https://cmhk.iguopin.com/job/detail?id=211208205760465141",
+    "noticeLink": "https://cmhk.iguopin.com/job",
+    "examInfo": "",
+    "companyScale": "500-1000人",
+    "notes": "任职资格：\n1.学历要求：统招全日制本科及以上学历，在校学生；\n2.专业要求：金融、经济、保险、财务、精算、数学统计类相关专业；\n3.其它要求：\n(1)良好数据分析能力，熟练使用业务系统与办公软件，较强的文字表达能力；\n(2)责任心强，沟通协调能力强，规划和推动组织能力强，乐于接受新的事物；\n(3)每周实习五天，实习时间不少于三个月，实习表现优异者视情况转正。",
+    "majorReq": "",
+    "educationReq": "本科",
+    "positionCode": "",
+    "recruitmentCount": "1",
+    "registrationStart": "",
+    "registrationEnd": "2026-09-30",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "招商局仁和人寿保险股份有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接招聘",
+    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
+    "ownershipEvidenceUrl": "https://cmhk.iguopin.com",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://cmhk.iguopin.com/job",
+      "https://cmhk.iguopin.com/job/detail?id=211208205760465141"
     ],
     "discoverySources": [
       "中远海运与招商局官方招聘"
@@ -4045,21 +4045,21 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "国务院国资委人才招聘_sasac-central-35726023",
+    "id": "国务院国资委人才招聘_sasac-central-35898544",
     "boardSection": "国企校招",
     "source": "国务院国资委人才招聘",
-    "companyName": "中国中化控股有限责任公司",
+    "companyName": "中国一汽",
     "companyType": "央国企",
     "industry": "综合",
     "recruitType": "校招",
-    "targetYears": "待核验",
+    "targetYears": "2027届",
     "location": "全国",
-    "positions": "中国中化控股有限责任公司《中国中化》报编辑部招聘公告",
+    "positions": "中国一汽2027全球校园招聘正式启动",
     "status": "新发现",
-    "updateTime": "2026-08-04",
+    "updateTime": "2026-09-10",
     "deadline": "待核验",
-    "applyLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35726023/content.html",
-    "noticeLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35726023/content.html",
+    "applyLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35898544/content.html",
+    "noticeLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35898544/content.html",
     "examInfo": "",
     "companyScale": "",
     "notes": "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准",
@@ -4072,7 +4072,7 @@ const SOE_JOBS = [
     "examDate": "",
     "competitionRatio": "",
     "pastScoreLine": "",
-    "actualEmployer": "中国中化控股有限责任公司",
+    "actualEmployer": "中国一汽",
     "contractEmployer": "待核验",
     "employmentType": "待核验",
     "ownershipRelation": "待核验",
@@ -4082,7 +4082,53 @@ const SOE_JOBS = [
     "fitReason": "尚未取得可验证的专业要求",
     "evidenceLevel": "官方原文",
     "sourceLinks": [
-      "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35726023/content.html"
+      "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35898544/content.html"
+    ],
+    "discoverySources": [
+      "国务院国资委人才招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 0
+  },
+  {
+    "id": "国务院国资委人才招聘_sasac-central-35898563",
+    "boardSection": "国企校招",
+    "source": "国务院国资委人才招聘",
+    "companyName": "中国一汽部分高级经理岗位",
+    "companyType": "央国企",
+    "industry": "综合",
+    "recruitType": "校招",
+    "targetYears": "待核验",
+    "location": "全国",
+    "positions": "中国一汽部分高级经理岗位招聘公告",
+    "status": "新发现",
+    "updateTime": "2026-09-10",
+    "deadline": "待核验",
+    "applyLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35898563/content.html",
+    "noticeLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35898563/content.html",
+    "examInfo": "",
+    "companyScale": "",
+    "notes": "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "中国一汽部分高级经理岗位",
+    "contractEmployer": "待核验",
+    "employmentType": "待核验",
+    "ownershipRelation": "待核验",
+    "ownershipEvidenceUrl": "",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35898563/content.html"
     ],
     "discoverySources": [
       "国务院国资委人才招聘"

@@ -1,8 +1,46 @@
 // 国务院国资委 — 人才招聘栏目
-// 更新时间: 2026-09-09 17:09:49
+// 更新时间: 2026-09-10 09:09:39
 // 共 28 条
 
 const JOBS_SASAC_CENTRAL = [
+  {
+    id: "sasac-central-35898544",
+    companyName: "中国一汽",
+    companyType: "央国企",
+    industry: "综合",
+    recruitType: "校招",
+    targetYears: "2027届",
+    location: "全国",
+    positions: "中国一汽2027全球校园招聘正式启动",
+    majorReq: "",
+    educationReq: "",
+    status: "未投递",
+    updateTime: "2026-09-10",
+    deadline: "",
+    applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35898544/content.html",
+    noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35898544/content.html",
+    examInfo: "",
+    notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
+  },
+  {
+    id: "sasac-central-35898563",
+    companyName: "中国一汽部分高级经理岗位",
+    companyType: "央国企",
+    industry: "综合",
+    recruitType: "校招",
+    targetYears: "",
+    location: "全国",
+    positions: "中国一汽部分高级经理岗位招聘公告",
+    majorReq: "",
+    educationReq: "",
+    status: "未投递",
+    updateTime: "2026-09-10",
+    deadline: "",
+    applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35898563/content.html",
+    noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35898563/content.html",
+    examInfo: "",
+    notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
+  },
   {
     id: "sasac-central-35891254",
     companyName: "中国电气装备集团",
@@ -494,44 +532,6 @@ const JOBS_SASAC_CENTRAL = [
     deadline: "",
     applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35738169/content.html",
     noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35738169/content.html",
-    examInfo: "",
-    notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
-  },
-  {
-    id: "sasac-central-35726023",
-    companyName: "中国中化控股有限责任公司",
-    companyType: "央国企",
-    industry: "综合",
-    recruitType: "校招",
-    targetYears: "",
-    location: "全国",
-    positions: "中国中化控股有限责任公司《中国中化》报编辑部招聘公告",
-    majorReq: "",
-    educationReq: "",
-    status: "未投递",
-    updateTime: "2026-08-04",
-    deadline: "",
-    applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35726023/content.html",
-    noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35726023/content.html",
-    examInfo: "",
-    notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
-  },
-  {
-    id: "sasac-central-35700418",
-    companyName: "航空工业直升机设计研究所",
-    companyType: "央国企",
-    industry: "综合",
-    recruitType: "社招",
-    targetYears: "2026届",
-    location: "全国",
-    positions: "航空工业直升机设计研究所2026年社会招聘公告",
-    majorReq: "",
-    educationReq: "",
-    status: "未投递",
-    updateTime: "2026-07-30",
-    deadline: "",
-    applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35700418/content.html",
-    noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35700418/content.html",
     examInfo: "",
     notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
   }

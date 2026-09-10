@@ -1,5 +1,5 @@
 // 待人工核验队列 — 由 build_personal_board.py 生成
-// 更新时间: 2026-09-09 17:11:02
+// 更新时间: 2026-09-10 09:11:07
 // 共 22 条
 
 const REVIEW_JOBS = [
@@ -780,58 +780,7 @@ const REVIEW_JOBS = [
     "priorityScore": 50
   },
   {
-    "id": "yingjiesheng_14",
-    "boardSection": "国企校招",
-    "source": "应届生求职网",
-    "companyName": "东莞安联电器元件有限公司",
-    "companyType": "央国企",
-    "industry": "综合",
-    "recruitType": "实习",
-    "targetYears": "2027届",
-    "location": "山东",
-    "positions": "新产品开发实习生",
-    "status": "待处理",
-    "updateTime": "2026-09-09",
-    "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-065-288.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-065-288.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-09] | 来源: 山东大学",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "招满为止",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "东莞安联电器元件有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "第三方线索",
-    "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-065-288.html"
-    ],
-    "discoverySources": [
-      "应届生求职网"
-    ],
-    "reviewReasons": [
-      "尚未取得可验证的专业要求",
-      "明确截止日期待核验",
-      "第三方来源仅作线索，需反查官方原文和国企控制关系",
-      "缺少可验证的官方原文"
-    ],
-    "priorityScore": 35
-  },
-  {
-    "id": "yingjiesheng_6",
+    "id": "yingjiesheng_7",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "上海畅联国际物流股份有限公司",
@@ -882,7 +831,58 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_29",
+    "id": "yingjiesheng_16",
+    "boardSection": "国企校招",
+    "source": "应届生求职网",
+    "companyName": "东莞市海昌实业有限公司",
+    "companyType": "央国企",
+    "industry": "港口/航运",
+    "recruitType": "春招",
+    "targetYears": "2027届",
+    "location": "广东",
+    "positions": "航运业务管培生|总经理助理|采购管培生|综合类管培生|销售管培生",
+    "status": "待处理",
+    "updateTime": "2026-09-09",
+    "deadline": "招满为止",
+    "applyLink": "https://m.yingjiesheng.com/job-008-067-127.html",
+    "noticeLink": "https://m.yingjiesheng.com/job-008-067-127.html",
+    "examInfo": "",
+    "companyScale": "",
+    "notes": "来源: 应届生求职网 [2026-09-09] | 来源: 北京理工大学",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "招满为止",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "东莞市海昌实业有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "待核验",
+    "ownershipRelation": "待核验",
+    "ownershipEvidenceUrl": "",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "第三方线索",
+    "sourceLinks": [
+      "https://m.yingjiesheng.com/job-008-067-127.html"
+    ],
+    "discoverySources": [
+      "应届生求职网"
+    ],
+    "reviewReasons": [
+      "尚未取得可验证的专业要求",
+      "明确截止日期待核验",
+      "第三方来源仅作线索，需反查官方原文和国企控制关系",
+      "缺少可验证的官方原文"
+    ],
+    "priorityScore": 0
+  },
+  {
+    "id": "yingjiesheng_24",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "中国航发商用航空发动机有限责任公司",
@@ -933,24 +933,24 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_59",
+    "id": "yingjiesheng_1",
     "boardSection": "国企校招",
     "source": "应届生求职网",
-    "companyName": "中国邮政集团有限公司",
+    "companyName": "云南保山电力股份有限公司",
     "companyType": "央国企",
-    "industry": "邮政/物流",
+    "industry": "能源/电力",
     "recruitType": "春招",
     "targetYears": "2027届",
-    "location": "河北",
-    "positions": "河北省分公司 金融柜员岗|理财经理岗|寄递营业部经理|客户经理岗|生产调度岗",
+    "location": "保山",
+    "positions": "职位描述",
     "status": "待处理",
-    "updateTime": "2026-09-09",
+    "updateTime": "2026-09-10",
     "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-065-013.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-065-013.html",
+    "applyLink": "https://m.yingjiesheng.com/job-008-067-581.html",
+    "noticeLink": "https://m.yingjiesheng.com/job-008-067-581.html",
     "examInfo": "",
     "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-09] | 来源: 石家庄学院",
+    "notes": "来源: 应届生求职网 [2026-09-10] | 来源: 前程无忧(51JOB)",
     "majorReq": "",
     "educationReq": "",
     "positionCode": "",
@@ -960,7 +960,7 @@ const REVIEW_JOBS = [
     "examDate": "",
     "competitionRatio": "",
     "pastScoreLine": "",
-    "actualEmployer": "中国邮政集团有限公司",
+    "actualEmployer": "云南保山电力股份有限公司",
     "contractEmployer": "待核验",
     "employmentType": "待核验",
     "ownershipRelation": "待核验",
@@ -970,7 +970,7 @@ const REVIEW_JOBS = [
     "fitReason": "尚未取得可验证的专业要求",
     "evidenceLevel": "第三方线索",
     "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-065-013.html"
+      "https://m.yingjiesheng.com/job-008-067-581.html"
     ],
     "discoverySources": [
       "应届生求职网"
@@ -984,21 +984,21 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_15",
+    "id": "yingjiesheng_45",
     "boardSection": "国企校招",
     "source": "应届生求职网",
-    "companyName": "中移（上海）信息通信科技有限公司",
+    "companyName": "北京城建集团有限责任公司",
     "companyType": "央国企",
     "industry": "建筑/建材",
     "recruitType": "春招",
     "targetYears": "2027届",
-    "location": "上海",
-    "positions": "职位描述",
+    "location": "北京",
+    "positions": "机构工程（地上结构）-城建设计（深圳）",
     "status": "待处理",
     "updateTime": "2026-09-09",
     "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-052-180.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-052-180.html",
+    "applyLink": "https://m.yingjiesheng.com/job-008-040-658.html",
+    "noticeLink": "https://m.yingjiesheng.com/job-008-040-658.html",
     "examInfo": "",
     "companyScale": "",
     "notes": "来源: 应届生求职网 [2026-09-09] | 来源: 前程无忧(51JOB)",
@@ -1011,7 +1011,7 @@ const REVIEW_JOBS = [
     "examDate": "",
     "competitionRatio": "",
     "pastScoreLine": "",
-    "actualEmployer": "中移（上海）信息通信科技有限公司",
+    "actualEmployer": "北京城建集团有限责任公司",
     "contractEmployer": "待核验",
     "employmentType": "待核验",
     "ownershipRelation": "待核验",
@@ -1021,7 +1021,7 @@ const REVIEW_JOBS = [
     "fitReason": "尚未取得可验证的专业要求",
     "evidenceLevel": "第三方线索",
     "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-052-180.html"
+      "https://m.yingjiesheng.com/job-008-040-658.html"
     ],
     "discoverySources": [
       "应届生求职网"
@@ -1035,24 +1035,24 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_42",
+    "id": "yingjiesheng_46",
     "boardSection": "国企校招",
     "source": "应届生求职网",
-    "companyName": "碧桂园生活服务集团股份有限公司",
+    "companyName": "北京城建集团有限责任公司",
     "companyType": "央国企",
-    "industry": "综合",
-    "recruitType": "实习",
+    "industry": "建筑/建材",
+    "recruitType": "春招",
     "targetYears": "2027届",
-    "location": "山西",
-    "positions": "职位描述",
+    "location": "北京",
+    "positions": "机构工程（地上结构）-城建设计（北京）",
     "status": "待处理",
     "updateTime": "2026-09-09",
     "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-066-053.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-066-053.html",
+    "applyLink": "https://m.yingjiesheng.com/job-008-040-657.html",
+    "noticeLink": "https://m.yingjiesheng.com/job-008-040-657.html",
     "examInfo": "",
     "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-09] | 来源: 湛江科技学院",
+    "notes": "来源: 应届生求职网 [2026-09-09] | 来源: 前程无忧(51JOB)",
     "majorReq": "",
     "educationReq": "",
     "positionCode": "",
@@ -1062,7 +1062,7 @@ const REVIEW_JOBS = [
     "examDate": "",
     "competitionRatio": "",
     "pastScoreLine": "",
-    "actualEmployer": "碧桂园生活服务集团股份有限公司",
+    "actualEmployer": "北京城建集团有限责任公司",
     "contractEmployer": "待核验",
     "employmentType": "待核验",
     "ownershipRelation": "待核验",
@@ -1072,8 +1072,7 @@ const REVIEW_JOBS = [
     "fitReason": "尚未取得可验证的专业要求",
     "evidenceLevel": "第三方线索",
     "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-066-053.html",
-      "https://m.yingjiesheng.com/job-008-066-054.html"
+      "https://m.yingjiesheng.com/job-008-040-657.html"
     ],
     "discoverySources": [
       "应届生求职网"

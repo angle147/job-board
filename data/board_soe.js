@@ -1,6 +1,6 @@
 // 国企校招岗位 — 由 build_personal_board.py 生成
-// 更新时间: 2026-09-11 09:10:23
-// 共 116 条
+// 更新时间: 2026-09-11 17:10:53
+// 共 117 条
 
 const SOE_JOBS = [
   {
@@ -1640,6 +1640,53 @@ const SOE_JOBS = [
     "sourceLinks": [
       "https://coscoshipping.iguopin.com/job",
       "https://coscoshipping.iguopin.com/job/detail?id=182654015488656490"
+    ],
+    "discoverySources": [
+      "中远海运与招商局官方招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 2
+  },
+  {
+    "id": "transport_iguopin_cmhk-217620425151088077",
+    "boardSection": "国企校招",
+    "source": "中远海运与招商局官方招聘",
+    "companyName": "招商局仁和人寿保险股份有限公司",
+    "companyType": "央国企",
+    "industry": "金融业",
+    "recruitType": "校园招聘",
+    "targetYears": "待核验",
+    "location": "深圳-南山区",
+    "positions": "战略客户协同中心实习生",
+    "status": "新发现",
+    "updateTime": "2026-09-11",
+    "deadline": "2026-10-31",
+    "applyLink": "https://cmhk.iguopin.com/job/detail?id=217620425151088077",
+    "noticeLink": "https://cmhk.iguopin.com/job",
+    "examInfo": "",
+    "companyScale": "500-1000人",
+    "notes": "1.服务运营岗实习生\n岗位职责：\n1.协助高级客户经理开展央国企客户信息、员工结构、保障及健康需求资料收集、信息整理，协助整理调研素材，辅助输出基础分析底稿；\n2.协助制作保单保障、健康服务相关宣导材料初稿，协助完成宣传物料、服务推广内容的基础整理、格式校对，配合完成合规自查、报审资料整理归档；\n3.配合客户经理整理客户方案讲解配套材料，整理客户疑问、现场反馈记录，汇总大保单常见客户问题台账；\n4.协助统计健康权益使用率、核销率、员工满意度等数据，完成数据录入、表格整理；协助整理高管服务调研问卷、收集调研反馈，协助服务质量巡检资料、复盘材料整理；\n5.协助接收、登记重要客户咨询及服务请求，做好问题记录、分类归档，同步对接正式员工跟进处理；\n6.协助完成全国机构问题台账登记、月度评级、季度考核扣分相关数据收集、整理、表格更新工作；\n7.完成导师交办的其他部门业务辅助工作。\n\n2.综合服务岗实习生\n岗位职责：\n1.协助拆解部门业务目标相关资料整理，跟踪业务计划落地相关数据记录，收集执行过程信息，协助整理偏差反馈素材；\n2.协助预算相关资料整理，业务费用数据归集、表格整理，协助跟踪预算执行台账；\n3.协助收集保费结构、续保趋势、参保人数、业务异动、服务履约、客户诉求等原始业务数据，完成数据录入、清洗整理，协助经营分析、理赔分析报告的素材整理；\n4.协助维护业务统计台账，完成日常业务数据收集、汇总、表格更新；\n5.协助登记客户咨询、承保/理赔/健康服务类诉求，做好投诉、客户诉求信息记录、台账归档，协助协调内部对接信息；\n6.协助部门公文流转登记、会议纪要整理、资料归档、台账维护，完成会议筹备、行政材料整理等综合事务支撑；\n7.完成导师交办的其他辅助类工作。\n\n任职资格：\n统招全日制本科及以上在读，保险、金融、数学、医学、统计学等相关专业优先；大三、研一、研二优先。",
+    "majorReq": "",
+    "educationReq": "本科",
+    "positionCode": "",
+    "recruitmentCount": "2",
+    "registrationStart": "",
+    "registrationEnd": "2026-10-31",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "招商局仁和人寿保险股份有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接招聘",
+    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
+    "ownershipEvidenceUrl": "https://cmhk.iguopin.com",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://cmhk.iguopin.com/job",
+      "https://cmhk.iguopin.com/job/detail?id=217620425151088077"
     ],
     "discoverySources": [
       "中远海运与招商局官方招聘"
@@ -5386,7 +5433,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "sasac_1",
+    "id": "sasac_2",
     "boardSection": "国企校招",
     "source": "山东省国资委",
     "companyName": "山东能源集团",

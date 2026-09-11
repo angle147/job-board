@@ -1,8 +1,46 @@
 // 国务院国资委 — 人才招聘栏目
-// 更新时间: 2026-09-10 17:09:31
+// 更新时间: 2026-09-11 09:09:31
 // 共 28 条
 
 const JOBS_SASAC_CENTRAL = [
+  {
+    id: "sasac-central-35904654",
+    companyName: "中国石油启动",
+    companyType: "央国企",
+    industry: "综合",
+    recruitType: "校招",
+    targetYears: "2026届",
+    location: "全国",
+    positions: "中国石油启动2026年秋季高校毕业生招聘",
+    majorReq: "",
+    educationReq: "",
+    status: "未投递",
+    updateTime: "2026-09-11",
+    deadline: "",
+    applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35904654/content.html",
+    noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35904654/content.html",
+    examInfo: "",
+    notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
+  },
+  {
+    id: "sasac-central-35904595",
+    companyName: "中国电科",
+    companyType: "央国企",
+    industry: "综合",
+    recruitType: "校招",
+    targetYears: "2027届",
+    location: "全国",
+    positions: "中国电科2027届校园招聘正式启动",
+    majorReq: "",
+    educationReq: "",
+    status: "未投递",
+    updateTime: "2026-09-11",
+    deadline: "",
+    applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35904595/content.html",
+    noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35904595/content.html",
+    examInfo: "",
+    notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
+  },
   {
     id: "sasac-central-35898544",
     companyName: "中国一汽",
@@ -494,44 +532,6 @@ const JOBS_SASAC_CENTRAL = [
     deadline: "",
     applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35765506/content.html",
     noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35765506/content.html",
-    examInfo: "",
-    notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
-  },
-  {
-    id: "sasac-central-35747841",
-    companyName: "中国电信天翼云",
-    companyType: "央国企",
-    industry: "综合",
-    recruitType: "校招",
-    targetYears: "2027届",
-    location: "全国",
-    positions: "中国电信天翼云2027届校园招聘全面启动",
-    majorReq: "",
-    educationReq: "",
-    status: "未投递",
-    updateTime: "2026-08-10",
-    deadline: "",
-    applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35747841/content.html",
-    noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35747841/content.html",
-    examInfo: "",
-    notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
-  },
-  {
-    id: "sasac-central-35738169",
-    companyName: "中国中化旗下中化数智关于开展",
-    companyType: "央国企",
-    industry: "综合",
-    recruitType: "社招",
-    targetYears: "",
-    location: "全国",
-    positions: "中国中化旗下中化数智关于开展社会招聘的公告",
-    majorReq: "",
-    educationReq: "",
-    status: "未投递",
-    updateTime: "2026-08-06",
-    deadline: "",
-    applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35738169/content.html",
-    noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35738169/content.html",
     examInfo: "",
     notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
   }

@@ -1,56 +1,8 @@
 // 待人工核验队列 — 由 build_personal_board.py 生成
-// 更新时间: 2026-09-11 17:10:53
-// 共 20 条
+// 更新时间: 2026-09-12 09:10:24
+// 共 17 条
 
 const REVIEW_JOBS = [
-  {
-    "id": "jinan_local_soe_local_soe_fc8ef297a2bff8d7",
-    "boardSection": "国企校招",
-    "source": "济南地方国企官方招聘",
-    "companyName": "这家区属国有企业公开",
-    "companyType": "地方国企线索",
-    "industry": "综合",
-    "recruitType": "公开招聘",
-    "targetYears": "待核验",
-    "location": "济南市",
-    "positions": "这家区属国有企业公开招聘了",
-    "status": "待处理",
-    "updateTime": "2026-09-08",
-    "deadline": "2026-09-14",
-    "applyLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_01b7a896ef8948c183de0dba8d6c9127.html",
-    "noticeLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_01b7a896ef8948c183de0dba8d6c9127.html",
-    "examInfo": "以公告为准",
-    "companyScale": "",
-    "notes": "来源: 济南市人社局国企招聘动态",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "2026-09-14",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "这家区属国有企业公开",
-    "contractEmployer": "待核验",
-    "employmentType": "直接用工",
-    "ownershipRelation": "控制关系待核验",
-    "ownershipEvidenceUrl": "https://jnhrss.jinan.gov.cn/col/col18309/index.html",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "官方原文",
-    "sourceLinks": [
-      "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_01b7a896ef8948c183de0dba8d6c9127.html"
-    ],
-    "discoverySources": [
-      "济南地方国企官方招聘"
-    ],
-    "reviewReasons": [
-      "应届毕业生或校园招聘属性尚未确认"
-    ],
-    "priorityScore": 70
-  },
   {
     "id": "jinan_local_soe_local_soe_26cba3889c4905b0",
     "boardSection": "国企校招",
@@ -138,6 +90,54 @@ const REVIEW_JOBS = [
     "evidenceLevel": "官方原文",
     "sourceLinks": [
       "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_62e92421dfce413fa4bda6f7a6ceffc4.html"
+    ],
+    "discoverySources": [
+      "济南地方国企官方招聘"
+    ],
+    "reviewReasons": [
+      "应届毕业生或校园招聘属性尚未确认"
+    ],
+    "priorityScore": 60
+  },
+  {
+    "id": "jinan_local_soe_local_soe_fc8ef297a2bff8d7",
+    "boardSection": "国企校招",
+    "source": "济南地方国企官方招聘",
+    "companyName": "这家区属国有企业公开",
+    "companyType": "地方国企线索",
+    "industry": "综合",
+    "recruitType": "公开招聘",
+    "targetYears": "待核验",
+    "location": "济南市",
+    "positions": "这家区属国有企业公开招聘了",
+    "status": "待处理",
+    "updateTime": "2026-09-08",
+    "deadline": "2026-09-14",
+    "applyLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_01b7a896ef8948c183de0dba8d6c9127.html",
+    "noticeLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_01b7a896ef8948c183de0dba8d6c9127.html",
+    "examInfo": "以公告为准",
+    "companyScale": "",
+    "notes": "来源: 济南市人社局国企招聘动态",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "2026-09-14",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "这家区属国有企业公开",
+    "contractEmployer": "待核验",
+    "employmentType": "直接用工",
+    "ownershipRelation": "控制关系待核验",
+    "ownershipEvidenceUrl": "https://jnhrss.jinan.gov.cn/col/col18309/index.html",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_01b7a896ef8948c183de0dba8d6c9127.html"
     ],
     "discoverySources": [
       "济南地方国企官方招聘"
@@ -780,108 +780,7 @@ const REVIEW_JOBS = [
     "priorityScore": 50
   },
   {
-    "id": "yingjiesheng_12",
-    "boardSection": "国企校招",
-    "source": "应届生求职网",
-    "companyName": "中国外运华南有限公司",
-    "companyType": "央国企",
-    "industry": "邮政/物流",
-    "recruitType": "春招",
-    "targetYears": "2027届",
-    "location": "广州",
-    "positions": "外运华南-综合物流培训生（2027届秋招）(J33272)",
-    "status": "待处理",
-    "updateTime": "2026-09-11",
-    "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-046-686.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-046-686.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-11] | 来源: 前程无忧(51JOB)",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "招满为止",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "中国外运华南有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "可尝试",
-    "fitReason": "专业名称或范围相近",
-    "evidenceLevel": "第三方线索",
-    "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-046-686.html"
-    ],
-    "discoverySources": [
-      "应届生求职网"
-    ],
-    "reviewReasons": [
-      "明确截止日期待核验",
-      "第三方来源仅作线索，需反查官方原文和国企控制关系",
-      "缺少可验证的官方原文"
-    ],
-    "priorityScore": 20
-  },
-  {
-    "id": "yingjiesheng_9",
-    "boardSection": "国企校招",
-    "source": "应届生求职网",
-    "companyName": "上海蔚来汽车有限公司",
-    "companyType": "央国企",
-    "industry": "汽车/车辆",
-    "recruitType": "春招",
-    "targetYears": "2027届",
-    "location": "全国",
-    "positions": "职位描述",
-    "status": "待处理",
-    "updateTime": "2026-09-11",
-    "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-071-950.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-071-950.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-11] | 来源: 兰州理工大学",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "招满为止",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "上海蔚来汽车有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "第三方线索",
-    "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-071-950.html"
-    ],
-    "discoverySources": [
-      "应届生求职网"
-    ],
-    "reviewReasons": [
-      "尚未取得可验证的专业要求",
-      "明确截止日期待核验",
-      "第三方来源仅作线索，需反查官方原文和国企控制关系",
-      "缺少可验证的官方原文"
-    ],
-    "priorityScore": 0
-  },
-  {
-    "id": "yingjiesheng_7",
+    "id": "yingjiesheng_10",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "江苏集萃清联智控科技有限公司",
@@ -919,58 +818,6 @@ const REVIEW_JOBS = [
     "evidenceLevel": "第三方线索",
     "sourceLinks": [
       "https://m.yingjiesheng.com/job-008-071-549.html"
-    ],
-    "discoverySources": [
-      "应届生求职网"
-    ],
-    "reviewReasons": [
-      "尚未取得可验证的专业要求",
-      "明确截止日期待核验",
-      "第三方来源仅作线索，需反查官方原文和国企控制关系",
-      "缺少可验证的官方原文"
-    ],
-    "priorityScore": 0
-  },
-  {
-    "id": "yingjiesheng_8",
-    "boardSection": "国企校招",
-    "source": "应届生求职网",
-    "companyName": "顺丰速运有限公司",
-    "companyType": "央国企",
-    "industry": "综合",
-    "recruitType": "春招",
-    "targetYears": "2027届",
-    "location": "广东",
-    "positions": "职位描述",
-    "status": "待处理",
-    "updateTime": "2026-09-11",
-    "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-071-844.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-071-844.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-11] | 来源: 广西师范大学",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "招满为止",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "顺丰速运有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "第三方线索",
-    "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-071-844.html",
-      "https://m.yingjiesheng.com/job-008-072-058.html"
     ],
     "discoverySources": [
       "应届生求职网"

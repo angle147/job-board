@@ -1,6 +1,6 @@
 // 待人工核验队列 — 由 build_personal_board.py 生成
-// 更新时间: 2026-09-12 09:10:24
-// 共 17 条
+// 更新时间: 2026-09-12 17:10:30
+// 共 21 条
 
 const REVIEW_JOBS = [
   {
@@ -780,7 +780,158 @@ const REVIEW_JOBS = [
     "priorityScore": 50
   },
   {
-    "id": "yingjiesheng_10",
+    "id": "yingjiesheng_7",
+    "boardSection": "国企校招",
+    "source": "应届生求职网",
+    "companyName": "大咖国际食品（安徽）有限公司",
+    "companyType": "央国企",
+    "industry": "邮政/物流",
+    "recruitType": "春招",
+    "targetYears": "2027届",
+    "location": "滁州-定远县",
+    "positions": "仓储物流方向-27届安徽（生产制造类）",
+    "status": "待处理",
+    "updateTime": "2026-09-12",
+    "deadline": "招满为止",
+    "applyLink": "https://m.yingjiesheng.com/job-008-072-976.html",
+    "noticeLink": "https://m.yingjiesheng.com/job-008-072-976.html",
+    "examInfo": "",
+    "companyScale": "",
+    "notes": "来源: 应届生求职网 [2026-09-12] | 来源: 前程无忧(51JOB)",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "招满为止",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "大咖国际食品（安徽）有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "待核验",
+    "ownershipRelation": "待核验",
+    "ownershipEvidenceUrl": "",
+    "exclusionReasons": [],
+    "fitLevel": "可尝试",
+    "fitReason": "专业名称或范围相近",
+    "evidenceLevel": "第三方线索",
+    "sourceLinks": [
+      "https://m.yingjiesheng.com/job-008-072-976.html"
+    ],
+    "discoverySources": [
+      "应届生求职网"
+    ],
+    "reviewReasons": [
+      "明确截止日期待核验",
+      "第三方来源仅作线索，需反查官方原文和国企控制关系",
+      "缺少可验证的官方原文"
+    ],
+    "priorityScore": 20
+  },
+  {
+    "id": "yingjiesheng_6",
+    "boardSection": "国企校招",
+    "source": "应届生求职网",
+    "companyName": "大咖国际食品（海南）有限公司",
+    "companyType": "央国企",
+    "industry": "邮政/物流",
+    "recruitType": "春招",
+    "targetYears": "2027届",
+    "location": "定安",
+    "positions": "仓储物流方向-27届海南（生产制造类）",
+    "status": "待处理",
+    "updateTime": "2026-09-12",
+    "deadline": "招满为止",
+    "applyLink": "https://m.yingjiesheng.com/job-008-073-014.html",
+    "noticeLink": "https://m.yingjiesheng.com/job-008-073-014.html",
+    "examInfo": "",
+    "companyScale": "",
+    "notes": "来源: 应届生求职网 [2026-09-12] | 来源: 前程无忧(51JOB)",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "招满为止",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "大咖国际食品（海南）有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "待核验",
+    "ownershipRelation": "待核验",
+    "ownershipEvidenceUrl": "",
+    "exclusionReasons": [],
+    "fitLevel": "可尝试",
+    "fitReason": "专业名称或范围相近",
+    "evidenceLevel": "第三方线索",
+    "sourceLinks": [
+      "https://m.yingjiesheng.com/job-008-073-014.html"
+    ],
+    "discoverySources": [
+      "应届生求职网"
+    ],
+    "reviewReasons": [
+      "明确截止日期待核验",
+      "第三方来源仅作线索，需反查官方原文和国企控制关系",
+      "缺少可验证的官方原文"
+    ],
+    "priorityScore": 20
+  },
+  {
+    "id": "yingjiesheng_2",
+    "boardSection": "国企校招",
+    "source": "应届生求职网",
+    "companyName": "广州飞点供应链管理有限公司",
+    "companyType": "央国企",
+    "industry": "邮政/物流",
+    "recruitType": "实习",
+    "targetYears": "2027届",
+    "location": "广州",
+    "positions": "职位描述",
+    "status": "待处理",
+    "updateTime": "2026-09-12",
+    "deadline": "招满为止",
+    "applyLink": "https://m.yingjiesheng.com/job-008-072-960.html",
+    "noticeLink": "https://m.yingjiesheng.com/job-008-072-960.html",
+    "examInfo": "",
+    "companyScale": "",
+    "notes": "来源: 应届生求职网 [2026-09-12] | 来源: 前程无忧(51JOB)",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "招满为止",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "广州飞点供应链管理有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "待核验",
+    "ownershipRelation": "待核验",
+    "ownershipEvidenceUrl": "",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "第三方线索",
+    "sourceLinks": [
+      "https://m.yingjiesheng.com/job-008-072-960.html"
+    ],
+    "discoverySources": [
+      "应届生求职网"
+    ],
+    "reviewReasons": [
+      "尚未取得可验证的专业要求",
+      "明确截止日期待核验",
+      "第三方来源仅作线索，需反查官方原文和国企控制关系",
+      "缺少可验证的官方原文"
+    ],
+    "priorityScore": 0
+  },
+  {
+    "id": "yingjiesheng_21",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "江苏集萃清联智控科技有限公司",
@@ -818,6 +969,57 @@ const REVIEW_JOBS = [
     "evidenceLevel": "第三方线索",
     "sourceLinks": [
       "https://m.yingjiesheng.com/job-008-071-549.html"
+    ],
+    "discoverySources": [
+      "应届生求职网"
+    ],
+    "reviewReasons": [
+      "尚未取得可验证的专业要求",
+      "明确截止日期待核验",
+      "第三方来源仅作线索，需反查官方原文和国企控制关系",
+      "缺少可验证的官方原文"
+    ],
+    "priorityScore": 0
+  },
+  {
+    "id": "yingjiesheng_3",
+    "boardSection": "国企校招",
+    "source": "应届生求职网",
+    "companyName": "长江精工钢结构（集团）股份有限公司",
+    "companyType": "央国企",
+    "industry": "综合",
+    "recruitType": "春招",
+    "targetYears": "2027届",
+    "location": "绍兴-柯桥区",
+    "positions": "职位描述",
+    "status": "待处理",
+    "updateTime": "2026-09-12",
+    "deadline": "招满为止",
+    "applyLink": "https://m.yingjiesheng.com/job-008-072-824.html",
+    "noticeLink": "https://m.yingjiesheng.com/job-008-072-824.html",
+    "examInfo": "",
+    "companyScale": "",
+    "notes": "来源: 应届生求职网 [2026-09-12] | 来源: 前程无忧(51JOB)",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "招满为止",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "长江精工钢结构（集团）股份有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "待核验",
+    "ownershipRelation": "待核验",
+    "ownershipEvidenceUrl": "",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "第三方线索",
+    "sourceLinks": [
+      "https://m.yingjiesheng.com/job-008-072-824.html"
     ],
     "discoverySources": [
       "应届生求职网"

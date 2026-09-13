@@ -1,5 +1,5 @@
 // 国企校招岗位 — 由 build_personal_board.py 生成
-// 更新时间: 2026-09-12 17:10:30
+// 更新时间: 2026-09-13 09:14:55
 // 共 117 条
 
 const SOE_JOBS = [
@@ -90,6 +90,53 @@ const SOE_JOBS = [
     "sourceLinks": [
       "https://cmhk.iguopin.com/job",
       "https://cmhk.iguopin.com/job/detail?id=206144856517509901"
+    ],
+    "discoverySources": [
+      "中远海运与招商局官方招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 51
+  },
+  {
+    "id": "transport_iguopin_cosco-207017717201371924",
+    "boardSection": "国企校招",
+    "source": "中远海运与招商局官方招聘",
+    "companyName": "中远海运物流发展有限公司",
+    "companyType": "央国企",
+    "industry": "交通运输、仓储和邮政业",
+    "recruitType": "校园招聘",
+    "targetYears": "待核验",
+    "location": "上海-浦东新区",
+    "positions": "职能管理储备（人力资源方向）",
+    "status": "新发现",
+    "updateTime": "2026-08-27",
+    "deadline": "2026-09-27",
+    "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=207017717201371924",
+    "noticeLink": "https://coscoshipping.iguopin.com/job",
+    "examInfo": "",
+    "companyScale": "50-100人",
+    "notes": "主要工作地：上海\n\n岗位职责：\n1.协助做好劳动合同、入转调离、日常考勤等员工关系管理；\n2.协助做好培训、职称等人力资源开发管理；\n3.协助做好员工绩效管理；\n4.协助做好人力资源信息管理平台数据维护及统计分析、人才盘点及画像等工作；\n5.协助做好人事档案管理；\n6.部门安排的其他工作。\n\n任职资格：\n1.学历专业：硕士研究生及以上学历，人力资源管理、法学、心理学、物流管理、交通运输、计算机、土木工程、建筑学、经济学、数学等相关专业。\n2.中共（预备）党员。\n3.知识技能​​：\n（1）了解人力资源管理基本工作；\n（2）熟练使用各类办公软件及人工智能辅助平台；\n（3）具备一定的公文写作知识储备。\n4.综合素质​​：\n（1）逻辑思维和语言表达清晰，交流顺畅得体；\n（2）踏实肯干，学习和执行能力强；\n（3）富有团队协作精神，具备一定的跨部门沟通协调能力。\n5.优先条件：学生干部，或中大型活动组织经历，或企业人力资源管理、党群工作、新闻宣传实习经历。",
+    "majorReq": "经济学类、法学类、数学类、心理学类、计算机科学与技术类、交通运输类、建筑学类、土木工程类、物流管理与工程类",
+    "educationReq": "硕士",
+    "positionCode": "",
+    "recruitmentCount": "1",
+    "registrationStart": "",
+    "registrationEnd": "2026-09-27",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "中远海运物流发展有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接招聘",
+    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
+    "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com",
+    "exclusionReasons": [],
+    "fitLevel": "已确认适配",
+    "fitReason": "专业要求含目标专业、上级专业或不限专业",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://coscoshipping.iguopin.com/job",
+      "https://coscoshipping.iguopin.com/job/detail?id=207017717201371924"
     ],
     "discoverySources": [
       "中远海运与招商局官方招聘"
@@ -237,53 +284,6 @@ const SOE_JOBS = [
     ],
     "reviewReasons": [],
     "priorityScore": 33
-  },
-  {
-    "id": "transport_iguopin_cosco-207017717201371924",
-    "boardSection": "国企校招",
-    "source": "中远海运与招商局官方招聘",
-    "companyName": "中远海运物流发展有限公司",
-    "companyType": "央国企",
-    "industry": "交通运输、仓储和邮政业",
-    "recruitType": "校园招聘",
-    "targetYears": "待核验",
-    "location": "上海-浦东新区",
-    "positions": "职能管理储备（人力资源方向）",
-    "status": "新发现",
-    "updateTime": "2026-08-27",
-    "deadline": "2026-09-27",
-    "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=207017717201371924",
-    "noticeLink": "https://coscoshipping.iguopin.com/job",
-    "examInfo": "",
-    "companyScale": "50-100人",
-    "notes": "主要工作地：上海\n\n岗位职责：\n1.协助做好劳动合同、入转调离、日常考勤等员工关系管理；\n2.协助做好培训、职称等人力资源开发管理；\n3.协助做好员工绩效管理；\n4.协助做好人力资源信息管理平台数据维护及统计分析、人才盘点及画像等工作；\n5.协助做好人事档案管理；\n6.部门安排的其他工作。\n\n任职资格：\n1.学历专业：硕士研究生及以上学历，人力资源管理、法学、心理学、物流管理、交通运输、计算机、土木工程、建筑学、经济学、数学等相关专业。\n2.中共（预备）党员。\n3.知识技能​​：\n（1）了解人力资源管理基本工作；\n（2）熟练使用各类办公软件及人工智能辅助平台；\n（3）具备一定的公文写作知识储备。\n4.综合素质​​：\n（1）逻辑思维和语言表达清晰，交流顺畅得体；\n（2）踏实肯干，学习和执行能力强；\n（3）富有团队协作精神，具备一定的跨部门沟通协调能力。\n5.优先条件：学生干部，或中大型活动组织经历，或企业人力资源管理、党群工作、新闻宣传实习经历。",
-    "majorReq": "经济学类、法学类、数学类、心理学类、计算机科学与技术类、交通运输类、建筑学类、土木工程类、物流管理与工程类",
-    "educationReq": "硕士",
-    "positionCode": "",
-    "recruitmentCount": "1",
-    "registrationStart": "",
-    "registrationEnd": "2026-09-27",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "中远海运物流发展有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "直接招聘",
-    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
-    "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com",
-    "exclusionReasons": [],
-    "fitLevel": "已确认适配",
-    "fitReason": "专业要求含目标专业、上级专业或不限专业",
-    "evidenceLevel": "官方原文",
-    "sourceLinks": [
-      "https://coscoshipping.iguopin.com/job",
-      "https://coscoshipping.iguopin.com/job/detail?id=207017717201371924"
-    ],
-    "discoverySources": [
-      "中远海运与招商局官方招聘"
-    ],
-    "reviewReasons": [],
-    "priorityScore": 31
   },
   {
     "id": "transport_iguopin_cmhk-217335148574672032",

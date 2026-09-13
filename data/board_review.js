@@ -1,6 +1,6 @@
 // 待人工核验队列 — 由 build_personal_board.py 生成
-// 更新时间: 2026-09-13 09:14:55
-// 共 22 条
+// 更新时间: 2026-09-13 17:14:51
+// 共 21 条
 
 const REVIEW_JOBS = [
   {
@@ -780,7 +780,7 @@ const REVIEW_JOBS = [
     "priorityScore": 50
   },
   {
-    "id": "yingjiesheng_3",
+    "id": "yingjiesheng_11",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "大咖国际食品（安徽）有限公司",
@@ -830,7 +830,7 @@ const REVIEW_JOBS = [
     "priorityScore": 20
   },
   {
-    "id": "yingjiesheng_2",
+    "id": "yingjiesheng_10",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "大咖国际食品（海南）有限公司",
@@ -880,58 +880,7 @@ const REVIEW_JOBS = [
     "priorityScore": 20
   },
   {
-    "id": "yingjiesheng_9",
-    "boardSection": "国企校招",
-    "source": "应届生求职网",
-    "companyName": "光驰科技（上海）有限公司",
-    "companyType": "央国企",
-    "industry": "综合",
-    "recruitType": "实习",
-    "targetYears": "2027届",
-    "location": "上海",
-    "positions": "职位描述",
-    "status": "待处理",
-    "updateTime": "2026-09-12",
-    "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-073-097.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-073-097.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-12] | 来源: 前程无忧(51JOB)",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "招满为止",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "光驰科技（上海）有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "第三方线索",
-    "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-073-097.html"
-    ],
-    "discoverySources": [
-      "应届生求职网"
-    ],
-    "reviewReasons": [
-      "尚未取得可验证的专业要求",
-      "明确截止日期待核验",
-      "第三方来源仅作线索，需反查官方原文和国企控制关系",
-      "缺少可验证的官方原文"
-    ],
-    "priorityScore": 0
-  },
-  {
-    "id": "yingjiesheng_20",
+    "id": "yingjiesheng_27",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "江苏集萃清联智控科技有限公司",
@@ -982,7 +931,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_5",
+    "id": "yingjiesheng_13",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "苏州市新视野人力资源有限公司",
@@ -1033,7 +982,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_1",
+    "id": "yingjiesheng_9",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "长江精工钢结构（集团）股份有限公司",

@@ -1,104 +1,8 @@
 // 待人工核验队列 — 由 build_personal_board.py 生成
-// 更新时间: 2026-09-13 17:14:51
-// 共 21 条
+// 更新时间: 2026-09-14 09:10:50
+// 共 19 条
 
 const REVIEW_JOBS = [
-  {
-    "id": "jinan_local_soe_local_soe_26cba3889c4905b0",
-    "boardSection": "国企校招",
-    "source": "济南地方国企官方招聘",
-    "companyName": "山东铁投建工有限公司",
-    "companyType": "省属国企线索",
-    "industry": "综合",
-    "recruitType": "公开招聘",
-    "targetYears": "待核验",
-    "location": "济南市",
-    "positions": "不要错过！这家驻济省属企业公开招聘了",
-    "status": "待处理",
-    "updateTime": "2026-08-29",
-    "deadline": "2026-09-13",
-    "applyLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_586e82c351b44c8aa0ee126c35809f59.html",
-    "noticeLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_586e82c351b44c8aa0ee126c35809f59.html",
-    "examInfo": "以公告为准",
-    "companyScale": "",
-    "notes": "来源: 济南市人社局国企招聘动态",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "2026-09-13",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "山东铁投建工有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "直接用工",
-    "ownershipRelation": "控制关系待核验",
-    "ownershipEvidenceUrl": "https://jnhrss.jinan.gov.cn/col/col18309/index.html",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "官方原文",
-    "sourceLinks": [
-      "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_586e82c351b44c8aa0ee126c35809f59.html"
-    ],
-    "discoverySources": [
-      "济南地方国企官方招聘"
-    ],
-    "reviewReasons": [
-      "应届毕业生或校园招聘属性尚未确认"
-    ],
-    "priorityScore": 60
-  },
-  {
-    "id": "jinan_local_soe_local_soe_1d76a753ce13ccf6",
-    "boardSection": "国企校招",
-    "source": "济南地方国企官方招聘",
-    "companyName": "济南市劳动保障事务代理服务中心有限公司",
-    "companyType": "地方国企线索",
-    "industry": "综合",
-    "recruitType": "公开招聘",
-    "targetYears": "待核验",
-    "location": "济南市",
-    "positions": "这家区属国有企业公开招聘了",
-    "status": "待处理",
-    "updateTime": "2026-09-04",
-    "deadline": "2026-09-13",
-    "applyLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_62e92421dfce413fa4bda6f7a6ceffc4.html",
-    "noticeLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_62e92421dfce413fa4bda6f7a6ceffc4.html",
-    "examInfo": "以公告为准",
-    "companyScale": "",
-    "notes": "来源: 济南市人社局国企招聘动态",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "2026-09-13",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "济南市劳动保障事务代理服务中心有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "直接用工",
-    "ownershipRelation": "控制关系待核验",
-    "ownershipEvidenceUrl": "https://jnhrss.jinan.gov.cn/col/col18309/index.html",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "官方原文",
-    "sourceLinks": [
-      "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_62e92421dfce413fa4bda6f7a6ceffc4.html"
-    ],
-    "discoverySources": [
-      "济南地方国企官方招聘"
-    ],
-    "reviewReasons": [
-      "应届毕业生或校园招聘属性尚未确认"
-    ],
-    "priorityScore": 60
-  },
   {
     "id": "jinan_local_soe_local_soe_fc8ef297a2bff8d7",
     "boardSection": "国企校招",
@@ -780,7 +684,7 @@ const REVIEW_JOBS = [
     "priorityScore": 50
   },
   {
-    "id": "yingjiesheng_11",
+    "id": "yingjiesheng_8",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "大咖国际食品（安徽）有限公司",
@@ -830,7 +734,7 @@ const REVIEW_JOBS = [
     "priorityScore": 20
   },
   {
-    "id": "yingjiesheng_10",
+    "id": "yingjiesheng_7",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "大咖国际食品（海南）有限公司",
@@ -880,7 +784,7 @@ const REVIEW_JOBS = [
     "priorityScore": 20
   },
   {
-    "id": "yingjiesheng_27",
+    "id": "yingjiesheng_21",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "江苏集萃清联智控科技有限公司",
@@ -931,7 +835,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_13",
+    "id": "yingjiesheng_10",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "苏州市新视野人力资源有限公司",
@@ -982,7 +886,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_9",
+    "id": "yingjiesheng_6",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "长江精工钢结构（集团）股份有限公司",

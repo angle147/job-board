@@ -690,7 +690,7 @@ a.link-notice:hover { border-color: var(--primary); color: var(--primary); }
   <div class="header-inner">
     <div class="header-title">
       <span class="icon">🚛</span>
-      国企校招与编制招录看板
+      国企校招与高校招聘看板
     </div>
     <div class="header-actions">
       <span style="font-size:13px;opacity:.85;">个人资格匹配 · 全国收录 · 山东优先</span>
@@ -707,59 +707,21 @@ a.link-notice:hover { border-color: var(--primary); color: var(--primary); }
   <!-- Tabs -->
   <div class="tabs">
     <button class="tab-btn active" data-tab="soe">🏢 国企校招</button>
-    <button class="tab-btn" data-tab="public">📋 国考 / 省考 / 事业编</button>
+    <button class="tab-btn" data-tab="public">🎓 高校招聘</button>
     <button class="tab-btn" data-tab="review">🔎 待处理</button>
     <button class="tab-btn" data-tab="offline">📅 济南线下招聘</button>
   </div>
 
-  <!-- 国考时间线公告（仅考试视图可见） -->
+  <!-- 高校来源说明（仅高校招聘视图可见） -->
   <div class="exam-timeline" id="examTimeline" style="display:none;">
     <div class="timeline-header">
-      <span class="timeline-icon">📅</span>
-      <span class="timeline-title">2027 年度国考时间线（参照近三年数据预测）</span>
+      <span class="timeline-icon">🎓</span>
+      <span class="timeline-title">高校招聘来源与院校优先级</span>
       <button class="timeline-toggle" id="timelineToggle">收起 ▲</button>
     </div>
     <div class="timeline-body" id="timelineBody">
-      <div class="timeline-grid">
-        <div class="tl-step">
-          <div class="tl-date">10月中旬</div>
-          <div class="tl-label">📢 公告发布</div>
-          <div class="tl-note">职位表公布，可开始筛选岗位</div>
-          <div class="tl-history">2024: 10.14 | 2025: 10.14 | 2026: 10.14</div>
-        </div>
-        <div class="tl-step">
-          <div class="tl-date">10.15 — 10.24</div>
-          <div class="tl-label">📝 网上报名</div>
-          <div class="tl-note">约 10 天窗口，每人限报一个岗位</div>
-          <div class="tl-history">2024: 10.15-24 | 2025: 10.15-24 | 2026: 10.15-24</div>
-        </div>
-        <div class="tl-step">
-          <div class="tl-date">11月下旬</div>
-          <div class="tl-label">✏️ 公共科目笔试</div>
-          <div class="tl-note">行测 + 申论，一般在 11 月最后一个周日</div>
-          <div class="tl-history">2024: 11.25 | 2025: 11.30 | 2026: 11.30</div>
-        </div>
-        <div class="tl-step">
-          <div class="tl-date">次年 1 月</div>
-          <div class="tl-label">📊 成绩查询</div>
-          <div class="tl-note">笔试成绩 + 面试名单公布</div>
-          <div class="tl-history">2024: 1.13 | 2025: 1 月 | 2026: 1 月</div>
-        </div>
-        <div class="tl-step">
-          <div class="tl-date">次年 2 — 3 月</div>
-          <div class="tl-label">🎤 面试</div>
-          <div class="tl-note">各招录单位自行组织，结构化/无领导小组</div>
-          <div class="tl-history">集中在春节后至 3 月底</div>
-        </div>
-        <div class="tl-step">
-          <div class="tl-date">次年 4 — 6 月</div>
-          <div class="tl-label">✅ 体检 + 录用</div>
-          <div class="tl-note">政审、公示、调档，7 月前后入职</div>
-        </div>
-      </div>
       <div style="font-size:11px;color:var(--text-muted);margin-top:8px;text-align:center;">
-        ⚠ 以上为基于 2024-2026 年度数据的预测，2027 年度具体时间以国家公务员局公告为准 |
-        <a href="http://bm.scs.gov.cn/kl2027" target="_blank" style="color:var(--primary);">官网: bm.scs.gov.cn</a>
+        清单序号越小，展示优先级越高。大众人才网等第三方用于确认近期在招信号；报名资格、合同主体和最终有效期仍以学校官网或校方招聘系统为准。
       </div>
     </div>
   </div>
@@ -829,7 +791,7 @@ a.link-notice:hover { border-color: var(--primary); color: var(--primary); }
 
 <!-- Data Files -->
 <script src="data/board_soe.js"></script>
-<script src="data/board_public.js"></script>
+<script src="data/board_university.js"></script>
 <script src="data/board_review.js"></script>
 <script src="data/job_status_history.js"></script>
 <script src="data/offline_events.js"></script>
@@ -926,19 +888,19 @@ function withProcessedSnapshots(items, tab) {
 
 // ============ Data Helpers ============
 const ALL_JOBS = typeof SOE_JOBS !== 'undefined' ? SOE_JOBS : [];
-const PUBLIC_BOARD_JOBS = typeof PUBLIC_JOBS !== 'undefined' ? PUBLIC_JOBS : [];
+const UNIVERSITY_BOARD_JOBS = typeof UNIVERSITY_JOBS !== 'undefined' ? UNIVERSITY_JOBS : [];
 const REVIEW_BOARD_JOBS = typeof REVIEW_JOBS !== 'undefined' ? REVIEW_JOBS : [];
 const OFFLINE_BOARD_EVENTS = typeof OFFLINE_EVENTS !== 'undefined' ? OFFLINE_EVENTS : [];
 
 function getCurrentData() {
   if (APP.currentTab === 'offline') return OFFLINE_BOARD_EVENTS;
-  if (APP.currentTab === 'public') return withProcessedSnapshots(PUBLIC_BOARD_JOBS, 'public');
+  if (APP.currentTab === 'public') return withProcessedSnapshots(UNIVERSITY_BOARD_JOBS, 'public');
   if (APP.currentTab === 'review') return withProcessedSnapshots(REVIEW_BOARD_JOBS, 'review');
   return withProcessedSnapshots(ALL_JOBS, 'soe');
 }
 
 function isJobTab() { return APP.currentTab !== 'offline'; }
-function isExamTab() { return APP.currentTab === 'public'; }
+function isUniversityTab() { return APP.currentTab === 'public'; }
 function isEventTab() { return false; }
 
 // ============ Parse Filters ============
@@ -1044,15 +1006,16 @@ function renderFilters() {
         <span class="filter-label">证据等级</span>
         <select class="filter-select" data-filter="evidenceLevel">
           <option value="">全部</option>
-          <option>官方</option><option>正式报名平台</option><option>第三方线索</option><option>待核验</option>
+          <option>官方</option><option>正式报名平台</option><option>第三方在招</option><option>第三方线索</option><option>待核验</option>
         </select>
       </div>
       <div class="filter-group">
-        <span class="filter-label">国资关系</span>
+        <span class="filter-label">${isUniversityTab() ? '院校性质' : '国资关系'}</span>
         <select class="filter-select" data-filter="ownershipRelation">
           <option value="">全部</option>
-          <option>国有独资</option><option>国有全资</option><option>国有控股</option>
-          <option>国有实际控制</option><option>国有参股</option><option>控制关系待核验</option>
+          ${isUniversityTab()
+            ? '<option>民办高校</option><option>公办高校</option>'
+            : '<option>国有独资</option><option>国有全资</option><option>国有控股</option><option>国有实际控制</option><option>国有参股</option><option>控制关系待核验</option>'}
         </select>
       </div>
       <div class="filter-group">
@@ -1082,9 +1045,10 @@ function renderTable(data) {
   const thead = document.querySelector('#dataTable thead');
   const tbody = document.querySelector('#dataTable tbody');
 
+  const relationHeader = isUniversityTab() ? '院校性质 / 清单优先级' : '国资 / 用工';
   thead.innerHTML = `
       <tr>
-        <th>单位</th><th>岗位</th><th>国资 / 用工</th><th>类别 / 来源</th><th>专业适配</th>
+        <th>单位</th><th>岗位</th><th>${relationHeader}</th><th>类别 / 来源</th><th>专业适配</th>
         <th>证据</th><th>目标届别</th><th>地点</th><th>专业要求</th>
         <th>学历</th><th>人数</th><th>状态</th><th>截止日期</th>
         <th>报名</th><th>官方公告</th><th>待核验事项</th>
@@ -1107,13 +1071,13 @@ function renderTable(data) {
           return `<tr>
             <td><strong>${item.companyName}</strong></td>
             <td title="${escapeHtml(item.positions)}">${item.positions || '-'}</td>
-            <td><span class="badge badge-type">${item.ownershipRelation || '待核验'}</span><br><small>${item.employmentType || '用工形式待核验'}</small></td>
+            <td><span class="badge badge-type">${item.ownershipRelation || '待核验'}</span><br><small>${isUniversityTab() && item.schoolPriority ? `清单第 ${item.schoolPriority} 位 · ${item.schoolCircle || ''}` : (item.employmentType || '用工形式待核验')}</small></td>
             <td><span class="badge badge-type">${item.boardSection}</span><br><small>${item.source}</small></td>
             <td><span class="badge badge-target">${item.fitLevel}</span><br><small>${item.fitReason || ''}</small></td>
             <td>${item.evidenceLevel || '待核验'}</td>
             <td><span class="badge badge-target">${item.targetYears}</span></td>
             <td>${item.location}</td>
-            <td title="${escapeHtml(item.majorReq || '')}">${item.majorReq || '-'}</td>
+            <td title="${escapeHtml(item.majorReq || '')}">${item.majorReq ? `${escapeHtml(item.majorReq.slice(0, 180))}${item.majorReq.length > 180 ? '…' : ''}` : '-'}</td>
             <td>${item.educationReq || '-'}</td>
             <td>${item.recruitmentCount || '-'}</td>
             <td><button class="status-btn status-${currentStatus}" onclick="showStatusPopup('${APP.currentTab}','${item.id}')">${currentStatus}</button></td>
@@ -1153,7 +1117,8 @@ function renderCards(data) {
         <div class="card-meta">
           <span class="badge badge-target">${item.fitLevel}</span>
           <span class="badge badge-location">${item.location}</span>
-          <span class="badge badge-type">${item.ownershipRelation || '国资关系待核验'}</span>
+          <span class="badge badge-type">${item.ownershipRelation || (isUniversityTab() ? '院校性质待核验' : '国资关系待核验')}</span>
+          ${isUniversityTab() && item.schoolPriority ? `<span class="badge badge-target">清单第 ${item.schoolPriority} 位</span>` : ''}
           <span class="badge badge-type">${item.employmentType || '用工形式待核验'}</span>
           <span style="font-size:12px;color:var(--text-secondary);">${item.evidenceLevel}</span>
         </div>
@@ -1290,7 +1255,7 @@ function updateTimelineVisibility() {
     if (actionsRow) actionsRow.style.display = 'none';
     return;
   }
-  timeline.style.display = 'none';
+  timeline.style.display = APP.currentTab === 'public' ? '' : 'none';
   quickBtns.forEach(b => b.style.display = 'none');
   tableView.style.display = APP.currentView === 'table' ? '' : 'none';
   cardView.classList.toggle('open', APP.currentView !== 'table');
@@ -1403,7 +1368,7 @@ function exportCSV(data) {
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url;
-  const names = {soe: '国企校招', public: '国考省考事业编', review: '待处理'};
+  const names = {soe: '国企校招', public: '高校招聘', review: '待处理'};
   a.download = `${names[APP.currentTab]}_${new Date().toISOString().slice(0,10)}.csv`;
   a.click();
   URL.revokeObjectURL(url);
@@ -1659,7 +1624,7 @@ window.BoardSync?.init({
   getActiveKeys: () => {
     const jobs = [
       ...ALL_JOBS.map(item => ({item, tab:'soe'})),
-      ...PUBLIC_BOARD_JOBS.map(item => ({item, tab:'public'})),
+      ...UNIVERSITY_BOARD_JOBS.map(item => ({item, tab:'public'})),
       ...REVIEW_BOARD_JOBS.map(item => ({item, tab:'review'})),
     ].map(({item, tab}) => ({kind:'job_status', key:stableStatusKey(item, tab)}));
     const events = OFFLINE_BOARD_EVENTS.map(item => ({kind:'offline_plan', key:item.id}));

@@ -1,6 +1,6 @@
 // 国企校招岗位 — 由 build_personal_board.py 生成
-// 更新时间: 2026-09-15 09:10:52
-// 共 109 条
+// 更新时间: 2026-09-15 17:11:08
+// 共 113 条
 
 const SOE_JOBS = [
   {
@@ -278,6 +278,53 @@ const SOE_JOBS = [
     "sourceLinks": [
       "https://cmhk.iguopin.com/job",
       "https://cmhk.iguopin.com/job/detail?id=217344330644325540"
+    ],
+    "discoverySources": [
+      "中远海运与招商局官方招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 31
+  },
+  {
+    "id": "transport_iguopin_cosco-218219480629642790",
+    "boardSection": "国企校招",
+    "source": "中远海运与招商局官方招聘",
+    "companyName": "威海中远海运重工科技有限公司",
+    "companyType": "央国企",
+    "industry": "制造业",
+    "recruitType": "校园招聘",
+    "targetYears": "待核验",
+    "location": "威海-环翠区",
+    "positions": "电气工程师",
+    "status": "新发现",
+    "updateTime": "2026-09-15",
+    "deadline": "2026-12-13",
+    "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=218219480629642790",
+    "noticeLink": "https://coscoshipping.iguopin.com/job",
+    "examInfo": "",
+    "companyScale": "100-300人",
+    "notes": "岗位职责：\n1.负责公司船用设备电气相关的研发、设计与调试工作；\n2.负责船用设备电气相关产品手册编制及技术支持工作。\n\n任职要求：\n1、本科及以上学历，毕业证学位证齐全；\n2、机械、电气工程及其自动化、自动化、能动、轮机、油气储运工程等相关专业；\n3、有CAD, PLC（西门子、欧姆龙、三菱等）等实习应用经验者优先。",
+    "majorReq": "机械类、能源动力类、电气类、自动化类、交通运输类、海洋工程类、机械工程类、电气工程类、控制科学与工程类、船舶与海洋工程类",
+    "educationReq": "本科",
+    "positionCode": "",
+    "recruitmentCount": "1",
+    "registrationStart": "",
+    "registrationEnd": "2026-12-13",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "威海中远海运重工科技有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接招聘",
+    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
+    "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com",
+    "exclusionReasons": [],
+    "fitLevel": "已确认适配",
+    "fitReason": "专业要求含目标专业、上级专业或不限专业",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://coscoshipping.iguopin.com/job",
+      "https://coscoshipping.iguopin.com/job/detail?id=218219480629642790"
     ],
     "discoverySources": [
       "中远海运与招商局官方招聘"
@@ -660,6 +707,53 @@ const SOE_JOBS = [
     ],
     "reviewReasons": [],
     "priorityScore": 30
+  },
+  {
+    "id": "transport_iguopin_cosco-218222082306082342",
+    "boardSection": "国企校招",
+    "source": "中远海运与招商局官方招聘",
+    "companyName": "威海中远海运重工科技有限公司",
+    "companyType": "央国企",
+    "industry": "制造业",
+    "recruitType": "校园招聘",
+    "targetYears": "待核验",
+    "location": "威海-环翠区",
+    "positions": "设计工程师",
+    "status": "新发现",
+    "updateTime": "2026-09-15",
+    "deadline": "2026-12-13",
+    "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=218222082306082342",
+    "noticeLink": "https://coscoshipping.iguopin.com/job",
+    "examInfo": "",
+    "companyScale": "100-300人",
+    "notes": "任职要求：\n1、本科及以上学历，毕业证学位证齐全；\n2、机械、船海、能动、轮机、电气、自动化、机电一体化等相关专业；\n3、英语CET4或同等水平以上；\n4、有较好的主动工作意愿，遵守公司的各项规章制度，服从公司的工作安排。",
+    "majorReq": "机械类、能源动力类、电气类、自动化类、海洋工程类、动力工程及工程热物理类、电气工程类、控制科学与工程类、交通运输工程类、船舶与海洋工程类",
+    "educationReq": "本科",
+    "positionCode": "",
+    "recruitmentCount": "4",
+    "registrationStart": "",
+    "registrationEnd": "2026-12-13",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "威海中远海运重工科技有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接招聘",
+    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
+    "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com",
+    "exclusionReasons": [],
+    "fitLevel": "可尝试",
+    "fitReason": "专业名称或范围相近",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://coscoshipping.iguopin.com/job",
+      "https://coscoshipping.iguopin.com/job/detail?id=218222082306082342"
+    ],
+    "discoverySources": [
+      "中远海运与招商局官方招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 24
   },
   {
     "id": "transport_iguopin_cmhk-213531173400347265",
@@ -1264,6 +1358,100 @@ const SOE_JOBS = [
     "sourceLinks": [
       "https://cmhk.iguopin.com/job",
       "https://cmhk.iguopin.com/job/detail?id=217335561025750182"
+    ],
+    "discoverySources": [
+      "中远海运与招商局官方招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 2
+  },
+  {
+    "id": "transport_iguopin_cosco-218222899809486377",
+    "boardSection": "国企校招",
+    "source": "中远海运与招商局官方招聘",
+    "companyName": "南京中远海运船舶设备配件有限公司",
+    "companyType": "央国企",
+    "industry": "专用设备制造业",
+    "recruitType": "校园招聘",
+    "targetYears": "待核验",
+    "location": "南京-江宁区",
+    "positions": "生产管理",
+    "status": "新发现",
+    "updateTime": "2026-09-15",
+    "deadline": "2026-12-13",
+    "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=218222899809486377",
+    "noticeLink": "https://coscoshipping.iguopin.com/job",
+    "examInfo": "",
+    "companyScale": "100-300人",
+    "notes": "1. 协助车间生产计划落地，统筹生产排产，跟进生产进度，把控交付周期，协调物料、设备、人员，保障订单按期完成。\n2. 协助现场生产管理，监督生产作业流程，管控产品质量、生产效率，及时处理生产异常、设备故障、工序瓶颈问题。\n3. 协助落实安全生产、现场 5S 管理，规范车间作业，排查安全隐患，降低生产损耗，控制制造成本。\n4. 生产数据统计分析，输出生产日报、周报，复盘产能、良率、工时，推动工艺、作业流程优化改善。\n5. 协助管理车间班组，做好人员排班、现场调度，组织班组培训，提升团队执行力；对接技术、采购、质检部门协同处理各类生产问题。\n6. 完成上级交办的其他生产相关工作。",
+    "majorReq": "力学类（工学）、机械类、材料类、能源动力类、自动化类",
+    "educationReq": "本科",
+    "positionCode": "",
+    "recruitmentCount": "2",
+    "registrationStart": "",
+    "registrationEnd": "2026-12-13",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "南京中远海运船舶设备配件有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接招聘",
+    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
+    "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://coscoshipping.iguopin.com/job",
+      "https://coscoshipping.iguopin.com/job/detail?id=218222899809486377"
+    ],
+    "discoverySources": [
+      "中远海运与招商局官方招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 2
+  },
+  {
+    "id": "transport_iguopin_cosco-218220967392970278",
+    "boardSection": "国企校招",
+    "source": "中远海运与招商局官方招聘",
+    "companyName": "南京中远海运船舶设备配件有限公司",
+    "companyType": "央国企",
+    "industry": "专用设备制造业",
+    "recruitType": "校园招聘",
+    "targetYears": "待核验",
+    "location": "南京-江宁区",
+    "positions": "党建干事",
+    "status": "新发现",
+    "updateTime": "2026-09-15",
+    "deadline": "2026-12-13",
+    "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=218220967392970278",
+    "noticeLink": "https://coscoshipping.iguopin.com/job",
+    "examInfo": "",
+    "companyScale": "100-300人",
+    "notes": "1. 协助落实支部 “三会一课”、主题党日、组织生活会等党内组织生活，负责会议筹备、记录、台账整理。\n2. 负责党员信息维护、组织关系转接、党费收缴、党内统计报表；协助开展发展党员全流程材料整理、政审、归档工作。\n3. 撰写党建工作计划、总结、汇报等各类文稿，做好党建档案资料收集归档，按时完成上级党建材料报送。\n4. 组织党员理论学习与党建主题活动，做好党建宣传、阵地维护相关工作。\n5. 配合做好党风廉政、群团相关基础工作，完成上级及领导交办的其他党务工作。\n6.其他临时性党团工作任务。",
+    "majorReq": "哲学、经济学、文学、工学、管理学",
+    "educationReq": "本科",
+    "positionCode": "",
+    "recruitmentCount": "2",
+    "registrationStart": "",
+    "registrationEnd": "2026-12-13",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "南京中远海运船舶设备配件有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接招聘",
+    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
+    "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://coscoshipping.iguopin.com/job",
+      "https://coscoshipping.iguopin.com/job/detail?id=218220967392970278"
     ],
     "discoverySources": [
       "中远海运与招商局官方招聘"

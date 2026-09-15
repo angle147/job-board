@@ -1,6 +1,6 @@
 // 校招/社招岗位数据 — 自动爬取生成
-// 更新时间: 2026-09-14 17:09:55
-// 共 21 条
+// 更新时间: 2026-09-15 09:09:40
+// 共 20 条
 
 const JOBS = [
   {
@@ -362,23 +362,5 @@ const JOBS = [
     examInfo: "",
     companyScale: "",
     notes: "来源: 山东省国资委 [2026-07-31]"
-  },
-  {
-    id: 21,
-    companyName: "山东发展投资控股集团有限公司",
-    companyType: "央国企",
-    industry: "金融/银行",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "",
-    positions: "",
-    status: "未投递",
-    updateTime: "2026-07-17",
-    deadline: "招满为止",
-    applyLink: "",
-    noticeLink: "http://gzw.shandong.gov.cn/articles/ch00223/202607/2dc6a0a1-3171-40b9-8dd3-d406f1fd6ee4.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 山东省国资委 [2026-07-17]"
   }
 ];

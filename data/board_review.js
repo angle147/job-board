@@ -1,6 +1,6 @@
 // 待人工核验队列 — 由 build_personal_board.py 生成
-// 更新时间: 2026-09-14 17:11:07
-// 共 20 条
+// 更新时间: 2026-09-15 09:10:52
+// 共 17 条
 
 const REVIEW_JOBS = [
   {
@@ -50,54 +50,6 @@ const REVIEW_JOBS = [
       "应届毕业生或校园招聘属性尚未确认"
     ],
     "priorityScore": 70
-  },
-  {
-    "id": "jinan_local_soe_local_soe_fc8ef297a2bff8d7",
-    "boardSection": "国企校招",
-    "source": "济南地方国企官方招聘",
-    "companyName": "这家区属国有企业公开",
-    "companyType": "地方国企线索",
-    "industry": "综合",
-    "recruitType": "公开招聘",
-    "targetYears": "待核验",
-    "location": "济南市",
-    "positions": "这家区属国有企业公开招聘了",
-    "status": "待处理",
-    "updateTime": "2026-09-08",
-    "deadline": "2026-09-14",
-    "applyLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_01b7a896ef8948c183de0dba8d6c9127.html",
-    "noticeLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_01b7a896ef8948c183de0dba8d6c9127.html",
-    "examInfo": "以公告为准",
-    "companyScale": "",
-    "notes": "来源: 济南市人社局国企招聘动态",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "2026-09-14",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "这家区属国有企业公开",
-    "contractEmployer": "待核验",
-    "employmentType": "直接用工",
-    "ownershipRelation": "控制关系待核验",
-    "ownershipEvidenceUrl": "https://jnhrss.jinan.gov.cn/col/col18309/index.html",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "官方原文",
-    "sourceLinks": [
-      "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_01b7a896ef8948c183de0dba8d6c9127.html"
-    ],
-    "discoverySources": [
-      "济南地方国企官方招聘"
-    ],
-    "reviewReasons": [
-      "应届毕业生或校园招聘属性尚未确认"
-    ],
-    "priorityScore": 60
   },
   {
     "id": "jinan_local_soe_local_soe_77b53642106fd9c4",
@@ -732,21 +684,21 @@ const REVIEW_JOBS = [
     "priorityScore": 50
   },
   {
-    "id": "yingjiesheng_39",
+    "id": "yingjiesheng_28",
     "boardSection": "国企校招",
     "source": "应届生求职网",
-    "companyName": "上海派能能源科技股份有限公司",
+    "companyName": "广州南沙资产经营集团有限公司",
     "companyType": "央国企",
     "industry": "邮政/物流",
     "recruitType": "春招",
     "targetYears": "2027届",
-    "location": "上海",
-    "positions": "高级物流专员（2027届）(J11762)",
+    "location": "广州",
+    "positions": "运营岗（园区物流运营管理）(J10062)",
     "status": "待处理",
     "updateTime": "2026-09-14",
     "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-074-465.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-074-465.html",
+    "applyLink": "https://m.yingjiesheng.com/job-008-075-973.html",
+    "noticeLink": "https://m.yingjiesheng.com/job-008-075-973.html",
     "examInfo": "",
     "companyScale": "",
     "notes": "来源: 应届生求职网 [2026-09-14] | 来源: 前程无忧(51JOB)",
@@ -759,7 +711,7 @@ const REVIEW_JOBS = [
     "examDate": "",
     "competitionRatio": "",
     "pastScoreLine": "",
-    "actualEmployer": "上海派能能源科技股份有限公司",
+    "actualEmployer": "广州南沙资产经营集团有限公司",
     "contractEmployer": "待核验",
     "employmentType": "待核验",
     "ownershipRelation": "待核验",
@@ -769,7 +721,7 @@ const REVIEW_JOBS = [
     "fitReason": "专业名称或范围相近",
     "evidenceLevel": "第三方线索",
     "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-074-465.html"
+      "https://m.yingjiesheng.com/job-008-075-973.html"
     ],
     "discoverySources": [
       "应届生求职网"
@@ -782,21 +734,21 @@ const REVIEW_JOBS = [
     "priorityScore": 20
   },
   {
-    "id": "yingjiesheng_19",
+    "id": "yingjiesheng_41",
     "boardSection": "国企校招",
     "source": "应届生求职网",
-    "companyName": "上海柏飞电子科技有限公司",
+    "companyName": "上海密尔克卫化工储存有限公司",
     "companyType": "央国企",
-    "industry": "建筑/建材",
-    "recruitType": "春招",
+    "industry": "航空",
+    "recruitType": "实习",
     "targetYears": "2027届",
     "location": "上海",
     "positions": "职位描述",
     "status": "待处理",
     "updateTime": "2026-09-14",
     "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-073-277.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-073-277.html",
+    "applyLink": "https://m.yingjiesheng.com/job-008-075-835.html",
+    "noticeLink": "https://m.yingjiesheng.com/job-008-075-835.html",
     "examInfo": "",
     "companyScale": "",
     "notes": "来源: 应届生求职网 [2026-09-14] | 来源: 前程无忧(51JOB)",
@@ -809,7 +761,7 @@ const REVIEW_JOBS = [
     "examDate": "",
     "competitionRatio": "",
     "pastScoreLine": "",
-    "actualEmployer": "上海柏飞电子科技有限公司",
+    "actualEmployer": "上海密尔克卫化工储存有限公司",
     "contractEmployer": "待核验",
     "employmentType": "待核验",
     "ownershipRelation": "待核验",
@@ -819,7 +771,7 @@ const REVIEW_JOBS = [
     "fitReason": "尚未取得可验证的专业要求",
     "evidenceLevel": "第三方线索",
     "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-073-277.html"
+      "https://m.yingjiesheng.com/job-008-075-835.html"
     ],
     "discoverySources": [
       "应届生求职网"
@@ -833,24 +785,24 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_14",
+    "id": "yingjiesheng_13",
     "boardSection": "国企校招",
     "source": "应届生求职网",
-    "companyName": "中伟新材料股份有限公司",
+    "companyName": "莆田港务集团有限公司",
     "companyType": "央国企",
-    "industry": "综合",
+    "industry": "港口/航运",
     "recruitType": "春招",
     "targetYears": "2027届",
-    "location": "长沙-雨花区",
-    "positions": "大专校招管培生（工作地点：印尼）",
+    "location": "福建",
+    "positions": "生产经营岗|技术信息岗|现场管理岗",
     "status": "待处理",
     "updateTime": "2026-09-14",
     "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-073-320.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-073-320.html",
+    "applyLink": "https://m.yingjiesheng.com/job-008-077-383.html",
+    "noticeLink": "https://m.yingjiesheng.com/job-008-077-383.html",
     "examInfo": "",
     "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-14] | 来源: 前程无忧(51JOB)",
+    "notes": "来源: 应届生求职网 [2026-09-14] | 来源: 大连海事大学",
     "majorReq": "",
     "educationReq": "",
     "positionCode": "",
@@ -860,7 +812,7 @@ const REVIEW_JOBS = [
     "examDate": "",
     "competitionRatio": "",
     "pastScoreLine": "",
-    "actualEmployer": "中伟新材料股份有限公司",
+    "actualEmployer": "莆田港务集团有限公司",
     "contractEmployer": "待核验",
     "employmentType": "待核验",
     "ownershipRelation": "待核验",
@@ -870,109 +822,7 @@ const REVIEW_JOBS = [
     "fitReason": "尚未取得可验证的专业要求",
     "evidenceLevel": "第三方线索",
     "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-073-320.html"
-    ],
-    "discoverySources": [
-      "应届生求职网"
-    ],
-    "reviewReasons": [
-      "尚未取得可验证的专业要求",
-      "明确截止日期待核验",
-      "第三方来源仅作线索，需反查官方原文和国企控制关系",
-      "缺少可验证的官方原文"
-    ],
-    "priorityScore": 0
-  },
-  {
-    "id": "yingjiesheng_20",
-    "boardSection": "国企校招",
-    "source": "应届生求职网",
-    "companyName": "宁波金田铜业（集团）股份有限公司",
-    "companyType": "央国企",
-    "industry": "综合",
-    "recruitType": "春招",
-    "targetYears": "2027届",
-    "location": "宁波-江北区",
-    "positions": "国际市场开发（2027届全球校招）",
-    "status": "待处理",
-    "updateTime": "2026-09-14",
-    "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-075-617.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-075-617.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-14] | 来源: 前程无忧(51JOB)",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "招满为止",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "宁波金田铜业（集团）股份有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "第三方线索",
-    "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-075-617.html"
-    ],
-    "discoverySources": [
-      "应届生求职网"
-    ],
-    "reviewReasons": [
-      "尚未取得可验证的专业要求",
-      "明确截止日期待核验",
-      "第三方来源仅作线索，需反查官方原文和国企控制关系",
-      "缺少可验证的官方原文"
-    ],
-    "priorityScore": 0
-  },
-  {
-    "id": "yingjiesheng_38",
-    "boardSection": "国企校招",
-    "source": "应届生求职网",
-    "companyName": "科捷智能科技股份有限公司",
-    "companyType": "央国企",
-    "industry": "综合",
-    "recruitType": "春招",
-    "targetYears": "2027届",
-    "location": "青岛-城阳区",
-    "positions": "项目管理专员（2027届海外留学生）(J10978)",
-    "status": "待处理",
-    "updateTime": "2026-09-14",
-    "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-075-193.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-075-193.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-14] | 来源: 前程无忧(51JOB)",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "招满为止",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "科捷智能科技股份有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "第三方线索",
-    "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-075-193.html"
+      "https://m.yingjiesheng.com/job-008-077-383.html"
     ],
     "discoverySources": [
       "应届生求职网"

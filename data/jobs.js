@@ -1,6 +1,6 @@
 // 校招/社招岗位数据 — 自动爬取生成
-// 更新时间: 2026-09-15 17:09:58
-// 共 20 条
+// 更新时间: 2026-09-16 09:09:41
+// 共 19 条
 
 const JOBS = [
   {
@@ -38,24 +38,6 @@ const JOBS = [
     examInfo: "",
     companyScale: "",
     notes: "来源: 山东省国资委 [2026-09-10]"
-  },
-  {
-    id: 3,
-    companyName: "泰山财产保险股份有限公司",
-    companyType: "央国企",
-    industry: "金融/银行",
-    recruitType: "社招",
-    targetYears: "2026届",
-    location: "",
-    positions: "",
-    status: "未投递",
-    updateTime: "2026-09-07",
-    deadline: "2026-09-15",
-    applyLink: "",
-    noticeLink: "http://gzw.shandong.gov.cn/articles/ch00223/202609/e5e8dce8-3830-4e66-9fab-7e1194b938d8.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 山东省国资委 [2026-09-07]"
   },
   {
     id: 4,

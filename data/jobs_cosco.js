@@ -1,8 +1,34 @@
 // 中远海运集团、招商局集团官方人才招聘平台 — 校园招聘岗位
-// 更新时间: 2026-09-15 17:00:41
-// 共 88 条
+// 更新时间: 2026-09-16 09:00:41
+// 共 89 条
 
 const JOBS_COSCO = [
+  {
+    "id": "cosco-218313852318647954",
+    "companyName": "江门中远海运铝业有限公司",
+    "companyType": "央国企",
+    "industry": "金属制品业",
+    "recruitType": "校园招聘",
+    "targetYears": "",
+    "location": "江门",
+    "positions": "数控操作员",
+    "majorReq": "机械类",
+    "educationReq": "本科",
+    "recruitmentCount": "1",
+    "status": "未投递",
+    "updateTime": "2026-09-15",
+    "deadline": "2026-12-14",
+    "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=218313852318647954",
+    "noticeLink": "https://coscoshipping.iguopin.com/job",
+    "examInfo": "",
+    "companyScale": "500-1000人",
+    "notes": "岗位职责:\n1、对公司重要客户产品、项目进行全面跟进开发;\n2、对新订单的成熟加工产品确定重点和难点、检验标准、方法和手段并编制报价单提供经营部业务员;3、跟进样板全过程，按照样板的全过程，修订完善产品的工艺文件，制订计件工资，指导生产;4、对新产品工艺中的难点进行试验，确定并不断县体的实验方案，提出制造辅助工具及工装、夹具的方案以及所需购买的设备、仪器清单，确定项目所需的原材料并认定供应商;\n5、负责跟踪前期生产，指导监督全部生产过程，及时解决生产中遇到的问题，优化生产工艺;6、产品正常生产后，移交整套工艺性文件，指导生产系统人员进行生产;7、参与客户新产品开发，并提出设计方案。\n任职条件:\n1、本科以上学历机械制造及自动化、机械工程等相关专业优先考虑。\n2、熟练掌握各类绘图软件，有良好的沟通协调能力。\n3、有相关工作经验或有相关项目经验者优先考虑",
+    "actualEmployer": "江门中远海运铝业有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接招聘",
+    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
+    "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com"
+  },
   {
     "id": "cosco-218222899809486377",
     "companyName": "南京中远海运船舶设备配件有限公司",

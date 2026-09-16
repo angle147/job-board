@@ -1,5 +1,5 @@
 // 待人工核验队列 — 由 build_personal_board.py 生成
-// 更新时间: 2026-09-15 17:11:08
+// 更新时间: 2026-09-16 09:10:29
 // 共 31 条
 
 const REVIEW_JOBS = [
@@ -400,54 +400,6 @@ const REVIEW_JOBS = [
     "priorityScore": 1000
   },
   {
-    "id": "jinan_local_soe_local_soe_757a9ad86dc294fe",
-    "boardSection": "国企校招",
-    "source": "济南地方国企官方招聘",
-    "companyName": "中国联合水泥集团有限公司",
-    "companyType": "央企线索",
-    "industry": "综合",
-    "recruitType": "公开招聘",
-    "targetYears": "待核验",
-    "location": "济南市",
-    "positions": "这家驻济央企公开招聘了",
-    "status": "待处理",
-    "updateTime": "2026-09-12",
-    "deadline": "2026-09-18",
-    "applyLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_5e5a6cefb80d4ee7a73b6f47d882b988.html",
-    "noticeLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_5e5a6cefb80d4ee7a73b6f47d882b988.html",
-    "examInfo": "以公告为准",
-    "companyScale": "",
-    "notes": "来源: 济南市人社局国企招聘动态",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "2026-09-18",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "中国联合水泥集团有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "直接用工",
-    "ownershipRelation": "控制关系待核验",
-    "ownershipEvidenceUrl": "https://jnhrss.jinan.gov.cn/col/col18309/index.html",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "官方原文",
-    "sourceLinks": [
-      "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_5e5a6cefb80d4ee7a73b6f47d882b988.html"
-    ],
-    "discoverySources": [
-      "济南地方国企官方招聘"
-    ],
-    "reviewReasons": [
-      "应届毕业生或校园招聘属性尚未确认"
-    ],
-    "priorityScore": 70
-  },
-  {
     "id": "yingjiesheng_56",
     "boardSection": "国企校招",
     "source": "应届生求职网",
@@ -497,6 +449,54 @@ const REVIEW_JOBS = [
       "缺少可验证的官方原文"
     ],
     "priorityScore": 70
+  },
+  {
+    "id": "jinan_local_soe_local_soe_757a9ad86dc294fe",
+    "boardSection": "国企校招",
+    "source": "济南地方国企官方招聘",
+    "companyName": "中国联合水泥集团有限公司",
+    "companyType": "央企线索",
+    "industry": "综合",
+    "recruitType": "公开招聘",
+    "targetYears": "待核验",
+    "location": "济南市",
+    "positions": "这家驻济央企公开招聘了",
+    "status": "待处理",
+    "updateTime": "2026-09-12",
+    "deadline": "2026-09-18",
+    "applyLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_5e5a6cefb80d4ee7a73b6f47d882b988.html",
+    "noticeLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_5e5a6cefb80d4ee7a73b6f47d882b988.html",
+    "examInfo": "以公告为准",
+    "companyScale": "",
+    "notes": "来源: 济南市人社局国企招聘动态",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "2026-09-18",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "中国联合水泥集团有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接用工",
+    "ownershipRelation": "控制关系待核验",
+    "ownershipEvidenceUrl": "https://jnhrss.jinan.gov.cn/col/col18309/index.html",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_5e5a6cefb80d4ee7a73b6f47d882b988.html"
+    ],
+    "discoverySources": [
+      "济南地方国企官方招聘"
+    ],
+    "reviewReasons": [
+      "应届毕业生或校园招聘属性尚未确认"
+    ],
+    "priorityScore": 60
   },
   {
     "id": "jinan_local_soe_local_soe_77b53642106fd9c4",

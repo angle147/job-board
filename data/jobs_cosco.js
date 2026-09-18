@@ -1,8 +1,60 @@
 // 中远海运集团、招商局集团官方人才招聘平台 — 校园招聘岗位
-// 更新时间: 2026-09-17 17:00:44
-// 共 114 条
+// 更新时间: 2026-09-18 09:00:44
+// 共 116 条
 
 const JOBS_COSCO = [
+  {
+    "id": "cosco-218653149030777055",
+    "companyName": "上海中燃船舶燃料有限公司",
+    "companyType": "央国企",
+    "industry": "水上运输业",
+    "recruitType": "校园招聘",
+    "targetYears": "",
+    "location": "上海",
+    "positions": "财务部财务会计岗",
+    "majorReq": "工商管理类",
+    "educationReq": "本科",
+    "recruitmentCount": "1",
+    "status": "未投递",
+    "updateTime": "2026-09-17",
+    "deadline": "2026-11-30",
+    "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=218653149030777055",
+    "noticeLink": "https://coscoshipping.iguopin.com/job",
+    "examInfo": "",
+    "companyScale": "300-500人",
+    "notes": "岗位职责：\n1.按照会计制度，规范填制凭证，做好账务工作，做到凭证合法、手续完备、帐目健全、数字准确、定期对帐、经常分析。\n2.保管好所有财务凭证，及时整理、装订归档，定期编制各种会计报表、统计资料，年终提交决算报告等。\n3.遵守和维护财经纪律，执行财务制度，实行会计监督，负责会计稽核，并用心做好维护财经纪律的宣传工作。\n任职要求：\n1.全日制大学本科及以上学历，所学专业为工商管理类/财务会计类（会计学、财务管理、审计、税收、金融、投资学、信用管理等）相关专业。\n2.有较高的思想政治素质，热爱本职工作，有较强的事业心和责任感，具有开拓进取精神，能吃苦耐劳。\n3. 具有良好的语言和文字表达能力，具有较强团队合作意识和沟通协调能力，能熟练掌握办公软件及AI技术运用。熟悉财务系统管理软件, 具备扎实的专业知识，较强的自我学习能力和逻辑分析能力。\n4.身体健康，能胜任本岗位工作。",
+    "actualEmployer": "上海中燃船舶燃料有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接招聘",
+    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
+    "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com"
+  },
+  {
+    "id": "cosco-218650650869760016",
+    "companyName": "上海中燃船舶燃料有限公司",
+    "companyType": "央国企",
+    "industry": "水上运输业",
+    "recruitType": "校园招聘",
+    "targetYears": "",
+    "location": "上海",
+    "positions": "人力资源部人力资源保障岗",
+    "majorReq": "工商管理类",
+    "educationReq": "本科",
+    "recruitmentCount": "1",
+    "status": "未投递",
+    "updateTime": "2026-09-17",
+    "deadline": "2026-11-30",
+    "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=218650650869760016",
+    "noticeLink": "https://coscoshipping.iguopin.com/job",
+    "examInfo": "",
+    "companyScale": "300-500人",
+    "notes": "岗位职责：\n1.根据公司战略规划拟定人力资源管理目标和规划。\n2.负责起草、修改公司人力资源管理方面的规章制度，并监督执行，解决实施过程中产生的问题。\n3.负责制定公司年度培训计划，组织开展各类员工培训，建立培训台账、管理培训费用的使用、撰写培训工作报告等。\n4.负责员工的招聘、调配、考勤、考核、晋升、奖惩等日常管理工作。\n5.负责员工的薪酬管理、保险、福利工作。\n6.上级交办的其他工作。\n任职要求：\n1. 全日制大学本科及以上学历，所学专业为工商管理类（人力资源管理、劳动关系）/法学/计算机科学与技术相关专业。\n2.有较高的思想政治素质，热爱本职工作，有较强的事业心和责任感，具有开拓进取精神，能吃苦耐劳。\n3. 具有良好的语言和文字表达能力，具有较强团队合作意识和沟通协调能力，能熟练掌握办公软件及AI技术运用。\n4.具有船员培训和船员证书管理者优先。\n5.身体健康，能胜任本岗位工作。",
+    "actualEmployer": "上海中燃船舶燃料有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接招聘",
+    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
+    "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com"
+  },
   {
     "id": "cosco-218636520561574111",
     "companyName": "锦州新时代集装箱码头有限公司",

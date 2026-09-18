@@ -1,5 +1,5 @@
 // 待人工核验队列 — 由 build_personal_board.py 生成
-// 更新时间: 2026-09-17 17:10:47
+// 更新时间: 2026-09-18 09:11:16
 // 共 31 条
 
 const REVIEW_JOBS = [
@@ -832,7 +832,7 @@ const REVIEW_JOBS = [
     "priorityScore": 50
   },
   {
-    "id": "jinan_local_soe_local_soe_c40a09020adfd6ce",
+    "id": "jinan_local_soe_local_soe_b24c140d62f5be5b",
     "boardSection": "国企校招",
     "source": "济南地方国企官方招聘",
     "companyName": "济南有岗位！这家央企公开",
@@ -843,10 +843,10 @@ const REVIEW_JOBS = [
     "location": "济南市",
     "positions": "济南有岗位！这家央企公开招聘了",
     "status": "待处理",
-    "updateTime": "2026-09-02",
+    "updateTime": "2026-09-17",
     "deadline": "待核验",
-    "applyLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_6a5167c1ac1d4edba49c5381e07108ee.html",
-    "noticeLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_6a5167c1ac1d4edba49c5381e07108ee.html",
+    "applyLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_924429746e014e8c96ff72a57584e84b.html",
+    "noticeLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_924429746e014e8c96ff72a57584e84b.html",
     "examInfo": "以公告为准",
     "companyScale": "",
     "notes": "来源: 济南市人社局国企招聘动态",
@@ -869,6 +869,7 @@ const REVIEW_JOBS = [
     "fitReason": "尚未取得可验证的专业要求",
     "evidenceLevel": "官方原文",
     "sourceLinks": [
+      "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_924429746e014e8c96ff72a57584e84b.html",
       "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_6a5167c1ac1d4edba49c5381e07108ee.html",
       "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_ba4644df9ebf42a5ab97cde4bd1f8fcf.html",
       "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_d2d3050d2f9b4e95a1d399a124ac930f.html",
@@ -1080,7 +1081,7 @@ const REVIEW_JOBS = [
     "priorityScore": 50
   },
   {
-    "id": "yingjiesheng_5",
+    "id": "yingjiesheng_55",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "上海顺城物流有限公司",
@@ -1131,7 +1132,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_15",
+    "id": "yingjiesheng_13",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "斯凯孚（中国）有限公司",
@@ -1182,7 +1183,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_16",
+    "id": "yingjiesheng_14",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "斯凯孚（中国）有限公司",
@@ -1233,7 +1234,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_17",
+    "id": "yingjiesheng_15",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "斯凯孚（中国）有限公司",
@@ -1284,7 +1285,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_18",
+    "id": "yingjiesheng_16",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "斯凯孚（中国）有限公司",
@@ -1335,7 +1336,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_19",
+    "id": "yingjiesheng_17",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "斯凯孚（中国）有限公司",
@@ -1386,7 +1387,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_20",
+    "id": "yingjiesheng_18",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "斯凯孚（中国）有限公司",
@@ -1437,7 +1438,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_22",
+    "id": "yingjiesheng_20",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "斯凯孚（中国）有限公司",
@@ -1488,7 +1489,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_23",
+    "id": "yingjiesheng_21",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "斯凯孚（中国）有限公司",
@@ -1539,7 +1540,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_31",
+    "id": "yingjiesheng_37",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "斯凯孚（中国）有限公司",
@@ -1590,21 +1591,21 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_27",
+    "id": "yingjiesheng_57",
     "boardSection": "国企校招",
     "source": "应届生求职网",
-    "companyName": "苏州雷格特智能设备股份有限公司",
+    "companyName": "深圳中电前海仓储运营有限公司",
     "companyType": "央国企",
-    "industry": "综合",
+    "industry": "邮政/物流",
     "recruitType": "春招",
     "targetYears": "2027届",
-    "location": "苏州-吴中区",
+    "location": "深圳",
     "positions": "职位描述",
     "status": "待处理",
     "updateTime": "2026-09-17",
     "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-082-621.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-082-621.html",
+    "applyLink": "https://m.yingjiesheng.com/job-008-083-793.html",
+    "noticeLink": "https://m.yingjiesheng.com/job-008-083-793.html",
     "examInfo": "",
     "companyScale": "",
     "notes": "来源: 应届生求职网 [2026-09-17] | 来源: 前程无忧(51JOB)",
@@ -1617,7 +1618,7 @@ const REVIEW_JOBS = [
     "examDate": "",
     "competitionRatio": "",
     "pastScoreLine": "",
-    "actualEmployer": "苏州雷格特智能设备股份有限公司",
+    "actualEmployer": "深圳中电前海仓储运营有限公司",
     "contractEmployer": "待核验",
     "employmentType": "待核验",
     "ownershipRelation": "待核验",
@@ -1627,7 +1628,9 @@ const REVIEW_JOBS = [
     "fitReason": "尚未取得可验证的专业要求",
     "evidenceLevel": "第三方线索",
     "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-082-621.html"
+      "https://m.yingjiesheng.com/job-008-083-793.html",
+      "https://m.yingjiesheng.com/job-008-083-791.html",
+      "https://m.yingjiesheng.com/job-008-083-789.html"
     ],
     "discoverySources": [
       "应届生求职网"

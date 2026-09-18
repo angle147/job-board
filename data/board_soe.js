@@ -1,6 +1,6 @@
 // 国企校招岗位 — 由 build_personal_board.py 生成
-// 更新时间: 2026-09-17 17:10:47
-// 共 140 条
+// 更新时间: 2026-09-18 09:11:16
+// 共 142 条
 
 const SOE_JOBS = [
   {
@@ -48,7 +48,7 @@ const SOE_JOBS = [
       "中远海运与招商局官方招聘"
     ],
     "reviewReasons": [],
-    "priorityScore": 51
+    "priorityScore": 41
   },
   {
     "id": "transport_iguopin_cmhk-206144856517509901",
@@ -95,7 +95,7 @@ const SOE_JOBS = [
       "中远海运与招商局官方招聘"
     ],
     "reviewReasons": [],
-    "priorityScore": 51
+    "priorityScore": 41
   },
   {
     "id": "transport_iguopin_cosco-218218709347468840",
@@ -1461,52 +1461,6 @@ const SOE_JOBS = [
     "priorityScore": 20
   },
   {
-    "id": "国务院国资委人才招聘_sasac-central-35860165",
-    "boardSection": "国企校招",
-    "source": "国务院国资委人才招聘",
-    "companyName": "中通服供应链",
-    "companyType": "央国企",
-    "industry": "综合",
-    "recruitType": "校招",
-    "targetYears": "2027届",
-    "location": "全国",
-    "positions": "中通服供应链2027年校园招聘火热进行中",
-    "status": "新发现",
-    "updateTime": "2026-09-04",
-    "deadline": "待核验",
-    "applyLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35860165/content.html",
-    "noticeLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35860165/content.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "中通服供应链",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "可尝试",
-    "fitReason": "专业名称或范围相近",
-    "evidenceLevel": "官方原文",
-    "sourceLinks": [
-      "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35860165/content.html"
-    ],
-    "discoverySources": [
-      "国务院国资委人才招聘"
-    ],
-    "reviewReasons": [],
-    "priorityScore": 20
-  },
-  {
     "id": "transport_iguopin_cmhk-211069248536054057",
     "boardSection": "国企校招",
     "source": "中远海运与招商局官方招聘",
@@ -2157,6 +2111,100 @@ const SOE_JOBS = [
     "sourceLinks": [
       "https://cmhk.iguopin.com/job",
       "https://cmhk.iguopin.com/job/detail?id=217621559861315028"
+    ],
+    "discoverySources": [
+      "中远海运与招商局官方招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 1
+  },
+  {
+    "id": "transport_iguopin_cosco-218653149030777055",
+    "boardSection": "国企校招",
+    "source": "中远海运与招商局官方招聘",
+    "companyName": "上海中燃船舶燃料有限公司",
+    "companyType": "央国企",
+    "industry": "水上运输业",
+    "recruitType": "校园招聘",
+    "targetYears": "待核验",
+    "location": "上海",
+    "positions": "财务部财务会计岗",
+    "status": "新发现",
+    "updateTime": "2026-09-17",
+    "deadline": "2026-11-30",
+    "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=218653149030777055",
+    "noticeLink": "https://coscoshipping.iguopin.com/job",
+    "examInfo": "",
+    "companyScale": "300-500人",
+    "notes": "岗位职责：\n1.按照会计制度，规范填制凭证，做好账务工作，做到凭证合法、手续完备、帐目健全、数字准确、定期对帐、经常分析。\n2.保管好所有财务凭证，及时整理、装订归档，定期编制各种会计报表、统计资料，年终提交决算报告等。\n3.遵守和维护财经纪律，执行财务制度，实行会计监督，负责会计稽核，并用心做好维护财经纪律的宣传工作。\n任职要求：\n1.全日制大学本科及以上学历，所学专业为工商管理类/财务会计类（会计学、财务管理、审计、税收、金融、投资学、信用管理等）相关专业。\n2.有较高的思想政治素质，热爱本职工作，有较强的事业心和责任感，具有开拓进取精神，能吃苦耐劳。\n3. 具有良好的语言和文字表达能力，具有较强团队合作意识和沟通协调能力，能熟练掌握办公软件及AI技术运用。熟悉财务系统管理软件, 具备扎实的专业知识，较强的自我学习能力和逻辑分析能力。\n4.身体健康，能胜任本岗位工作。",
+    "majorReq": "工商管理类",
+    "educationReq": "本科",
+    "positionCode": "",
+    "recruitmentCount": "1",
+    "registrationStart": "",
+    "registrationEnd": "2026-11-30",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "上海中燃船舶燃料有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接招聘",
+    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
+    "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://coscoshipping.iguopin.com/job",
+      "https://coscoshipping.iguopin.com/job/detail?id=218653149030777055"
+    ],
+    "discoverySources": [
+      "中远海运与招商局官方招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 1
+  },
+  {
+    "id": "transport_iguopin_cosco-218650650869760016",
+    "boardSection": "国企校招",
+    "source": "中远海运与招商局官方招聘",
+    "companyName": "上海中燃船舶燃料有限公司",
+    "companyType": "央国企",
+    "industry": "水上运输业",
+    "recruitType": "校园招聘",
+    "targetYears": "待核验",
+    "location": "上海",
+    "positions": "人力资源部人力资源保障岗",
+    "status": "新发现",
+    "updateTime": "2026-09-17",
+    "deadline": "2026-11-30",
+    "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=218650650869760016",
+    "noticeLink": "https://coscoshipping.iguopin.com/job",
+    "examInfo": "",
+    "companyScale": "300-500人",
+    "notes": "岗位职责：\n1.根据公司战略规划拟定人力资源管理目标和规划。\n2.负责起草、修改公司人力资源管理方面的规章制度，并监督执行，解决实施过程中产生的问题。\n3.负责制定公司年度培训计划，组织开展各类员工培训，建立培训台账、管理培训费用的使用、撰写培训工作报告等。\n4.负责员工的招聘、调配、考勤、考核、晋升、奖惩等日常管理工作。\n5.负责员工的薪酬管理、保险、福利工作。\n6.上级交办的其他工作。\n任职要求：\n1. 全日制大学本科及以上学历，所学专业为工商管理类（人力资源管理、劳动关系）/法学/计算机科学与技术相关专业。\n2.有较高的思想政治素质，热爱本职工作，有较强的事业心和责任感，具有开拓进取精神，能吃苦耐劳。\n3. 具有良好的语言和文字表达能力，具有较强团队合作意识和沟通协调能力，能熟练掌握办公软件及AI技术运用。\n4.具有船员培训和船员证书管理者优先。\n5.身体健康，能胜任本岗位工作。",
+    "majorReq": "工商管理类",
+    "educationReq": "本科",
+    "positionCode": "",
+    "recruitmentCount": "1",
+    "registrationStart": "",
+    "registrationEnd": "2026-11-30",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "上海中燃船舶燃料有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接招聘",
+    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
+    "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://coscoshipping.iguopin.com/job",
+      "https://coscoshipping.iguopin.com/job/detail?id=218650650869760016"
     ],
     "discoverySources": [
       "中远海运与招商局官方招聘"
@@ -5307,6 +5355,52 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
+    "id": "国务院国资委人才招聘_sasac-central-35948550",
+    "boardSection": "国企校招",
+    "source": "国务院国资委人才招聘",
+    "companyName": "中国电气装备集团",
+    "companyType": "央国企",
+    "industry": "综合",
+    "recruitType": "校招",
+    "targetYears": "2027届",
+    "location": "全国",
+    "positions": "中国电气装备集团2027届校园招聘正式启动",
+    "status": "新发现",
+    "updateTime": "2026-09-18",
+    "deadline": "待核验",
+    "applyLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35948550/content.html",
+    "noticeLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35948550/content.html",
+    "examInfo": "",
+    "companyScale": "",
+    "notes": "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "中国电气装备集团",
+    "contractEmployer": "待核验",
+    "employmentType": "待核验",
+    "ownershipRelation": "待核验",
+    "ownershipEvidenceUrl": "",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35948550/content.html"
+    ],
+    "discoverySources": [
+      "国务院国资委人才招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 0
+  },
+  {
     "id": "国务院国资委人才招聘_sasac-central-35891254",
     "boardSection": "国企校招",
     "source": "国务院国资委人才招聘",
@@ -6326,6 +6420,52 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
+    "id": "国务院国资委人才招聘_sasac-central-35948533",
+    "boardSection": "国企校招",
+    "source": "国务院国资委人才招聘",
+    "companyName": "航天精工",
+    "companyType": "央国企",
+    "industry": "综合",
+    "recruitType": "校招",
+    "targetYears": "2027届",
+    "location": "全国",
+    "positions": "航天精工2027届校园招聘正式启动",
+    "status": "新发现",
+    "updateTime": "2026-09-18",
+    "deadline": "待核验",
+    "applyLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35948533/content.html",
+    "noticeLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35948533/content.html",
+    "examInfo": "",
+    "companyScale": "",
+    "notes": "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "航天精工",
+    "contractEmployer": "待核验",
+    "employmentType": "待核验",
+    "ownershipRelation": "待核验",
+    "ownershipEvidenceUrl": "",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35948533/content.html"
+    ],
+    "discoverySources": [
+      "国务院国资委人才招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 0
+  },
+  {
     "id": "qyzp_2",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
@@ -6457,52 +6597,6 @@ const SOE_JOBS = [
     "evidenceLevel": "官方原文",
     "sourceLinks": [
       "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35884296/content.html"
-    ],
-    "discoverySources": [
-      "国务院国资委人才招聘"
-    ],
-    "reviewReasons": [],
-    "priorityScore": 0
-  },
-  {
-    "id": "国务院国资委人才招聘_sasac-central-35860611",
-    "boardSection": "国企校招",
-    "source": "国务院国资委人才招聘",
-    "companyName": "陕西飞机工业有限责任公司",
-    "companyType": "央国企",
-    "industry": "综合",
-    "recruitType": "校招",
-    "targetYears": "2027届",
-    "location": "全国",
-    "positions": "陕西飞机工业有限责任公司2027届校园招聘正式启动",
-    "status": "新发现",
-    "updateTime": "2026-09-04",
-    "deadline": "待核验",
-    "applyLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35860611/content.html",
-    "noticeLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35860611/content.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "陕西飞机工业有限责任公司",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "官方原文",
-    "sourceLinks": [
-      "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35860611/content.html"
     ],
     "discoverySources": [
       "国务院国资委人才招聘"

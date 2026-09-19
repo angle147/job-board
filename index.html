@@ -680,6 +680,9 @@ a.link-notice:hover { border-color: var(--primary); color: var(--primary); }
 .calendar-event:hover { background:#e9ddff; color:#6d28d9; }
 .calendar-event:focus-visible { outline:2px solid var(--primary); outline-offset:1px; }
 .offline-empty { background:#fff; border:1px dashed var(--border); border-radius:var(--radius); padding:32px; text-align:center; color:var(--text-muted); }
+.offline-jobs-download { display:none; margin:10px 0 0; }
+.offline-jobs-download a { display:inline-flex; align-items:center; gap:6px; border:1px solid #2563eb; border-radius:8px; padding:8px 14px; background:#eff6ff; color:#1d4ed8; font-size:13px; text-decoration:none; font-weight:600; }
+.offline-jobs-download a:hover { background:#dbeafe; }
 @media (max-width:900px) { .offline-layout { grid-template-columns:1fr; } .calendar-panel { position:static; } }
 </style>
 </head>
@@ -735,6 +738,9 @@ a.link-notice:hover { border-color: var(--primary); color: var(--primary); }
       <button class="quick-filter-btn" id="quickFilterAll" style="display:none;" title="不展示未筛选原始数据">全部</button>
     </div>
     <div class="filter-panel" id="filterPanel"></div>
+    <div class="offline-jobs-download" id="offlineJobsDownload">
+      <a href="data/济南人才招引大会全部岗位.xlsx" download="济南人才招引大会全部岗位.xlsx">📥 下载济南人才招引大会全部岗位 Excel</a>
+    </div>
     <div class="filter-chips" id="activeFilters"></div>
     <div class="actions-row">
       <span class="result-count" id="resultCount"></span>
@@ -1242,6 +1248,7 @@ function updateTimelineVisibility() {
   const cardView = document.getElementById('cardView');
   const eventsView = document.getElementById('eventsView');
   const actionsRow = document.querySelector('.actions-row');
+  const offlineJobsDownload = document.getElementById('offlineJobsDownload');
 
   if (APP.currentTab === 'offline') {
     timeline.style.display = 'none';
@@ -1253,8 +1260,10 @@ function updateTimelineVisibility() {
     searchRow.style.display = '';
     filterToggle.style.display = '';
     if (actionsRow) actionsRow.style.display = 'none';
+    if (offlineJobsDownload) offlineJobsDownload.style.display = '';
     return;
   }
+  if (offlineJobsDownload) offlineJobsDownload.style.display = 'none';
   timeline.style.display = APP.currentTab === 'public' ? '' : 'none';
   quickBtns.forEach(b => b.style.display = 'none');
   tableView.style.display = APP.currentView === 'table' ? '' : 'none';

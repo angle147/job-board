@@ -1,5 +1,5 @@
 // 济南地方国企官方招聘 — 自动采集
-// 更新时间: 2026-09-20 09:10:21
+// 更新时间: 2026-09-20 17:10:40
 // 共 34 条
 
 const JOBS_LOCAL_SOE = [
@@ -314,6 +314,30 @@ const JOBS_LOCAL_SOE = [
     ownershipRelation: "控制关系待核验",
     ownershipEvidenceUrl: "https://jngzw.jinan.gov.cn/col/col23870/index.html",
     sourceKey: "jinan_sasac"
+  },
+  {
+    id: "local_soe_ce349100727171b3",
+    companyName: "驻济央企！山东电工电气集团",
+    companyType: "央企线索",
+    industry: "综合",
+    recruitType: "公开招聘",
+    targetYears: "",
+    location: "济南市",
+    positions: "驻济央企！山东电工电气集团招聘了",
+    status: "未投递",
+    updateTime: "2026-09-20",
+    deadline: "待核验",
+    applyLink: "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_5598db50061047f4857e8e07ded5433a.html",
+    noticeLink: "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_5598db50061047f4857e8e07ded5433a.html",
+    examInfo: "以公告为准",
+    companyScale: "",
+    notes: "来源: 济南市人社局国企招聘动态",
+    actualEmployer: "驻济央企！山东电工电气集团",
+    contractEmployer: "待核验",
+    employmentType: "直接用工",
+    ownershipRelation: "控制关系待核验",
+    ownershipEvidenceUrl: "https://jnhrss.jinan.gov.cn/col/col18309/index.html",
+    sourceKey: "jinan_hrss_soe"
   },
   {
     id: "local_soe_efd4be206e5c7a4a",
@@ -789,30 +813,6 @@ const JOBS_LOCAL_SOE = [
     companyScale: "",
     notes: "来源: 济南市人社局国企招聘动态",
     actualEmployer: "不要错过！这家驻济省属企业公开",
-    contractEmployer: "待核验",
-    employmentType: "直接用工",
-    ownershipRelation: "控制关系待核验",
-    ownershipEvidenceUrl: "https://jnhrss.jinan.gov.cn/col/col18309/index.html",
-    sourceKey: "jinan_hrss_soe"
-  },
-  {
-    id: "local_soe_e57b8d5aa926ce98",
-    companyName: "济南有岗位！这家央企公开",
-    companyType: "央企线索",
-    industry: "综合",
-    recruitType: "公开招聘",
-    targetYears: "",
-    location: "济南市",
-    positions: "济南有岗位！这家央企公开招聘了",
-    status: "未投递",
-    updateTime: "2026-07-25",
-    deadline: "待核验",
-    applyLink: "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_54b9f3a47e1344beb3b32295b93753ce.html",
-    noticeLink: "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_54b9f3a47e1344beb3b32295b93753ce.html",
-    examInfo: "以公告为准",
-    companyScale: "",
-    notes: "来源: 济南市人社局国企招聘动态",
-    actualEmployer: "济南有岗位！这家央企公开",
     contractEmployer: "待核验",
     employmentType: "直接用工",
     ownershipRelation: "控制关系待核验",

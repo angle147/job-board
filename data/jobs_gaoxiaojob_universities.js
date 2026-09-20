@@ -1,4 +1,4 @@
-// 高才网济南高校岗位 | 生成时间: 2026-09-20T09:06:01+08:00
+// 高才网济南高校岗位 | 生成时间: 2026-09-20T17:06:12+08:00
 // 第三方职位列表用于发现和在招状态佐证，最终资格及报名以学校官网为准。
 const JOBS_GAOXIAOJOB_UNIVERSITIES = [
   {
@@ -790,42 +790,6 @@ const JOBS_GAOXIAOJOB_UNIVERSITIES = [
     "schoolNotes": "全国首批本科层次职业技术大学，设有交通学院"
   },
   {
-    "id": "gaoxiaojob-2306567",
-    "companyName": "山东工程职业技术大学",
-    "companyType": "民办高校",
-    "industry": "高等教育",
-    "recruitType": "高校招聘",
-    "targetYears": "社会招聘",
-    "location": "济南市",
-    "positions": "专任教师-产品设计类专业（包括旅游商品设计、日用产品设计、小型家电产品设计、UI/UX设计、文创产品设计、动漫衍生品设计、智能产品交互设计、工业产品设计、康养用品设计等方向）",
-    "salary": "面议",
-    "majorReq": "设计学",
-    "educationReq": "硕士研究生",
-    "updateTime": "2026-08-06",
-    "deadline": "详见公告",
-    "noticeLink": "https://www.gaoxiaojob.com/announcement/detail/317224.html",
-    "applyLink": "https://www.gaoxiaojob.com/job/detail/2306567.html",
-    "officialLink": "https://www.suet.edu.cn/hr/info/1004/1185.htm",
-    "corroborationLinks": [
-      "https://www.gaoxiaojob.com/announcement/detail/317224.html",
-      "https://www.suet.edu.cn/hr/info/1004/1185.htm"
-    ],
-    "sourceChannelCount": 2,
-    "verificationStatus": "cross_verified",
-    "verificationChannels": [
-      "高才网在招职位列表",
-      "学校官网同一招聘公告"
-    ],
-    "notes": "高才网职位列表当前显示在招；公告：山东工程职业技术大学（中心校区）2026年招聘公告。资格与报名以学校官网为准。",
-    "schoolPriority": 4,
-    "schoolCity": "济南",
-    "schoolLevel": "民办本科",
-    "schoolNature": "民办",
-    "schoolCircle": "核心圈-济南",
-    "schoolMajors": "物流管理、交通学院相关专业",
-    "schoolNotes": "全国首批本科层次职业技术大学，设有交通学院"
-  },
-  {
     "id": "gaoxiaojob-2153989",
     "companyName": "山东工程职业技术大学",
     "companyType": "民办高校",
@@ -1138,21 +1102,21 @@ const JOBS_GAOXIAOJOB_UNIVERSITIES = [
     "schoolNotes": "全国首批本科层次职业技术大学，设有交通学院"
   },
   {
-    "id": "gaoxiaojob-2153986",
+    "id": "gaoxiaojob-2338803",
     "companyName": "山东工程职业技术大学",
     "companyType": "民办高校",
     "industry": "高等教育",
     "recruitType": "高校招聘",
     "targetYears": "社会招聘",
     "location": "济南市",
-    "positions": "专任教师-大数据技术与工程、数据科学与大数据技术等大数据相近专业",
+    "positions": "专任教师-大数据与商业智能、数据科学、大数据管理与应用、管理科学与工程、统计学、应用统计、计算机科学与技术、软件工程、电子信息、数字经济、应用经济学等与商务数据分析相关专业",
     "salary": "面议",
-    "majorReq": "计算机科学与技术",
+    "majorReq": "应用经济学,统计学,电子科学与技术,信息与通信工程,计算机科学与技术,软件工程,管理科学与工程,数字经济",
     "educationReq": "硕士研究生",
     "updateTime": "2026-08-06",
     "deadline": "详见公告",
     "noticeLink": "https://www.gaoxiaojob.com/announcement/detail/317224.html",
-    "applyLink": "https://www.gaoxiaojob.com/job/detail/2153986.html",
+    "applyLink": "https://www.gaoxiaojob.com/job/detail/2338803.html",
     "officialLink": "https://www.suet.edu.cn/hr/info/1004/1185.htm",
     "corroborationLinks": [
       "https://www.gaoxiaojob.com/announcement/detail/317224.html",
@@ -1174,21 +1138,21 @@ const JOBS_GAOXIAOJOB_UNIVERSITIES = [
     "schoolNotes": "全国首批本科层次职业技术大学，设有交通学院"
   },
   {
-    "id": "gaoxiaojob-2154002",
+    "id": "gaoxiaojob-2153986",
     "companyName": "山东工程职业技术大学",
     "companyType": "民办高校",
     "industry": "高等教育",
     "recruitType": "高校招聘",
     "targetYears": "社会招聘",
     "location": "济南市",
-    "positions": "专任教师-学前教育、护理学、护理、儿科学或相关医学专业",
+    "positions": "专任教师-大数据技术与工程、数据科学与大数据技术等大数据相近专业",
     "salary": "面议",
-    "majorReq": "教育学,临床医学,护理学",
+    "majorReq": "计算机科学与技术",
     "educationReq": "硕士研究生",
     "updateTime": "2026-08-06",
     "deadline": "详见公告",
     "noticeLink": "https://www.gaoxiaojob.com/announcement/detail/317224.html",
-    "applyLink": "https://www.gaoxiaojob.com/job/detail/2154002.html",
+    "applyLink": "https://www.gaoxiaojob.com/job/detail/2153986.html",
     "officialLink": "https://www.suet.edu.cn/hr/info/1004/1185.htm",
     "corroborationLinks": [
       "https://www.gaoxiaojob.com/announcement/detail/317224.html",
@@ -1305,6 +1269,42 @@ const JOBS_GAOXIAOJOB_UNIVERSITIES = [
       "高才网在招职位列表"
     ],
     "notes": "高才网职位列表当前显示在招；公告：山东工程职业技术大学（商河校区）2026年招聘公告。资格与报名以学校官网为准。",
+    "schoolPriority": 4,
+    "schoolCity": "济南",
+    "schoolLevel": "民办本科",
+    "schoolNature": "民办",
+    "schoolCircle": "核心圈-济南",
+    "schoolMajors": "物流管理、交通学院相关专业",
+    "schoolNotes": "全国首批本科层次职业技术大学，设有交通学院"
+  },
+  {
+    "id": "gaoxiaojob-2338804",
+    "companyName": "山东工程职业技术大学",
+    "companyType": "民办高校",
+    "industry": "高等教育",
+    "recruitType": "高校招聘",
+    "targetYears": "社会招聘",
+    "location": "济南市",
+    "positions": "专任教师-智能科学与技术、计算机科学与技术、软件工程、统计学、应用统计、管理科学与工程、数字经济、电子信息、控制科学与工程、工商管理学（数字化转型方向）、应用经济学等与商业智能相关专业",
+    "salary": "面议",
+    "majorReq": "应用经济学,统计学,电子科学与技术,信息与通信工程,控制科学与工程,计算机科学与技术,软件工程,管理科学与工程,工商管理,数字经济,智能科学与技术",
+    "educationReq": "硕士研究生",
+    "updateTime": "2026-08-06",
+    "deadline": "详见公告",
+    "noticeLink": "https://www.gaoxiaojob.com/announcement/detail/317224.html",
+    "applyLink": "https://www.gaoxiaojob.com/job/detail/2338804.html",
+    "officialLink": "https://www.suet.edu.cn/hr/info/1004/1185.htm",
+    "corroborationLinks": [
+      "https://www.gaoxiaojob.com/announcement/detail/317224.html",
+      "https://www.suet.edu.cn/hr/info/1004/1185.htm"
+    ],
+    "sourceChannelCount": 2,
+    "verificationStatus": "cross_verified",
+    "verificationChannels": [
+      "高才网在招职位列表",
+      "学校官网同一招聘公告"
+    ],
+    "notes": "高才网职位列表当前显示在招；公告：山东工程职业技术大学（中心校区）2026年招聘公告。资格与报名以学校官网为准。",
     "schoolPriority": 4,
     "schoolCity": "济南",
     "schoolLevel": "民办本科",
@@ -1668,6 +1668,42 @@ const JOBS_GAOXIAOJOB_UNIVERSITIES = [
     "schoolNotes": "全国首批本科层次职业技术大学，设有交通学院"
   },
   {
+    "id": "gaoxiaojob-2154008",
+    "companyName": "山东工程职业技术大学",
+    "companyType": "民办高校",
+    "industry": "高等教育",
+    "recruitType": "高校招聘",
+    "targetYears": "社会招聘",
+    "location": "济南市",
+    "positions": "专任教师-英语类相关（英语语言文学、外国语言学及应用语言学、英语教学法英语翻译、商务英语等）",
+    "salary": "面议",
+    "majorReq": "外国语言文学,翻译",
+    "educationReq": "硕士研究生",
+    "updateTime": "2026-08-06",
+    "deadline": "详见公告",
+    "noticeLink": "https://www.gaoxiaojob.com/announcement/detail/317224.html",
+    "applyLink": "https://www.gaoxiaojob.com/job/detail/2154008.html",
+    "officialLink": "https://www.suet.edu.cn/hr/info/1004/1185.htm",
+    "corroborationLinks": [
+      "https://www.gaoxiaojob.com/announcement/detail/317224.html",
+      "https://www.suet.edu.cn/hr/info/1004/1185.htm"
+    ],
+    "sourceChannelCount": 2,
+    "verificationStatus": "cross_verified",
+    "verificationChannels": [
+      "高才网在招职位列表",
+      "学校官网同一招聘公告"
+    ],
+    "notes": "高才网职位列表当前显示在招；公告：山东工程职业技术大学（中心校区）2026年招聘公告。资格与报名以学校官网为准。",
+    "schoolPriority": 4,
+    "schoolCity": "济南",
+    "schoolLevel": "民办本科",
+    "schoolNature": "民办",
+    "schoolCircle": "核心圈-济南",
+    "schoolMajors": "物流管理、交通学院相关专业",
+    "schoolNotes": "全国首批本科层次职业技术大学，设有交通学院"
+  },
+  {
     "id": "gaoxiaojob-2153941",
     "companyName": "山东工程职业技术大学",
     "companyType": "民办高校",
@@ -1717,42 +1753,6 @@ const JOBS_GAOXIAOJOB_UNIVERSITIES = [
     "deadline": "详见公告",
     "noticeLink": "https://www.gaoxiaojob.com/announcement/detail/317224.html",
     "applyLink": "https://www.gaoxiaojob.com/job/detail/2153988.html",
-    "officialLink": "https://www.suet.edu.cn/hr/info/1004/1185.htm",
-    "corroborationLinks": [
-      "https://www.gaoxiaojob.com/announcement/detail/317224.html",
-      "https://www.suet.edu.cn/hr/info/1004/1185.htm"
-    ],
-    "sourceChannelCount": 2,
-    "verificationStatus": "cross_verified",
-    "verificationChannels": [
-      "高才网在招职位列表",
-      "学校官网同一招聘公告"
-    ],
-    "notes": "高才网职位列表当前显示在招；公告：山东工程职业技术大学（中心校区）2026年招聘公告。资格与报名以学校官网为准。",
-    "schoolPriority": 4,
-    "schoolCity": "济南",
-    "schoolLevel": "民办本科",
-    "schoolNature": "民办",
-    "schoolCircle": "核心圈-济南",
-    "schoolMajors": "物流管理、交通学院相关专业",
-    "schoolNotes": "全国首批本科层次职业技术大学，设有交通学院"
-  },
-  {
-    "id": "gaoxiaojob-2153997",
-    "companyName": "山东工程职业技术大学",
-    "companyType": "民办高校",
-    "industry": "高等教育",
-    "recruitType": "高校招聘",
-    "targetYears": "社会招聘",
-    "location": "济南市",
-    "positions": "专任教师-计算机科学与技术或软件工程（电子商务、数据科学与大数据、用户体验设计方向优先）；电子商务、国际贸易（商务数据分析方向、跨境电商方向优先）等专业",
-    "salary": "面议",
-    "majorReq": "应用经济学,计算机科学与技术,软件工程,工商管理",
-    "educationReq": "硕士研究生",
-    "updateTime": "2026-08-06",
-    "deadline": "详见公告",
-    "noticeLink": "https://www.gaoxiaojob.com/announcement/detail/317224.html",
-    "applyLink": "https://www.gaoxiaojob.com/job/detail/2153997.html",
     "officialLink": "https://www.suet.edu.cn/hr/info/1004/1185.htm",
     "corroborationLinks": [
       "https://www.gaoxiaojob.com/announcement/detail/317224.html",

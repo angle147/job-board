@@ -1,6 +1,6 @@
 // 待人工核验队列 — 由 build_personal_board.py 生成
-// 更新时间: 2026-09-19 17:11:03
-// 共 27 条
+// 更新时间: 2026-09-20 09:11:10
+// 共 24 条
 
 const REVIEW_JOBS = [
   {
@@ -1081,7 +1081,7 @@ const REVIEW_JOBS = [
     "priorityScore": 50
   },
   {
-    "id": "yingjiesheng_49",
+    "id": "yingjiesheng_54",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "上海中通吉网络技术有限公司",
@@ -1134,109 +1134,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_59",
-    "boardSection": "国企校招",
-    "source": "应届生求职网",
-    "companyName": "上海璟瑞腾供应链管理有限公司",
-    "companyType": "央国企",
-    "industry": "邮政/物流",
-    "recruitType": "春招",
-    "targetYears": "2027届",
-    "location": "上海",
-    "positions": "职位描述",
-    "status": "待处理",
-    "updateTime": "2026-09-18",
-    "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-007-857-819.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-007-857-819.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-18] | 来源: 前程无忧(51JOB)",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "招满为止",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "上海璟瑞腾供应链管理有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "第三方线索",
-    "sourceLinks": [
-      "https://m.yingjiesheng.com/job-007-857-819.html"
-    ],
-    "discoverySources": [
-      "应届生求职网"
-    ],
-    "reviewReasons": [
-      "尚未取得可验证的专业要求",
-      "明确截止日期待核验",
-      "第三方来源仅作线索，需反查官方原文和国企控制关系",
-      "缺少可验证的官方原文"
-    ],
-    "priorityScore": 0
-  },
-  {
-    "id": "yingjiesheng_58",
-    "boardSection": "国企校招",
-    "source": "应届生求职网",
-    "companyName": "中建安装集团有限公司",
-    "companyType": "央国企",
-    "industry": "邮政/物流",
-    "recruitType": "实习",
-    "targetYears": "2027届",
-    "location": "南京",
-    "positions": "职位描述",
-    "status": "待处理",
-    "updateTime": "2026-09-18",
-    "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-085-232.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-085-232.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-18] | 来源: 前程无忧(51JOB)",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "招满为止",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "中建安装集团有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "第三方线索",
-    "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-085-232.html"
-    ],
-    "discoverySources": [
-      "应届生求职网"
-    ],
-    "reviewReasons": [
-      "尚未取得可验证的专业要求",
-      "明确截止日期待核验",
-      "第三方来源仅作线索，需反查官方原文和国企控制关系",
-      "缺少可验证的官方原文"
-    ],
-    "priorityScore": 0
-  },
-  {
-    "id": "yingjiesheng_36",
+    "id": "yingjiesheng_43",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "梧州粤海江河水务有限公司",
@@ -1288,59 +1186,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_15",
-    "boardSection": "国企校招",
-    "source": "应届生求职网",
-    "companyName": "湖南顺丰信息服务科技有限公司",
-    "companyType": "央国企",
-    "industry": "综合",
-    "recruitType": "春招",
-    "targetYears": "2027届",
-    "location": "长沙",
-    "positions": "职位描述",
-    "status": "待处理",
-    "updateTime": "2026-09-18",
-    "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-085-151.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-085-151.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-18] | 来源: 湖南工商大学",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "招满为止",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "湖南顺丰信息服务科技有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "第三方线索",
-    "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-085-151.html",
-      "https://m.yingjiesheng.com/job-008-085-171.html"
-    ],
-    "discoverySources": [
-      "应届生求职网"
-    ],
-    "reviewReasons": [
-      "尚未取得可验证的专业要求",
-      "明确截止日期待核验",
-      "第三方来源仅作线索，需反查官方原文和国企控制关系",
-      "缺少可验证的官方原文"
-    ],
-    "priorityScore": 0
-  },
-  {
-    "id": "yingjiesheng_53",
+    "id": "yingjiesheng_58",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "瑞沣（东莞）供应链科技有限公司",
@@ -1391,7 +1237,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_54",
+    "id": "yingjiesheng_60",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "瑞沣（东莞）供应链科技有限公司",

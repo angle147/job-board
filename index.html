@@ -838,13 +838,42 @@ const JOB_STATUS_ALIASES = {
 };
 
 function stableJobIdentity(item) {
-  const url = item.noticeLink || item.applyLink || '';
-  if (url && !url.replace(/\/$/, '').endsWith('index.jhtml')) return url;
-  return [item.source, item.companyName, item.positions, item.location].join('|');
+  if (item.id) return String(item.id);
+  return [item.source, item.companyName, item.positions, item.location, item.positionCode || ''].join('|');
 }
 
 function stableStatusKey(item, tab = APP.currentTab) {
-  return `job_status_v2|${tab}|${stableJobIdentity(item)}`;
+  return `job_status_v3|${tab}|${stableJobIdentity(item)}`;
+}
+
+function migrateJobStatuses() {
+  const statuses = loadStatuses();
+  const snapshots = loadStatusSnapshots();
+  const metadata = JSON.parse(localStorage.getItem('job_board_sync_meta') || '{}');
+  const tombstones = JSON.parse(localStorage.getItem('job_board_sync_status_tombstones') || '{}');
+  const now = new Date().toISOString();
+  let changed = false;
+  for (const oldKey of Object.keys(statuses)) {
+    if (!oldKey.startsWith('job_status_v2|')) continue;
+    const snapshot = snapshots[oldKey];
+    if (snapshot) {
+      const tab = snapshot.savedTab || oldKey.split('|')[1] || 'soe';
+      const newKey = stableStatusKey(snapshot, tab);
+      if (!statuses[newKey]) statuses[newKey] = statuses[oldKey];
+      if (!snapshots[newKey]) snapshots[newKey] = snapshot;
+      metadata[`job_status|${newKey}`] = metadata[`job_status|${oldKey}`] || now;
+    }
+    delete statuses[oldKey];
+    delete snapshots[oldKey];
+    delete metadata[`job_status|${oldKey}`];
+    tombstones[oldKey] = now;
+    changed = true;
+  }
+  if (!changed) return;
+  localStorage.setItem('job_statuses', JSON.stringify(statuses));
+  localStorage.setItem('job_status_snapshots', JSON.stringify(snapshots));
+  localStorage.setItem('job_board_sync_meta', JSON.stringify(metadata));
+  localStorage.setItem('job_board_sync_status_tombstones', JSON.stringify(tombstones));
 }
 
 function jobStatus(item, tab = APP.currentTab) {
@@ -897,6 +926,7 @@ const ALL_JOBS = typeof SOE_JOBS !== 'undefined' ? SOE_JOBS : [];
 const UNIVERSITY_BOARD_JOBS = typeof UNIVERSITY_JOBS !== 'undefined' ? UNIVERSITY_JOBS : [];
 const REVIEW_BOARD_JOBS = typeof REVIEW_JOBS !== 'undefined' ? REVIEW_JOBS : [];
 const OFFLINE_BOARD_EVENTS = typeof OFFLINE_EVENTS !== 'undefined' ? OFFLINE_EVENTS : [];
+migrateJobStatuses();
 
 function getCurrentData() {
   if (APP.currentTab === 'offline') return OFFLINE_BOARD_EVENTS;

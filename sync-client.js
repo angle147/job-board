@@ -99,7 +99,7 @@
     const now = new Date().toISOString();
     const items = [];
     for (const [key, status] of Object.entries(statuses)) {
-      if (!key.startsWith("job_status_v2|")) continue;
+      if (!key.startsWith("job_status_v3|")) continue;
       const mapKey = `job_status|${key}`;
       if (!metadata[mapKey]) metadata[mapKey] = now;
       items.push({ kind: "job_status", key, value: { status, snapshot: snapshots[key] || null }, updatedAt: metadata[mapKey] });
@@ -132,8 +132,13 @@
       if (Number.isFinite(localTime) && localTime >= remoteTime) continue;
       if (item.kind === "job_status") {
         const value = typeof item.value === "string" ? { status: item.value } : (item.value || {});
-        if (value.status) statuses[item.key] = value.status;
-        if (value.snapshot) snapshots[item.key] = value.snapshot;
+        if (value.deleted) {
+          delete statuses[item.key];
+          delete snapshots[item.key];
+        } else {
+          if (value.status) statuses[item.key] = value.status;
+          if (value.snapshot) snapshots[item.key] = value.snapshot;
+        }
       } else if (item.kind === "offline_plan") {
         // 兼容旧版 true=计划参加；两个集合始终互斥。
         plans.delete(item.key);
@@ -210,6 +215,10 @@
     for (const [key, updatedAt] of Object.entries(pending)) {
       items.push({ kind: "offline_plan", key, value: false, updatedAt });
     }
+    const statusPending = loadJson("job_board_sync_status_tombstones", {});
+    for (const [key, updatedAt] of Object.entries(statusPending)) {
+      items.push({ kind: "job_status", key, value: { deleted: true }, updatedAt });
+    }
     return items;
   }
 
@@ -225,6 +234,7 @@
         body: JSON.stringify({ items: localItemsWithTombstones(), activeKeys: state.callbacks?.getActiveKeys?.() || [] }),
       });
       localStorage.removeItem("job_board_sync_tombstones");
+      localStorage.removeItem("job_board_sync_status_tombstones");
       const latest = await api("/state");
       applyRemote(latest.items);
       setSyncStatus("synced");

@@ -1,8 +1,46 @@
 // 国务院国资委 — 人才招聘栏目
-// 更新时间: 2026-09-20 17:10:40
+// 更新时间: 2026-09-21 09:10:22
 // 共 27 条
 
 const JOBS_SASAC_CENTRAL = [
+  {
+    id: "sasac-central-35963130",
+    companyName: "中国远洋海运集团",
+    companyType: "央国企",
+    industry: "交通",
+    recruitType: "校招",
+    targetYears: "2027届",
+    location: "全国",
+    positions: "中国远洋海运集团2027全球校园招聘",
+    majorReq: "",
+    educationReq: "",
+    status: "未投递",
+    updateTime: "2026-09-21",
+    deadline: "",
+    applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35963130/content.html",
+    noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35963130/content.html",
+    examInfo: "",
+    notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
+  },
+  {
+    id: "sasac-central-35963806",
+    companyName: "航空工业信息技术中心",
+    companyType: "央国企",
+    industry: "综合",
+    recruitType: "校招",
+    targetYears: "2026届",
+    location: "全国",
+    positions: "航空工业信息技术中心（金航数码）2026年度高技术人才招聘公告",
+    majorReq: "",
+    educationReq: "",
+    status: "未投递",
+    updateTime: "2026-09-21",
+    deadline: "",
+    applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35963806/content.html",
+    noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35963806/content.html",
+    examInfo: "",
+    notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
+  },
   {
     id: "sasac-central-35954334",
     companyName: "中国铝业集团有限公司",
@@ -475,44 +513,6 @@ const JOBS_SASAC_CENTRAL = [
     deadline: "",
     applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35891271/content.html",
     noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35891271/content.html",
-    examInfo: "",
-    notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
-  },
-  {
-    id: "sasac-central-35884240",
-    companyName: "中国移动",
-    companyType: "央国企",
-    industry: "综合",
-    recruitType: "校招",
-    targetYears: "2027届",
-    location: "全国",
-    positions: "中国移动2027校园招聘启动",
-    majorReq: "",
-    educationReq: "",
-    status: "未投递",
-    updateTime: "2026-09-08",
-    deadline: "",
-    applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35884240/content.html",
-    noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35884240/content.html",
-    examInfo: "",
-    notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
-  },
-  {
-    id: "sasac-central-35884296",
-    companyName: "航空工业集团",
-    companyType: "央国企",
-    industry: "综合",
-    recruitType: "校招",
-    targetYears: "2027届",
-    location: "全国",
-    positions: "航空工业集团下属企业启动2027年招聘",
-    majorReq: "",
-    educationReq: "",
-    status: "未投递",
-    updateTime: "2026-09-08",
-    deadline: "",
-    applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35884296/content.html",
-    noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35884296/content.html",
     examInfo: "",
     notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
   }

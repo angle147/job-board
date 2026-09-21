@@ -1,6 +1,6 @@
 // 待人工核验队列 — 由 build_personal_board.py 生成
-// 更新时间: 2026-09-20 17:11:27
-// 共 22 条
+// 更新时间: 2026-09-21 09:11:10
+// 共 26 条
 
 const REVIEW_JOBS = [
   {
@@ -1128,7 +1128,58 @@ const REVIEW_JOBS = [
     "priorityScore": 50
   },
   {
-    "id": "yingjiesheng_27",
+    "id": "yingjiesheng_51",
+    "boardSection": "国企校招",
+    "source": "应届生求职网",
+    "companyName": "中国邮政储蓄银行股份有限公司",
+    "companyType": "银行/金融",
+    "industry": "邮政/物流",
+    "recruitType": "春招",
+    "targetYears": "2027届",
+    "location": "河南",
+    "positions": "河南省分行 经营管理U培生|销售精英U培生|销售岗位",
+    "status": "待处理",
+    "updateTime": "2026-09-20",
+    "deadline": "招满为止",
+    "applyLink": "https://m.yingjiesheng.com/job-008-088-373.html",
+    "noticeLink": "https://m.yingjiesheng.com/job-008-088-373.html",
+    "examInfo": "",
+    "companyScale": "",
+    "notes": "来源: 应届生求职网 [2026-09-20] | 来源: 河南财经政法大学",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "招满为止",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "中国邮政储蓄银行股份有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "待核验",
+    "ownershipRelation": "待核验",
+    "ownershipEvidenceUrl": "",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "第三方线索",
+    "sourceLinks": [
+      "https://m.yingjiesheng.com/job-008-088-373.html"
+    ],
+    "discoverySources": [
+      "应届生求职网"
+    ],
+    "reviewReasons": [
+      "尚未取得可验证的专业要求",
+      "明确截止日期待核验",
+      "第三方来源仅作线索，需反查官方原文和国企控制关系",
+      "缺少可验证的官方原文"
+    ],
+    "priorityScore": 0
+  },
+  {
+    "id": "yingjiesheng_18",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "厦门轨道建设发展集团有限公司",
@@ -1166,6 +1217,159 @@ const REVIEW_JOBS = [
     "evidenceLevel": "第三方线索",
     "sourceLinks": [
       "https://m.yingjiesheng.com/job-008-088-113.html"
+    ],
+    "discoverySources": [
+      "应届生求职网"
+    ],
+    "reviewReasons": [
+      "尚未取得可验证的专业要求",
+      "明确截止日期待核验",
+      "第三方来源仅作线索，需反查官方原文和国企控制关系",
+      "缺少可验证的官方原文"
+    ],
+    "priorityScore": 0
+  },
+  {
+    "id": "yingjiesheng_53",
+    "boardSection": "国企校招",
+    "source": "应届生求职网",
+    "companyName": "大咖国际食品有限公司",
+    "companyType": "央国企",
+    "industry": "邮政/物流",
+    "recruitType": "春招",
+    "targetYears": "2027届",
+    "location": "海南",
+    "positions": "职位描述",
+    "status": "待处理",
+    "updateTime": "2026-09-20",
+    "deadline": "招满为止",
+    "applyLink": "https://m.yingjiesheng.com/job-008-087-591.html",
+    "noticeLink": "https://m.yingjiesheng.com/job-008-087-591.html",
+    "examInfo": "",
+    "companyScale": "",
+    "notes": "来源: 应届生求职网 [2026-09-20] | 来源: 河南理工大学",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "招满为止",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "大咖国际食品有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "待核验",
+    "ownershipRelation": "待核验",
+    "ownershipEvidenceUrl": "",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "第三方线索",
+    "sourceLinks": [
+      "https://m.yingjiesheng.com/job-008-087-591.html"
+    ],
+    "discoverySources": [
+      "应届生求职网"
+    ],
+    "reviewReasons": [
+      "尚未取得可验证的专业要求",
+      "明确截止日期待核验",
+      "第三方来源仅作线索，需反查官方原文和国企控制关系",
+      "缺少可验证的官方原文"
+    ],
+    "priorityScore": 0
+  },
+  {
+    "id": "yingjiesheng_54",
+    "boardSection": "国企校招",
+    "source": "应届生求职网",
+    "companyName": "大咖国际食品有限公司",
+    "companyType": "央国企",
+    "industry": "邮政/物流",
+    "recruitType": "春招",
+    "targetYears": "2027届",
+    "location": "安徽",
+    "positions": "职位描述",
+    "status": "待处理",
+    "updateTime": "2026-09-20",
+    "deadline": "招满为止",
+    "applyLink": "https://m.yingjiesheng.com/job-008-087-592.html",
+    "noticeLink": "https://m.yingjiesheng.com/job-008-087-592.html",
+    "examInfo": "",
+    "companyScale": "",
+    "notes": "来源: 应届生求职网 [2026-09-20] | 来源: 河南理工大学",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "招满为止",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "大咖国际食品有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "待核验",
+    "ownershipRelation": "待核验",
+    "ownershipEvidenceUrl": "",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "第三方线索",
+    "sourceLinks": [
+      "https://m.yingjiesheng.com/job-008-087-592.html"
+    ],
+    "discoverySources": [
+      "应届生求职网"
+    ],
+    "reviewReasons": [
+      "尚未取得可验证的专业要求",
+      "明确截止日期待核验",
+      "第三方来源仅作线索，需反查官方原文和国企控制关系",
+      "缺少可验证的官方原文"
+    ],
+    "priorityScore": 0
+  },
+  {
+    "id": "yingjiesheng_58",
+    "boardSection": "国企校招",
+    "source": "应届生求职网",
+    "companyName": "大寰机器人科技股份有限公司",
+    "companyType": "央国企",
+    "industry": "邮政/物流",
+    "recruitType": "实习",
+    "targetYears": "2027届",
+    "location": "常州-武进区",
+    "positions": "职位描述",
+    "status": "待处理",
+    "updateTime": "2026-09-20",
+    "deadline": "招满为止",
+    "applyLink": "https://m.yingjiesheng.com/job-008-087-281.html",
+    "noticeLink": "https://m.yingjiesheng.com/job-008-087-281.html",
+    "examInfo": "",
+    "companyScale": "",
+    "notes": "来源: 应届生求职网 [2026-09-20] | 来源: 前程无忧(51JOB)",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "招满为止",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "大寰机器人科技股份有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "待核验",
+    "ownershipRelation": "待核验",
+    "ownershipEvidenceUrl": "",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "第三方线索",
+    "sourceLinks": [
+      "https://m.yingjiesheng.com/job-008-087-281.html"
     ],
     "discoverySources": [
       "应届生求职网"

@@ -939,6 +939,16 @@ function isJobTab() { return APP.currentTab !== 'offline'; }
 function isUniversityTab() { return APP.currentTab === 'public'; }
 function isEventTab() { return false; }
 
+function bestJobPerCompany(items) {
+  const seen = new Set();
+  return items.filter(item => {
+    const key = String(item.companyName || item.id || '').replace(/\s+/g, '').toLowerCase();
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
 // ============ Parse Filters ============
 function parseFilters() {
   const raw = {};
@@ -1006,7 +1016,7 @@ function filterData() {
     });
   });
 
-  return data;
+  return APP.currentTab === 'soe' ? bestJobPerCompany(data) : data;
 }
 
 // ============ Render Filters ============

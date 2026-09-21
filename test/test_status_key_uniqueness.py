@@ -19,6 +19,11 @@ class StatusKeyTests(unittest.TestCase):
         self.assertIn("if (item.id) return String(item.id);", text)
         self.assertIn("job_status_v3|${tab}|", text)
 
+    def test_soe_view_keeps_one_job_per_company(self):
+        text = (BASE / "index.html").read_text(encoding="utf-8")
+        self.assertIn("function bestJobPerCompany(items)", text)
+        self.assertIn("APP.currentTab === 'soe' ? bestJobPerCompany(data) : data", text)
+
 
 if __name__ == "__main__":
     unittest.main()

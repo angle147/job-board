@@ -1,8 +1,27 @@
 // 国务院国资委 — 人才招聘栏目
-// 更新时间: 2026-09-21 17:11:20
+// 更新时间: 2026-09-22 09:10:17
 // 共 27 条
 
 const JOBS_SASAC_CENTRAL = [
+  {
+    id: "sasac-central-35968095",
+    companyName: "矿冶集团",
+    companyType: "央国企",
+    industry: "综合",
+    recruitType: "校招",
+    targetYears: "2027届",
+    location: "全国",
+    positions: "矿冶集团2027届校园招聘正式启动！",
+    majorReq: "",
+    educationReq: "",
+    status: "未投递",
+    updateTime: "2026-09-22",
+    deadline: "",
+    applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35968095/content.html",
+    noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35968095/content.html",
+    examInfo: "",
+    notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
+  },
   {
     id: "sasac-central-35963130",
     companyName: "中国远洋海运集团",
@@ -494,25 +513,6 @@ const JOBS_SASAC_CENTRAL = [
     deadline: "",
     applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35891254/content.html",
     noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35891254/content.html",
-    examInfo: "",
-    notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
-  },
-  {
-    id: "sasac-central-35891271",
-    companyName: "航天科工下属企业",
-    companyType: "央国企",
-    industry: "综合",
-    recruitType: "校招",
-    targetYears: "2027届",
-    location: "全国",
-    positions: "航天科工下属企业2027届校园招聘全面启动",
-    majorReq: "",
-    educationReq: "",
-    status: "未投递",
-    updateTime: "2026-09-09",
-    deadline: "",
-    applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35891271/content.html",
-    noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35891271/content.html",
     examInfo: "",
     notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
   }

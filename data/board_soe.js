@@ -1,6 +1,6 @@
 // 国企校招岗位 — 由 build_personal_board.py 生成
-// 更新时间: 2026-09-23 09:11:13
-// 共 319 条
+// 更新时间: 2026-09-23 17:10:46
+// 共 320 条
 
 const SOE_JOBS = [
   {
@@ -1143,7 +1143,7 @@ const SOE_JOBS = [
     "location": "青岛",
     "positions": "船务部外勤中心外勤专员",
     "status": "新发现",
-    "updateTime": "2026-09-18",
+    "updateTime": "2026-09-23",
     "deadline": "2026-12-17",
     "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=218792255824068912",
     "noticeLink": "https://coscoshipping.iguopin.com/job",
@@ -1190,7 +1190,7 @@ const SOE_JOBS = [
     "location": "青岛",
     "positions": "班轮部外勤代理中心外勤专员",
     "status": "新发现",
-    "updateTime": "2026-09-18",
+    "updateTime": "2026-09-23",
     "deadline": "2026-12-17",
     "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=218791924524384532",
     "noticeLink": "https://coscoshipping.iguopin.com/job",
@@ -2365,7 +2365,7 @@ const SOE_JOBS = [
     "location": "青岛",
     "positions": "工程物流部国际EPC项目中心营销开拓",
     "status": "新发现",
-    "updateTime": "2026-09-18",
+    "updateTime": "2026-09-23",
     "deadline": "2026-12-17",
     "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=218793500542501140",
     "noticeLink": "https://coscoshipping.iguopin.com/job",
@@ -2600,7 +2600,7 @@ const SOE_JOBS = [
     "location": "青岛",
     "positions": "工程物流部国际EPC项目中心运营操作",
     "status": "新发现",
-    "updateTime": "2026-09-20",
+    "updateTime": "2026-09-23",
     "deadline": "2026-12-19",
     "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=219038473313583383",
     "noticeLink": "https://coscoshipping.iguopin.com/job",
@@ -2628,53 +2628,6 @@ const SOE_JOBS = [
     "sourceLinks": [
       "https://coscoshipping.iguopin.com/job",
       "https://coscoshipping.iguopin.com/job/detail?id=219038473313583383"
-    ],
-    "discoverySources": [
-      "中远海运与招商局官方招聘"
-    ],
-    "reviewReasons": [],
-    "priorityScore": 31
-  },
-  {
-    "id": "transport_iguopin_cosco-219335122174870131",
-    "boardSection": "国企校招",
-    "source": "中远海运与招商局官方招聘",
-    "companyName": "中国锦州外轮代理有限公司",
-    "companyType": "央国企",
-    "industry": "多式联运和运输代理业",
-    "recruitType": "校园招聘",
-    "targetYears": "待核验",
-    "location": "锦州-太和区",
-    "positions": "船务部船务外勤",
-    "status": "新发现",
-    "updateTime": "2026-09-22",
-    "deadline": "2026-12-21",
-    "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=219335122174870131",
-    "noticeLink": "https://coscoshipping.iguopin.com/job",
-    "examInfo": "",
-    "companyScale": "50人以下",
-    "notes": "1.大学本科及以上学历; 2.境内院校应届毕业生需于2027年8月1日前取得毕业证书、境外院校应届毕业生需于2027年12月31日前取得毕业证书的毕业生; 3.英语四级及以上或同等水平; 4.有机动车驾驶证，能够熟练驾驶车辆; 5.综合素质高，责任心强，有良好的职业道德和政治素质; 6.遵纪守法、诚实守信、身心健康，无不良记录。",
-    "majorReq": "外国语言文学类、数学类、计算机科学与技术类、交通运输类、海洋工程类、交通运输工程类、船舶与海洋工程类、道路运输类、水上运输类、物流类",
-    "educationReq": "本科",
-    "positionCode": "",
-    "recruitmentCount": "1",
-    "registrationStart": "",
-    "registrationEnd": "2026-12-21",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "中国锦州外轮代理有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "直接招聘",
-    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
-    "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com",
-    "exclusionReasons": [],
-    "fitLevel": "已确认适配",
-    "fitReason": "专业要求含目标专业、上级专业或不限专业",
-    "evidenceLevel": "官方原文",
-    "sourceLinks": [
-      "https://coscoshipping.iguopin.com/job",
-      "https://coscoshipping.iguopin.com/job/detail?id=219335122174870131"
     ],
     "discoverySources": [
       "中远海运与招商局官方招聘"
@@ -3258,7 +3211,7 @@ const SOE_JOBS = [
     "location": "青岛",
     "positions": "集装箱物流部营销中心销售",
     "status": "新发现",
-    "updateTime": "2026-09-18",
+    "updateTime": "2026-09-23",
     "deadline": "2026-12-17",
     "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=218793034941202708",
     "noticeLink": "https://coscoshipping.iguopin.com/job",
@@ -6443,6 +6396,53 @@ const SOE_JOBS = [
     "priorityScore": 2
   },
   {
+    "id": "transport_iguopin_cosco-218790013146497300",
+    "boardSection": "国企校招",
+    "source": "中远海运与招商局官方招聘",
+    "companyName": "中远海运能源运输股份有限公司",
+    "companyType": "央国企",
+    "industry": "交通运输、仓储和邮政业",
+    "recruitType": "校园招聘",
+    "targetYears": "待核验",
+    "location": "上海",
+    "positions": "外贸成品油室航线运营岗",
+    "status": "新发现",
+    "updateTime": "2026-09-22",
+    "deadline": "2026-11-10",
+    "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=218790013146497300",
+    "noticeLink": "https://coscoshipping.iguopin.com/job",
+    "examInfo": "",
+    "companyScale": "500-1000人",
+    "notes": "工作职责：\n1.负责收集、分析市场的变化趋势，提出经营意见，参与测算。\n2.负责客户开发和客户维护、货源揽取等工作，安排适装货物，为船舶提供安全泊位和航线。\n3.根据合同和相关航次文件，计算等各类商务费用，及时跟进提赔和催讨。\n4.了解学握国内外港口使费信息，收集整理港口使费费率。审核代理报价单，审核安排港口使费备用金。\n任职要求：\n1.学历：硕士研究生及以上学历。\n2.专业：国际航运、航运管理、供应链管理、物流管理、阿拉伯语等相关专业。\n3.具有良好的品行和职业道德，具备较强的工作责任心和市场洞察、良好的沟通协调能力，能熟练使用各类办公软件，英文水平较好，身体健康，具备一定抗压能力。\n4.中共党员优先。",
+    "majorReq": "外国语言文学类、水上运输类",
+    "educationReq": "硕士",
+    "positionCode": "",
+    "recruitmentCount": "2",
+    "registrationStart": "",
+    "registrationEnd": "2026-11-10",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "中远海运能源运输股份有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接招聘",
+    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
+    "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://coscoshipping.iguopin.com/job",
+      "https://coscoshipping.iguopin.com/job/detail?id=218790013146497300"
+    ],
+    "discoverySources": [
+      "中远海运与招商局官方招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 2
+  },
+  {
     "id": "transport_iguopin_cosco-218971059876004119",
     "boardSection": "国企校招",
     "source": "中远海运与招商局官方招聘",
@@ -8127,6 +8127,53 @@ const SOE_JOBS = [
     "sourceLinks": [
       "https://coscoshipping.iguopin.com/job",
       "https://coscoshipping.iguopin.com/job/detail?id=218970241936392471"
+    ],
+    "discoverySources": [
+      "中远海运与招商局官方招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 1
+  },
+  {
+    "id": "transport_iguopin_cosco-219501619182568128",
+    "boardSection": "国企校招",
+    "source": "中远海运与招商局官方招聘",
+    "companyName": "中石化中海船舶燃料供应有限公司广州物资分公司",
+    "companyType": "央国企",
+    "industry": "批发业",
+    "recruitType": "校园招聘",
+    "targetYears": "待核验",
+    "location": "广州-越秀区、广州-海珠区、广州-天河区、广州-白云区、广州-黄埔区",
+    "positions": "财务部会计岗",
+    "status": "新发现",
+    "updateTime": "2026-09-23",
+    "deadline": "2026-11-30",
+    "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=219501619182568128",
+    "noticeLink": "https://coscoshipping.iguopin.com/job",
+    "examInfo": "",
+    "companyScale": "50人以下",
+    "notes": "1.大学本科及以上学历，会计学、财务管理、审计学、税收学、金融等财务相关专业，具有大学英语四级（或同等英语水平）及以上水平\n2.有较高的思想政治素质，热爱本职工作，有较强的事业心和责任感，具有开拓进取精神，能吃苦耐劳。\n3.具有良好的语言和文字表达能力及统计分析能力，具有较强团队合作意识和沟通协调能力，能熟练掌握Word、Excel、Powerpoint软件。\n4.能及时掌握新会计政策和制度。\n5.身体健康，能胜任本岗位工作",
+    "majorReq": "经济学类、金融学类、经济与贸易类、税务类、审计类、会计类、财政税务类、财务会计类",
+    "educationReq": "本科",
+    "positionCode": "",
+    "recruitmentCount": "1",
+    "registrationStart": "",
+    "registrationEnd": "2026-11-30",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "中石化中海船舶燃料供应有限公司广州物资分公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接招聘",
+    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
+    "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://coscoshipping.iguopin.com/job",
+      "https://coscoshipping.iguopin.com/job/detail?id=219501619182568128"
     ],
     "discoverySources": [
       "中远海运与招商局官方招聘"
@@ -11801,53 +11848,6 @@ const SOE_JOBS = [
     "priorityScore": 1
   },
   {
-    "id": "transport_iguopin_cosco-219084221677830418",
-    "boardSection": "国企校招",
-    "source": "中远海运与招商局官方招聘",
-    "companyName": "中远海运船员管理有限公司",
-    "companyType": "央国企",
-    "industry": "水上运输业",
-    "recruitType": "校园招聘",
-    "targetYears": "待核验",
-    "location": "上海-浦东新区",
-    "positions": "财税管理岗",
-    "status": "新发现",
-    "updateTime": "2026-09-20",
-    "deadline": "2026-12-19",
-    "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=219084221677830418",
-    "noticeLink": "https://coscoshipping.iguopin.com/job",
-    "examInfo": "",
-    "companyScale": "30000人以上",
-    "notes": "1.拥护中国共产党的领导，热爱祖国、遵守纪律、严格自律，品行端正、清正廉洁，身体健康，无不良记录，中共党员优先。\n2.具有会计、财务、财税类本科及以上专业学历，具有注册会计师/注册税务师等证书的优先。\n3.了解国家地区相关财经、财税法律法规，熟悉会计、税务管理、财务管理等方面的专业知识。\n4.具有一定的计算机使用基础，系统数字化能力和数据分析能力。\n5. 具有良好的计划执行沟通协调能力、工作积极主动，工作责任心强，具有一定的抗压能力。",
-    "majorReq": "税务类、审计类、会计类、财政税务类、财务会计类",
-    "educationReq": "硕士",
-    "positionCode": "",
-    "recruitmentCount": "1",
-    "registrationStart": "",
-    "registrationEnd": "2026-12-19",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "中远海运船员管理有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "直接招聘",
-    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
-    "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "官方原文",
-    "sourceLinks": [
-      "https://coscoshipping.iguopin.com/job",
-      "https://coscoshipping.iguopin.com/job/detail?id=219084221677830418"
-    ],
-    "discoverySources": [
-      "中远海运与招商局官方招聘"
-    ],
-    "reviewReasons": [],
-    "priorityScore": 1
-  },
-  {
     "id": "transport_iguopin_cosco-219040994895593769",
     "boardSection": "国企校招",
     "source": "中远海运与招商局官方招聘",
@@ -13163,7 +13163,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_2",
+    "id": "qyzp_3",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "东方电气集团",
@@ -13302,7 +13302,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_9",
+    "id": "qyzp_10",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "中国中车2027",
@@ -13349,7 +13349,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_3",
+    "id": "qyzp_4",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "中国华电2027",
@@ -13396,7 +13396,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_6",
+    "id": "qyzp_7",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "中国华能集团",
@@ -13443,7 +13443,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_10",
+    "id": "qyzp_11",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "中国国新2027",
@@ -13766,7 +13766,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_12",
+    "id": "qyzp_13",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "中国能建2027",
@@ -13854,6 +13854,53 @@ const SOE_JOBS = [
     ],
     "discoverySources": [
       "国务院国资委人才招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 0
+  },
+  {
+    "id": "qyzp_1",
+    "boardSection": "国企校招",
+    "source": "央企招聘公告",
+    "companyName": "中国远洋海运集团",
+    "companyType": "央国企",
+    "industry": "综合",
+    "recruitType": "校招",
+    "targetYears": "待核验",
+    "location": "全国",
+    "positions": "中国远洋海运集团2027全球校园招聘开启",
+    "status": "新发现",
+    "updateTime": "2026-09-23",
+    "deadline": "待核验",
+    "applyLink": "https://mp.weixin.qq.com/s/edulga-oqAnyzXn8RGbn3w",
+    "noticeLink": "http://job.mohrss.gov.cn/qyzp/index.jhtml",
+    "examInfo": "",
+    "companyScale": "",
+    "notes": "",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "中国远洋海运集团",
+    "contractEmployer": "待核验",
+    "employmentType": "待核验",
+    "ownershipRelation": "待核验",
+    "ownershipEvidenceUrl": "",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "http://job.mohrss.gov.cn/qyzp/index.jhtml",
+      "https://mp.weixin.qq.com/s/edulga-oqAnyzXn8RGbn3w"
+    ],
+    "discoverySources": [
+      "央企招聘公告"
     ],
     "reviewReasons": [],
     "priorityScore": 0
@@ -14043,7 +14090,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_18",
+    "id": "qyzp_19",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "中汽中心",
@@ -14182,7 +14229,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_8",
+    "id": "qyzp_9",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "中船集团",
@@ -14229,7 +14276,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_15",
+    "id": "qyzp_16",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "兵器未来科学家·",
@@ -14322,7 +14369,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_33",
+    "id": "qyzp_34",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "国家管网春季招聘",
@@ -14369,7 +14416,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_4",
+    "id": "qyzp_5",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "国家能源集团",
@@ -14416,7 +14463,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_5",
+    "id": "qyzp_6",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "国机集团",
@@ -14509,7 +14556,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_11",
+    "id": "qyzp_12",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "招商局集团",
@@ -14556,7 +14603,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_21",
+    "id": "qyzp_22",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "正元地理信息集团",
@@ -14787,7 +14834,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_7",
+    "id": "qyzp_8",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "航空工业成飞20",

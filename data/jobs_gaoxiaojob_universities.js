@@ -1,4 +1,4 @@
-// 高才网济南高校岗位 | 生成时间: 2026-09-23T09:06:13+08:00
+// 高才网济南高校岗位 | 生成时间: 2026-09-23T17:05:49+08:00
 // 第三方职位列表用于发现和在招状态佐证，最终资格及报名以学校官网为准。
 const JOBS_GAOXIAOJOB_UNIVERSITIES = [
   {
@@ -1678,7 +1678,7 @@ const JOBS_GAOXIAOJOB_UNIVERSITIES = [
     "positions": "专任教师-英语类相关（英语语言文学、外国语言学及应用语言学、英语教学法英语翻译、商务英语等）",
     "salary": "面议",
     "majorReq": "外国语言文学,翻译",
-    "educationReq": "硕士研究生",
+    "educationReq": "博士研究生",
     "updateTime": "2026-08-06",
     "deadline": "详见公告",
     "noticeLink": "https://www.gaoxiaojob.com/announcement/detail/317224.html",

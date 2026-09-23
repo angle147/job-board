@@ -1,10 +1,28 @@
 // 应届生求职网 — 自动爬取 + 二次校对
-// 更新时间: 2026-09-22 17:10:04
-// 共 363 条
+// 更新时间: 2026-09-23 09:10:30
+// 共 364 条
 
 const JOBS_YINGJIESHENG = [
   {
     id: 1,
+    companyName: "深圳高速公路集团股份有限公司",
+    companyType: "央国企",
+    industry: "公路/高速",
+    recruitType: "春招",
+    targetYears: "2027届",
+    location: "深圳",
+    positions: "公路运营管培生（营运管理方向）",
+    status: "未投递",
+    updateTime: "2026-09-22",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-092-675.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-092-675.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-22] | 来源: 前程无忧(51JOB)"
+  },
+  {
+    id: 2,
     companyName: "万向三农集团有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -22,7 +40,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 前程无忧(51JOB)"
   },
   {
-    id: 2,
+    id: 3,
     companyName: "万向三农集团有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -35,24 +53,6 @@ const JOBS_YINGJIESHENG = [
     deadline: "招满为止",
     applyLink: "https://m.yingjiesheng.com/job-008-091-853.html",
     noticeLink: "https://m.yingjiesheng.com/job-008-091-853.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22] | 来源: 前程无忧(51JOB)"
-  },
-  {
-    id: 3,
-    companyName: "深圳高速公路集团股份有限公司",
-    companyType: "央国企",
-    industry: "公路/高速",
-    recruitType: "春招",
-    targetYears: "2027届",
-    location: "深圳",
-    positions: "公路运营管培生（营运管理方向）",
-    status: "未投递",
-    updateTime: "2026-09-22",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-092-675.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-092-675.html",
     examInfo: "",
     companyScale: "",
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 前程无忧(51JOB)"
@@ -203,6 +203,24 @@ const JOBS_YINGJIESHENG = [
   },
   {
     id: 12,
+    companyName: "林森物流集团有限公司",
+    companyType: "央国企",
+    industry: "邮政/物流",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "江苏其它",
+    positions: "职位描述",
+    status: "未投递",
+    updateTime: "2026-09-22",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-092-716.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-092-716.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-22] | 来源: 南通理工学院"
+  },
+  {
+    id: 13,
     companyName: "深圳市一博科技股份有限公司",
     companyType: "央国企",
     industry: "建筑/建材",
@@ -220,7 +238,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 五邑大学"
   },
   {
-    id: 13,
+    id: 14,
     companyName: "深圳高速公路集团股份有限公司",
     companyType: "央国企",
     industry: "公路/高速",
@@ -236,24 +254,6 @@ const JOBS_YINGJIESHENG = [
     examInfo: "",
     companyScale: "",
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 前程无忧(51JOB)"
-  },
-  {
-    id: 14,
-    companyName: "林森物流集团有限公司",
-    companyType: "央国企",
-    industry: "邮政/物流",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "江苏其它",
-    positions: "职位描述",
-    status: "未投递",
-    updateTime: "2026-09-22",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-092-716.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-092-716.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22] | 来源: 南通理工学院"
   },
   {
     id: 15,
@@ -293,60 +293,6 @@ const JOBS_YINGJIESHENG = [
   },
   {
     id: 17,
-    companyName: "深圳翰远国际物流有限公司",
-    companyType: "央国企",
-    industry: "邮政/物流",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "深圳",
-    positions: "职位描述",
-    status: "未投递",
-    updateTime: "2026-09-22",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-091-434.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-091-434.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22] | 来源: 湘南学院"
-  },
-  {
-    id: 18,
-    companyName: "侨益物流股份有限公司",
-    companyType: "央国企",
-    industry: "邮政/物流",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "全国",
-    positions: "职位描述",
-    status: "未投递",
-    updateTime: "2026-09-22",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-092-007.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-092-007.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22] | 来源: 湛江科技学院"
-  },
-  {
-    id: 19,
-    companyName: "深圳市一博科技股份有限公司",
-    companyType: "央国企",
-    industry: "建筑/建材",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "广东",
-    positions: "职位描述",
-    status: "未投递",
-    updateTime: "2026-09-22",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-091-999.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-091-999.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22] | 来源: 五邑大学"
-  },
-  {
-    id: 20,
     companyName: "南京深国际港口发展有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -364,7 +310,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 前程无忧(51JOB)"
   },
   {
-    id: 21,
+    id: 18,
     companyName: "徐州徐工港口机械有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -382,7 +328,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 江苏师范大学科文学院"
   },
   {
-    id: 22,
+    id: 19,
     companyName: "山东海运海员劳务有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -400,25 +346,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 南通航运职业技术学院"
   },
   {
-    id: 23,
-    companyName: "必维船级社（中国）有限公司",
-    companyType: "央国企",
-    industry: "综合",
-    recruitType: "实习",
-    targetYears: "2026届",
-    location: "上海",
-    positions: "职位描述",
-    status: "未投递",
-    updateTime: "2026-09-22",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-092-133.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-092-133.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22] | 来源: 前程无忧(51JOB)"
-  },
-  {
-    id: 24,
+    id: 20,
     companyName: "上海阿尔斯通交通电气有限公司",
     companyType: "央国企",
     industry: "公路/高速",
@@ -436,7 +364,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 前程无忧(51JOB)"
   },
   {
-    id: 25,
+    id: 21,
     companyName: "固安信通信号技术股份有限公司",
     companyType: "央国企",
     industry: "建筑/建材",
@@ -454,79 +382,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 唐山学院"
   },
   {
-    id: 26,
-    companyName: "固安信通信号技术股份有限公司",
-    companyType: "央国企",
-    industry: "建筑/建材",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "河北",
-    positions: "职位描述",
-    status: "未投递",
-    updateTime: "2026-09-22",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-092-016.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-092-016.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22] | 来源: 燕京理工学院"
-  },
-  {
-    id: 27,
-    companyName: "广东聚石化学股份有限公司",
-    companyType: "央国企",
-    industry: "能源/电力",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "广东",
-    positions: "职位描述",
-    status: "未投递",
-    updateTime: "2026-09-22",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-091-327.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-091-327.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22] | 来源: 南京理工大学"
-  },
-  {
-    id: 28,
-    companyName: "南京泰通科技股份有限公司",
-    companyType: "央国企",
-    industry: "建筑/建材",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "南京",
-    positions: "职位描述",
-    status: "未投递",
-    updateTime: "2026-09-22",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-091-650.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-091-650.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22] | 来源: 前程无忧(51JOB)"
-  },
-  {
-    id: 29,
-    companyName: "江苏国云航空科技有限公司",
-    companyType: "央国企",
-    industry: "航空",
-    recruitType: "实习",
-    targetYears: "2026届",
-    location: "上海",
-    positions: "职位描述",
-    status: "未投递",
-    updateTime: "2026-09-22",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-092-066.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-092-066.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22] | 来源: 江苏商贸职业学院"
-  },
-  {
-    id: 30,
+    id: 22,
     companyName: "浙江海骆航空科技有限公司",
     companyType: "央国企",
     industry: "航空",
@@ -544,7 +400,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 南昌交通学院"
   },
   {
-    id: 31,
+    id: 23,
     companyName: "航空工业哈尔滨飞机工业集团有限责任公司",
     companyType: "央国企",
     industry: "航空",
@@ -562,7 +418,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 黑龙江工程学院昆仑旅游学院"
   },
   {
-    id: 32,
+    id: 24,
     companyName: "浙江海骆航空科技有限公司",
     companyType: "央国企",
     industry: "航空",
@@ -580,7 +436,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 南昌交通学院"
   },
   {
-    id: 33,
+    id: 25,
     companyName: "湖北顺科航空飞机维修有限公司",
     companyType: "央国企",
     industry: "航空",
@@ -598,7 +454,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 中国民航大学"
   },
   {
-    id: 34,
+    id: 26,
     companyName: "浙江海骆航空科技有限公司",
     companyType: "央国企",
     industry: "航空",
@@ -616,7 +472,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 南昌交通学院"
   },
   {
-    id: 35,
+    id: 27,
     companyName: "湖北顺科航空飞机维修有限公司",
     companyType: "央国企",
     industry: "航空",
@@ -634,7 +490,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 中国民航大学"
   },
   {
-    id: 36,
+    id: 28,
     companyName: "浙江海骆航空科技有限公司",
     companyType: "央国企",
     industry: "航空",
@@ -652,7 +508,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 南昌交通学院"
   },
   {
-    id: 37,
+    id: 29,
     companyName: "浙江海骆航空科技有限公司",
     companyType: "央国企",
     industry: "航空",
@@ -670,7 +526,61 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 南昌交通学院"
   },
   {
-    id: 38,
+    id: 30,
+    companyName: "北京航空航天大学电子信息工程学院 测试工程师",
+    companyType: "事业单位",
+    industry: "航空",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "北京",
+    positions: "北京航空航天大学电子信息工程学院 测试工程师",
+    status: "未投递",
+    updateTime: "2026-09-22",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-092-843.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-092-843.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-22] | 来源: 北京航空航天大学自动化科学与电气工程学院"
+  },
+  {
+    id: 31,
+    companyName: "北京航空航天大学材料科学与工程学院 研究助理",
+    companyType: "事业单位",
+    industry: "航空",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "北京",
+    positions: "北京航空航天大学材料科学与工程学院 研究助理",
+    status: "未投递",
+    updateTime: "2026-09-22",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-092-806.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-092-806.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-22] | 来源: 北京航空航天大学自动化科学与电气工程学院"
+  },
+  {
+    id: 32,
+    companyName: "北京航空航天大学宇航学院 科研财务助理",
+    companyType: "事业单位",
+    industry: "航空",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "北京",
+    positions: "北京航空航天大学宇航学院 科研财务助理",
+    status: "未投递",
+    updateTime: "2026-09-22",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-092-805.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-092-805.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-22] | 来源: 北京航空航天大学自动化科学与电气工程学院"
+  },
+  {
+    id: 33,
     companyName: "浙江海骆航空科技有限公司",
     companyType: "央国企",
     industry: "航空",
@@ -688,25 +598,25 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 南昌交通学院"
   },
   {
-    id: 39,
-    companyName: "深圳汉莎技术有限公司",
+    id: 34,
+    companyName: "江苏国云航空科技有限公司",
     companyType: "央国企",
-    industry: "综合",
-    recruitType: "春招",
-    targetYears: "2027届",
-    location: "深圳",
+    industry: "航空",
+    recruitType: "实习",
+    targetYears: "2026届",
+    location: "上海",
     positions: "职位描述",
     status: "未投递",
     updateTime: "2026-09-22",
     deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-091-949.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-091-949.html",
+    applyLink: "https://m.yingjiesheng.com/job-008-092-066.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-092-066.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22] | 来源: 南昌航空大学科技学院"
+    notes: "来源: 应届生求职网 [2026-09-22] | 来源: 江苏商贸职业学院"
   },
   {
-    id: 40,
+    id: 35,
     companyName: "中山市新涌口粤海水务有限公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -724,7 +634,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 前程无忧(51JOB)"
   },
   {
-    id: 41,
+    id: 36,
     companyName: "中山市新涌口粤海水务有限公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -742,7 +652,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 前程无忧(51JOB)"
   },
   {
-    id: 42,
+    id: 37,
     companyName: "上海浦发综合养护（集团）有限公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -760,7 +670,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 前程无忧(51JOB)"
   },
   {
-    id: 43,
+    id: 38,
     companyName: "中星联华科技（北京）有限公司",
     companyType: "央国企",
     industry: "公路/高速",
@@ -778,7 +688,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 南京理工大学"
   },
   {
-    id: 44,
+    id: 39,
     companyName: "中星联华科技（北京）有限公司",
     companyType: "央国企",
     industry: "公路/高速",
@@ -796,7 +706,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 河海大学"
   },
   {
-    id: 45,
+    id: 40,
     companyName: "湖南省高速公路集团有限公司",
     companyType: "央国企",
     industry: "公路/高速",
@@ -814,7 +724,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 高校人才网"
   },
   {
-    id: 46,
+    id: 41,
     companyName: "上海浦发综合养护（集团）有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -832,7 +742,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 前程无忧(51JOB)"
   },
   {
-    id: 47,
+    id: 42,
     companyName: "上海浦发综合养护（集团）有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -850,7 +760,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 前程无忧(51JOB)"
   },
   {
-    id: 48,
+    id: 43,
     companyName: "上海浦发综合养护（集团）有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -868,25 +778,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 前程无忧(51JOB)"
   },
   {
-    id: 49,
-    companyName: "上海浦发综合养护（集团）有限公司",
-    companyType: "央国企",
-    industry: "综合",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "上海",
-    positions: "职位描述",
-    status: "未投递",
-    updateTime: "2026-09-22",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-091-736.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-091-736.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22] | 来源: 前程无忧(51JOB)"
-  },
-  {
-    id: 50,
+    id: 44,
     companyName: "上海浦发综合养护（集团）有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -904,61 +796,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 前程无忧(51JOB)"
   },
   {
-    id: 51,
-    companyName: "上海浦发综合养护（集团）有限公司",
-    companyType: "央国企",
-    industry: "综合",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "上海",
-    positions: "财务管理岗（浦发养护-浦发环境）",
-    status: "未投递",
-    updateTime: "2026-09-22",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-091-738.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-091-738.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22] | 来源: 前程无忧(51JOB)"
-  },
-  {
-    id: 52,
-    companyName: "上海浦发综合养护（集团）有限公司",
-    companyType: "央国企",
-    industry: "综合",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "上海",
-    positions: "绿化项目管理岗（浦发养护-宏南养护）",
-    status: "未投递",
-    updateTime: "2026-09-22",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-091-764.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-091-764.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22] | 来源: 前程无忧(51JOB)"
-  },
-  {
-    id: 53,
-    companyName: "浙江杭实化工有限公司",
-    companyType: "央国企",
-    industry: "综合",
-    recruitType: "实习",
-    targetYears: "2026届",
-    location: "舟山-定海区",
-    positions: "职位描述",
-    status: "未投递",
-    updateTime: "2026-09-22",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-090-941.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-090-941.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22] | 来源: 前程无忧(51JOB)"
-  },
-  {
-    id: 54,
+    id: 45,
     companyName: "杰艾控股（浙江）有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -976,7 +814,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 前程无忧(51JOB)"
   },
   {
-    id: 55,
+    id: 46,
     companyName: "大寰机器人科技股份有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -994,7 +832,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 广东外语外贸大学"
   },
   {
-    id: 56,
+    id: 47,
     companyName: "得斯威供应链（南京）有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -1012,7 +850,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 芜湖职业技术学院"
   },
   {
-    id: 57,
+    id: 48,
     companyName: "杭州和为机电有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -1030,7 +868,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 甘肃农业大学"
   },
   {
-    id: 58,
+    id: 49,
     companyName: "万向三农集团有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -1048,7 +886,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 贵州大学"
   },
   {
-    id: 59,
+    id: 50,
     companyName: "创维电器股份有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -1066,7 +904,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 西安工程大学"
   },
   {
-    id: 60,
+    id: 51,
     companyName: "深圳新宙邦科技股份有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -1084,32 +922,32 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22] | 来源: 贵州大学"
   },
   {
-    id: 61,
-    companyName: "安徽雷允上药业有限公司",
+    id: 52,
+    companyName: "白云电气集团有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
-    recruitType: "实习",
+    recruitType: "春招",
     targetYears: "2026届",
-    location: "安徽",
+    location: "徐州-睢宁县",
     positions: "职位描述",
     status: "未投递",
     updateTime: "2026-09-22",
     deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-092-062.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-092-062.html",
+    applyLink: "https://m.yingjiesheng.com/job-008-092-964.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-092-964.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22] | 来源: 中国药科大学"
+    notes: "来源: 应届生求职网 [2026-09-22] | 来源: 前程无忧(51JOB)"
   },
   {
-    id: 62,
+    id: 53,
     companyName: "江西凯马百路佳客车有限公司",
     companyType: "央国企",
     industry: "汽车/车辆",
     recruitType: "春招",
-    targetYears: "2026届",
+    targetYears: "2027届",
     location: "江西",
-    positions: "底盘|车身|电气客车研发设计",
+    positions: "职位描述",
     status: "未投递",
     updateTime: "2026-09-22",
     deadline: "招满为止",
@@ -1117,17 +955,17 @@ const JOBS_YINGJIESHENG = [
     noticeLink: "https://m.yingjiesheng.com/job-008-091-341.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22]"
+    notes: "来源: 应届生求职网 [2026-09-22] | 来源: 合肥工业大学"
   },
   {
-    id: 63,
+    id: 54,
     companyName: "北京天时佳阁房地产投资顾问有限公司",
     companyType: "央国企",
     industry: "综合",
     recruitType: "春招",
     targetYears: "2026届",
     location: "北京",
-    positions: "人力招聘专员",
+    positions: "职位描述",
     status: "未投递",
     updateTime: "2026-09-22",
     deadline: "招满为止",
@@ -1135,17 +973,17 @@ const JOBS_YINGJIESHENG = [
     noticeLink: "https://m.yingjiesheng.com/job-008-091-684.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22]"
+    notes: "来源: 应届生求职网 [2026-09-22] | 来源: 黑龙江大学"
   },
   {
-    id: 64,
+    id: 55,
     companyName: "浙江欧凯斯科技有限公司",
     companyType: "央国企",
     industry: "综合",
     recruitType: "春招",
     targetYears: "2026届",
     location: "浙江",
-    positions: "电商运营助理",
+    positions: "职位描述",
     status: "未投递",
     updateTime: "2026-09-22",
     deadline: "招满为止",
@@ -1153,17 +991,17 @@ const JOBS_YINGJIESHENG = [
     noticeLink: "https://m.yingjiesheng.com/job-008-091-589.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22]"
+    notes: "来源: 应届生求职网 [2026-09-22] | 来源: 南昌交通学院"
   },
   {
-    id: 65,
+    id: 56,
     companyName: "浙江欧凯斯科技有限公司",
     companyType: "央国企",
     industry: "综合",
     recruitType: "春招",
     targetYears: "2026届",
     location: "浙江",
-    positions: "电商管培生",
+    positions: "职位描述",
     status: "未投递",
     updateTime: "2026-09-22",
     deadline: "招满为止",
@@ -1171,53 +1009,17 @@ const JOBS_YINGJIESHENG = [
     noticeLink: "https://m.yingjiesheng.com/job-008-091-590.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22]"
+    notes: "来源: 应届生求职网 [2026-09-22] | 来源: 南昌交通学院"
   },
   {
-    id: 66,
-    companyName: "中航工业南京伺服控制系统有限公司",
-    companyType: "央国企",
-    industry: "建筑/建材",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "南京",
-    positions: "2027校园招聘研发工程师|测控工程师",
-    status: "未投递",
-    updateTime: "2026-09-22",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-091-983.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-091-983.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22]"
-  },
-  {
-    id: 67,
-    companyName: "玖龙纸业（太仓）有限公司",
-    companyType: "央国企",
-    industry: "综合",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "太仓",
-    positions: "设备培训生(A98842)",
-    status: "未投递",
-    updateTime: "2026-09-22",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-090-930.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-090-930.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22]"
-  },
-  {
-    id: 68,
+    id: 57,
     companyName: "四川泳安注册安全工程师事务所有限责任公司",
     companyType: "央国企",
     industry: "建筑/建材",
-    recruitType: "春招",
-    targetYears: "2026届",
+    recruitType: "实习",
+    targetYears: "2027届",
     location: "成都",
-    positions: "项目执行实习生",
+    positions: "职位描述",
     status: "未投递",
     updateTime: "2026-09-22",
     deadline: "招满为止",
@@ -1225,17 +1027,35 @@ const JOBS_YINGJIESHENG = [
     noticeLink: "https://m.yingjiesheng.com/job-008-088-735.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22]"
+    notes: "来源: 应届生求职网 [2026-09-22] | 来源: 前程无忧(51JOB)"
   },
   {
-    id: 69,
+    id: 58,
+    companyName: "深圳市一博科技股份有限公司",
+    companyType: "央国企",
+    industry: "建筑/建材",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "广东",
+    positions: "职位描述",
+    status: "未投递",
+    updateTime: "2026-09-22",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-091-999.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-091-999.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-22] | 来源: 五邑大学"
+  },
+  {
+    id: 59,
     companyName: "云南燕杰行汽车销售有限公司",
     companyType: "央国企",
     industry: "汽车/车辆",
     recruitType: "春招",
     targetYears: "2026届",
     location: "昆明-五华区",
-    positions: "汽车经纪人（管培生）",
+    positions: "职位描述",
     status: "未投递",
     updateTime: "2026-09-22",
     deadline: "招满为止",
@@ -1243,17 +1063,35 @@ const JOBS_YINGJIESHENG = [
     noticeLink: "https://m.yingjiesheng.com/job-008-091-750.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22]"
+    notes: "来源: 应届生求职网 [2026-09-22] | 来源: 前程无忧(51JOB)"
   },
   {
-    id: 70,
+    id: 60,
+    companyName: "云南燕杰行汽车销售有限公司",
+    companyType: "央国企",
+    industry: "汽车/车辆",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "昆明-五华区",
+    positions: "职位描述",
+    status: "未投递",
+    updateTime: "2026-09-22",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-091-718.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-091-718.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-22] | 来源: 前程无忧(51JOB)"
+  },
+  {
+    id: 61,
     companyName: "深圳市一博科技股份有限公司",
     companyType: "央国企",
     industry: "建筑/建材",
     recruitType: "春招",
     targetYears: "2026届",
     location: "上海江苏浙江武汉广东",
-    positions: "硬件工程师",
+    positions: "职位描述",
     status: "未投递",
     updateTime: "2026-09-22",
     deadline: "招满为止",
@@ -1261,46 +1099,10 @@ const JOBS_YINGJIESHENG = [
     noticeLink: "https://m.yingjiesheng.com/job-008-091-994.html",
     examInfo: "",
     companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22]"
+    notes: "来源: 应届生求职网 [2026-09-22] | 来源: 五邑大学"
   },
   {
-    id: 71,
-    companyName: "南京春华教育科技有限公司",
-    companyType: "央国企",
-    industry: "综合",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "南京",
-    positions: "本地生活课程主播",
-    status: "未投递",
-    updateTime: "2026-09-22",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-092-317.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-092-317.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22]"
-  },
-  {
-    id: 72,
-    companyName: "南京春华教育科技有限公司",
-    companyType: "央国企",
-    industry: "综合",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "南京",
-    positions: "新媒体运营",
-    status: "未投递",
-    updateTime: "2026-09-22",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-092-316.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-092-316.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22]"
-  },
-  {
-    id: 73,
+    id: 62,
     companyName: "江苏远洋电子科技有限公司",
     companyType: "央国企",
     industry: "建筑/建材",
@@ -1318,6 +1120,204 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-22]"
   },
   {
+    id: 63,
+    companyName: "中国船舶集团有限公司",
+    companyType: "央国企",
+    industry: "港口/航运",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "武汉",
+    positions: "第七一〇研究所 研发技术岗（地点 武汉）",
+    status: "未投递",
+    updateTime: "2026-09-22",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-093-110.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-093-110.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-22]"
+  },
+  {
+    id: 64,
+    companyName: "中国船舶集团有限公司",
+    companyType: "央国企",
+    industry: "港口/航运",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "武汉",
+    positions: "第七一〇研究所 研发技术岗（地点 武汉）",
+    status: "未投递",
+    updateTime: "2026-09-22",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-093-111.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-093-111.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-22]"
+  },
+  {
+    id: 65,
+    companyName: "中国船舶集团有限公司",
+    companyType: "央国企",
+    industry: "港口/航运",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "武汉",
+    positions: "第七一〇研究所 研发技术岗（地点 武汉）",
+    status: "未投递",
+    updateTime: "2026-09-22",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-093-112.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-093-112.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-22]"
+  },
+  {
+    id: 66,
+    companyName: "中国船舶集团有限公司",
+    companyType: "央国企",
+    industry: "港口/航运",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "武汉",
+    positions: "第七一〇研究所 研发技术岗（地点 武汉）",
+    status: "未投递",
+    updateTime: "2026-09-22",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-093-113.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-093-113.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-22]"
+  },
+  {
+    id: 67,
+    companyName: "中国船舶集团有限公司",
+    companyType: "央国企",
+    industry: "港口/航运",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "武汉",
+    positions: "第七一〇研究所 研发技术岗（地点 武汉）",
+    status: "未投递",
+    updateTime: "2026-09-22",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-093-114.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-093-114.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-22]"
+  },
+  {
+    id: 68,
+    companyName: "中国船舶集团有限公司",
+    companyType: "央国企",
+    industry: "港口/航运",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "武汉",
+    positions: "第七一〇研究所 研发技术岗（地点 武汉）",
+    status: "未投递",
+    updateTime: "2026-09-22",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-093-115.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-093-115.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-22]"
+  },
+  {
+    id: 69,
+    companyName: "中国船舶集团有限公司",
+    companyType: "央国企",
+    industry: "港口/航运",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "武汉",
+    positions: "第七一〇研究所 研发技术岗（地点 武汉）",
+    status: "未投递",
+    updateTime: "2026-09-22",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-093-116.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-093-116.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-22]"
+  },
+  {
+    id: 70,
+    companyName: "中国船舶集团有限公司",
+    companyType: "央国企",
+    industry: "港口/航运",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "武汉",
+    positions: "第七一〇研究所 研发技术岗（地点 武汉）",
+    status: "未投递",
+    updateTime: "2026-09-22",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-093-117.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-093-117.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-22]"
+  },
+  {
+    id: 71,
+    companyName: "中国船舶集团有限公司",
+    companyType: "央国企",
+    industry: "港口/航运",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "武汉",
+    positions: "第七一〇研究所 研发技术岗（地点 武汉）",
+    status: "未投递",
+    updateTime: "2026-09-22",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-093-118.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-093-118.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-22]"
+  },
+  {
+    id: 72,
+    companyName: "中国船舶集团有限公司",
+    companyType: "央国企",
+    industry: "港口/航运",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "武汉",
+    positions: "第七一〇研究所 研发技术岗（地点 武汉）",
+    status: "未投递",
+    updateTime: "2026-09-22",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-093-119.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-093-119.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-22]"
+  },
+  {
+    id: 73,
+    companyName: "中国船舶集团有限公司",
+    companyType: "央国企",
+    industry: "港口/航运",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "武汉",
+    positions: "第七一〇研究所 研发技术岗（地点 武汉）",
+    status: "未投递",
+    updateTime: "2026-09-22",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-093-120.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-093-120.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-22]"
+  },
+  {
     id: 74,
     companyName: "中国船舶集团有限公司",
     companyType: "央国企",
@@ -1325,12 +1325,12 @@ const JOBS_YINGJIESHENG = [
     recruitType: "春招",
     targetYears: "2026届",
     location: "武汉",
-    positions: "第七一〇研究所 水下动力推进（地点 武汉）",
+    positions: "第七一〇研究所 研发技术岗（地点 武汉）",
     status: "未投递",
     updateTime: "2026-09-22",
     deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-091-426.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-091-426.html",
+    applyLink: "https://m.yingjiesheng.com/job-008-093-143.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-093-143.html",
     examInfo: "",
     companyScale: "",
     notes: "来源: 应届生求职网 [2026-09-22]"
@@ -1343,12 +1343,12 @@ const JOBS_YINGJIESHENG = [
     recruitType: "春招",
     targetYears: "2026届",
     location: "武汉",
-    positions: "第七一〇研究所 水下动力推进（地点 武汉）",
+    positions: "第七一〇研究所 研发技术岗（地点 武汉）",
     status: "未投递",
     updateTime: "2026-09-22",
     deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-091-488.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-091-488.html",
+    applyLink: "https://m.yingjiesheng.com/job-008-093-144.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-093-144.html",
     examInfo: "",
     companyScale: "",
     notes: "来源: 应届生求职网 [2026-09-22]"
@@ -1361,12 +1361,12 @@ const JOBS_YINGJIESHENG = [
     recruitType: "春招",
     targetYears: "2026届",
     location: "武汉",
-    positions: "第七一〇研究所 水下动力推进（地点 武汉）",
+    positions: "第七一〇研究所 研发技术岗（地点 武汉）",
     status: "未投递",
     updateTime: "2026-09-22",
     deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-091-489.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-091-489.html",
+    applyLink: "https://m.yingjiesheng.com/job-008-093-145.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-093-145.html",
     examInfo: "",
     companyScale: "",
     notes: "来源: 应届生求职网 [2026-09-22]"
@@ -1379,12 +1379,12 @@ const JOBS_YINGJIESHENG = [
     recruitType: "春招",
     targetYears: "2026届",
     location: "武汉",
-    positions: "第七一〇研究所 水下动力推进（地点 武汉）",
+    positions: "第七一〇研究所 研发技术岗（地点 武汉）",
     status: "未投递",
     updateTime: "2026-09-22",
     deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-091-490.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-091-490.html",
+    applyLink: "https://m.yingjiesheng.com/job-008-093-146.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-093-146.html",
     examInfo: "",
     companyScale: "",
     notes: "来源: 应届生求职网 [2026-09-22]"
@@ -1397,12 +1397,12 @@ const JOBS_YINGJIESHENG = [
     recruitType: "春招",
     targetYears: "2026届",
     location: "武汉",
-    positions: "第七一〇研究所 水下动力推进（地点 武汉）",
+    positions: "第七一〇研究所 研发技术岗（地点 武汉）",
     status: "未投递",
     updateTime: "2026-09-22",
     deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-091-491.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-091-491.html",
+    applyLink: "https://m.yingjiesheng.com/job-008-093-147.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-093-147.html",
     examInfo: "",
     companyScale: "",
     notes: "来源: 应届生求职网 [2026-09-22]"
@@ -1415,12 +1415,12 @@ const JOBS_YINGJIESHENG = [
     recruitType: "春招",
     targetYears: "2026届",
     location: "武汉",
-    positions: "第七一〇研究所 水下动力推进（地点 武汉）",
+    positions: "第七一〇研究所 研发技术岗（地点 武汉）",
     status: "未投递",
     updateTime: "2026-09-22",
     deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-091-492.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-091-492.html",
+    applyLink: "https://m.yingjiesheng.com/job-008-093-148.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-093-148.html",
     examInfo: "",
     companyScale: "",
     notes: "来源: 应届生求职网 [2026-09-22]"
@@ -1433,12 +1433,12 @@ const JOBS_YINGJIESHENG = [
     recruitType: "春招",
     targetYears: "2026届",
     location: "武汉",
-    positions: "第七一〇研究所 水下动力推进（地点 武汉）",
+    positions: "第七一〇研究所 研发技术岗（地点 武汉）",
     status: "未投递",
     updateTime: "2026-09-22",
     deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-091-493.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-091-493.html",
+    applyLink: "https://m.yingjiesheng.com/job-008-093-149.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-093-149.html",
     examInfo: "",
     companyScale: "",
     notes: "来源: 应届生求职网 [2026-09-22]"
@@ -1451,12 +1451,12 @@ const JOBS_YINGJIESHENG = [
     recruitType: "春招",
     targetYears: "2026届",
     location: "武汉",
-    positions: "第七一〇研究所 水下动力推进（地点 武汉）",
+    positions: "第七一〇研究所 研发技术岗（地点 武汉）",
     status: "未投递",
     updateTime: "2026-09-22",
     deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-091-494.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-091-494.html",
+    applyLink: "https://m.yingjiesheng.com/job-008-093-150.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-093-150.html",
     examInfo: "",
     companyScale: "",
     notes: "来源: 应届生求职网 [2026-09-22]"
@@ -1469,216 +1469,18 @@ const JOBS_YINGJIESHENG = [
     recruitType: "春招",
     targetYears: "2026届",
     location: "武汉",
-    positions: "第七一〇研究所 水下动力推进（地点 武汉）",
+    positions: "第七一〇研究所 研发技术岗（地点 武汉）",
     status: "未投递",
     updateTime: "2026-09-22",
     deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-091-495.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-091-495.html",
+    applyLink: "https://m.yingjiesheng.com/job-008-093-151.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-093-151.html",
     examInfo: "",
     companyScale: "",
     notes: "来源: 应届生求职网 [2026-09-22]"
   },
   {
     id: 83,
-    companyName: "中国船舶集团有限公司",
-    companyType: "央国企",
-    industry: "港口/航运",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "武汉",
-    positions: "第七一〇研究所 水下动力推进（地点 武汉）",
-    status: "未投递",
-    updateTime: "2026-09-22",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-091-496.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-091-496.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22]"
-  },
-  {
-    id: 84,
-    companyName: "中国船舶集团有限公司",
-    companyType: "央国企",
-    industry: "港口/航运",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "武汉",
-    positions: "第七一〇研究所 水下动力推进（地点 武汉）",
-    status: "未投递",
-    updateTime: "2026-09-22",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-091-497.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-091-497.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22]"
-  },
-  {
-    id: 85,
-    companyName: "中国船舶集团有限公司",
-    companyType: "央国企",
-    industry: "港口/航运",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "武汉",
-    positions: "第七一〇研究所 水下减震降噪（地点 武汉）",
-    status: "未投递",
-    updateTime: "2026-09-22",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-091-414.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-091-414.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22]"
-  },
-  {
-    id: 86,
-    companyName: "中国船舶集团有限公司",
-    companyType: "央国企",
-    industry: "港口/航运",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "武汉",
-    positions: "第七一〇研究所 水下减震降噪（地点 武汉）",
-    status: "未投递",
-    updateTime: "2026-09-22",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-091-415.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-091-415.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22]"
-  },
-  {
-    id: 87,
-    companyName: "中国船舶集团有限公司",
-    companyType: "央国企",
-    industry: "港口/航运",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "武汉",
-    positions: "第七一〇研究所 水下减震降噪（地点 武汉）",
-    status: "未投递",
-    updateTime: "2026-09-22",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-091-416.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-091-416.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22]"
-  },
-  {
-    id: 88,
-    companyName: "中国船舶集团有限公司",
-    companyType: "央国企",
-    industry: "港口/航运",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "武汉",
-    positions: "第七一〇研究所 水下减震降噪（地点 武汉）",
-    status: "未投递",
-    updateTime: "2026-09-22",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-091-417.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-091-417.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22]"
-  },
-  {
-    id: 89,
-    companyName: "中国船舶集团有限公司",
-    companyType: "央国企",
-    industry: "港口/航运",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "武汉",
-    positions: "第七一〇研究所 水下减震降噪（地点 武汉）",
-    status: "未投递",
-    updateTime: "2026-09-22",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-091-418.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-091-418.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22]"
-  },
-  {
-    id: 90,
-    companyName: "中国船舶集团有限公司",
-    companyType: "央国企",
-    industry: "港口/航运",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "武汉",
-    positions: "第七一〇研究所 水下减震降噪（地点 武汉）",
-    status: "未投递",
-    updateTime: "2026-09-22",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-091-419.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-091-419.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22]"
-  },
-  {
-    id: 91,
-    companyName: "中国船舶集团有限公司",
-    companyType: "央国企",
-    industry: "港口/航运",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "武汉",
-    positions: "第七一〇研究所 水下减震降噪（地点 武汉）",
-    status: "未投递",
-    updateTime: "2026-09-22",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-091-420.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-091-420.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22]"
-  },
-  {
-    id: 92,
-    companyName: "中国船舶集团有限公司",
-    companyType: "央国企",
-    industry: "港口/航运",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "武汉",
-    positions: "第七一〇研究所 水下减震降噪（地点 武汉）",
-    status: "未投递",
-    updateTime: "2026-09-22",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-091-421.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-091-421.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22]"
-  },
-  {
-    id: 93,
-    companyName: "中国船舶集团有限公司",
-    companyType: "央国企",
-    industry: "港口/航运",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "武汉",
-    positions: "第七一〇研究所 水下减震降噪（地点 武汉）",
-    status: "未投递",
-    updateTime: "2026-09-22",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-091-422.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-091-422.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-22]"
-  },
-  {
-    id: 94,
     companyName: "中国长江航运集团有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -1696,7 +1498,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-21]"
   },
   {
-    id: 95,
+    id: 84,
     companyName: "中国长江航运集团有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -1714,7 +1516,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-21]"
   },
   {
-    id: 96,
+    id: 85,
     companyName: "中国长江航运集团有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -1732,7 +1534,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-21]"
   },
   {
-    id: 97,
+    id: 86,
     companyName: "上海交易集团有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -1750,7 +1552,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-21]"
   },
   {
-    id: 98,
+    id: 87,
     companyName: "广东中远海运重工有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -1768,7 +1570,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-21]"
   },
   {
-    id: 99,
+    id: 88,
     companyName: "广东中远海运重工有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -1786,7 +1588,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-21]"
   },
   {
-    id: 100,
+    id: 89,
     companyName: "陕西金宏志翔电力科技有限公司",
     companyType: "央国企",
     industry: "公路/高速",
@@ -1804,7 +1606,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-21]"
   },
   {
-    id: 101,
+    id: 90,
     companyName: "南德认证检测（中国）有限公司",
     companyType: "央国企",
     industry: "公路/高速",
@@ -1822,25 +1624,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-21]"
   },
   {
-    id: 102,
-    companyName: "宁波富日企业管理服务有限公司",
-    companyType: "央国企",
-    industry: "综合",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "浙江",
-    positions: "精细组装",
-    status: "未投递",
-    updateTime: "2026-09-21",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-089-534.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-089-534.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-21]"
-  },
-  {
-    id: 103,
+    id: 91,
     companyName: "春秋航空股份有限公司",
     companyType: "央国企",
     industry: "航空",
@@ -1858,7 +1642,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-21]"
   },
   {
-    id: 104,
+    id: 92,
     companyName: "北京航空航天大学中法工程师学院|国际通用工程学院 法语讲师",
     companyType: "事业单位",
     industry: "航空",
@@ -1876,43 +1660,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-21]"
   },
   {
-    id: 105,
-    companyName: "江苏宁翔通用航空有限公司",
-    companyType: "央国企",
-    industry: "航空",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "全国",
-    positions: "机械员",
-    status: "未投递",
-    updateTime: "2026-09-21",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-090-925.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-090-925.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-21]"
-  },
-  {
-    id: 106,
-    companyName: "龙兴（杭州）航空电子有限公司",
-    companyType: "央国企",
-    industry: "航空",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "杭州-萧山区",
-    positions: "项目管理实习生（杭州）",
-    status: "未投递",
-    updateTime: "2026-09-21",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-089-180.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-089-180.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-21]"
-  },
-  {
-    id: 107,
+    id: 93,
     companyName: "中山市新涌口粤海水务有限公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -1930,7 +1678,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-21]"
   },
   {
-    id: 108,
+    id: 94,
     companyName: "中山市新涌口粤海水务有限公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -1948,7 +1696,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-21]"
   },
   {
-    id: 109,
+    id: 95,
     companyName: "北京航天世景信息技术有限公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -1966,7 +1714,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-21]"
   },
   {
-    id: 110,
+    id: 96,
     companyName: "北京航天世景信息技术有限公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -1984,7 +1732,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-21]"
   },
   {
-    id: 111,
+    id: 97,
     companyName: "中国邮政储蓄银行股份有限公司",
     companyType: "银行/金融",
     industry: "邮政/物流",
@@ -2002,7 +1750,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-21]"
   },
   {
-    id: 112,
+    id: 98,
     companyName: "南昌德邦物流有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -2020,7 +1768,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-21]"
   },
   {
-    id: 113,
+    id: 99,
     companyName: "南通顺丰速递有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -2038,7 +1786,25 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-21]"
   },
   {
-    id: 114,
+    id: 100,
+    companyName: "顺丰速运（沈阳）有限公司",
+    companyType: "央国企",
+    industry: "综合",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "沈阳",
+    positions: "国际客户经理储备",
+    status: "未投递",
+    updateTime: "2026-09-21",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-090-371.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-090-371.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-21]"
+  },
+  {
+    id: 101,
     companyName: "鲜丰水果股份有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -2056,7 +1822,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-21]"
   },
   {
-    id: 115,
+    id: 102,
     companyName: "惠州孚乐供应链管理有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -2074,7 +1840,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-21]"
   },
   {
-    id: 116,
+    id: 103,
     companyName: "惠州孚乐供应链管理有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -2092,7 +1858,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-21]"
   },
   {
-    id: 117,
+    id: 104,
     companyName: "顺丰速运（沈阳）有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -2110,7 +1876,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-21]"
   },
   {
-    id: 118,
+    id: 105,
     companyName: "中通服供应链股份有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -2128,7 +1894,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-21]"
   },
   {
-    id: 119,
+    id: 106,
     companyName: "嘉吉投资（中国）有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -2146,25 +1912,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-21]"
   },
   {
-    id: 120,
-    companyName: "深圳斯玛顿电气有限公司",
-    companyType: "央国企",
-    industry: "邮政/物流",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "深圳",
-    positions: "供应链储干",
-    status: "未投递",
-    updateTime: "2026-09-21",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-091-140.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-091-140.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-21]"
-  },
-  {
-    id: 121,
+    id: 107,
     companyName: "深圳市锐明技术股份有限公司",
     companyType: "央国企",
     industry: "建筑/建材",
@@ -2182,7 +1930,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-21]"
   },
   {
-    id: 122,
+    id: 108,
     companyName: "深圳市联乐实业有限公司",
     companyType: "央国企",
     industry: "铁路/轨交",
@@ -2200,7 +1948,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-21]"
   },
   {
-    id: 123,
+    id: 109,
     companyName: "厦门地铁运营有限公司",
     companyType: "央国企",
     industry: "铁路/轨交",
@@ -2218,7 +1966,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-21]"
   },
   {
-    id: 124,
+    id: 110,
     companyName: "曼迪匹艾（北京）科技服务有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -2236,7 +1984,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-21]"
   },
   {
-    id: 125,
+    id: 111,
     companyName: "江苏营财安保股份有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -2254,7 +2002,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-21]"
   },
   {
-    id: 126,
+    id: 112,
     companyName: "广州金恺财务咨询有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -2272,7 +2020,43 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-21]"
   },
   {
-    id: 127,
+    id: 113,
+    companyName: "广州创尔生物技术股份有限公司",
+    companyType: "央国企",
+    industry: "综合",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "广州",
+    positions: "体系合规部实习生",
+    status: "未投递",
+    updateTime: "2026-09-21",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-090-645.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-090-645.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-21]"
+  },
+  {
+    id: 114,
+    companyName: "广州未兆互联网技术服务有限公司",
+    companyType: "央国企",
+    industry: "综合",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "广州",
+    positions: "剪辑实习生（美妆 / 跨境电商）",
+    status: "未投递",
+    updateTime: "2026-09-21",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-090-273.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-090-273.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-21]"
+  },
+  {
+    id: 115,
     companyName: "浙江智仁律师事务所",
     companyType: "企业",
     industry: "综合",
@@ -2290,133 +2074,25 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-21]"
   },
   {
-    id: 128,
-    companyName: "深圳海外装饰工程有限公司",
+    id: 116,
+    companyName: "奇瑞汽车股份有限公司",
     companyType: "央国企",
-    industry: "建筑/建材",
+    industry: "汽车/车辆",
     recruitType: "春招",
     targetYears: "2026届",
-    location: "深圳",
-    positions: "财务管理岗实习生",
-    status: "未投递",
-    updateTime: "2026-09-21",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-018-302.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-018-302.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-21]"
-  },
-  {
-    id: 129,
-    companyName: "保利和润房地产投资顾问有限公司",
-    companyType: "央国企",
-    industry: "综合",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "中山-港口镇",
-    positions: "策划管培生（保利和润-粤中）-中山 江门 珠海",
+    location: "安徽",
+    positions: "2027招聘三电开发",
     status: "未投递",
     updateTime: "2026-09-20",
     deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-088-785.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-088-785.html",
+    applyLink: "https://m.yingjiesheng.com/job-008-088-507.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-088-507.html",
     examInfo: "",
     companyScale: "",
     notes: "来源: 应届生求职网 [2026-09-20]"
   },
   {
-    id: 130,
-    companyName: "广州港集团有限公司",
-    companyType: "央国企",
-    industry: "港口/航运",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "广州",
-    positions: "港口运营与综合物流岗",
-    status: "未投递",
-    updateTime: "2026-09-20",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-088-428.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-088-428.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-20]"
-  },
-  {
-    id: 131,
-    companyName: "广州港中联国际船务代理有限公司",
-    companyType: "央国企",
-    industry: "综合",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "广州",
-    positions: "船务外勤岗",
-    status: "未投递",
-    updateTime: "2026-09-20",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-086-933.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-086-933.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-20]"
-  },
-  {
-    id: 132,
-    companyName: "江苏路航轨道交通科技有限公司",
-    companyType: "央国企",
-    industry: "公路/高速",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "昆山",
-    positions: "算法实习生",
-    status: "未投递",
-    updateTime: "2026-09-20",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-028-064.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-028-064.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-20]"
-  },
-  {
-    id: 133,
-    companyName: "厦门轨道建设发展集团有限公司",
-    companyType: "央国企",
-    industry: "建筑/建材",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "厦门",
-    positions: "招标采购管理岗",
-    status: "未投递",
-    updateTime: "2026-09-20",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-088-113.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-088-113.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-20]"
-  },
-  {
-    id: 134,
-    companyName: "成都轨道交通集团有限公司",
-    companyType: "央国企",
-    industry: "公路/高速",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "成都",
-    positions: "维修专员",
-    status: "未投递",
-    updateTime: "2026-09-20",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-087-783.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-087-783.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-20]"
-  },
-  {
-    id: 135,
+    id: 117,
     companyName: "北京大象科技有限公司",
     companyType: "央国企",
     industry: "建筑/建材",
@@ -2434,7 +2110,115 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-20]"
   },
   {
-    id: 136,
+    id: 118,
+    companyName: "保利和润房地产投资顾问有限公司",
+    companyType: "央国企",
+    industry: "综合",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "中山-港口镇",
+    positions: "策划管培生（保利和润-粤中）-中山 江门 珠海",
+    status: "未投递",
+    updateTime: "2026-09-20",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-088-785.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-088-785.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-20]"
+  },
+  {
+    id: 119,
+    companyName: "广州港集团有限公司",
+    companyType: "央国企",
+    industry: "港口/航运",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "广州",
+    positions: "港口运营与综合物流岗",
+    status: "未投递",
+    updateTime: "2026-09-20",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-088-428.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-088-428.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-20]"
+  },
+  {
+    id: 120,
+    companyName: "广州港中联国际船务代理有限公司",
+    companyType: "央国企",
+    industry: "综合",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "广州",
+    positions: "船务外勤岗",
+    status: "未投递",
+    updateTime: "2026-09-20",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-086-933.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-086-933.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-20]"
+  },
+  {
+    id: 121,
+    companyName: "江苏路航轨道交通科技有限公司",
+    companyType: "央国企",
+    industry: "公路/高速",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "昆山",
+    positions: "算法实习生",
+    status: "未投递",
+    updateTime: "2026-09-20",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-028-064.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-028-064.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-20]"
+  },
+  {
+    id: 122,
+    companyName: "成都轨道交通集团有限公司",
+    companyType: "央国企",
+    industry: "公路/高速",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "成都",
+    positions: "维修专员",
+    status: "未投递",
+    updateTime: "2026-09-20",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-087-783.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-087-783.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-20]"
+  },
+  {
+    id: 123,
+    companyName: "厦门轨道建设发展集团有限公司",
+    companyType: "央国企",
+    industry: "建筑/建材",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "厦门",
+    positions: "招标采购管理岗",
+    status: "未投递",
+    updateTime: "2026-09-20",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-088-113.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-088-113.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-20]"
+  },
+  {
+    id: 124,
     companyName: "航大阿尔泰（天津）航空科技有限公司",
     companyType: "央国企",
     industry: "航空",
@@ -2452,7 +2236,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-20]"
   },
   {
-    id: 137,
+    id: 125,
     companyName: "春秋航空股份有限公司",
     companyType: "央国企",
     industry: "航空",
@@ -2470,7 +2254,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-20]"
   },
   {
-    id: 138,
+    id: 126,
     companyName: "北京蓝天航空科技股份有限公司",
     companyType: "央国企",
     industry: "航空",
@@ -2488,7 +2272,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-20]"
   },
   {
-    id: 139,
+    id: 127,
     companyName: "北京环亚航空服务有限公司",
     companyType: "央国企",
     industry: "航空",
@@ -2506,7 +2290,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-20]"
   },
   {
-    id: 140,
+    id: 128,
     companyName: "上海民航新时代机场设计研究院有限公司",
     companyType: "事业单位",
     industry: "航空",
@@ -2524,7 +2308,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-20]"
   },
   {
-    id: 141,
+    id: 129,
     companyName: "上海民航新时代机场设计研究院有限公司",
     companyType: "事业单位",
     industry: "航空",
@@ -2542,7 +2326,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-20]"
   },
   {
-    id: 142,
+    id: 130,
     companyName: "上海民航新时代机场设计研究院有限公司",
     companyType: "事业单位",
     industry: "航空",
@@ -2560,7 +2344,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-20]"
   },
   {
-    id: 143,
+    id: 131,
     companyName: "上海民航新时代机场设计研究院有限公司",
     companyType: "事业单位",
     industry: "航空",
@@ -2578,7 +2362,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-20]"
   },
   {
-    id: 144,
+    id: 132,
     companyName: "上海民航新时代机场设计研究院有限公司",
     companyType: "事业单位",
     industry: "航空",
@@ -2596,7 +2380,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-20]"
   },
   {
-    id: 145,
+    id: 133,
     companyName: "上海民航新时代机场设计研究院有限公司",
     companyType: "事业单位",
     industry: "航空",
@@ -2614,7 +2398,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-20]"
   },
   {
-    id: 146,
+    id: 134,
     companyName: "中国市政工程中南设计研究总院有限公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -2632,7 +2416,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-20]"
   },
   {
-    id: 147,
+    id: 135,
     companyName: "中国市政工程中南设计研究总院有限公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -2650,7 +2434,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-20]"
   },
   {
-    id: 148,
+    id: 136,
     companyName: "中国市政工程中南设计研究总院有限公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -2668,7 +2452,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-20]"
   },
   {
-    id: 149,
+    id: 137,
     companyName: "中国市政工程中南设计研究总院有限公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -2686,7 +2470,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-20]"
   },
   {
-    id: 150,
+    id: 138,
     companyName: "广州市公路实业发展有限公司",
     companyType: "央国企",
     industry: "公路/高速",
@@ -2704,7 +2488,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-20]"
   },
   {
-    id: 151,
+    id: 139,
     companyName: "中国邮政储蓄银行股份有限公司",
     companyType: "银行/金融",
     industry: "邮政/物流",
@@ -2722,7 +2506,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-20]"
   },
   {
-    id: 152,
+    id: 140,
     companyName: "大咖国际食品有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -2740,7 +2524,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-20]"
   },
   {
-    id: 153,
+    id: 141,
     companyName: "大咖国际食品有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -2758,7 +2542,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-20]"
   },
   {
-    id: 154,
+    id: 142,
     companyName: "顺丰速运集团（上海）速运有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -2776,7 +2560,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-20]"
   },
   {
-    id: 155,
+    id: 143,
     companyName: "中建安装集团有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -2794,7 +2578,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-20]"
   },
   {
-    id: 156,
+    id: 144,
     companyName: "宏云域（成都）物流供应链管理有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -2812,7 +2596,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-20]"
   },
   {
-    id: 157,
+    id: 145,
     companyName: "汉高（中国）投资有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -2830,7 +2614,25 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-20]"
   },
   {
-    id: 158,
+    id: 146,
+    companyName: "汉高（中国）投资有限公司",
+    companyType: "央国企",
+    industry: "邮政/物流",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "太仓",
+    positions: "消费品牌事业部供应链管理培训生-生产运营方向",
+    status: "未投递",
+    updateTime: "2026-09-20",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-087-266.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-087-266.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-20]"
+  },
+  {
+    id: 147,
     companyName: "西继迅达电梯有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -2848,7 +2650,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-20]"
   },
   {
-    id: 159,
+    id: 148,
     companyName: "建龙西林钢铁有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -2866,7 +2668,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-19]"
   },
   {
-    id: 160,
+    id: 149,
     companyName: "长江勘测规划设计研究有限责任公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -2884,7 +2686,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-19]"
   },
   {
-    id: 161,
+    id: 150,
     companyName: "厦门轨道建设发展集团有限公司",
     companyType: "央国企",
     industry: "建筑/建材",
@@ -2902,7 +2704,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-19]"
   },
   {
-    id: 162,
+    id: 151,
     companyName: "北京航空航天大学体育部 体育教师",
     companyType: "事业单位",
     industry: "航空",
@@ -2920,7 +2722,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-19]"
   },
   {
-    id: 163,
+    id: 152,
     companyName: "长江设计集团有限公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -2938,7 +2740,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-19]"
   },
   {
-    id: 164,
+    id: 153,
     companyName: "长江勘测规划设计研究有限责任公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -2956,7 +2758,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-19]"
   },
   {
-    id: 165,
+    id: 154,
     companyName: "长江勘测规划设计研究有限责任公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -2974,7 +2776,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-19]"
   },
   {
-    id: 166,
+    id: 155,
     companyName: "长江勘测规划设计研究有限责任公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -2992,7 +2794,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-19]"
   },
   {
-    id: 167,
+    id: 156,
     companyName: "长江勘测规划设计研究有限责任公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -3010,7 +2812,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-19]"
   },
   {
-    id: 168,
+    id: 157,
     companyName: "长江勘测规划设计研究有限责任公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -3028,7 +2830,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-19]"
   },
   {
-    id: 169,
+    id: 158,
     companyName: "长江勘测规划设计研究有限责任公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -3046,7 +2848,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-19]"
   },
   {
-    id: 170,
+    id: 159,
     companyName: "长江勘测规划设计研究有限责任公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -3064,7 +2866,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-19]"
   },
   {
-    id: 171,
+    id: 160,
     companyName: "长江勘测规划设计研究有限责任公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -3082,25 +2884,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-19]"
   },
   {
-    id: 172,
-    companyName: "长江勘测规划设计研究有限责任公司",
-    companyType: "央国企",
-    industry: "水务/水利",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "武汉",
-    positions: "水利水电工程设计岗-建设咨询公司",
-    status: "未投递",
-    updateTime: "2026-09-19",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-068-437.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-068-437.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-19]"
-  },
-  {
-    id: 173,
+    id: 161,
     companyName: "芜湖楚江物流有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -3118,7 +2902,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-19]"
   },
   {
-    id: 174,
+    id: 162,
     companyName: "广东省建筑科学研究院集团股份有限公司",
     companyType: "事业单位",
     industry: "水务/水利",
@@ -3136,7 +2920,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-18]"
   },
   {
-    id: 175,
+    id: 163,
     companyName: "深圳市深水水务咨询有限公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -3154,7 +2938,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-18]"
   },
   {
-    id: 176,
+    id: 164,
     companyName: "东莞常平粤海水务有限公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -3172,7 +2956,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-18]"
   },
   {
-    id: 177,
+    id: 165,
     companyName: "深圳市深水水务咨询有限公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -3190,7 +2974,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-18]"
   },
   {
-    id: 178,
+    id: 166,
     companyName: "深圳市深水水务咨询有限公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -3208,7 +2992,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-18]"
   },
   {
-    id: 179,
+    id: 167,
     companyName: "梧州粤海江河水务有限公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -3226,7 +3010,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-18]"
   },
   {
-    id: 180,
+    id: 168,
     companyName: "广州慧智微电子股份有限公司",
     companyType: "央国企",
     industry: "公路/高速",
@@ -3244,7 +3028,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-18]"
   },
   {
-    id: 181,
+    id: 169,
     companyName: "广州慧智微电子股份有限公司",
     companyType: "央国企",
     industry: "公路/高速",
@@ -3262,7 +3046,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-18]"
   },
   {
-    id: 182,
+    id: 170,
     companyName: "上海复医天健医疗服务产业股份有限公司",
     companyType: "央国企",
     industry: "公路/高速",
@@ -3280,7 +3064,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-18]"
   },
   {
-    id: 183,
+    id: 171,
     companyName: "中国邮政集团有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -3298,7 +3082,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-18]"
   },
   {
-    id: 184,
+    id: 172,
     companyName: "中国邮政集团有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -3316,7 +3100,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-18]"
   },
   {
-    id: 185,
+    id: 173,
     companyName: "中国邮政集团有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -3334,7 +3118,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-18]"
   },
   {
-    id: 186,
+    id: 174,
     companyName: "中国邮政集团有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -3352,7 +3136,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-18]"
   },
   {
-    id: 187,
+    id: 175,
     companyName: "中国邮政集团有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -3370,7 +3154,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-18]"
   },
   {
-    id: 188,
+    id: 176,
     companyName: "湖北农业发展集团有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -3388,7 +3172,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-18]"
   },
   {
-    id: 189,
+    id: 177,
     companyName: "瑞沣（东莞）供应链科技有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -3406,25 +3190,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-18]"
   },
   {
-    id: 190,
-    companyName: "湖北科源气体有限公司",
-    companyType: "央国企",
-    industry: "邮政/物流",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "武汉",
-    positions: "物流仓储助理",
-    status: "未投递",
-    updateTime: "2026-09-18",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-085-272.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-085-272.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-18]"
-  },
-  {
-    id: 191,
+    id: 178,
     companyName: "瑞沣（东莞）供应链科技有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -3442,7 +3208,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-18]"
   },
   {
-    id: 192,
+    id: 179,
     companyName: "古茗科技集团",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -3460,7 +3226,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-18]"
   },
   {
-    id: 193,
+    id: 180,
     companyName: "南京欧亚德仓储设备集团有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -3478,7 +3244,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-18]"
   },
   {
-    id: 194,
+    id: 181,
     companyName: "浙江信汇新材料股份有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -3496,7 +3262,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-18]"
   },
   {
-    id: 195,
+    id: 182,
     companyName: "中建安装集团有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -3514,7 +3280,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-18]"
   },
   {
-    id: 196,
+    id: 183,
     companyName: "上海璟瑞腾供应链管理有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -3532,7 +3298,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-18]"
   },
   {
-    id: 197,
+    id: 184,
     companyName: "索菲亚家居股份有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -3550,7 +3316,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-18]"
   },
   {
-    id: 198,
+    id: 185,
     companyName: "索菲亚家居股份有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -3568,7 +3334,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-18]"
   },
   {
-    id: 199,
+    id: 186,
     companyName: "索菲亚家居股份有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -3586,7 +3352,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-18]"
   },
   {
-    id: 200,
+    id: 187,
     companyName: "索菲亚家居股份有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -3604,7 +3370,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-18]"
   },
   {
-    id: 201,
+    id: 188,
     companyName: "索菲亚家居股份有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -3622,7 +3388,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-18]"
   },
   {
-    id: 202,
+    id: 189,
     companyName: "索菲亚家居股份有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -3640,7 +3406,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-18]"
   },
   {
-    id: 203,
+    id: 190,
     companyName: "索菲亚家居股份有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -3658,7 +3424,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-18]"
   },
   {
-    id: 204,
+    id: 191,
     companyName: "索菲亚家居股份有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -3676,25 +3442,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-18]"
   },
   {
-    id: 205,
-    companyName: "南通森威船舶服务有限公司",
-    companyType: "央国企",
-    industry: "港口/航运",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "江苏",
-    positions: "外贸业务员|助理",
-    status: "未投递",
-    updateTime: "2026-09-18",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-086-183.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-086-183.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-18]"
-  },
-  {
-    id: 206,
+    id: 192,
     companyName: "南京海兰轻舟智能科技有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -3712,7 +3460,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-17]"
   },
   {
-    id: 207,
+    id: 193,
     companyName: "中国铁路通信信号股份有限公司",
     companyType: "央国企",
     industry: "铁路/轨交",
@@ -3730,7 +3478,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-17]"
   },
   {
-    id: 208,
+    id: 194,
     companyName: "斯凯孚（中国）有限公司",
     companyType: "央国企",
     industry: "铁路/轨交",
@@ -3748,7 +3496,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-17]"
   },
   {
-    id: 209,
+    id: 195,
     companyName: "斯凯孚（中国）有限公司",
     companyType: "央国企",
     industry: "铁路/轨交",
@@ -3766,7 +3514,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-17]"
   },
   {
-    id: 210,
+    id: 196,
     companyName: "斯凯孚（中国）有限公司",
     companyType: "央国企",
     industry: "铁路/轨交",
@@ -3784,7 +3532,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-17]"
   },
   {
-    id: 211,
+    id: 197,
     companyName: "斯凯孚（中国）有限公司",
     companyType: "央国企",
     industry: "铁路/轨交",
@@ -3802,7 +3550,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-17]"
   },
   {
-    id: 212,
+    id: 198,
     companyName: "斯凯孚（中国）有限公司",
     companyType: "央国企",
     industry: "铁路/轨交",
@@ -3820,7 +3568,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-17]"
   },
   {
-    id: 213,
+    id: 199,
     companyName: "斯凯孚（中国）有限公司",
     companyType: "央国企",
     industry: "铁路/轨交",
@@ -3838,7 +3586,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-17]"
   },
   {
-    id: 214,
+    id: 200,
     companyName: "中国铁路通信信号股份有限公司",
     companyType: "央国企",
     industry: "铁路/轨交",
@@ -3856,7 +3604,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-17]"
   },
   {
-    id: 215,
+    id: 201,
     companyName: "斯凯孚（中国）有限公司",
     companyType: "央国企",
     industry: "铁路/轨交",
@@ -3874,7 +3622,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-17]"
   },
   {
-    id: 216,
+    id: 202,
     companyName: "斯凯孚（中国）有限公司",
     companyType: "央国企",
     industry: "铁路/轨交",
@@ -3892,7 +3640,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-17]"
   },
   {
-    id: 217,
+    id: 203,
     companyName: "中国铁路通信信号股份有限公司",
     companyType: "央国企",
     industry: "铁路/轨交",
@@ -3910,25 +3658,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-17]"
   },
   {
-    id: 218,
-    companyName: "承盛航空测试科技（苏州）有限公司",
-    companyType: "央国企",
-    industry: "航空",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "苏州",
-    positions: "研发储备",
-    status: "未投递",
-    updateTime: "2026-09-17",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-083-236.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-083-236.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-17]"
-  },
-  {
-    id: 219,
+    id: 204,
     companyName: "广州保和电力技术服务有限公司",
     companyType: "央国企",
     industry: "航空",
@@ -3946,7 +3676,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-17]"
   },
   {
-    id: 220,
+    id: 205,
     companyName: "成都市市政工程设计研究院有限公司",
     companyType: "事业单位",
     industry: "水务/水利",
@@ -3964,7 +3694,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-17]"
   },
   {
-    id: 221,
+    id: 206,
     companyName: "成都市水利电力勘测设计研究院有限公司",
     companyType: "事业单位",
     industry: "水务/水利",
@@ -3982,7 +3712,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-17]"
   },
   {
-    id: 222,
+    id: 207,
     companyName: "成都市水利电力勘测设计研究院有限公司",
     companyType: "事业单位",
     industry: "水务/水利",
@@ -4000,7 +3730,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-17]"
   },
   {
-    id: 223,
+    id: 208,
     companyName: "成都市水利电力勘测设计研究院有限公司",
     companyType: "事业单位",
     industry: "水务/水利",
@@ -4018,7 +3748,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-17]"
   },
   {
-    id: 224,
+    id: 209,
     companyName: "成都市水利电力勘测设计研究院有限公司",
     companyType: "事业单位",
     industry: "水务/水利",
@@ -4036,7 +3766,25 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-17]"
   },
   {
-    id: 225,
+    id: 210,
+    companyName: "成都市市政工程设计研究院有限公司",
+    companyType: "事业单位",
+    industry: "水务/水利",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "成都",
+    positions: "数智水利工程师",
+    status: "未投递",
+    updateTime: "2026-09-17",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-082-993.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-082-993.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-17]"
+  },
+  {
+    id: 211,
     companyName: "中国邮政集团有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -4054,7 +3802,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-17]"
   },
   {
-    id: 226,
+    id: 212,
     companyName: "湖南新聪厨食品有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -4072,7 +3820,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-17]"
   },
   {
-    id: 227,
+    id: 213,
     companyName: "深圳中电前海仓储运营有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -4090,7 +3838,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-17]"
   },
   {
-    id: 228,
+    id: 214,
     companyName: "深圳中电前海仓储运营有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -4108,7 +3856,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-17]"
   },
   {
-    id: 229,
+    id: 215,
     companyName: "深圳中电前海仓储运营有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -4126,7 +3874,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-17]"
   },
   {
-    id: 230,
+    id: 216,
     companyName: "江苏华弘数科技术有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -4144,7 +3892,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-17]"
   },
   {
-    id: 231,
+    id: 217,
     companyName: "广州南沙资产经营集团有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -4162,7 +3910,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-17]"
   },
   {
-    id: 232,
+    id: 218,
     companyName: "南京地铁设备运维科技有限公司",
     companyType: "央国企",
     industry: "铁路/轨交",
@@ -4180,7 +3928,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-17]"
   },
   {
-    id: 233,
+    id: 219,
     companyName: "北京龙翔智慧物联科技有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -4198,7 +3946,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 234,
+    id: 220,
     companyName: "河北港口集团有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -4216,7 +3964,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 235,
+    id: 221,
     companyName: "河北港口集团有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -4234,7 +3982,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 236,
+    id: 222,
     companyName: "河北港口集团有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -4252,7 +4000,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 237,
+    id: 223,
     companyName: "河北港口集团有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -4270,7 +4018,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 238,
+    id: 224,
     companyName: "河北港口集团有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -4288,7 +4036,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 239,
+    id: 225,
     companyName: "河北港口集团有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -4306,7 +4054,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 240,
+    id: 226,
     companyName: "河北港口集团有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -4324,7 +4072,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 241,
+    id: 227,
     companyName: "河北港口集团有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -4342,7 +4090,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 242,
+    id: 228,
     companyName: "河北港口集团有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -4360,7 +4108,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 243,
+    id: 229,
     companyName: "河北港口集团有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -4378,7 +4126,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 244,
+    id: 230,
     companyName: "河北港口集团有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -4396,7 +4144,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 245,
+    id: 231,
     companyName: "河北港口集团有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -4414,7 +4162,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 246,
+    id: 232,
     companyName: "河北港口集团有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -4432,7 +4180,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 247,
+    id: 233,
     companyName: "河北港口集团有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -4450,7 +4198,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 248,
+    id: 234,
     companyName: "河北港口集团有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -4468,7 +4216,25 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 249,
+    id: 235,
+    companyName: "河北港口集团有限公司",
+    companyType: "央国企",
+    industry: "港口/航运",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "唐山",
+    positions: "软件工程师",
+    status: "未投递",
+    updateTime: "2026-09-16",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-071-810.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-071-810.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-16]"
+  },
+  {
+    id: 236,
     companyName: "上海津洋航运经纪有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -4486,7 +4252,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 250,
+    id: 237,
     companyName: "河北港口集团有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -4504,7 +4270,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 251,
+    id: 238,
     companyName: "河北港口集团有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -4522,7 +4288,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 252,
+    id: 239,
     companyName: "河北港口集团有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -4540,7 +4306,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 253,
+    id: 240,
     companyName: "浙江省轨道交通运营管理集团有限公司",
     companyType: "央国企",
     industry: "公路/高速",
@@ -4558,7 +4324,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 254,
+    id: 241,
     companyName: "北京悦领航航空有限公司",
     companyType: "央国企",
     industry: "航空",
@@ -4576,7 +4342,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 255,
+    id: 242,
     companyName: "北京悦领航航空有限公司",
     companyType: "央国企",
     industry: "航空",
@@ -4594,7 +4360,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 256,
+    id: 243,
     companyName: "广西北投绿色船舶有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -4612,7 +4378,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 257,
+    id: 244,
     companyName: "中国邮政集团有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -4630,7 +4396,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 258,
+    id: 245,
     companyName: "中国邮政集团有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -4648,7 +4414,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 259,
+    id: 246,
     companyName: "中国邮政集团有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -4666,7 +4432,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 260,
+    id: 247,
     companyName: "中国邮政集团有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -4684,7 +4450,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 261,
+    id: 248,
     companyName: "中国邮政集团有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -4702,7 +4468,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 262,
+    id: 249,
     companyName: "中国邮政集团有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -4720,7 +4486,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 263,
+    id: 250,
     companyName: "中国邮政集团有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -4738,7 +4504,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 264,
+    id: 251,
     companyName: "中国邮政集团有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -4756,7 +4522,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 265,
+    id: 252,
     companyName: "中国邮政集团有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -4774,7 +4540,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 266,
+    id: 253,
     companyName: "中国邮政集团",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -4792,7 +4558,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 267,
+    id: 254,
     companyName: "上海虹迪物流科技有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -4810,7 +4576,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 268,
+    id: 255,
     companyName: "西安康奈网络科技有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -4828,7 +4594,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 269,
+    id: 256,
     companyName: "裕义德科技（上海）有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -4846,7 +4612,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 270,
+    id: 257,
     companyName: "河北港口集团有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -4864,25 +4630,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-16]"
   },
   {
-    id: 271,
-    companyName: "河北港口集团有限公司",
-    companyType: "央国企",
-    industry: "港口/航运",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "唐山",
-    positions: "海务管理员",
-    status: "未投递",
-    updateTime: "2026-09-16",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-071-787.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-071-787.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-16]"
-  },
-  {
-    id: 272,
+    id: 258,
     companyName: "广东美的智享生活电器制造有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -4900,7 +4648,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-15]"
   },
   {
-    id: 273,
+    id: 259,
     companyName: "广州江河幕墙系统工程有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -4918,7 +4666,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-15]"
   },
   {
-    id: 274,
+    id: 260,
     companyName: "江苏德丰航运有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -4936,7 +4684,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-15]"
   },
   {
-    id: 275,
+    id: 261,
     companyName: "广州市泽谋机电设备有限公司",
     companyType: "央国企",
     industry: "铁路/轨交",
@@ -4954,7 +4702,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-15]"
   },
   {
-    id: 276,
+    id: 262,
     companyName: "武汉经发粮食物流产业投资有限公司",
     companyType: "央国企",
     industry: "铁路/轨交",
@@ -4972,7 +4720,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-15]"
   },
   {
-    id: 277,
+    id: 263,
     companyName: "武汉经发粮食物流产业投资有限公司",
     companyType: "央国企",
     industry: "铁路/轨交",
@@ -4990,7 +4738,25 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-15]"
   },
   {
-    id: 278,
+    id: 264,
+    companyName: "佛山市人才和数据科技集团有限公司",
+    companyType: "央国企",
+    industry: "公路/高速",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "佛山-禅城区",
+    positions: "交通规划设计人员",
+    status: "未投递",
+    updateTime: "2026-09-15",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-077-793.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-077-793.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-15]"
+  },
+  {
+    id: 265,
     companyName: "北医三院大兴机场健康管理（体检）中心",
     companyType: "事业单位",
     industry: "航空",
@@ -5008,7 +4774,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-15]"
   },
   {
-    id: 279,
+    id: 266,
     companyName: "黑龙江伊哈公路工程有限公司",
     companyType: "央国企",
     industry: "公路/高速",
@@ -5026,7 +4792,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-15]"
   },
   {
-    id: 280,
+    id: 267,
     companyName: "中国邮政集团有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -5044,7 +4810,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-15]"
   },
   {
-    id: 281,
+    id: 268,
     companyName: "中国邮政集团有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -5062,7 +4828,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-15]"
   },
   {
-    id: 282,
+    id: 269,
     companyName: "东莞市海陆通实业有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -5080,7 +4846,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-15]"
   },
   {
-    id: 283,
+    id: 270,
     companyName: "广州市朴朴网络科技有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -5098,7 +4864,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-15]"
   },
   {
-    id: 284,
+    id: 271,
     companyName: "上海海事大学（上海港湾学校） 教学保障人员",
     companyType: "事业单位",
     industry: "港口/航运",
@@ -5116,7 +4882,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-15]"
   },
   {
-    id: 285,
+    id: 272,
     companyName: "中国电气装备集团有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -5134,7 +4900,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-14]"
   },
   {
-    id: 286,
+    id: 273,
     companyName: "中国电气装备集团有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -5152,7 +4918,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-14]"
   },
   {
-    id: 287,
+    id: 274,
     companyName: "中国电气装备集团有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -5170,7 +4936,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-14]"
   },
   {
-    id: 288,
+    id: 275,
     companyName: "蜂巢传动系统（江苏）有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -5188,7 +4954,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-14]"
   },
   {
-    id: 289,
+    id: 276,
     companyName: "中国五环工程有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -5206,7 +4972,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-14]"
   },
   {
-    id: 290,
+    id: 277,
     companyName: "中国铁路通信信号股份有限公司",
     companyType: "央国企",
     industry: "铁路/轨交",
@@ -5224,7 +4990,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-14]"
   },
   {
-    id: 291,
+    id: 278,
     companyName: "中国铁路通信信号股份有限公司",
     companyType: "央国企",
     industry: "铁路/轨交",
@@ -5242,7 +5008,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-14]"
   },
   {
-    id: 292,
+    id: 279,
     companyName: "中国铁路通信信号股份有限公司",
     companyType: "央国企",
     industry: "铁路/轨交",
@@ -5260,7 +5026,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-14]"
   },
   {
-    id: 293,
+    id: 280,
     companyName: "上海密尔克卫化工储存有限公司",
     companyType: "央国企",
     industry: "航空",
@@ -5278,7 +5044,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-14]"
   },
   {
-    id: 294,
+    id: 281,
     companyName: "上海艾为电子技术股份有限公司",
     companyType: "央国企",
     industry: "公路/高速",
@@ -5296,7 +5062,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-14]"
   },
   {
-    id: 295,
+    id: 282,
     companyName: "中国电气装备集团有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -5314,7 +5080,43 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-14]"
   },
   {
-    id: 296,
+    id: 283,
+    companyName: "中国电气装备集团有限公司",
+    companyType: "央国企",
+    industry: "邮政/物流",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "济南",
+    positions: "仓储配送管理",
+    status: "未投递",
+    updateTime: "2026-09-14",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-073-401.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-073-401.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-14]"
+  },
+  {
+    id: 284,
+    companyName: "广州南沙资产经营集团有限公司",
+    companyType: "央国企",
+    industry: "综合",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "广州",
+    positions: "招商策划岗(J10056)",
+    status: "未投递",
+    updateTime: "2026-09-14",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-075-972.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-075-972.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-14]"
+  },
+  {
+    id: 285,
     companyName: "深圳飞呗航空服务有限公司",
     companyType: "央国企",
     industry: "航空",
@@ -5332,7 +5134,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-12]"
   },
   {
-    id: 297,
+    id: 286,
     companyName: "深圳飞呗航空服务有限公司",
     companyType: "央国企",
     industry: "航空",
@@ -5350,7 +5152,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-12]"
   },
   {
-    id: 298,
+    id: 287,
     companyName: "广州白云国际机场股份有限公司",
     companyType: "央国企",
     industry: "航空",
@@ -5368,7 +5170,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-12]"
   },
   {
-    id: 299,
+    id: 288,
     companyName: "海南儋州粤海水务有限公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -5386,7 +5188,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-11]"
   },
   {
-    id: 300,
+    id: 289,
     companyName: "海南儋州粤海水务有限公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -5404,7 +5206,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-11]"
   },
   {
-    id: 301,
+    id: 290,
     companyName: "海南儋州粤海水务有限公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -5422,7 +5224,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-11]"
   },
   {
-    id: 302,
+    id: 291,
     companyName: "海南儋州粤海水务有限公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -5440,7 +5242,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-11]"
   },
   {
-    id: 303,
+    id: 292,
     companyName: "海南儋州粤海水务有限公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -5458,7 +5260,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-11]"
   },
   {
-    id: 304,
+    id: 293,
     companyName: "海南儋州粤海水务有限公司",
     companyType: "央国企",
     industry: "水务/水利",
@@ -5476,7 +5278,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-11]"
   },
   {
-    id: 305,
+    id: 294,
     companyName: "中铁水务集团有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -5494,7 +5296,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-11]"
   },
   {
-    id: 306,
+    id: 295,
     companyName: "安费诺高速技术（南通）有限公司",
     companyType: "央国企",
     industry: "公路/高速",
@@ -5512,7 +5314,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-11]"
   },
   {
-    id: 307,
+    id: 296,
     companyName: "安费诺高速技术（南通）有限公司",
     companyType: "央国企",
     industry: "公路/高速",
@@ -5530,7 +5332,25 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-11]"
   },
   {
-    id: 308,
+    id: 297,
+    companyName: "安费诺高速技术（南通）有限公司",
+    companyType: "央国企",
+    industry: "公路/高速",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "南通-通州区",
+    positions: "职能类应届生（人力/财务/EHS）",
+    status: "未投递",
+    updateTime: "2026-09-11",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-071-721.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-071-721.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-11]"
+  },
+  {
+    id: 298,
     companyName: "广州市公共交通集团有限公司",
     companyType: "央国企",
     industry: "公路/高速",
@@ -5548,7 +5368,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-11]"
   },
   {
-    id: 309,
+    id: 299,
     companyName: "广州市公共交通集团有限公司",
     companyType: "央国企",
     industry: "公路/高速",
@@ -5566,7 +5386,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-11]"
   },
   {
-    id: 310,
+    id: 300,
     companyName: "厦门地铁运营公司",
     companyType: "企业",
     industry: "铁路/轨交",
@@ -5584,7 +5404,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-11]"
   },
   {
-    id: 311,
+    id: 301,
     companyName: "山西建龙实业有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -5602,7 +5422,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-10]"
   },
   {
-    id: 312,
+    id: 302,
     companyName: "山西建龙实业有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -5620,7 +5440,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-10]"
   },
   {
-    id: 313,
+    id: 303,
     companyName: "山西建龙实业有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -5638,7 +5458,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-10]"
   },
   {
-    id: 314,
+    id: 304,
     companyName: "山西建龙实业有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -5656,7 +5476,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-10]"
   },
   {
-    id: 315,
+    id: 305,
     companyName: "本溪龙新矿业有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -5674,25 +5494,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-10]"
   },
   {
-    id: 316,
-    companyName: "建龙北满特殊钢有限责任公司",
-    companyType: "央国企",
-    industry: "邮政/物流",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "齐齐哈尔",
-    positions: "物流管理师",
-    status: "未投递",
-    updateTime: "2026-09-10",
-    deadline: "招满为止",
-    applyLink: "https://m.yingjiesheng.com/job-008-069-200.html",
-    noticeLink: "https://m.yingjiesheng.com/job-008-069-200.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 应届生求职网 [2026-09-10]"
-  },
-  {
-    id: 317,
+    id: 306,
     companyName: "中国铁路通信信号股份有限公司",
     companyType: "央国企",
     industry: "公路/高速",
@@ -5710,7 +5512,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-10]"
   },
   {
-    id: 318,
+    id: 307,
     companyName: "烽火通信科技股份有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -5728,7 +5530,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-09]"
   },
   {
-    id: 319,
+    id: 308,
     companyName: "东莞市海昌实业有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -5746,7 +5548,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-09]"
   },
   {
-    id: 320,
+    id: 309,
     companyName: "国联城市轨道交通（湖南）有限公司",
     companyType: "央国企",
     industry: "公路/高速",
@@ -5764,7 +5566,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-09]"
   },
   {
-    id: 321,
+    id: 310,
     companyName: "广东海航幸福航空服务有限公司",
     companyType: "央国企",
     industry: "航空",
@@ -5782,7 +5584,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-09]"
   },
   {
-    id: 322,
+    id: 311,
     companyName: "广东海航幸福航空服务有限公司",
     companyType: "央国企",
     industry: "航空",
@@ -5800,7 +5602,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-09]"
   },
   {
-    id: 323,
+    id: 312,
     companyName: "珠海保税区光联通讯技术有限公司",
     companyType: "央国企",
     industry: "公路/高速",
@@ -5818,7 +5620,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-09]"
   },
   {
-    id: 324,
+    id: 313,
     companyName: "申通快递有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -5836,7 +5638,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-09]"
   },
   {
-    id: 325,
+    id: 314,
     companyName: "申通快递有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -5854,7 +5656,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-09]"
   },
   {
-    id: 326,
+    id: 315,
     companyName: "申通快递有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -5872,7 +5674,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-09]"
   },
   {
-    id: 327,
+    id: 316,
     companyName: "申通快递有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -5890,7 +5692,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-09]"
   },
   {
-    id: 328,
+    id: 317,
     companyName: "申通快递有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -5908,7 +5710,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-09]"
   },
   {
-    id: 329,
+    id: 318,
     companyName: "申通快递有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -5926,7 +5728,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-09]"
   },
   {
-    id: 330,
+    id: 319,
     companyName: "申通快递有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -5944,7 +5746,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-09]"
   },
   {
-    id: 331,
+    id: 320,
     companyName: "兰州信息科技学院 物流管理专任教师",
     companyType: "事业单位",
     industry: "邮政/物流",
@@ -5962,7 +5764,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-08]"
   },
   {
-    id: 332,
+    id: 321,
     companyName: "润通航运服务有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -5980,7 +5782,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-08]"
   },
   {
-    id: 333,
+    id: 322,
     companyName: "润通航运服务有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -5998,7 +5800,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-08]"
   },
   {
-    id: 334,
+    id: 323,
     companyName: "江苏港口集装箱集团有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -6016,7 +5818,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-08]"
   },
   {
-    id: 335,
+    id: 324,
     companyName: "润通航运服务有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -6034,7 +5836,25 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-08]"
   },
   {
-    id: 336,
+    id: 325,
+    companyName: "蒂升机场系统有限公司",
+    companyType: "央国企",
+    industry: "航空",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "中山-火炬开发区",
+    positions: "行政实习生",
+    status: "未投递",
+    updateTime: "2026-09-08",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-007-954-810.html",
+    noticeLink: "https://m.yingjiesheng.com/job-007-954-810.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-08]"
+  },
+  {
+    id: 326,
     companyName: "武汉光谷信息光电子创新中心有限公司",
     companyType: "事业单位",
     industry: "公路/高速",
@@ -6052,7 +5872,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-08]"
   },
   {
-    id: 337,
+    id: 327,
     companyName: "武汉光谷信息光电子创新中心有限公司",
     companyType: "事业单位",
     industry: "公路/高速",
@@ -6070,7 +5890,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-08]"
   },
   {
-    id: 338,
+    id: 328,
     companyName: "中信科移动通信技术股份有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -6088,7 +5908,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-07]"
   },
   {
-    id: 339,
+    id: 329,
     companyName: "江苏路航轨道交通科技有限公司",
     companyType: "央国企",
     industry: "公路/高速",
@@ -6106,7 +5926,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-07]"
   },
   {
-    id: 340,
+    id: 330,
     companyName: "贵州极兔供应链管理有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -6124,7 +5944,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-07]"
   },
   {
-    id: 341,
+    id: 331,
     companyName: "贵州极兔供应链管理有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -6142,7 +5962,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-07]"
   },
   {
-    id: 342,
+    id: 332,
     companyName: "贵州极兔供应链管理有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -6160,7 +5980,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-07]"
   },
   {
-    id: 343,
+    id: 333,
     companyName: "贵州极兔供应链管理有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -6178,7 +5998,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-07]"
   },
   {
-    id: 344,
+    id: 334,
     companyName: "德邦快递 2027校园招聘",
     companyType: "企业",
     industry: "邮政/物流",
@@ -6196,7 +6016,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-07]"
   },
   {
-    id: 345,
+    id: 335,
     companyName: "中车株洲车辆有限公司",
     companyType: "央国企",
     industry: "铁路/轨交",
@@ -6214,7 +6034,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-05]"
   },
   {
-    id: 346,
+    id: 336,
     companyName: "润通航运服务有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -6232,7 +6052,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-05]"
   },
   {
-    id: 347,
+    id: 337,
     companyName: "武汉海事职业学院 公共课教师|思政课教师",
     companyType: "事业单位",
     industry: "综合",
@@ -6250,7 +6070,25 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-05]"
   },
   {
-    id: 348,
+    id: 338,
+    companyName: "阳春新钢铁有限责任公司",
+    companyType: "央国企",
+    industry: "公路/高速",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "广东",
+    positions: "轨道交通工程师",
+    status: "未投递",
+    updateTime: "2026-09-04",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-055-810.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-055-810.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-04]"
+  },
+  {
+    id: 339,
     companyName: "深圳飞呗航空服务有限公司",
     companyType: "央国企",
     industry: "航空",
@@ -6268,7 +6106,115 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-09-04]"
   },
   {
-    id: 349,
+    id: 340,
+    companyName: "北京城建集团有限责任公司",
+    companyType: "央国企",
+    industry: "航空",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "北京",
+    positions: "机场场道助理工程师-国际事业部",
+    status: "未投递",
+    updateTime: "2026-09-04",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-057-618.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-057-618.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-04]"
+  },
+  {
+    id: 341,
+    companyName: "上海公路桥梁（集团）有限公司",
+    companyType: "央国企",
+    industry: "公路/高速",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "上海",
+    positions: "机电管理岗",
+    status: "未投递",
+    updateTime: "2026-09-04",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-056-303.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-056-303.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-04]"
+  },
+  {
+    id: 342,
+    companyName: "上海公路桥梁（集团）有限公司",
+    companyType: "央国企",
+    industry: "公路/高速",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "上海",
+    positions: "项目管理岗",
+    status: "未投递",
+    updateTime: "2026-09-04",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-056-302.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-056-302.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-04]"
+  },
+  {
+    id: 343,
+    companyName: "青岛鸿裕吉轨道交通装备有限公司",
+    companyType: "央国企",
+    industry: "公路/高速",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "山东",
+    positions: "校招管培生",
+    status: "未投递",
+    updateTime: "2026-09-02",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-049-619.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-049-619.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-02]"
+  },
+  {
+    id: 344,
+    companyName: "易思维（杭州）科技股份有限公司",
+    companyType: "央国企",
+    industry: "公路/高速",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "杭州其它",
+    positions: "轨道交通售前方案工程师",
+    status: "未投递",
+    updateTime: "2026-09-01",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-047-413.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-047-413.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-01]"
+  },
+  {
+    id: 345,
+    companyName: "四川公路桥梁建设集团有限公司",
+    companyType: "央国企",
+    industry: "公路/高速",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "全国",
+    positions: "公路二分公司 项目工程技术员",
+    status: "未投递",
+    updateTime: "2026-09-01",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-046-861.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-046-861.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-09-01]"
+  },
+  {
+    id: 346,
     companyName: "四川吉联轨道交通运营管理有限公司",
     companyType: "央国企",
     industry: "公路/高速",
@@ -6286,7 +6232,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-08-31]"
   },
   {
-    id: 350,
+    id: 347,
     companyName: "北京鑫裕盛船舶管理有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -6304,7 +6250,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-08-31]"
   },
   {
-    id: 351,
+    id: 348,
     companyName: "北京鑫裕盛船舶管理有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -6322,7 +6268,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-08-31]"
   },
   {
-    id: 352,
+    id: 349,
     companyName: "广东省城际轨道交通运营有限公司",
     companyType: "央国企",
     industry: "公路/高速",
@@ -6340,7 +6286,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-08-30]"
   },
   {
-    id: 353,
+    id: 350,
     companyName: "安徽省交通运输厅所属事业单位 2026招聘11名工作人员",
     companyType: "企业",
     industry: "公路/高速",
@@ -6358,7 +6304,25 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-08-28]"
   },
   {
-    id: 354,
+    id: 351,
+    companyName: "北京城建集团有限责任公司",
+    companyType: "央国企",
+    industry: "公路/高速",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "北京",
+    positions: "交通运输规划、智能交通-城建设计",
+    status: "未投递",
+    updateTime: "2026-08-27",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-040-655.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-040-655.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-08-27]"
+  },
+  {
+    id: 352,
     companyName: "中通快递股份有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -6376,7 +6340,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-08-26]"
   },
   {
-    id: 355,
+    id: 353,
     companyName: "中通快递股份有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -6394,7 +6358,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-08-26]"
   },
   {
-    id: 356,
+    id: 354,
     companyName: "中通快递股份有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -6412,7 +6376,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-08-26]"
   },
   {
-    id: 357,
+    id: 355,
     companyName: "中通快递股份有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -6430,7 +6394,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-08-26]"
   },
   {
-    id: 358,
+    id: 356,
     companyName: "中通快递股份有限公司",
     companyType: "央国企",
     industry: "邮政/物流",
@@ -6448,7 +6412,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-08-26]"
   },
   {
-    id: 359,
+    id: 357,
     companyName: "深圳市森海海事服务有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -6466,7 +6430,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-08-24]"
   },
   {
-    id: 360,
+    id: 358,
     companyName: "青岛海之星船舶管理有限公司",
     companyType: "央国企",
     industry: "港口/航运",
@@ -6484,7 +6448,25 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-08-21]"
   },
   {
-    id: 361,
+    id: 359,
+    companyName: "四川吉联轨道交通运营管理有限公司",
+    companyType: "央国企",
+    industry: "公路/高速",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "成都",
+    positions: "地铁机电及轨道专业维保",
+    status: "未投递",
+    updateTime: "2026-08-21",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-034-345.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-034-345.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-08-21]"
+  },
+  {
+    id: 360,
     companyName: "上海海事大学 研究人员|期刊中心",
     companyType: "事业单位",
     industry: "综合",
@@ -6502,7 +6484,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-08-21]"
   },
   {
-    id: 362,
+    id: 361,
     companyName: "广州地铁设计研究院股份有限公司",
     companyType: "事业单位",
     industry: "铁路/轨交",
@@ -6520,7 +6502,7 @@ const JOBS_YINGJIESHENG = [
     notes: "来源: 应届生求职网 [2026-08-20]"
   },
   {
-    id: 363,
+    id: 362,
     companyName: "广州公交集团客轮有限公司",
     companyType: "央国企",
     industry: "公交/客运",
@@ -6536,5 +6518,41 @@ const JOBS_YINGJIESHENG = [
     examInfo: "",
     companyScale: "",
     notes: "来源: 应届生求职网 [2026-08-13]"
+  },
+  {
+    id: 363,
+    companyName: "东方海外货柜航运（中国）有限公司",
+    companyType: "央国企",
+    industry: "港口/航运",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "重庆-九龙坡区",
+    positions: "会计中心实习生",
+    status: "未投递",
+    updateTime: "2026-08-12",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-027-052.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-027-052.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-08-12]"
+  },
+  {
+    id: 364,
+    companyName: "广州公交集团客轮有限公司",
+    companyType: "央国企",
+    industry: "公交/客运",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "广州",
+    positions: "统计员实习生",
+    status: "未投递",
+    updateTime: "2026-08-06",
+    deadline: "招满为止",
+    applyLink: "https://m.yingjiesheng.com/job-008-025-101.html",
+    noticeLink: "https://m.yingjiesheng.com/job-008-025-101.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 应届生求职网 [2026-08-06]"
   }
 ];

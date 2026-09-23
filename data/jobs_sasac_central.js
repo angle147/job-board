@@ -1,8 +1,27 @@
 // 国务院国资委 — 人才招聘栏目
-// 更新时间: 2026-09-22 17:10:04
+// 更新时间: 2026-09-23 09:10:30
 // 共 27 条
 
 const JOBS_SASAC_CENTRAL = [
+  {
+    id: "sasac-central-35972487",
+    companyName: "航空工业集团",
+    companyType: "央国企",
+    industry: "综合",
+    recruitType: "校招",
+    targetYears: "2027届",
+    location: "全国",
+    positions: "航空工业集团下属企业启动2027届校园招聘",
+    majorReq: "",
+    educationReq: "",
+    status: "未投递",
+    updateTime: "2026-09-23",
+    deadline: "",
+    applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35972487/content.html",
+    noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35972487/content.html",
+    examInfo: "",
+    notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
+  },
   {
     id: "sasac-central-35968095",
     companyName: "矿冶集团",
@@ -494,25 +513,6 @@ const JOBS_SASAC_CENTRAL = [
     deadline: "",
     applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35898563/content.html",
     noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35898563/content.html",
-    examInfo: "",
-    notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
-  },
-  {
-    id: "sasac-central-35891254",
-    companyName: "中国电气装备集团",
-    companyType: "央国企",
-    industry: "综合",
-    recruitType: "校招",
-    targetYears: "",
-    location: "全国",
-    positions: "中国电气装备集团投资有限公司招聘公告",
-    majorReq: "",
-    educationReq: "",
-    status: "未投递",
-    updateTime: "2026-09-09",
-    deadline: "",
-    applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35891254/content.html",
-    noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35891254/content.html",
     examInfo: "",
     notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
   }

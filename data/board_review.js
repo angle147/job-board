@@ -1,6 +1,6 @@
 // 待人工核验队列 — 由 build_personal_board.py 生成
-// 更新时间: 2026-09-23 17:10:46
-// 共 37 条
+// 更新时间: 2026-09-24 09:12:41
+// 共 33 条
 
 const REVIEW_JOBS = [
   {
@@ -1176,7 +1176,7 @@ const REVIEW_JOBS = [
     "priorityScore": 50
   },
   {
-    "id": "yingjiesheng_45",
+    "id": "yingjiesheng_42",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "恒宝股份有限公司",
@@ -1227,207 +1227,7 @@ const REVIEW_JOBS = [
     "priorityScore": 20
   },
   {
-    "id": "yingjiesheng_51",
-    "boardSection": "国企校招",
-    "source": "应届生求职网",
-    "companyName": "百事（中国）有限公司",
-    "companyType": "央国企",
-    "industry": "邮政/物流",
-    "recruitType": "实习",
-    "targetYears": "2027届",
-    "location": "北京",
-    "positions": "百事集团2027年度供应链管理培训生",
-    "status": "待处理",
-    "updateTime": "2026-09-23",
-    "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-094-735.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-094-735.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-23] | 来源: 前程无忧(51JOB)",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "招满为止",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "百事（中国）有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "可尝试",
-    "fitReason": "专业名称或范围相近",
-    "evidenceLevel": "第三方线索",
-    "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-094-735.html"
-    ],
-    "discoverySources": [
-      "应届生求职网"
-    ],
-    "reviewReasons": [
-      "明确截止日期待核验",
-      "第三方来源仅作线索，需反查官方原文和国企控制关系",
-      "缺少可验证的官方原文"
-    ],
-    "priorityScore": 20
-  },
-  {
-    "id": "yingjiesheng_52",
-    "boardSection": "国企校招",
-    "source": "应届生求职网",
-    "companyName": "百事（中国）有限公司",
-    "companyType": "央国企",
-    "industry": "邮政/物流",
-    "recruitType": "春招",
-    "targetYears": "2027届",
-    "location": "成都",
-    "positions": "百事集团2027年度供应链管理培训生",
-    "status": "待处理",
-    "updateTime": "2026-09-23",
-    "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-094-701.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-094-701.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-23] | 来源: 前程无忧(51JOB)",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "招满为止",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "百事（中国）有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "可尝试",
-    "fitReason": "专业名称或范围相近",
-    "evidenceLevel": "第三方线索",
-    "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-094-701.html"
-    ],
-    "discoverySources": [
-      "应届生求职网"
-    ],
-    "reviewReasons": [
-      "明确截止日期待核验",
-      "第三方来源仅作线索，需反查官方原文和国企控制关系",
-      "缺少可验证的官方原文"
-    ],
-    "priorityScore": 20
-  },
-  {
-    "id": "yingjiesheng_53",
-    "boardSection": "国企校招",
-    "source": "应届生求职网",
-    "companyName": "百事（中国）有限公司",
-    "companyType": "央国企",
-    "industry": "邮政/物流",
-    "recruitType": "春招",
-    "targetYears": "2027届",
-    "location": "广州",
-    "positions": "百事集团2027年度供应链管理培训生",
-    "status": "待处理",
-    "updateTime": "2026-09-23",
-    "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-094-702.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-094-702.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-23] | 来源: 前程无忧(51JOB)",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "招满为止",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "百事（中国）有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "可尝试",
-    "fitReason": "专业名称或范围相近",
-    "evidenceLevel": "第三方线索",
-    "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-094-702.html"
-    ],
-    "discoverySources": [
-      "应届生求职网"
-    ],
-    "reviewReasons": [
-      "明确截止日期待核验",
-      "第三方来源仅作线索，需反查官方原文和国企控制关系",
-      "缺少可验证的官方原文"
-    ],
-    "priorityScore": 20
-  },
-  {
-    "id": "yingjiesheng_54",
-    "boardSection": "国企校招",
-    "source": "应届生求职网",
-    "companyName": "百事（中国）有限公司",
-    "companyType": "央国企",
-    "industry": "邮政/物流",
-    "recruitType": "春招",
-    "targetYears": "2027届",
-    "location": "武汉",
-    "positions": "百事集团2027年度供应链管理培训生",
-    "status": "待处理",
-    "updateTime": "2026-09-23",
-    "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-094-736.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-094-736.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-23] | 来源: 前程无忧(51JOB)",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "招满为止",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "百事（中国）有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "可尝试",
-    "fitReason": "专业名称或范围相近",
-    "evidenceLevel": "第三方线索",
-    "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-094-736.html"
-    ],
-    "discoverySources": [
-      "应届生求职网"
-    ],
-    "reviewReasons": [
-      "明确截止日期待核验",
-      "第三方来源仅作线索，需反查官方原文和国企控制关系",
-      "缺少可验证的官方原文"
-    ],
-    "priorityScore": 20
-  },
-  {
-    "id": "yingjiesheng_3",
+    "id": "yingjiesheng_9",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "上海贝业新兄弟供应链管理有限公司",
@@ -1479,7 +1279,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_5",
+    "id": "yingjiesheng_11",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "上海贝业新兄弟供应链管理有限公司",
@@ -1530,24 +1330,24 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_40",
+    "id": "yingjiesheng_35",
     "boardSection": "国企校招",
     "source": "应届生求职网",
-    "companyName": "东方国际物流（集团）有限公司",
-    "companyType": "央国企",
+    "companyName": "中国邮政储蓄银行内蒙古自治区分行",
+    "companyType": "银行/金融",
     "industry": "邮政/物流",
-    "recruitType": "实习",
+    "recruitType": "春招",
     "targetYears": "2027届",
-    "location": "广州",
+    "location": "内蒙古",
     "positions": "职位描述",
     "status": "待处理",
     "updateTime": "2026-09-23",
     "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-094-614.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-094-614.html",
+    "applyLink": "https://m.yingjiesheng.com/job-008-095-044.html",
+    "noticeLink": "https://m.yingjiesheng.com/job-008-095-044.html",
     "examInfo": "",
     "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-23] | 来源: 前程无忧(51JOB)",
+    "notes": "来源: 应届生求职网 [2026-09-23] | 来源: 天津工业大学",
     "majorReq": "",
     "educationReq": "",
     "positionCode": "",
@@ -1557,7 +1357,7 @@ const REVIEW_JOBS = [
     "examDate": "",
     "competitionRatio": "",
     "pastScoreLine": "",
-    "actualEmployer": "东方国际物流（集团）有限公司",
+    "actualEmployer": "中国邮政储蓄银行内蒙古自治区分行",
     "contractEmployer": "待核验",
     "employmentType": "待核验",
     "ownershipRelation": "待核验",
@@ -1567,7 +1367,7 @@ const REVIEW_JOBS = [
     "fitReason": "尚未取得可验证的专业要求",
     "evidenceLevel": "第三方线索",
     "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-094-614.html"
+      "https://m.yingjiesheng.com/job-008-095-044.html"
     ],
     "discoverySources": [
       "应届生求职网"
@@ -1581,7 +1381,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_10",
+    "id": "yingjiesheng_14",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "凯思轩达医疗科技无锡有限公司",
@@ -1632,7 +1432,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_55",
+    "id": "yingjiesheng_48",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "富浦思食品设备（广东）有限公司",
@@ -1683,7 +1483,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_57",
+    "id": "yingjiesheng_50",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "富浦思食品设备（广东）有限公司",
@@ -1734,7 +1534,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_42",
+    "id": "yingjiesheng_40",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "广东美味鲜调味食品有限公司",
@@ -1785,7 +1585,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_6",
+    "id": "yingjiesheng_12",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "广州白云国际机场股份有限公司",
@@ -1836,7 +1636,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_47",
+    "id": "yingjiesheng_44",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "无锡先导智能装备股份有限公司",
@@ -1887,7 +1687,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_43",
+    "id": "yingjiesheng_39",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "鲜丰水果股份有限公司",

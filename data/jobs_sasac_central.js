@@ -1,8 +1,46 @@
 // 国务院国资委 — 人才招聘栏目
-// 更新时间: 2026-09-23 17:10:02
+// 更新时间: 2026-09-24 09:10:36
 // 共 27 条
 
 const JOBS_SASAC_CENTRAL = [
+  {
+    id: "sasac-central-35977327",
+    companyName: "中国大唐",
+    companyType: "央国企",
+    industry: "综合",
+    recruitType: "校招",
+    targetYears: "2027届",
+    location: "全国",
+    positions: "中国大唐2027年校园招聘正式启动",
+    majorReq: "",
+    educationReq: "",
+    status: "未投递",
+    updateTime: "2026-09-24",
+    deadline: "",
+    applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35977327/content.html",
+    noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35977327/content.html",
+    examInfo: "",
+    notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
+  },
+  {
+    id: "sasac-central-35977827",
+    companyName: "湖南航天",
+    companyType: "央国企",
+    industry: "综合",
+    recruitType: "校招",
+    targetYears: "2027届",
+    location: "全国",
+    positions: "湖南航天2027年校园招聘正式启动",
+    majorReq: "",
+    educationReq: "",
+    status: "未投递",
+    updateTime: "2026-09-24",
+    deadline: "",
+    applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35977827/content.html",
+    noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35977827/content.html",
+    examInfo: "",
+    notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
+  },
   {
     id: "sasac-central-35972487",
     companyName: "航空工业集团",
@@ -475,44 +513,6 @@ const JOBS_SASAC_CENTRAL = [
     deadline: "",
     applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35904595/content.html",
     noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35904595/content.html",
-    examInfo: "",
-    notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
-  },
-  {
-    id: "sasac-central-35898544",
-    companyName: "中国一汽",
-    companyType: "央国企",
-    industry: "综合",
-    recruitType: "校招",
-    targetYears: "2027届",
-    location: "全国",
-    positions: "中国一汽2027全球校园招聘正式启动",
-    majorReq: "",
-    educationReq: "",
-    status: "未投递",
-    updateTime: "2026-09-10",
-    deadline: "",
-    applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35898544/content.html",
-    noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35898544/content.html",
-    examInfo: "",
-    notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
-  },
-  {
-    id: "sasac-central-35898563",
-    companyName: "中国一汽部分高级经理岗位",
-    companyType: "央国企",
-    industry: "综合",
-    recruitType: "校招",
-    targetYears: "",
-    location: "全国",
-    positions: "中国一汽部分高级经理岗位招聘公告",
-    majorReq: "",
-    educationReq: "",
-    status: "未投递",
-    updateTime: "2026-09-10",
-    deadline: "",
-    applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35898563/content.html",
-    noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35898563/content.html",
     examInfo: "",
     notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
   }

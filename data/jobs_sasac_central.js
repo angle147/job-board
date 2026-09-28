@@ -1,8 +1,27 @@
 // 国务院国资委 — 人才招聘栏目
-// 更新时间: 2026-09-24 17:10:20
+// 更新时间: 2026-09-28 10:02:49
 // 共 27 条
 
 const JOBS_SASAC_CENTRAL = [
+  {
+    id: "sasac-central-35979831",
+    companyName: "中远海运散运",
+    companyType: "央国企",
+    industry: "交通",
+    recruitType: "校招",
+    targetYears: "2027届",
+    location: "全国",
+    positions: "中远海运散运2027届校园招聘",
+    majorReq: "",
+    educationReq: "",
+    status: "未投递",
+    updateTime: "2026-09-28",
+    deadline: "",
+    applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35979831/content.html",
+    noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35979831/content.html",
+    examInfo: "",
+    notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
+  },
   {
     id: "sasac-central-35977327",
     companyName: "中国大唐",
@@ -494,25 +513,6 @@ const JOBS_SASAC_CENTRAL = [
     deadline: "",
     applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35904654/content.html",
     noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35904654/content.html",
-    examInfo: "",
-    notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
-  },
-  {
-    id: "sasac-central-35904595",
-    companyName: "中国电科",
-    companyType: "央国企",
-    industry: "综合",
-    recruitType: "校招",
-    targetYears: "2027届",
-    location: "全国",
-    positions: "中国电科2027届校园招聘正式启动",
-    majorReq: "",
-    educationReq: "",
-    status: "未投递",
-    updateTime: "2026-09-11",
-    deadline: "",
-    applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35904595/content.html",
-    noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35904595/content.html",
     examInfo: "",
     notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
   }

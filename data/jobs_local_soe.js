@@ -1,8 +1,32 @@
 // 济南地方国企官方招聘 — 自动采集
-// 更新时间: 2026-09-24 17:10:20
+// 更新时间: 2026-09-28 10:02:49
 // 共 36 条
 
 const JOBS_LOCAL_SOE = [
+  {
+    id: "local_soe_5910f3ee9777e3bf",
+    companyName: "济钢集团有限公司",
+    companyType: "地方国企线索",
+    industry: "综合",
+    recruitType: "公开招聘",
+    targetYears: "",
+    location: "济南市",
+    positions: "济钢集团有限公司社会招聘公告",
+    status: "未投递",
+    updateTime: "2026-09-24",
+    deadline: "待核验",
+    applyLink: "https://jngzw.jinan.gov.cn/col/col23870/art/2026/art_28c5e406c1d84e588b5853354830e2ff.html",
+    noticeLink: "https://jngzw.jinan.gov.cn/col/col23870/art/2026/art_28c5e406c1d84e588b5853354830e2ff.html",
+    examInfo: "以公告为准",
+    companyScale: "",
+    notes: "来源: 济南市国资委招聘专栏",
+    actualEmployer: "济钢集团有限公司",
+    contractEmployer: "待核验",
+    employmentType: "直接用工",
+    ownershipRelation: "控制关系待核验",
+    ownershipEvidenceUrl: "https://jngzw.jinan.gov.cn/col/col23870/index.html",
+    sourceKey: "jinan_sasac"
+  },
   {
     id: "local_soe_cc8d74cadfab56e8",
     companyName: "济钢集团",
@@ -285,30 +309,6 @@ const JOBS_LOCAL_SOE = [
     companyScale: "",
     notes: "来源: 济南市国资委招聘专栏",
     actualEmployer: "山东金宇信息科技集团有限公司",
-    contractEmployer: "待核验",
-    employmentType: "直接用工",
-    ownershipRelation: "控制关系待核验",
-    ownershipEvidenceUrl: "https://jngzw.jinan.gov.cn/col/col23870/index.html",
-    sourceKey: "jinan_sasac"
-  },
-  {
-    id: "local_soe_4f8f4fe517282e36",
-    companyName: "山东金衢设计咨询集团有限公司",
-    companyType: "地方国企线索",
-    industry: "综合",
-    recruitType: "公开招聘",
-    targetYears: "2026届",
-    location: "济南市",
-    positions: "山东金衢设计咨询集团有限公司招聘公告",
-    status: "未投递",
-    updateTime: "2026-06-01",
-    deadline: "待核验",
-    applyLink: "https://jngzw.jinan.gov.cn/col/col23870/art/2026/art_ba073f263c96476b99b2174a54554fa1.html",
-    noticeLink: "https://jngzw.jinan.gov.cn/col/col23870/art/2026/art_ba073f263c96476b99b2174a54554fa1.html",
-    examInfo: "以公告为准",
-    companyScale: "",
-    notes: "来源: 济南市国资委招聘专栏",
-    actualEmployer: "山东金衢设计咨询集团有限公司",
     contractEmployer: "待核验",
     employmentType: "直接用工",
     ownershipRelation: "控制关系待核验",

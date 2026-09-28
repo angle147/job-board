@@ -1,5 +1,5 @@
 // 待人工核验队列 — 由 build_personal_board.py 生成
-// 更新时间: 2026-09-24 17:11:02
+// 更新时间: 2026-09-28 10:03:36
 // 共 29 条
 
 const REVIEW_JOBS = [
@@ -445,7 +445,7 @@ const REVIEW_JOBS = [
     "reviewReasons": [
       "应届毕业生或校园招聘属性尚未确认"
     ],
-    "priorityScore": 70
+    "priorityScore": 60
   },
   {
     "id": "jinan_local_soe_local_soe_77b53642106fd9c4",
@@ -1033,6 +1033,54 @@ const REVIEW_JOBS = [
     "priorityScore": 50
   },
   {
+    "id": "jinan_local_soe_local_soe_5910f3ee9777e3bf",
+    "boardSection": "国企校招",
+    "source": "济南地方国企官方招聘",
+    "companyName": "济钢集团有限公司",
+    "companyType": "地方国企线索",
+    "industry": "综合",
+    "recruitType": "公开招聘",
+    "targetYears": "待核验",
+    "location": "济南市",
+    "positions": "济钢集团有限公司社会招聘公告",
+    "status": "待处理",
+    "updateTime": "2026-09-24",
+    "deadline": "待核验",
+    "applyLink": "https://jngzw.jinan.gov.cn/col/col23870/art/2026/art_28c5e406c1d84e588b5853354830e2ff.html",
+    "noticeLink": "https://jngzw.jinan.gov.cn/col/col23870/art/2026/art_28c5e406c1d84e588b5853354830e2ff.html",
+    "examInfo": "以公告为准",
+    "companyScale": "",
+    "notes": "来源: 济南市国资委招聘专栏",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "待核验",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "济钢集团有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接用工",
+    "ownershipRelation": "控制关系待核验",
+    "ownershipEvidenceUrl": "https://jngzw.jinan.gov.cn/col/col23870/index.html",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://jngzw.jinan.gov.cn/col/col23870/art/2026/art_28c5e406c1d84e588b5853354830e2ff.html"
+    ],
+    "discoverySources": [
+      "济南地方国企官方招聘"
+    ],
+    "reviewReasons": [
+      "应届毕业生或校园招聘属性尚未确认"
+    ],
+    "priorityScore": 50
+  },
+  {
     "id": "jinan_local_soe_local_soe_bf389309029cef30",
     "boardSection": "国企校招",
     "source": "济南地方国企官方招聘",
@@ -1177,24 +1225,24 @@ const REVIEW_JOBS = [
     "priorityScore": 50
   },
   {
-    "id": "yingjiesheng_13",
+    "id": "yingjiesheng_1",
     "boardSection": "国企校招",
     "source": "应届生求职网",
-    "companyName": "上海汇舸环保科技集团股份有限公司",
+    "companyName": "三友联众集团股份有限公司",
     "companyType": "央国企",
     "industry": "综合",
     "recruitType": "春招",
     "targetYears": "2027届",
-    "location": "江苏",
+    "location": "东莞-塘厦镇",
     "positions": "职位描述",
     "status": "待处理",
-    "updateTime": "2026-09-24",
+    "updateTime": "2026-09-28",
     "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-096-179.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-096-179.html",
+    "applyLink": "https://m.yingjiesheng.com/job-008-097-597.html",
+    "noticeLink": "https://m.yingjiesheng.com/job-008-097-597.html",
     "examInfo": "",
     "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-24] | 来源: 南通大学",
+    "notes": "来源: 应届生求职网 [2026-09-28] | 来源: 前程无忧(51JOB)",
     "majorReq": "",
     "educationReq": "",
     "positionCode": "",
@@ -1204,7 +1252,7 @@ const REVIEW_JOBS = [
     "examDate": "",
     "competitionRatio": "",
     "pastScoreLine": "",
-    "actualEmployer": "上海汇舸环保科技集团股份有限公司",
+    "actualEmployer": "三友联众集团股份有限公司",
     "contractEmployer": "待核验",
     "employmentType": "待核验",
     "ownershipRelation": "待核验",
@@ -1214,7 +1262,9 @@ const REVIEW_JOBS = [
     "fitReason": "尚未取得可验证的专业要求",
     "evidenceLevel": "第三方线索",
     "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-096-179.html"
+      "https://m.yingjiesheng.com/job-008-097-597.html",
+      "https://m.yingjiesheng.com/job-008-097-598.html",
+      "https://m.yingjiesheng.com/job-008-097-538.html"
     ],
     "discoverySources": [
       "应届生求职网"
@@ -1228,7 +1278,109 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_29",
+    "id": "yingjiesheng_3",
+    "boardSection": "国企校招",
+    "source": "应届生求职网",
+    "companyName": "三友联众集团股份有限公司",
+    "companyType": "央国企",
+    "industry": "综合",
+    "recruitType": "春招",
+    "targetYears": "2027届",
+    "location": "重庆-两江新区",
+    "positions": "职位描述",
+    "status": "待处理",
+    "updateTime": "2026-09-28",
+    "deadline": "招满为止",
+    "applyLink": "https://m.yingjiesheng.com/job-008-097-525.html",
+    "noticeLink": "https://m.yingjiesheng.com/job-008-097-525.html",
+    "examInfo": "",
+    "companyScale": "",
+    "notes": "来源: 应届生求职网 [2026-09-28] | 来源: 前程无忧(51JOB)",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "招满为止",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "三友联众集团股份有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "待核验",
+    "ownershipRelation": "待核验",
+    "ownershipEvidenceUrl": "",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "第三方线索",
+    "sourceLinks": [
+      "https://m.yingjiesheng.com/job-008-097-525.html"
+    ],
+    "discoverySources": [
+      "应届生求职网"
+    ],
+    "reviewReasons": [
+      "尚未取得可验证的专业要求",
+      "明确截止日期待核验",
+      "第三方来源仅作线索，需反查官方原文和国企控制关系",
+      "缺少可验证的官方原文"
+    ],
+    "priorityScore": 0
+  },
+  {
+    "id": "yingjiesheng_5",
+    "boardSection": "国企校招",
+    "source": "应届生求职网",
+    "companyName": "上海寻梦信息技术有限公司",
+    "companyType": "央国企",
+    "industry": "邮政/物流",
+    "recruitType": "春招",
+    "targetYears": "2027届",
+    "location": "黔南-龙里县",
+    "positions": "职位描述",
+    "status": "待处理",
+    "updateTime": "2026-09-27",
+    "deadline": "招满为止",
+    "applyLink": "https://m.yingjiesheng.com/job-008-097-475.html",
+    "noticeLink": "https://m.yingjiesheng.com/job-008-097-475.html",
+    "examInfo": "",
+    "companyScale": "",
+    "notes": "来源: 应届生求职网 [2026-09-27] | 来源: 前程无忧(51JOB)",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "招满为止",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "上海寻梦信息技术有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "待核验",
+    "ownershipRelation": "待核验",
+    "ownershipEvidenceUrl": "",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "第三方线索",
+    "sourceLinks": [
+      "https://m.yingjiesheng.com/job-008-097-475.html"
+    ],
+    "discoverySources": [
+      "应届生求职网"
+    ],
+    "reviewReasons": [
+      "尚未取得可验证的专业要求",
+      "明确截止日期待核验",
+      "第三方来源仅作线索，需反查官方原文和国企控制关系",
+      "缺少可验证的官方原文"
+    ],
+    "priorityScore": 0
+  },
+  {
+    "id": "yingjiesheng_42",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "内蒙古自治区民航机场集团有限责任公司",
@@ -1279,7 +1431,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_6",
+    "id": "yingjiesheng_26",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "天康生物股份有限公司",
@@ -1330,126 +1482,24 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_44",
+    "id": "yingjiesheng_52",
     "boardSection": "国企校招",
     "source": "应届生求职网",
-    "companyName": "安费诺东亚电子科技（深圳）有限公司",
+    "companyName": "此芯科技(上海)有限公司",
     "companyType": "央国企",
-    "industry": "综合",
-    "recruitType": "实习",
-    "targetYears": "2027届",
-    "location": "深圳",
-    "positions": "2027届实习生（研发/SI/CS等岗位）",
-    "status": "待处理",
-    "updateTime": "2026-09-24",
-    "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-026-518.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-026-518.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-24] | 来源: 前程无忧(51JOB)",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "招满为止",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "安费诺东亚电子科技（深圳）有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "第三方线索",
-    "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-026-518.html"
-    ],
-    "discoverySources": [
-      "应届生求职网"
-    ],
-    "reviewReasons": [
-      "尚未取得可验证的专业要求",
-      "明确截止日期待核验",
-      "第三方来源仅作线索，需反查官方原文和国企控制关系",
-      "缺少可验证的官方原文"
-    ],
-    "priorityScore": 0
-  },
-  {
-    "id": "yingjiesheng_28",
-    "boardSection": "国企校招",
-    "source": "应届生求职网",
-    "companyName": "电连技术股份有限公司",
-    "companyType": "央国企",
-    "industry": "航空",
+    "industry": "公路/高速",
     "recruitType": "春招",
     "targetYears": "2027届",
-    "location": "南京",
-    "positions": "南京航空航天大学招聘27届校园大使",
-    "status": "待处理",
-    "updateTime": "2026-09-24",
-    "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-096-127.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-096-127.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-24] | 来源: 前程无忧(51JOB)",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "招满为止",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "电连技术股份有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "第三方线索",
-    "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-096-127.html"
-    ],
-    "discoverySources": [
-      "应届生求职网"
-    ],
-    "reviewReasons": [
-      "尚未取得可验证的专业要求",
-      "明确截止日期待核验",
-      "第三方来源仅作线索，需反查官方原文和国企控制关系",
-      "缺少可验证的官方原文"
-    ],
-    "priorityScore": 0
-  },
-  {
-    "id": "yingjiesheng_34",
-    "boardSection": "国企校招",
-    "source": "应届生求职网",
-    "companyName": "碧桂园生活服务集团股份有限公司",
-    "companyType": "央国企",
-    "industry": "综合",
-    "recruitType": "春招",
-    "targetYears": "2027届",
-    "location": "江西",
+    "location": "江苏",
     "positions": "职位描述",
     "status": "待处理",
     "updateTime": "2026-09-24",
     "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-096-559.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-096-559.html",
+    "applyLink": "https://m.yingjiesheng.com/job-008-097-150.html",
+    "noticeLink": "https://m.yingjiesheng.com/job-008-097-150.html",
     "examInfo": "",
     "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-24] | 来源: 九江学院",
+    "notes": "来源: 应届生求职网 [2026-09-24] | 来源: 江南大学",
     "majorReq": "",
     "educationReq": "",
     "positionCode": "",
@@ -1459,7 +1509,7 @@ const REVIEW_JOBS = [
     "examDate": "",
     "competitionRatio": "",
     "pastScoreLine": "",
-    "actualEmployer": "碧桂园生活服务集团股份有限公司",
+    "actualEmployer": "此芯科技(上海)有限公司",
     "contractEmployer": "待核验",
     "employmentType": "待核验",
     "ownershipRelation": "待核验",
@@ -1469,58 +1519,7 @@ const REVIEW_JOBS = [
     "fitReason": "尚未取得可验证的专业要求",
     "evidenceLevel": "第三方线索",
     "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-096-559.html"
-    ],
-    "discoverySources": [
-      "应届生求职网"
-    ],
-    "reviewReasons": [
-      "尚未取得可验证的专业要求",
-      "明确截止日期待核验",
-      "第三方来源仅作线索，需反查官方原文和国企控制关系",
-      "缺少可验证的官方原文"
-    ],
-    "priorityScore": 0
-  },
-  {
-    "id": "yingjiesheng_47",
-    "boardSection": "国企校招",
-    "source": "应届生求职网",
-    "companyName": "莱卡纤维（银川）有限公司",
-    "companyType": "央国企",
-    "industry": "综合",
-    "recruitType": "春招",
-    "targetYears": "2027届",
-    "location": "宁夏",
-    "positions": "职位描述",
-    "status": "待处理",
-    "updateTime": "2026-09-24",
-    "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-096-753.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-096-753.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-24] | 来源: 兰州大学",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "招满为止",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "莱卡纤维（银川）有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "第三方线索",
-    "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-096-753.html"
+      "https://m.yingjiesheng.com/job-008-097-150.html"
     ],
     "discoverySources": [
       "应届生求职网"

@@ -1,6 +1,6 @@
 // 校招/社招岗位数据 — 自动爬取生成
-// 更新时间: 2026-09-28 10:02:49
-// 共 19 条
+// 更新时间: 2026-09-29 15:09:12
+// 共 18 条
 
 const JOBS = [
   {
@@ -326,23 +326,5 @@ const JOBS = [
     examInfo: "",
     companyScale: "",
     notes: "来源: 山东省国资委 [2026-08-10]"
-  },
-  {
-    id: 20,
-    companyName: "中泰证券2027届秋季",
-    companyType: "央国企",
-    industry: "金融/银行",
-    recruitType: "春招",
-    targetYears: "2026届,2027届",
-    location: "",
-    positions: "",
-    status: "未投递",
-    updateTime: "2026-07-31",
-    deadline: "招满为止",
-    applyLink: "",
-    noticeLink: "http://gzw.shandong.gov.cn/articles/ch00223/202607/d1ed7546-3837-4782-a573-345e4c64deb8.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 山东省国资委 [2026-07-31]"
   }
 ];

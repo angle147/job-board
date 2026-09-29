@@ -1,6 +1,6 @@
 // 待人工核验队列 — 由 build_personal_board.py 生成
-// 更新时间: 2026-09-29 15:09:53
-// 共 28 条
+// 更新时间: 2026-09-29 17:11:34
+// 共 27 条
 
 const REVIEW_JOBS = [
   {
@@ -1129,7 +1129,7 @@ const REVIEW_JOBS = [
     "priorityScore": 50
   },
   {
-    "id": "yingjiesheng_35",
+    "id": "yingjiesheng_54",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "三友联众集团股份有限公司",
@@ -1180,7 +1180,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_30",
+    "id": "yingjiesheng_48",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "上海申燃智拓供应链有限公司",
@@ -1231,7 +1231,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_31",
+    "id": "yingjiesheng_49",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "上海申燃智拓供应链有限公司",
@@ -1282,7 +1282,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_40",
+    "id": "yingjiesheng_59",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "上海金标生物科技有限公司",
@@ -1336,21 +1336,21 @@ const REVIEW_JOBS = [
     "id": "yingjiesheng_4",
     "boardSection": "国企校招",
     "source": "应届生求职网",
-    "companyName": "四联创业集团股份有限公司",
+    "companyName": "云南顺丰速运有限公司",
     "companyType": "央国企",
-    "industry": "邮政/物流",
-    "recruitType": "春招",
+    "industry": "综合",
+    "recruitType": "实习",
     "targetYears": "2027届",
-    "location": "北京",
+    "location": "云南",
     "positions": "职位描述",
     "status": "待处理",
     "updateTime": "2026-09-29",
     "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-099-501.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-099-501.html",
+    "applyLink": "https://m.yingjiesheng.com/job-008-100-798.html",
+    "noticeLink": "https://m.yingjiesheng.com/job-008-100-798.html",
     "examInfo": "",
     "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-29] | 来源: 西安工程大学",
+    "notes": "来源: 应届生求职网 [2026-09-29] | 来源: 云南民族大学",
     "majorReq": "",
     "educationReq": "",
     "positionCode": "",
@@ -1360,7 +1360,7 @@ const REVIEW_JOBS = [
     "examDate": "",
     "competitionRatio": "",
     "pastScoreLine": "",
-    "actualEmployer": "四联创业集团股份有限公司",
+    "actualEmployer": "云南顺丰速运有限公司",
     "contractEmployer": "待核验",
     "employmentType": "待核验",
     "ownershipRelation": "待核验",
@@ -1370,7 +1370,7 @@ const REVIEW_JOBS = [
     "fitReason": "尚未取得可验证的专业要求",
     "evidenceLevel": "第三方线索",
     "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-099-501.html"
+      "https://m.yingjiesheng.com/job-008-100-798.html"
     ],
     "discoverySources": [
       "应届生求职网"
@@ -1384,58 +1384,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_49",
-    "boardSection": "国企校招",
-    "source": "应届生求职网",
-    "companyName": "大连美恒电气有限公司",
-    "companyType": "央国企",
-    "industry": "建筑/建材",
-    "recruitType": "春招",
-    "targetYears": "2027届",
-    "location": "全国",
-    "positions": "职位描述",
-    "status": "待处理",
-    "updateTime": "2026-09-29",
-    "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-099-736.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-099-736.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-29] | 来源: 辽宁石油化工大学",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "招满为止",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "大连美恒电气有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "第三方线索",
-    "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-099-736.html"
-    ],
-    "discoverySources": [
-      "应届生求职网"
-    ],
-    "reviewReasons": [
-      "尚未取得可验证的专业要求",
-      "明确截止日期待核验",
-      "第三方来源仅作线索，需反查官方原文和国企控制关系",
-      "缺少可验证的官方原文"
-    ],
-    "priorityScore": 0
-  },
-  {
-    "id": "yingjiesheng_11",
+    "id": "yingjiesheng_25",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "洛阳天浩泰轨道装备制造有限公司",

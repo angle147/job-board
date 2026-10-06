@@ -1,6 +1,6 @@
 // 国家大学生就业服务平台 — 国有企业招聘专题
-// 更新时间: 2026-09-29 17:10:52
-// 共 22 条
+// 更新时间: 2026-10-06 12:37:33
+// 共 19 条
 
 const JOBS_NCSS_SOE = [
   {
@@ -19,26 +19,6 @@ const JOBS_NCSS_SOE = [
     updateTime: "2025-11-10",
     deadline: "2026-12-31",
     applyLink: "https://mp.weixin.qq.com/s/RPUvgZeuha-oI_dfFip0aw",
-    noticeLink: "https://www.ncss.cn/ncss/zt/gqzp2026.shtml",
-    examInfo: "",
-    notes: "教育部国家大学生就业服务平台国有企业招聘专题收录；专业和具体岗位以报名页为准"
-  },
-  {
-    id: "ncss-2026-32",
-    companyName: "北京翠微集团",
-    companyType: "央国企",
-    industry: "综合",
-    recruitType: "校招",
-    targetYears: "2026",
-    location: "全国",
-    positions: "北京翠微集团面向2026届高校毕业生招聘公告",
-    majorReq: "",
-    educationReq: "高校毕业生",
-    recruitmentCount: "20",
-    status: "未投递",
-    updateTime: "2026-03-01",
-    deadline: "2026-09-30",
-    applyLink: "https://www.zhaopin.com/jobdetail/CC120589490J40516615613.htm?refcode=4019&srccode=401901&preactionid=99ffdddb-259a-4a97-a1ec-61a76499b1b8",
     noticeLink: "https://www.ncss.cn/ncss/zt/gqzp2026.shtml",
     examInfo: "",
     notes: "教育部国家大学生就业服务平台国有企业招聘专题收录；专业和具体岗位以报名页为准"
@@ -364,26 +344,6 @@ const JOBS_NCSS_SOE = [
     notes: "教育部国家大学生就业服务平台国有企业招聘专题收录；专业和具体岗位以报名页为准"
   },
   {
-    id: "ncss-2026-186",
-    companyName: "福汽集团福建省东南汽车贸易有限公司",
-    companyType: "央国企",
-    industry: "综合",
-    recruitType: "校招",
-    targetYears: "2026",
-    location: "全国",
-    positions: "福汽集团福建省东南汽车贸易有限公司面向2026届高校毕业生招聘",
-    majorReq: "",
-    educationReq: "高校毕业生",
-    recruitmentCount: "2",
-    status: "未投递",
-    updateTime: "2026-04-16",
-    deadline: "2026-09-30",
-    applyLink: "https://m.zhipin.com/mpa/html/weijd/weijd-job/058afe35c3da7f2f03dz3tW8EVRX?date8=20260415&sid=qr_self_jd&openWeapp=1",
-    noticeLink: "https://www.ncss.cn/ncss/zt/gqzp2026.shtml",
-    examInfo: "",
-    notes: "教育部国家大学生就业服务平台国有企业招聘专题收录；专业和具体岗位以报名页为准"
-  },
-  {
     id: "ncss-2026-187",
     companyName: "国家开发投资集团有限公司",
     companyType: "央国企",
@@ -419,26 +379,6 @@ const JOBS_NCSS_SOE = [
     updateTime: "2026-02-13",
     deadline: "2026-12-31",
     applyLink: "https://mp.weixin.qq.com/s/R4W55BdKY3sXCIvblj7MzQ",
-    noticeLink: "https://www.ncss.cn/ncss/zt/gqzp2026.shtml",
-    examInfo: "",
-    notes: "教育部国家大学生就业服务平台国有企业招聘专题收录；专业和具体岗位以报名页为准"
-  },
-  {
-    id: "ncss-2026-192",
-    companyName: "中远海运(天津)有限公司",
-    companyType: "央国企",
-    industry: "综合",
-    recruitType: "校招",
-    targetYears: "2026",
-    location: "全国",
-    positions: "中远海运(天津)有限公司面向2026届高校毕业生招聘公告",
-    majorReq: "",
-    educationReq: "高校毕业生",
-    recruitmentCount: "1",
-    status: "未投递",
-    updateTime: "2025-11-05",
-    deadline: "2026-09-30",
-    applyLink: "https://www.iguopin.com/job/detail?id=182260272851846268&origin=b&project_id=161777532595604275",
     noticeLink: "https://www.ncss.cn/ncss/zt/gqzp2026.shtml",
     examInfo: "",
     notes: "教育部国家大学生就业服务平台国有企业招聘专题收录；专业和具体岗位以报名页为准"

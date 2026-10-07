@@ -1,6 +1,6 @@
 // 国企校招岗位 — 由 build_personal_board.py 生成
-// 更新时间: 2026-10-06 17:10:47
-// 共 338 条
+// 更新时间: 2026-10-07 09:10:34
+// 共 337 条
 
 const SOE_JOBS = [
   {
@@ -4655,53 +4655,6 @@ const SOE_JOBS = [
     ],
     "reviewReasons": [],
     "priorityScore": 20
-  },
-  {
-    "id": "transport_iguopin_cmhk-208458200226202530",
-    "boardSection": "国企校招",
-    "source": "中远海运与招商局官方招聘",
-    "companyName": "西藏招商交建电子信息有限公司",
-    "companyType": "央国企",
-    "industry": "道路运输业",
-    "recruitType": "校园招聘",
-    "targetYears": "待核验",
-    "location": "北京-大兴区",
-    "positions": "财务部实习生",
-    "status": "新发现",
-    "updateTime": "2026-07-09",
-    "deadline": "2026-10-06",
-    "applyLink": "https://cmhk.iguopin.com/job/detail?id=208458200226202530",
-    "noticeLink": "https://cmhk.iguopin.com/job",
-    "examInfo": "",
-    "companyScale": "50人以下",
-    "notes": "学历专业：全日制本科及以上，会计学、财务管理、审计、税务等财会相关专业在读，大三至大四在校生；\n专业能力：熟悉基础会计理论，了解发票、报销、凭证、台账等基础财务流程，掌握借贷记账法；\n办公技能：熟练使用 ExcelWord，能高效整理表格数据；\n职业素养：细心严谨、责任心强，对数字敏感，具备良好的数据核对、单据整理能力；\n工作要求：保证稳定实习时长，每周到岗3-5天，实习不少于2个月；\n其他：遵守财务保密制度，做事踏实，沟通顺畅，服从部门工作安排。",
-    "majorReq": "",
-    "educationReq": "本科",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "2026-10-06",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "西藏招商交建电子信息有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "直接招聘",
-    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
-    "ownershipEvidenceUrl": "https://cmhk.iguopin.com",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "官方原文",
-    "sourceLinks": [
-      "https://cmhk.iguopin.com/job",
-      "https://cmhk.iguopin.com/job/detail?id=208458200226202530"
-    ],
-    "discoverySources": [
-      "中远海运与招商局官方招聘"
-    ],
-    "reviewReasons": [],
-    "priorityScore": 10
   },
   {
     "id": "transport_iguopin_cmhk-211069248536054057",

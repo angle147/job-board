@@ -1,6 +1,6 @@
 // 待人工核验队列 — 由 build_personal_board.py 生成
-// 更新时间: 2026-10-06 17:10:47
-// 共 29 条
+// 更新时间: 2026-10-07 09:10:34
+// 共 28 条
 
 const REVIEW_JOBS = [
   {
@@ -1081,7 +1081,7 @@ const REVIEW_JOBS = [
     "priorityScore": 50
   },
   {
-    "id": "yingjiesheng_37",
+    "id": "yingjiesheng_40",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "无锡先导智能装备股份有限公司",
@@ -1131,7 +1131,7 @@ const REVIEW_JOBS = [
     "priorityScore": 20
   },
   {
-    "id": "yingjiesheng_38",
+    "id": "yingjiesheng_41",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "无锡先导智能装备股份有限公司",
@@ -1181,57 +1181,7 @@ const REVIEW_JOBS = [
     "priorityScore": 20
   },
   {
-    "id": "yingjiesheng_39",
-    "boardSection": "国企校招",
-    "source": "应届生求职网",
-    "companyName": "无锡先导智能装备股份有限公司",
-    "companyType": "央国企",
-    "industry": "邮政/物流",
-    "recruitType": "春招",
-    "targetYears": "2027届",
-    "location": "重庆",
-    "positions": "供应链体系运营（2027届校招）(J17830)",
-    "status": "待处理",
-    "updateTime": "2026-09-30",
-    "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-102-717.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-102-717.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-30] | 来源: 前程无忧(51JOB)",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "招满为止",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "无锡先导智能装备股份有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "可尝试",
-    "fitReason": "专业名称或范围相近",
-    "evidenceLevel": "第三方线索",
-    "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-102-717.html"
-    ],
-    "discoverySources": [
-      "应届生求职网"
-    ],
-    "reviewReasons": [
-      "明确截止日期待核验",
-      "第三方来源仅作线索，需反查官方原文和国企控制关系",
-      "缺少可验证的官方原文"
-    ],
-    "priorityScore": 20
-  },
-  {
-    "id": "yingjiesheng_17",
+    "id": "yingjiesheng_20",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "中国邮政集团有限公司",
@@ -1283,7 +1233,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_24",
+    "id": "yingjiesheng_27",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "中电科航空电子有限公司",
@@ -1334,7 +1284,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_6",
+    "id": "yingjiesheng_10",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "宁波悦简单互联网科技有限公司",
@@ -1385,7 +1335,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_40",
+    "id": "yingjiesheng_42",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "广东好太太科技集团股份有限公司",
@@ -1442,7 +1392,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_29",
+    "id": "yingjiesheng_32",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "江苏丰声信息科技有限公司",
@@ -1493,7 +1443,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_52",
+    "id": "yingjiesheng_53",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "洛阳天浩泰轨道装备制造有限公司",

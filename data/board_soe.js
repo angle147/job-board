@@ -1,6 +1,6 @@
 // 国企校招岗位 — 由 build_personal_board.py 生成
-// 更新时间: 2026-10-07 09:10:34
-// 共 337 条
+// 更新时间: 2026-10-07 17:10:52
+// 共 340 条
 
 const SOE_JOBS = [
   {
@@ -12733,6 +12733,147 @@ const SOE_JOBS = [
     "sourceLinks": [
       "https://cmhk.iguopin.com/job",
       "https://cmhk.iguopin.com/job/detail?id=219662038744433344"
+    ],
+    "discoverySources": [
+      "中远海运与招商局官方招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 0
+  },
+  {
+    "id": "transport_iguopin_cmhk-221503025875781099",
+    "boardSection": "国企校招",
+    "source": "中远海运与招商局官方招聘",
+    "companyName": "长航集团武汉电机有限公司",
+    "companyType": "央国企",
+    "industry": "制造业",
+    "recruitType": "校园招聘",
+    "targetYears": "待核验",
+    "location": "武汉-江夏区",
+    "positions": "机械设计岗",
+    "status": "新发现",
+    "updateTime": "2026-10-07",
+    "deadline": "2026-10-31",
+    "applyLink": "https://cmhk.iguopin.com/job/detail?id=221503025875781099",
+    "noticeLink": "https://cmhk.iguopin.com/job",
+    "examInfo": "",
+    "companyScale": "300-500人",
+    "notes": "岗位职责;\n1.负责电机产品的结构设计、零部件选型与图纸绘制；\n2.跟进样机加工、装配与测试过程，解决结构相关问题；\n3.优化产品结构，提升产品可靠性与工艺性；\n4.参与产品技术文档的编制。\n任职资格：\n1.本科及以上学历，机械设计制造及其自动化、工程力学相关专业；\n2.掌握机械设计基础理论，熟悉CAD、SolidWorks等设计软件；\n3.具备良好的三维建模和工程图纸绘制能力；\n4.工作严谨，具备较强的沟通协调能力，富有团队协作精神、善于学习、有上进心。",
+    "majorReq": "机械设计制造类、力学类（工学）、机械类",
+    "educationReq": "本科",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "2026-10-31",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "长航集团武汉电机有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接招聘",
+    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
+    "ownershipEvidenceUrl": "https://cmhk.iguopin.com",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://cmhk.iguopin.com/job",
+      "https://cmhk.iguopin.com/job/detail?id=221503025875781099"
+    ],
+    "discoverySources": [
+      "中远海运与招商局官方招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 0
+  },
+  {
+    "id": "transport_iguopin_cmhk-221502972390016478",
+    "boardSection": "国企校招",
+    "source": "中远海运与招商局官方招聘",
+    "companyName": "长航集团武汉电机有限公司",
+    "companyType": "央国企",
+    "industry": "制造业",
+    "recruitType": "校园招聘",
+    "targetYears": "待核验",
+    "location": "武汉-江夏区",
+    "positions": "电机设计岗",
+    "status": "新发现",
+    "updateTime": "2026-10-07",
+    "deadline": "2026-10-31",
+    "applyLink": "https://cmhk.iguopin.com/job/detail?id=221502972390016478",
+    "noticeLink": "https://cmhk.iguopin.com/job",
+    "examInfo": "",
+    "companyScale": "300-500人",
+    "notes": "岗位职责;\n1.负责电机产品的研发设计、仿真分析与样机测试；\n2.跟进产品生产过程中的技术问题，提供技术支持；\n3.参与新技术、新工艺的调研与落地；\n4.完成上级交办的其他技术相关工作\n任职资格：\n1.本科及以上学历，电机与电器、电力电子与电力传动、电气工程及其自动化相关专业；\n2.熟悉电机设计、电磁仿真相关知识，掌握CAD、SolidWorks等设计软件；\n3.熟悉Ansys、Maxwell等仿真软件；\n4.具备较强的沟通协调能力，富有团队协作精神、善于学习、有上进心。",
+    "majorReq": "电气类、电气工程类、控制科学与工程类、电力技术类、自动化类",
+    "educationReq": "本科",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "2026-10-31",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "长航集团武汉电机有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接招聘",
+    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
+    "ownershipEvidenceUrl": "https://cmhk.iguopin.com",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://cmhk.iguopin.com/job",
+      "https://cmhk.iguopin.com/job/detail?id=221502972390016478"
+    ],
+    "discoverySources": [
+      "中远海运与招商局官方招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 0
+  },
+  {
+    "id": "transport_iguopin_cmhk-221502924642059753",
+    "boardSection": "国企校招",
+    "source": "中远海运与招商局官方招聘",
+    "companyName": "长航集团武汉电机有限公司",
+    "companyType": "央国企",
+    "industry": "制造业",
+    "recruitType": "校园招聘",
+    "targetYears": "2027届",
+    "location": "武汉-江夏区",
+    "positions": "会计（成本岗）",
+    "status": "新发现",
+    "updateTime": "2026-10-07",
+    "deadline": "2026-10-31",
+    "applyLink": "https://cmhk.iguopin.com/job/detail?id=221502924642059753",
+    "noticeLink": "https://cmhk.iguopin.com/job",
+    "examInfo": "",
+    "companyScale": "300-500人",
+    "notes": "岗位职责\n1. 负责公司生产成本核算工作，归集、分配各项生产费用，准确核算产品生产成本；\n2. 参与成本预算编制，做好成本数据统计、整理，按时编制成本相关财务报表；\n3. 开展成本分析工作，跟踪成本变动情况，落实成本管控相关工作，提出合理化改进建议；\n4. 做好成本相关凭证、台账、档案整理归档，保证成本资料完整可追溯；\n5. 配合存货盘点、成本核查等工作，对接生产、物资等业务部门获取基础业务数据；\n6. 完成上级交办的其他财务相关工作。\n任职要求\n1. 学历：本科及以上学历，会计、财务管理等相关专业；\n2. 专业能力：熟练使用 Excel 等办公软件，具备数据处理、报表编制能力；掌握财务基础理论，了解工业企业成本核算业务流程；\n3. 素质要求：工作严谨细致，责任心强，具备良好的数据敏感度；具备较好沟通协调能力，能够对接业务部门开展工作；\n4. 其他：2027 届应届毕业生优先，有初级会计职称优先考虑，认同国企管理制度，能够稳定在武汉江夏工作。",
+    "majorReq": "财务会计类",
+    "educationReq": "本科",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "2026-10-31",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "长航集团武汉电机有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接招聘",
+    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
+    "ownershipEvidenceUrl": "https://cmhk.iguopin.com",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://cmhk.iguopin.com/job",
+      "https://cmhk.iguopin.com/job/detail?id=221502924642059753"
     ],
     "discoverySources": [
       "中远海运与招商局官方招聘"

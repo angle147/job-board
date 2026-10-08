@@ -1,6 +1,6 @@
 // 待人工核验队列 — 由 build_personal_board.py 生成
-// 更新时间: 2026-10-07 17:10:52
-// 共 26 条
+// 更新时间: 2026-10-08 11:45:24
+// 共 28 条
 
 const REVIEW_JOBS = [
   {
@@ -400,6 +400,54 @@ const REVIEW_JOBS = [
     "priorityScore": 1000
   },
   {
+    "id": "jinan_local_soe_local_soe_fe350cba67fdf438",
+    "boardSection": "国企校招",
+    "source": "济南地方国企官方招聘",
+    "companyName": "197人！这家驻济省属企业公开",
+    "companyType": "省属国企线索",
+    "industry": "综合",
+    "recruitType": "公开招聘",
+    "targetYears": "待核验",
+    "location": "济南市",
+    "positions": "197人！这家驻济省属企业公开招聘了",
+    "status": "待处理",
+    "updateTime": "2026-10-03",
+    "deadline": "2026-10-16",
+    "applyLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_3c06110051b14e10919832f208b39a7b.html",
+    "noticeLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_3c06110051b14e10919832f208b39a7b.html",
+    "examInfo": "以公告为准",
+    "companyScale": "",
+    "notes": "来源: 济南市人社局国企招聘动态",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "2026-10-16",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "197人！这家驻济省属企业公开",
+    "contractEmployer": "待核验",
+    "employmentType": "直接用工",
+    "ownershipRelation": "控制关系待核验",
+    "ownershipEvidenceUrl": "https://jnhrss.jinan.gov.cn/col/col18309/index.html",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_3c06110051b14e10919832f208b39a7b.html"
+    ],
+    "discoverySources": [
+      "济南地方国企官方招聘"
+    ],
+    "reviewReasons": [
+      "应届毕业生或校园招聘属性尚未确认"
+    ],
+    "priorityScore": 70
+  },
+  {
     "id": "jinan_local_soe_local_soe_725b3a8107f52e29",
     "boardSection": "国企校招",
     "source": "济南地方国企官方招聘",
@@ -688,6 +736,54 @@ const REVIEW_JOBS = [
     "priorityScore": 50
   },
   {
+    "id": "jinan_local_soe_local_soe_225a46e16ab0248b",
+    "boardSection": "国企校招",
+    "source": "济南地方国企官方招聘",
+    "companyName": "岗位众多 济南有岗！这家央企公开",
+    "companyType": "央企线索",
+    "industry": "综合",
+    "recruitType": "公开招聘",
+    "targetYears": "待核验",
+    "location": "济南市",
+    "positions": "岗位众多 济南有岗！这家央企公开招聘了",
+    "status": "待处理",
+    "updateTime": "2026-10-06",
+    "deadline": "待核验",
+    "applyLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_39b9bbba038443bd9414e0a1ae9c00f6.html",
+    "noticeLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_39b9bbba038443bd9414e0a1ae9c00f6.html",
+    "examInfo": "以公告为准",
+    "companyScale": "",
+    "notes": "来源: 济南市人社局国企招聘动态",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "待核验",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "岗位众多 济南有岗！这家央企公开",
+    "contractEmployer": "待核验",
+    "employmentType": "直接用工",
+    "ownershipRelation": "控制关系待核验",
+    "ownershipEvidenceUrl": "https://jnhrss.jinan.gov.cn/col/col18309/index.html",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_39b9bbba038443bd9414e0a1ae9c00f6.html"
+    ],
+    "discoverySources": [
+      "济南地方国企官方招聘"
+    ],
+    "reviewReasons": [
+      "应届毕业生或校园招聘属性尚未确认"
+    ],
+    "priorityScore": 50
+  },
+  {
     "id": "jinan_local_soe_local_soe_6bc4791e1b0a61ee",
     "boardSection": "国企校招",
     "source": "济南地方国企官方招聘",
@@ -726,6 +822,54 @@ const REVIEW_JOBS = [
     "evidenceLevel": "官方原文",
     "sourceLinks": [
       "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_94a1e91d0b5a40b59115b2892ca5048a.html"
+    ],
+    "discoverySources": [
+      "济南地方国企官方招聘"
+    ],
+    "reviewReasons": [
+      "应届毕业生或校园招聘属性尚未确认"
+    ],
+    "priorityScore": 50
+  },
+  {
+    "id": "jinan_local_soe_local_soe_5a3b0e789aed07e3",
+    "boardSection": "国企校招",
+    "source": "济南地方国企官方招聘",
+    "companyName": "济南有岗  不要错过！这家央企公开",
+    "companyType": "央企线索",
+    "industry": "综合",
+    "recruitType": "公开招聘",
+    "targetYears": "待核验",
+    "location": "济南市",
+    "positions": "济南有岗  不要错过！这家央企公开招聘了",
+    "status": "待处理",
+    "updateTime": "2026-10-08",
+    "deadline": "待核验",
+    "applyLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_e657bdf6a6134cb38b73de13feaa8f8b.html",
+    "noticeLink": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_e657bdf6a6134cb38b73de13feaa8f8b.html",
+    "examInfo": "以公告为准",
+    "companyScale": "",
+    "notes": "来源: 济南市人社局国企招聘动态",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "待核验",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "济南有岗  不要错过！这家央企公开",
+    "contractEmployer": "待核验",
+    "employmentType": "直接用工",
+    "ownershipRelation": "控制关系待核验",
+    "ownershipEvidenceUrl": "https://jnhrss.jinan.gov.cn/col/col18309/index.html",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_e657bdf6a6134cb38b73de13feaa8f8b.html"
     ],
     "discoverySources": [
       "济南地方国企官方招聘"
@@ -779,9 +923,7 @@ const REVIEW_JOBS = [
       "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_6a5167c1ac1d4edba49c5381e07108ee.html",
       "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_ba4644df9ebf42a5ab97cde4bd1f8fcf.html",
       "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_d2d3050d2f9b4e95a1d399a124ac930f.html",
-      "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_958170643b8b46d4b96a870c61178985.html",
-      "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_9b9548e39d784cee99f19ff2850e10ff.html",
-      "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_9c7c48972188477b9627d7cc113a5c93.html"
+      "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_958170643b8b46d4b96a870c61178985.html"
     ],
     "discoverySources": [
       "济南地方国企官方招聘"
@@ -1081,7 +1223,7 @@ const REVIEW_JOBS = [
     "priorityScore": 50
   },
   {
-    "id": "yingjiesheng_21",
+    "id": "yingjiesheng_30",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "中国邮政集团有限公司",
@@ -1133,7 +1275,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_44",
+    "id": "yingjiesheng_47",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "中国邮政集团有限公司",
@@ -1185,7 +1327,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_50",
+    "id": "yingjiesheng_53",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "中电科航空电子有限公司",
@@ -1236,75 +1378,24 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_39",
+    "id": "yingjiesheng_14",
     "boardSection": "国企校招",
     "source": "应届生求职网",
-    "companyName": "宁波悦简单互联网科技有限公司",
+    "companyName": "广东信源物流设备有限公司",
     "companyType": "央国企",
-    "industry": "综合",
-    "recruitType": "实习",
-    "targetYears": "2027届",
-    "location": "宁波-鄞州区",
-    "positions": "职位描述",
-    "status": "待处理",
-    "updateTime": "2026-10-05",
-    "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-017-808.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-017-808.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-10-05] | 来源: 前程无忧(51JOB)",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "招满为止",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "宁波悦简单互联网科技有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "第三方线索",
-    "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-017-808.html"
-    ],
-    "discoverySources": [
-      "应届生求职网"
-    ],
-    "reviewReasons": [
-      "尚未取得可验证的专业要求",
-      "明确截止日期待核验",
-      "第三方来源仅作线索，需反查官方原文和国企控制关系",
-      "缺少可验证的官方原文"
-    ],
-    "priorityScore": 0
-  },
-  {
-    "id": "yingjiesheng_20",
-    "boardSection": "国企校招",
-    "source": "应届生求职网",
-    "companyName": "广州广合科技股份有限公司",
-    "companyType": "央国企",
-    "industry": "综合",
+    "industry": "邮政/物流",
     "recruitType": "春招",
     "targetYears": "2027届",
-    "location": "广东",
+    "location": "广州",
     "positions": "职位描述",
     "status": "待处理",
-    "updateTime": "2026-10-07",
+    "updateTime": "2026-10-08",
     "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-104-972.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-104-972.html",
+    "applyLink": "https://m.yingjiesheng.com/job-008-105-218.html",
+    "noticeLink": "https://m.yingjiesheng.com/job-008-105-218.html",
     "examInfo": "",
     "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-10-07] | 来源: 湖南科技大学",
+    "notes": "来源: 应届生求职网 [2026-10-08] | 来源: 前程无忧(51JOB)",
     "majorReq": "",
     "educationReq": "",
     "positionCode": "",
@@ -1314,7 +1405,7 @@ const REVIEW_JOBS = [
     "examDate": "",
     "competitionRatio": "",
     "pastScoreLine": "",
-    "actualEmployer": "广州广合科技股份有限公司",
+    "actualEmployer": "广东信源物流设备有限公司",
     "contractEmployer": "待核验",
     "employmentType": "待核验",
     "ownershipRelation": "待核验",
@@ -1324,7 +1415,8 @@ const REVIEW_JOBS = [
     "fitReason": "尚未取得可验证的专业要求",
     "evidenceLevel": "第三方线索",
     "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-104-972.html"
+      "https://m.yingjiesheng.com/job-008-105-218.html",
+      "https://m.yingjiesheng.com/job-008-105-216.html"
     ],
     "discoverySources": [
       "应届生求职网"
@@ -1338,24 +1430,24 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_55",
+    "id": "yingjiesheng_6",
     "boardSection": "国企校招",
     "source": "应届生求职网",
-    "companyName": "江苏丰声信息科技有限公司",
+    "companyName": "苏州雷格特智能设备股份有限公司",
     "companyType": "央国企",
-    "industry": "综合",
-    "recruitType": "实习",
+    "industry": "建筑/建材",
+    "recruitType": "春招",
     "targetYears": "2027届",
-    "location": "南通-如皋市",
+    "location": "苏州",
     "positions": "职位描述",
     "status": "待处理",
-    "updateTime": "2026-09-30",
+    "updateTime": "2026-10-08",
     "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-102-719.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-102-719.html",
+    "applyLink": "https://m.yingjiesheng.com/job-008-105-226.html",
+    "noticeLink": "https://m.yingjiesheng.com/job-008-105-226.html",
     "examInfo": "",
     "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-09-30] | 来源: 前程无忧(51JOB)",
+    "notes": "来源: 应届生求职网 [2026-10-08] | 来源: 常州工学院",
     "majorReq": "",
     "educationReq": "",
     "positionCode": "",
@@ -1365,7 +1457,7 @@ const REVIEW_JOBS = [
     "examDate": "",
     "competitionRatio": "",
     "pastScoreLine": "",
-    "actualEmployer": "江苏丰声信息科技有限公司",
+    "actualEmployer": "苏州雷格特智能设备股份有限公司",
     "contractEmployer": "待核验",
     "employmentType": "待核验",
     "ownershipRelation": "待核验",
@@ -1375,7 +1467,7 @@ const REVIEW_JOBS = [
     "fitReason": "尚未取得可验证的专业要求",
     "evidenceLevel": "第三方线索",
     "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-102-719.html"
+      "https://m.yingjiesheng.com/job-008-105-226.html"
     ],
     "discoverySources": [
       "应届生求职网"

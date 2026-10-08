@@ -1,5 +1,5 @@
 // 高校招聘岗位 — 由 build_personal_board.py 生成
-// 更新时间: 2026-10-07 17:10:52
+// 更新时间: 2026-10-08 11:45:24
 // 共 6 条
 
 const UNIVERSITY_JOBS = [

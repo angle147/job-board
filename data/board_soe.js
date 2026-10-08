@@ -1,5 +1,5 @@
 // 国企校招岗位 — 由 build_personal_board.py 生成
-// 更新时间: 2026-10-07 17:10:52
+// 更新时间: 2026-10-08 11:45:24
 // 共 340 条
 
 const SOE_JOBS = [
@@ -14335,6 +14335,52 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
+    "id": "国务院国资委人才招聘_sasac-central-36002453",
+    "boardSection": "国企校招",
+    "source": "国务院国资委人才招聘",
+    "companyName": "中国电信数据发展中心",
+    "companyType": "央国企",
+    "industry": "综合",
+    "recruitType": "校招",
+    "targetYears": "2027届",
+    "location": "全国",
+    "positions": "中国电信数据发展中心（天翼支付）2027届校园招聘火热进行中",
+    "status": "新发现",
+    "updateTime": "2026-10-08",
+    "deadline": "待核验",
+    "applyLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c36002453/content.html",
+    "noticeLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c36002453/content.html",
+    "examInfo": "",
+    "companyScale": "",
+    "notes": "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "中国电信数据发展中心",
+    "contractEmployer": "待核验",
+    "employmentType": "待核验",
+    "ownershipRelation": "待核验",
+    "ownershipEvidenceUrl": "",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c36002453/content.html"
+    ],
+    "discoverySources": [
+      "国务院国资委人才招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 0
+  },
+  {
     "id": "国务院国资委人才招聘_sasac-central-35931626",
     "boardSection": "国企校招",
     "source": "国务院国资委人才招聘",
@@ -14515,6 +14561,52 @@ const SOE_JOBS = [
     ],
     "discoverySources": [
       "央企招聘公告"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 0
+  },
+  {
+    "id": "国务院国资委人才招聘_sasac-central-36002519",
+    "boardSection": "国企校招",
+    "source": "国务院国资委人才招聘",
+    "companyName": "中国绿发",
+    "companyType": "央国企",
+    "industry": "综合",
+    "recruitType": "校招",
+    "targetYears": "2027届",
+    "location": "全国",
+    "positions": "中国绿发2027年校园招聘正式启动",
+    "status": "新发现",
+    "updateTime": "2026-10-08",
+    "deadline": "待核验",
+    "applyLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c36002519/content.html",
+    "noticeLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c36002519/content.html",
+    "examInfo": "",
+    "companyScale": "",
+    "notes": "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "中国绿发",
+    "contractEmployer": "待核验",
+    "employmentType": "待核验",
+    "ownershipRelation": "待核验",
+    "ownershipEvidenceUrl": "",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c36002519/content.html"
+    ],
+    "discoverySources": [
+      "国务院国资委人才招聘"
     ],
     "reviewReasons": [],
     "priorityScore": 0
@@ -14978,52 +15070,6 @@ const SOE_JOBS = [
     ],
     "discoverySources": [
       "央企招聘公告"
-    ],
-    "reviewReasons": [],
-    "priorityScore": 0
-  },
-  {
-    "id": "国务院国资委人才招聘_sasac-central-35931486",
-    "boardSection": "国企校招",
-    "source": "国务院国资委人才招聘",
-    "companyName": "中汽中心",
-    "companyType": "央国企",
-    "industry": "综合",
-    "recruitType": "校招",
-    "targetYears": "2027届",
-    "location": "全国",
-    "positions": "中汽中心2027届校园招聘正式启动",
-    "status": "新发现",
-    "updateTime": "2026-09-15",
-    "deadline": "待核验",
-    "applyLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35931486/content.html",
-    "noticeLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35931486/content.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "中汽中心",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "官方原文",
-    "sourceLinks": [
-      "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35931486/content.html"
-    ],
-    "discoverySources": [
-      "国务院国资委人才招聘"
     ],
     "reviewReasons": [],
     "priorityScore": 0
@@ -15584,52 +15630,6 @@ const SOE_JOBS = [
     ],
     "discoverySources": [
       "央企招聘公告"
-    ],
-    "reviewReasons": [],
-    "priorityScore": 0
-  },
-  {
-    "id": "国务院国资委人才招聘_sasac-central-35931386",
-    "boardSection": "国企校招",
-    "source": "国务院国资委人才招聘",
-    "companyName": "河南航天工业有限责任公司",
-    "companyType": "央国企",
-    "industry": "综合",
-    "recruitType": "校招",
-    "targetYears": "2027届",
-    "location": "全国",
-    "positions": "河南航天工业有限责任公司2027届校园招聘正式启动",
-    "status": "新发现",
-    "updateTime": "2026-09-15",
-    "deadline": "待核验",
-    "applyLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35931386/content.html",
-    "noticeLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35931386/content.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "河南航天工业有限责任公司",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "官方原文",
-    "sourceLinks": [
-      "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35931386/content.html"
-    ],
-    "discoverySources": [
-      "国务院国资委人才招聘"
     ],
     "reviewReasons": [],
     "priorityScore": 0

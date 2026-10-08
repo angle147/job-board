@@ -1,5 +1,5 @@
 // 国企校招岗位 — 由 build_personal_board.py 生成
-// 更新时间: 2026-10-08 11:45:24
+// 更新时间: 2026-10-08 17:11:46
 // 共 340 条
 
 const SOE_JOBS = [
@@ -1077,53 +1077,6 @@ const SOE_JOBS = [
     "sourceLinks": [
       "https://coscoshipping.iguopin.com/job",
       "https://coscoshipping.iguopin.com/job/detail?id=218794050063434032"
-    ],
-    "discoverySources": [
-      "中远海运与招商局官方招聘"
-    ],
-    "reviewReasons": [],
-    "priorityScore": 32
-  },
-  {
-    "id": "transport_iguopin_cosco-218790705475092756",
-    "boardSection": "国企校招",
-    "source": "中远海运与招商局官方招聘",
-    "companyName": "天津中远海运船舶技术服务有限公司",
-    "companyType": "央国企",
-    "industry": "水上运输业",
-    "recruitType": "校园招聘",
-    "targetYears": "待核验",
-    "location": "天津-河北区",
-    "positions": "船舶监造岗",
-    "status": "新发现",
-    "updateTime": "2026-09-18",
-    "deadline": "2026-12-17",
-    "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=218790705475092756",
-    "noticeLink": "https://coscoshipping.iguopin.com/job",
-    "examInfo": "",
-    "companyScale": "50人以下",
-    "notes": "岗位职责：\n1. 负责新造船的技术谈判、图纸审核和现场监造工作；\n2. 负责新造船的保修工作，处理保修中的建造质量问题；\n3. 负责新造船其他方面的技术咨询工作；\n4. 熟悉和掌握国内外有关公约、法规、船级社规范，收集和了解新生效的有关标准、规定及通函等信息；\n5. 收集和了解有关新造船市场的动态和信息；\n6. 协助部门经理完成其他各项日常工作。\n\n任职条件：\n1. 本科及以上学历；船舶机电工程、设计、管理类等相关专业毕业；大学英语4级及以上水平；\n2. 具有一定的文字表达及书写能力，具备较强的英语阅读能力，能够翻译专业英文资料；\n3. 具有较好的表达能力、学习能力和团队协作能力，责任心强，努力完成各项工作；\n4. 具备快速收集、整理信息、熟练使用各种相关专业软件的能力；\n5. 能够接受长期驻外监造工作。",
-    "majorReq": "装备制造、交通运输",
-    "educationReq": "本科",
-    "positionCode": "",
-    "recruitmentCount": "2",
-    "registrationStart": "",
-    "registrationEnd": "2026-12-17",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "天津中远海运船舶技术服务有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "直接招聘",
-    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
-    "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com",
-    "exclusionReasons": [],
-    "fitLevel": "已确认适配",
-    "fitReason": "专业要求含目标专业、上级专业或不限专业",
-    "evidenceLevel": "官方原文",
-    "sourceLinks": [
-      "https://coscoshipping.iguopin.com/job",
-      "https://coscoshipping.iguopin.com/job/detail?id=218790705475092756"
     ],
     "discoverySources": [
       "中远海运与招商局官方招聘"
@@ -7430,6 +7383,53 @@ const SOE_JOBS = [
     "priorityScore": 2
   },
   {
+    "id": "transport_iguopin_cosco-221543068392752606",
+    "boardSection": "国企校招",
+    "source": "中远海运与招商局官方招聘",
+    "companyName": "中远海运博鳌有限公司博鳌亚洲论坛大酒店",
+    "companyType": "央国企",
+    "industry": "商务服务业",
+    "recruitType": "校园招聘",
+    "targetYears": "待核验",
+    "location": "琼海",
+    "positions": "餐饮部餐厅服务员（27年校招）",
+    "status": "新发现",
+    "updateTime": "2026-10-08",
+    "deadline": "2027-01-05",
+    "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=221543068392752606",
+    "noticeLink": "https://coscoshipping.iguopin.com/job",
+    "examInfo": "",
+    "companyScale": "500-1000人",
+    "notes": "岗位职责：\n1、执行餐厅经理的工作指令，向其负责和报告工作。\n2、负责餐厅的人员日常管理工作。按照服务规程和质量要求，负责西餐厅管理工作，并与厨房保持密切联系，协调工作。\n3、了解客情和客人需求变化，做好业务资料的收集和积累工作，并及时反馈给厨房和餐饮部经理。\n4、掌握运营物料合理使用，组织本部员工积极做好各产品推销工作。\n5、负责部门财产、设备和物料用品的管理。\n6、保持部门设备设施整洁、完好、有效。坚持让客人完全满意的服务宗旨，加强服务现场管理，检查和督导部门员工严格执行服务规程。\n7、做好餐前准备、餐间服务和餐后结束工作，并抓好员工的岗位业务培训。\n任职要求：\n1、年龄: 20-35岁。\n2、学历: 中专及以上。\n3、专业: 酒店管理或旅游管理专业优先。\n4、工作经验: 具备餐饮服务相关经验优先。\n5、基本技能: 基本的餐厅服务技能。\n6、个性与品质·形条良好 人品端正。",
+    "majorReq": "其他专业",
+    "educationReq": "中专/中技",
+    "positionCode": "",
+    "recruitmentCount": "2",
+    "registrationStart": "",
+    "registrationEnd": "2027-01-05",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "中远海运博鳌有限公司博鳌亚洲论坛大酒店",
+    "contractEmployer": "待核验",
+    "employmentType": "直接招聘",
+    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
+    "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://coscoshipping.iguopin.com/job",
+      "https://coscoshipping.iguopin.com/job/detail?id=221543068392752606"
+    ],
+    "discoverySources": [
+      "中远海运与招商局官方招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 2
+  },
+  {
     "id": "transport_iguopin_cosco-218790880612450608",
     "boardSection": "国企校招",
     "source": "中远海运与招商局官方招聘",
@@ -8973,53 +8973,6 @@ const SOE_JOBS = [
     "sourceLinks": [
       "https://coscoshipping.iguopin.com/job",
       "https://coscoshipping.iguopin.com/job/detail?id=218792541036740884"
-    ],
-    "discoverySources": [
-      "中远海运与招商局官方招聘"
-    ],
-    "reviewReasons": [],
-    "priorityScore": 1
-  },
-  {
-    "id": "transport_iguopin_cosco-218790643147735316",
-    "boardSection": "国企校招",
-    "source": "中远海运与招商局官方招聘",
-    "companyName": "中兴海陆工程有限公司",
-    "companyType": "央国企",
-    "industry": "制造业",
-    "recruitType": "校园招聘",
-    "targetYears": "待核验",
-    "location": "广州-黄埔区",
-    "positions": "办公室党建群团岗",
-    "status": "新发现",
-    "updateTime": "2026-09-18",
-    "deadline": "2026-12-17",
-    "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=218790643147735316",
-    "noticeLink": "https://coscoshipping.iguopin.com/job",
-    "examInfo": "",
-    "companyScale": "100-300人",
-    "notes": "1.学历与专业：本科及以上学历，硕士研究生优先；毕业时需取得学历、学位双证书；科学社会主义、中国共产党历史、马克思主义理论、公共管理、政治学等相关专业优先；\n2.项目经验：具备较好的党史与马克思主义理论基础、熟悉文稿编撰、宣传推广、公众号运维、照片拍摄与视屏剪辑制作等业务者优先；\n3.专业技能：英语具备良好的听说读写能力，能熟练使用Office、WPS等办公软件，具备一定程度数字化基础，对人工智能有基础认知并能实际运用；\n4.综合素质：对船舶行业有一定了解，能够适应和认可船舶制造行业工作形式，有较好的沟通交流与逻辑分析能力，有团队意识、吃苦耐劳，擅于共情，具备持续学习能力与奉献精神。",
-    "majorReq": "公共管理类、政治学类、马克思主义理论类",
-    "educationReq": "硕士",
-    "positionCode": "",
-    "recruitmentCount": "1",
-    "registrationStart": "",
-    "registrationEnd": "2026-12-17",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "中兴海陆工程有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "直接招聘",
-    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
-    "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "官方原文",
-    "sourceLinks": [
-      "https://coscoshipping.iguopin.com/job",
-      "https://coscoshipping.iguopin.com/job/detail?id=218790643147735316"
     ],
     "discoverySources": [
       "中远海运与招商局官方招聘"
@@ -12592,6 +12545,53 @@ const SOE_JOBS = [
     "sourceLinks": [
       "https://coscoshipping.iguopin.com/job",
       "https://coscoshipping.iguopin.com/job/detail?id=219328796023587456"
+    ],
+    "discoverySources": [
+      "中远海运与招商局官方招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 1
+  },
+  {
+    "id": "transport_iguopin_cosco-221545009617307101",
+    "boardSection": "国企校招",
+    "source": "中远海运与招商局官方招聘",
+    "companyName": "中远海运博鳌有限公司",
+    "companyType": "央国企",
+    "industry": "住宿和餐饮业",
+    "recruitType": "校园招聘",
+    "targetYears": "待核验",
+    "location": "琼海",
+    "positions": "收益分析岗",
+    "status": "新发现",
+    "updateTime": "2026-10-08",
+    "deadline": "2027-01-05",
+    "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=221545009617307101",
+    "noticeLink": "https://coscoshipping.iguopin.com/job",
+    "examInfo": "",
+    "companyScale": "1000-2000人",
+    "notes": "岗位职责：\n1.参与公司数字化收益分析及成本效率分析；\n2.基于数字化分析结果，提出优化建议、降低公司运营成本；\n3.根据行业动态和技术发展趋势，推动工作的持续改进和创新，提高收益分析的准确性和效率。\n任职要求：\n1.具有较好的思想政治素质和责任心；\n2.硕士研究生及以上；\n3.年龄原则上不超过35周岁，个别专业能力需求较强的岗位年龄原则上不超过40周岁，特别合适者可适当放宽；\n4.具有卓越的逻辑思维与分析能力、良好的沟通能力及团队协作能力；",
+    "majorReq": "财政学类、审计类",
+    "educationReq": "硕士",
+    "positionCode": "",
+    "recruitmentCount": "1",
+    "registrationStart": "",
+    "registrationEnd": "2027-01-05",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "中远海运博鳌有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接招聘",
+    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
+    "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://coscoshipping.iguopin.com/job",
+      "https://coscoshipping.iguopin.com/job/detail?id=221545009617307101"
     ],
     "discoverySources": [
       "中远海运与招商局官方招聘"

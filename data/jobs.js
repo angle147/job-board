@@ -1,6 +1,6 @@
 // 校招/社招岗位数据 — 自动爬取生成
-// 更新时间: 2026-10-08 17:10:51
-// 共 21 条
+// 更新时间: 2026-10-09 11:58:31
+// 共 20 条
 
 const JOBS = [
   {
@@ -362,23 +362,5 @@ const JOBS = [
     examInfo: "",
     companyScale: "",
     notes: "来源: 山东省国资委 [2026-08-11]"
-  },
-  {
-    id: 22,
-    companyName: "山东铁投集团",
-    companyType: "央国企",
-    industry: "公路/高速",
-    recruitType: "校招/社招",
-    targetYears: "2026届",
-    location: "",
-    positions: "",
-    status: "未投递",
-    updateTime: "2026-08-10",
-    deadline: "招满为止",
-    applyLink: "",
-    noticeLink: "http://gzw.shandong.gov.cn/articles/ch00223/202608/6dd12978-c2f6-455d-83d3-8bc8126a1639.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 山东省国资委 [2026-08-10]"
   }
 ];

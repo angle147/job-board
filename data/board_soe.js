@@ -1,6 +1,6 @@
 // 国企校招岗位 — 由 build_personal_board.py 生成
-// 更新时间: 2026-10-09 11:59:17
-// 共 339 条
+// 更新时间: 2026-10-09 17:11:30
+// 共 341 条
 
 const SOE_JOBS = [
   {
@@ -13869,7 +13869,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_6",
+    "id": "qyzp_8",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "东方电气集团",
@@ -13962,7 +13962,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_13",
+    "id": "qyzp_15",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "中国中车2027",
@@ -14009,7 +14009,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_3",
+    "id": "qyzp_5",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "中国化学工程20",
@@ -14056,7 +14056,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_7",
+    "id": "qyzp_9",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "中国华电2027",
@@ -14103,7 +14103,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_10",
+    "id": "qyzp_12",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "中国华能集团",
@@ -14150,7 +14150,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_14",
+    "id": "qyzp_16",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "中国国新2027",
@@ -14565,7 +14565,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_1",
+    "id": "qyzp_3",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "中国石化2027",
@@ -14658,7 +14658,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_16",
+    "id": "qyzp_18",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "中国能建2027",
@@ -14751,7 +14751,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_4",
+    "id": "qyzp_6",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "中国远洋海运集团",
@@ -14982,7 +14982,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_22",
+    "id": "qyzp_24",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "中汽中心",
@@ -15121,7 +15121,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_12",
+    "id": "qyzp_14",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "中船集团",
@@ -15214,7 +15214,54 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_19",
+    "id": "qyzp_2",
+    "boardSection": "国企校招",
+    "source": "央企招聘公告",
+    "companyName": "保利集团",
+    "companyType": "央国企",
+    "industry": "综合",
+    "recruitType": "校招",
+    "targetYears": "2027届",
+    "location": "全国",
+    "positions": "保利集团2027届校园招聘暨管培生项目正式启动",
+    "status": "新发现",
+    "updateTime": "2026-10-09",
+    "deadline": "待核验",
+    "applyLink": "https://mp.weixin.qq.com/s/t6iD1VN7z3UGV35bp-BZVw",
+    "noticeLink": "http://job.mohrss.gov.cn/qyzp/index.jhtml",
+    "examInfo": "",
+    "companyScale": "",
+    "notes": "",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "保利集团",
+    "contractEmployer": "待核验",
+    "employmentType": "待核验",
+    "ownershipRelation": "待核验",
+    "ownershipEvidenceUrl": "",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "http://job.mohrss.gov.cn/qyzp/index.jhtml",
+      "https://mp.weixin.qq.com/s/t6iD1VN7z3UGV35bp-BZVw"
+    ],
+    "discoverySources": [
+      "央企招聘公告"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 0
+  },
+  {
+    "id": "qyzp_21",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "兵器未来科学家·",
@@ -15261,7 +15308,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_37",
+    "id": "qyzp_39",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "国家管网春季招聘",
@@ -15308,7 +15355,54 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_8",
+    "id": "qyzp_1",
+    "boardSection": "国企校招",
+    "source": "央企招聘公告",
+    "companyName": "国家管网集团",
+    "companyType": "央国企",
+    "industry": "综合",
+    "recruitType": "校招",
+    "targetYears": "2027届",
+    "location": "全国",
+    "positions": "国家管网集团2027届校园招聘启动",
+    "status": "新发现",
+    "updateTime": "2026-10-09",
+    "deadline": "待核验",
+    "applyLink": "https://mp.weixin.qq.com/s/-b94umWY3mcPr1w1KxVZ_Q",
+    "noticeLink": "http://job.mohrss.gov.cn/qyzp/index.jhtml",
+    "examInfo": "",
+    "companyScale": "",
+    "notes": "",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "国家管网集团",
+    "contractEmployer": "待核验",
+    "employmentType": "待核验",
+    "ownershipRelation": "待核验",
+    "ownershipEvidenceUrl": "",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "http://job.mohrss.gov.cn/qyzp/index.jhtml",
+      "https://mp.weixin.qq.com/s/-b94umWY3mcPr1w1KxVZ_Q"
+    ],
+    "discoverySources": [
+      "央企招聘公告"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 0
+  },
+  {
+    "id": "qyzp_10",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "国家能源集团",
@@ -15355,7 +15449,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_9",
+    "id": "qyzp_11",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "国机集团",
@@ -15448,7 +15542,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_2",
+    "id": "qyzp_4",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "国药集团",
@@ -15495,7 +15589,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_15",
+    "id": "qyzp_17",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "招商局集团",
@@ -15542,7 +15636,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_25",
+    "id": "qyzp_27",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "正元地理信息集团",
@@ -15727,7 +15821,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_11",
+    "id": "qyzp_13",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "航空工业成飞20",

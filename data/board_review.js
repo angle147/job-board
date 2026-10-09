@@ -1,5 +1,5 @@
 // 待人工核验队列 — 由 build_personal_board.py 生成
-// 更新时间: 2026-10-09 11:59:17
+// 更新时间: 2026-10-09 17:11:30
 // 共 27 条
 
 const REVIEW_JOBS = [
@@ -1222,21 +1222,21 @@ const REVIEW_JOBS = [
     "priorityScore": 50
   },
   {
-    "id": "yingjiesheng_40",
+    "id": "yingjiesheng_21",
     "boardSection": "国企校招",
     "source": "应届生求职网",
-    "companyName": "三友联众集团股份有限公司",
+    "companyName": "上海延锋金桥汽车饰件系统有限公司",
     "companyType": "央国企",
-    "industry": "综合",
+    "industry": "汽车/车辆",
     "recruitType": "春招",
     "targetYears": "2027届",
-    "location": "南京",
+    "location": "上海",
     "positions": "职位描述",
     "status": "待处理",
     "updateTime": "2026-10-09",
     "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-107-416.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-107-416.html",
+    "applyLink": "https://m.yingjiesheng.com/job-007-920-978.html",
+    "noticeLink": "https://m.yingjiesheng.com/job-007-920-978.html",
     "examInfo": "",
     "companyScale": "",
     "notes": "来源: 应届生求职网 [2026-10-09] | 来源: 前程无忧(51JOB)",
@@ -1249,7 +1249,7 @@ const REVIEW_JOBS = [
     "examDate": "",
     "competitionRatio": "",
     "pastScoreLine": "",
-    "actualEmployer": "三友联众集团股份有限公司",
+    "actualEmployer": "上海延锋金桥汽车饰件系统有限公司",
     "contractEmployer": "待核验",
     "employmentType": "待核验",
     "ownershipRelation": "待核验",
@@ -1259,7 +1259,7 @@ const REVIEW_JOBS = [
     "fitReason": "尚未取得可验证的专业要求",
     "evidenceLevel": "第三方线索",
     "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-107-416.html"
+      "https://m.yingjiesheng.com/job-007-920-978.html"
     ],
     "discoverySources": [
       "应届生求职网"
@@ -1273,75 +1273,24 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_52",
+    "id": "yingjiesheng_45",
     "boardSection": "国企校招",
     "source": "应届生求职网",
-    "companyName": "上海建发致新医疗科技集团股份有限公司",
-    "companyType": "央国企",
-    "industry": "综合",
-    "recruitType": "春招",
-    "targetYears": "2027届",
-    "location": "全国",
-    "positions": "职位描述",
-    "status": "待处理",
-    "updateTime": "2026-10-08",
-    "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-105-711.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-105-711.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-10-08] | 来源: 昆明医科大学",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "招满为止",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "上海建发致新医疗科技集团股份有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "第三方线索",
-    "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-105-711.html"
-    ],
-    "discoverySources": [
-      "应届生求职网"
-    ],
-    "reviewReasons": [
-      "尚未取得可验证的专业要求",
-      "明确截止日期待核验",
-      "第三方来源仅作线索，需反查官方原文和国企控制关系",
-      "缺少可验证的官方原文"
-    ],
-    "priorityScore": 0
-  },
-  {
-    "id": "yingjiesheng_44",
-    "boardSection": "国企校招",
-    "source": "应届生求职网",
-    "companyName": "苏州纳微科技股份有限公司",
+    "companyName": "北京京东世纪贸易有限公司",
     "companyType": "央国企",
     "industry": "综合",
     "recruitType": "实习",
     "targetYears": "2027届",
-    "location": "苏州-苏州工业园区",
+    "location": "江苏",
     "positions": "职位描述",
     "status": "待处理",
     "updateTime": "2026-10-09",
     "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-107-011.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-107-011.html",
+    "applyLink": "https://m.yingjiesheng.com/job-008-108-145.html",
+    "noticeLink": "https://m.yingjiesheng.com/job-008-108-145.html",
     "examInfo": "",
     "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-10-09] | 来源: 前程无忧(51JOB)",
+    "notes": "来源: 应届生求职网 [2026-10-09] | 来源: 徐州工程学院",
     "majorReq": "",
     "educationReq": "",
     "positionCode": "",
@@ -1351,7 +1300,7 @@ const REVIEW_JOBS = [
     "examDate": "",
     "competitionRatio": "",
     "pastScoreLine": "",
-    "actualEmployer": "苏州纳微科技股份有限公司",
+    "actualEmployer": "北京京东世纪贸易有限公司",
     "contractEmployer": "待核验",
     "employmentType": "待核验",
     "ownershipRelation": "待核验",
@@ -1361,7 +1310,7 @@ const REVIEW_JOBS = [
     "fitReason": "尚未取得可验证的专业要求",
     "evidenceLevel": "第三方线索",
     "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-107-011.html"
+      "https://m.yingjiesheng.com/job-008-108-145.html"
     ],
     "discoverySources": [
       "应届生求职网"
@@ -1375,21 +1324,21 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_27",
+    "id": "yingjiesheng_22",
     "boardSection": "国企校招",
     "source": "应届生求职网",
-    "companyName": "苏州联讯仪器股份有限公司",
+    "companyName": "广东信源物流设备有限公司",
     "companyType": "央国企",
-    "industry": "建筑/建材",
+    "industry": "邮政/物流",
     "recruitType": "春招",
     "targetYears": "2027届",
-    "location": "苏州-高新区",
-    "positions": "应用开发工程师(27届）(J11435)",
+    "location": "广州",
+    "positions": "职位描述",
     "status": "待处理",
     "updateTime": "2026-10-09",
     "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-107-473.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-107-473.html",
+    "applyLink": "https://m.yingjiesheng.com/job-008-107-073.html",
+    "noticeLink": "https://m.yingjiesheng.com/job-008-107-073.html",
     "examInfo": "",
     "companyScale": "",
     "notes": "来源: 应届生求职网 [2026-10-09] | 来源: 前程无忧(51JOB)",
@@ -1402,7 +1351,7 @@ const REVIEW_JOBS = [
     "examDate": "",
     "competitionRatio": "",
     "pastScoreLine": "",
-    "actualEmployer": "苏州联讯仪器股份有限公司",
+    "actualEmployer": "广东信源物流设备有限公司",
     "contractEmployer": "待核验",
     "employmentType": "待核验",
     "ownershipRelation": "待核验",
@@ -1412,7 +1361,58 @@ const REVIEW_JOBS = [
     "fitReason": "尚未取得可验证的专业要求",
     "evidenceLevel": "第三方线索",
     "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-107-473.html"
+      "https://m.yingjiesheng.com/job-008-107-073.html"
+    ],
+    "discoverySources": [
+      "应届生求职网"
+    ],
+    "reviewReasons": [
+      "尚未取得可验证的专业要求",
+      "明确截止日期待核验",
+      "第三方来源仅作线索，需反查官方原文和国企控制关系",
+      "缺少可验证的官方原文"
+    ],
+    "priorityScore": 0
+  },
+  {
+    "id": "yingjiesheng_7",
+    "boardSection": "国企校招",
+    "source": "应届生求职网",
+    "companyName": "广州顺丰速运有限公司",
+    "companyType": "央国企",
+    "industry": "综合",
+    "recruitType": "春招",
+    "targetYears": "2027届",
+    "location": "广州",
+    "positions": "职位描述",
+    "status": "待处理",
+    "updateTime": "2026-10-09",
+    "deadline": "招满为止",
+    "applyLink": "https://m.yingjiesheng.com/job-008-108-159.html",
+    "noticeLink": "https://m.yingjiesheng.com/job-008-108-159.html",
+    "examInfo": "",
+    "companyScale": "",
+    "notes": "来源: 应届生求职网 [2026-10-09] | 来源: 五邑大学",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "招满为止",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "广州顺丰速运有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "待核验",
+    "ownershipRelation": "待核验",
+    "ownershipEvidenceUrl": "",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "第三方线索",
+    "sourceLinks": [
+      "https://m.yingjiesheng.com/job-008-108-159.html"
     ],
     "discoverySources": [
       "应届生求职网"

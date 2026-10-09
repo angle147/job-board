@@ -1,6 +1,6 @@
 // 海投网 — 交通/物流/仓储行业校招
-// 2026-10-09 11:53:43
-// 179 条
+// 2026-10-09 17:06:18
+// 177 条
 
 const JOBS_HAITOU = [
   {
@@ -3185,42 +3185,6 @@ const JOBS_HAITOU = [
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7Urr5ZMtC.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7Urr5ZMtC.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 海投网 [2026-10-09] | "
-  },
-  {
-    id: "178",
-    companyName: "中国物流 26届",
-    companyType: "企业",
-    industry: "邮政/物流",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "全国",
-    positions: "春招",
-    status: "未投递",
-    updateTime: "2026-10-09",
-    deadline: "招满为止",
-    applyLink: "https://campus.niuqizp.com/schedule-7sUk5Znan.html",
-    noticeLink: "https://campus.niuqizp.com/schedule-7sUk5Znan.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 海投网 [2026-10-09] | "
-  },
-  {
-    id: "179",
-    companyName: "重庆建峰工业 26届",
-    companyType: "企业",
-    industry: "综合",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "全国",
-    positions: "春招",
-    status: "未投递",
-    updateTime: "2026-10-09",
-    deadline: "招满为止",
-    applyLink: "https://campus.niuqizp.com/schedule-7UUr5ZnLZ.html",
-    noticeLink: "https://campus.niuqizp.com/schedule-7UUr5ZnLZ.html",
     examInfo: "",
     companyScale: "",
     notes: "来源: 海投网 [2026-10-09] | "

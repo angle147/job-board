@@ -1,6 +1,6 @@
 // 校招/社招岗位数据 — 自动爬取生成
-// 更新时间: 2026-10-09 17:10:46
-// 共 20 条
+// 更新时间: 2026-10-10 12:03:22
+// 共 18 条
 
 const JOBS = [
   {
@@ -326,41 +326,5 @@ const JOBS = [
     examInfo: "",
     companyScale: "",
     notes: "来源: 山东省国资委 [2026-08-14]"
-  },
-  {
-    id: 20,
-    companyName: "山东省环保发展集团有限公司",
-    companyType: "央国企",
-    industry: "环保",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "",
-    positions: "",
-    status: "未投递",
-    updateTime: "2026-08-11",
-    deadline: "招满为止",
-    applyLink: "",
-    noticeLink: "http://gzw.shandong.gov.cn/articles/ch00223/202608/eaeb5db0-691f-4b4a-bb7c-7c121cd35f71.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 山东省国资委 [2026-08-11]"
-  },
-  {
-    id: 21,
-    companyName: "山东省环保发展集团有限公司",
-    companyType: "央国企",
-    industry: "环保",
-    recruitType: "社招",
-    targetYears: "2026届",
-    location: "",
-    positions: "",
-    status: "未投递",
-    updateTime: "2026-08-11",
-    deadline: "招满为止",
-    applyLink: "",
-    noticeLink: "http://gzw.shandong.gov.cn/articles/ch00223/202608/6f3dfb48-3c0f-4404-8e59-e07afd39f770.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 山东省国资委 [2026-08-11]"
   }
 ];

@@ -1,247 +1,7 @@
 // 济南线下招聘活动 — 由 scrape_offline_events.py 生成
-// 更新时间: 2026-10-09 17:11:30
+// 更新时间: 2026-10-10 12:04:13
 
 const OFFLINE_EVENTS = [
-  {
-    "id": "27030c98f0faa6de",
-    "title": "某单位招录宣讲",
-    "eventType": "企业宣讲会",
-    "organizer": "济南大学",
-    "school": "济南大学",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-09",
-    "timeText": "09:30 - 11:30",
-    "location": "宣讲-就业指导中心402室【主校区】",
-    "city": "济南",
-    "sourceKey": "ujn",
-    "sourceName": "济南大学",
-    "sourceUrl": "https://school.gxjy.sdei.edu.cn/ujn/school/TblCareerFairReviewRecord/detail/2026092409262174da3ba7",
-    "evidenceLevel": "官方",
-    "exhibitorStatus": "企业名单未公布",
-    "exhibitorUrl": "",
-    "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:47"
-  },
-  {
-    "id": "7b9f715280c5a870",
-    "title": "阳光新天地控股集团 校园宣讲会",
-    "eventType": "企业宣讲会",
-    "organizer": "济南大学",
-    "school": "济南大学",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-09",
-    "timeText": "14:30 - 16:30",
-    "location": "宣讲-就业指导中心403室【主校区】",
-    "city": "济南",
-    "sourceKey": "ujn",
-    "sourceName": "济南大学",
-    "sourceUrl": "https://school.gxjy.sdei.edu.cn/ujn/school/TblCareerFairReviewRecord/detail/202609091811124408b29d",
-    "evidenceLevel": "官方",
-    "exhibitorStatus": "企业名单未公布",
-    "exhibitorUrl": "",
-    "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:47"
-  },
-  {
-    "id": "2a2835f2ba443d4f",
-    "title": "招商蛇口2027届“新航程”校园招聘宣讲会",
-    "eventType": "企业宣讲会",
-    "organizer": "山东大学济南校区",
-    "school": "山东大学济南校区",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-09",
-    "timeText": "时间待公布",
-    "location": "中心校区歌尔报告厅（就业中心第一报告厅）",
-    "city": "济南",
-    "sourceKey": "sdu",
-    "sourceName": "山东大学济南校区",
-    "sourceUrl": "https://jobcareer.sdu.edu.cn/eweb/jygl/index.so?modcode=jygl_xjhxxck&subsyscode=zpfw&rklx=jyw&type=ssoXnzpView&id=AhZFLtuKA3i6eg428jn56y",
-    "evidenceLevel": "官方",
-    "exhibitorStatus": "企业名单未公布",
-    "exhibitorUrl": "",
-    "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:49"
-  },
-  {
-    "id": "e03e9c676bb4b37f",
-    "title": "中国石油集团济柴动力有限公司招聘",
-    "eventType": "综合招聘会",
-    "organizer": "山东大学济南校区",
-    "school": "山东大学济南校区",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-09",
-    "timeText": "时间待公布",
-    "location": "千佛山校区教学九楼409-411",
-    "city": "济南",
-    "sourceKey": "sdu",
-    "sourceName": "山东大学济南校区",
-    "sourceUrl": "https://jobcareer.sdu.edu.cn/eweb/jygl/index.so?modcode=jygl_xjhxxck&subsyscode=zpfw&rklx=jyw&type=ssoXnzpView&id=R2byF8TkyiUahqEuBBtVGm",
-    "evidenceLevel": "官方",
-    "exhibitorStatus": "企业名单未公布",
-    "exhibitorUrl": "",
-    "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:49"
-  },
-  {
-    "id": "c2fe2d70efd927ac",
-    "title": "长园深瑞继保自动化有限公司招聘",
-    "eventType": "综合招聘会",
-    "organizer": "山东大学济南校区",
-    "school": "山东大学济南校区",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-09",
-    "timeText": "时间待公布",
-    "location": "软件园校区4区105d",
-    "city": "济南",
-    "sourceKey": "sdu",
-    "sourceName": "山东大学济南校区",
-    "sourceUrl": "https://jobcareer.sdu.edu.cn/eweb/jygl/index.so?modcode=jygl_xjhxxck&subsyscode=zpfw&rklx=jyw&type=ssoXnzpView&id=XcBMnrRyi8aba7AsQ6Mt9q",
-    "evidenceLevel": "官方",
-    "exhibitorStatus": "企业名单未公布",
-    "exhibitorUrl": "",
-    "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:49"
-  },
-  {
-    "id": "e71610785ed82566",
-    "title": "中国重型汽车集团有限公司招聘",
-    "eventType": "综合招聘会",
-    "organizer": "山东大学济南校区",
-    "school": "山东大学济南校区",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-09",
-    "timeText": "时间待公布",
-    "location": "千佛山校区浪潮报告厅（主楼报告厅）",
-    "city": "济南",
-    "sourceKey": "sdu",
-    "sourceName": "山东大学济南校区",
-    "sourceUrl": "https://jobcareer.sdu.edu.cn/eweb/jygl/index.so?modcode=jygl_xjhxxck&subsyscode=zpfw&rklx=jyw&type=ssoXnzpView&id=BVwphmCmh4dY9bmVnNoG25",
-    "evidenceLevel": "官方",
-    "exhibitorStatus": "企业名单未公布",
-    "exhibitorUrl": "",
-    "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:49"
-  },
-  {
-    "id": "e04fd65fdca82042",
-    "title": "特变电工国际工程有限公司招聘",
-    "eventType": "综合招聘会",
-    "organizer": "山东大学济南校区",
-    "school": "山东大学济南校区",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-09",
-    "timeText": "时间待公布",
-    "location": "兴隆山校区群楼A座1402d",
-    "city": "济南",
-    "sourceKey": "sdu",
-    "sourceName": "山东大学济南校区",
-    "sourceUrl": "https://jobcareer.sdu.edu.cn/eweb/jygl/index.so?modcode=jygl_xjhxxck&subsyscode=zpfw&rklx=jyw&type=ssoXnzpView&id=9qv2tdEX1aU1a7nAAsiq3b",
-    "evidenceLevel": "官方",
-    "exhibitorStatus": "企业名单未公布",
-    "exhibitorUrl": "",
-    "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:49"
-  },
-  {
-    "id": "7531ca173ed85cef",
-    "title": "中通客车股份有限公司招聘",
-    "eventType": "综合招聘会",
-    "organizer": "山东大学济南校区",
-    "school": "山东大学济南校区",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-09",
-    "timeText": "时间待公布",
-    "location": "千佛山校区水利实验楼337-343",
-    "city": "济南",
-    "sourceKey": "sdu",
-    "sourceName": "山东大学济南校区",
-    "sourceUrl": "https://jobcareer.sdu.edu.cn/eweb/jygl/index.so?modcode=jygl_xjhxxck&subsyscode=zpfw&rklx=jyw&type=ssoXnzpView&id=W9rHed3eSmcYzFCD9RT1x2",
-    "evidenceLevel": "官方",
-    "exhibitorStatus": "企业名单未公布",
-    "exhibitorUrl": "",
-    "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:49"
-  },
-  {
-    "id": "21eff7b954d0a02b",
-    "title": "苏州睿芯集成电路科技有限公司招聘",
-    "eventType": "综合招聘会",
-    "organizer": "山东大学济南校区",
-    "school": "山东大学济南校区",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-09",
-    "timeText": "时间待公布",
-    "location": "软件园校区4区101d",
-    "city": "济南",
-    "sourceKey": "sdu",
-    "sourceName": "山东大学济南校区",
-    "sourceUrl": "https://jobcareer.sdu.edu.cn/eweb/jygl/index.so?modcode=jygl_xjhxxck&subsyscode=zpfw&rklx=jyw&type=ssoXnzpView&id=vXqfSMopUpYMgC8QUWLBh",
-    "evidenceLevel": "官方",
-    "exhibitorStatus": "企业名单未公布",
-    "exhibitorUrl": "",
-    "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:49"
-  },
-  {
-    "id": "a76365fc6b3cb27f",
-    "title": "京东方科技集团股份有限公司招聘",
-    "eventType": "综合招聘会",
-    "organizer": "山东大学济南校区",
-    "school": "山东大学济南校区",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-09",
-    "timeText": "时间待公布",
-    "location": "中心校区潍柴报告厅（就业中心第二报告厅）",
-    "city": "济南",
-    "sourceKey": "sdu",
-    "sourceName": "山东大学济南校区",
-    "sourceUrl": "https://jobcareer.sdu.edu.cn/eweb/jygl/index.so?modcode=jygl_xjhxxck&subsyscode=zpfw&rklx=jyw&type=ssoXnzpView&id=RHtuADECe1WeuTrRNdJZiT",
-    "evidenceLevel": "官方",
-    "exhibitorStatus": "企业名单未公布",
-    "exhibitorUrl": "",
-    "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:49"
-  },
-  {
-    "id": "93ffa2018326f63f",
-    "title": "江苏省农村信用社联合社招聘",
-    "eventType": "综合招聘会",
-    "organizer": "山东大学济南校区",
-    "school": "山东大学济南校区",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-09",
-    "timeText": "时间待公布",
-    "location": "中心校区歌尔报告厅（就业中心第一报告厅）",
-    "city": "济南",
-    "sourceKey": "sdu",
-    "sourceName": "山东大学济南校区",
-    "sourceUrl": "https://jobcareer.sdu.edu.cn/eweb/jygl/index.so?modcode=jygl_xjhxxck&subsyscode=zpfw&rklx=jyw&type=ssoXnzpView&id=K8ZVczUFJE75pPhvaopLQn",
-    "evidenceLevel": "官方",
-    "exhibitorStatus": "企业名单未公布",
-    "exhibitorUrl": "",
-    "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:49"
-  },
-  {
-    "id": "ef85a5e424fb1191",
-    "title": "宁德时代新能源科技股份有限公司招聘",
-    "eventType": "综合招聘会",
-    "organizer": "山东大学济南校区",
-    "school": "山东大学济南校区",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-09",
-    "timeText": "时间待公布",
-    "location": "千佛山校区浪潮报告厅（主楼报告厅）",
-    "city": "济南",
-    "sourceKey": "sdu",
-    "sourceName": "山东大学济南校区",
-    "sourceUrl": "https://jobcareer.sdu.edu.cn/eweb/jygl/index.so?modcode=jygl_xjhxxck&subsyscode=zpfw&rklx=jyw&type=ssoXnzpView&id=AqN4L47zgpL5Gv83dpC6Vq",
-    "evidenceLevel": "官方",
-    "exhibitorStatus": "企业名单未公布",
-    "exhibitorUrl": "",
-    "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:49"
-  },
   {
     "id": "eb63e86de431bdeb",
     "title": "杭萧钢构（山东）有限公司",
@@ -260,7 +20,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:56"
+    "updatedAt": "2026-10-10 12:03:34"
   },
   {
     "id": "189962affd93fc94",
@@ -280,7 +40,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:11:19"
+    "updatedAt": "2026-10-10 12:04:00"
   },
   {
     "id": "1eaa0c38bfbf9d5f",
@@ -300,7 +60,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:49"
+    "updatedAt": "2026-10-10 12:03:25"
   },
   {
     "id": "d514d711aef4e3f1",
@@ -320,7 +80,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:49"
+    "updatedAt": "2026-10-10 12:03:25"
   },
   {
     "id": "27716212942df7a7",
@@ -340,7 +100,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:49"
+    "updatedAt": "2026-10-10 12:03:25"
   },
   {
     "id": "eb4bdd55e5787c51",
@@ -360,7 +120,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:49"
+    "updatedAt": "2026-10-10 12:03:25"
   },
   {
     "id": "fb5be0b196ad0d76",
@@ -380,7 +140,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:49"
+    "updatedAt": "2026-10-10 12:03:25"
   },
   {
     "id": "98421f10ea535a60",
@@ -400,7 +160,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:49"
+    "updatedAt": "2026-10-10 12:03:25"
   },
   {
     "id": "89755173e566ad58",
@@ -420,7 +180,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:49"
+    "updatedAt": "2026-10-10 12:03:25"
   },
   {
     "id": "f6e53e8e676b5e9d",
@@ -440,7 +200,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:48"
+    "updatedAt": "2026-10-10 12:03:24"
   },
   {
     "id": "d6879b808f80a3f1",
@@ -460,7 +220,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:48"
+    "updatedAt": "2026-10-10 12:03:24"
   },
   {
     "id": "01c5b822694e7e55",
@@ -480,7 +240,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:57"
+    "updatedAt": "2026-10-10 12:03:36"
   },
   {
     "id": "ecc60b426ecfa7bd",
@@ -500,7 +260,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:48"
+    "updatedAt": "2026-10-10 12:03:24"
   },
   {
     "id": "363023be660ec493",
@@ -520,7 +280,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:48"
+    "updatedAt": "2026-10-10 12:03:24"
   },
   {
     "id": "2b18eff93e8fedc8",
@@ -540,7 +300,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:48"
+    "updatedAt": "2026-10-10 12:03:24"
   },
   {
     "id": "a164b71128b294f3",
@@ -560,7 +320,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:48"
+    "updatedAt": "2026-10-10 12:03:24"
   },
   {
     "id": "ff23ed9309761df7",
@@ -580,7 +340,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:47"
+    "updatedAt": "2026-10-10 12:03:23"
   },
   {
     "id": "a45f5142301857b0",
@@ -600,7 +360,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:47"
+    "updatedAt": "2026-10-10 12:03:23"
   },
   {
     "id": "c3092308ac991783",
@@ -620,27 +380,67 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:47"
+    "updatedAt": "2026-10-10 12:03:23"
   },
   {
-    "id": "0c425ea274b25585",
-    "title": "山东东明石化集团2027届工程师校园招聘宣讲",
-    "eventType": "企业宣讲会",
+    "id": "ce257c4143df1880",
+    "title": "长园深瑞",
+    "eventType": "综合招聘会",
+    "organizer": "济南大学",
+    "school": "济南大学",
+    "startDate": "2026-10-12",
+    "endDate": "2026-10-12",
+    "timeText": "18:30 - 20:30",
+    "location": "面试专用-就业中心401-1室【主校区】",
+    "city": "济南",
+    "sourceKey": "ujn",
+    "sourceName": "济南大学",
+    "sourceUrl": "https://school.gxjy.sdei.edu.cn/ujn/school/TblCareerFairReviewRecord/detail/202610091048592fc2376d",
+    "evidenceLevel": "官方",
+    "exhibitorStatus": "企业名单未公布",
+    "exhibitorUrl": "",
+    "admissionNotes": "未明确拒绝则默认可尝试入场",
+    "updatedAt": "2026-10-10 12:03:23"
+  },
+  {
+    "id": "a2036759e0a6e7ca",
+    "title": "山东奥太电气有限公司校园招聘",
+    "eventType": "综合招聘会",
+    "organizer": "济南大学",
+    "school": "济南大学",
+    "startDate": "2026-10-12",
+    "endDate": "2026-10-12",
+    "timeText": "18:30 - 20:30",
+    "location": "宣讲-就业指导中心403室【主校区】",
+    "city": "济南",
+    "sourceKey": "ujn",
+    "sourceName": "济南大学",
+    "sourceUrl": "https://school.gxjy.sdei.edu.cn/ujn/school/TblCareerFairReviewRecord/detail/2026100913302771a71421",
+    "evidenceLevel": "官方",
+    "exhibitorStatus": "企业名单未公布",
+    "exhibitorUrl": "",
+    "admissionNotes": "未明确拒绝则默认可尝试入场",
+    "updatedAt": "2026-10-10 12:03:23"
+  },
+  {
+    "id": "568ba86dac54b119",
+    "title": "新和成2027届秋季招聘",
+    "eventType": "综合招聘会",
     "organizer": "济南大学",
     "school": "济南大学",
     "startDate": "2026-10-13",
     "endDate": "2026-10-13",
     "timeText": "09:30 - 11:30",
-    "location": "宣讲-就业指导中心403室【主校区】",
+    "location": "面试专用-就业中心401-2室【主校区】",
     "city": "济南",
     "sourceKey": "ujn",
     "sourceName": "济南大学",
-    "sourceUrl": "https://school.gxjy.sdei.edu.cn/ujn/school/TblCareerFairReviewRecord/detail/20260928020332cf9e0952",
+    "sourceUrl": "https://school.gxjy.sdei.edu.cn/ujn/school/TblCareerFairReviewRecord/detail/20261009113717623e57a3",
     "evidenceLevel": "官方",
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:47"
+    "updatedAt": "2026-10-10 12:03:23"
   },
   {
     "id": "4f87ae43216efebd",
@@ -660,7 +460,27 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:47"
+    "updatedAt": "2026-10-10 12:03:23"
+  },
+  {
+    "id": "0c425ea274b25585",
+    "title": "山东东明石化集团2027届工程师校园招聘宣讲",
+    "eventType": "企业宣讲会",
+    "organizer": "济南大学",
+    "school": "济南大学",
+    "startDate": "2026-10-13",
+    "endDate": "2026-10-13",
+    "timeText": "09:30 - 11:30",
+    "location": "宣讲-就业指导中心403室【主校区】",
+    "city": "济南",
+    "sourceKey": "ujn",
+    "sourceName": "济南大学",
+    "sourceUrl": "https://school.gxjy.sdei.edu.cn/ujn/school/TblCareerFairReviewRecord/detail/20260928020332cf9e0952",
+    "evidenceLevel": "官方",
+    "exhibitorStatus": "企业名单未公布",
+    "exhibitorUrl": "",
+    "admissionNotes": "未明确拒绝则默认可尝试入场",
+    "updatedAt": "2026-10-10 12:03:23"
   },
   {
     "id": "939f1231ff3cfda4",
@@ -680,7 +500,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:58"
+    "updatedAt": "2026-10-10 12:03:37"
   },
   {
     "id": "ae8e75751296be5a",
@@ -690,8 +510,8 @@ const OFFLINE_EVENTS = [
     "school": "山东建筑大学",
     "startDate": "2026-10-13",
     "endDate": "2026-10-13",
-    "timeText": "14:00\n",
-    "location": "山东建筑大学 · 博文楼212室，教室号BW212",
+    "timeText": "13:30\n",
+    "location": "山东建筑大学 · 博文楼211室，教室号BW212",
     "city": "济南",
     "sourceKey": "sdjzu",
     "sourceName": "山东建筑大学",
@@ -700,7 +520,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:59"
+    "updatedAt": "2026-10-10 12:03:38"
   },
   {
     "id": "12bee7419ff9b4fc",
@@ -720,7 +540,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:48"
+    "updatedAt": "2026-10-10 12:03:24"
   },
   {
     "id": "c9fbf0bba6876c5b",
@@ -740,7 +560,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:47"
+    "updatedAt": "2026-10-10 12:03:23"
   },
   {
     "id": "d9bfea63b8f445f3",
@@ -760,7 +580,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:47"
+    "updatedAt": "2026-10-10 12:03:23"
   },
   {
     "id": "125d1c204a6df8b3",
@@ -780,7 +600,27 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:11:00"
+    "updatedAt": "2026-10-10 12:03:39"
+  },
+  {
+    "id": "ae79a0b56801360a",
+    "title": "山东奥太电气有限公司",
+    "eventType": "综合招聘会",
+    "organizer": "山东建筑大学",
+    "school": "山东建筑大学",
+    "startDate": "2026-10-13",
+    "endDate": "2026-10-13",
+    "timeText": "19:00\n",
+    "location": "山东建筑大学 · 博文楼104室，教室号BW104",
+    "city": "济南",
+    "sourceKey": "sdjzu",
+    "sourceName": "山东建筑大学",
+    "sourceUrl": "https://sdjzu.bysjy.com.cn/detail/career?id=725674",
+    "evidenceLevel": "官方",
+    "exhibitorStatus": "企业名单未公布",
+    "exhibitorUrl": "",
+    "admissionNotes": "未明确拒绝则默认可尝试入场",
+    "updatedAt": "2026-10-10 12:03:40"
   },
   {
     "id": "5001b5949782b249",
@@ -800,11 +640,11 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:48"
+    "updatedAt": "2026-10-10 12:03:24"
   },
   {
     "id": "91c634d64aab9ce3",
-    "title": "就业中心会议",
+    "title": "杭州宁波-济南大学人才招引座谈会",
     "eventType": "综合招聘会",
     "organizer": "济南大学",
     "school": "济南大学",
@@ -820,7 +660,47 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:47"
+    "updatedAt": "2026-10-10 12:03:23"
+  },
+  {
+    "id": "15bb130880528e67",
+    "title": "杭州宁波专场招聘会",
+    "eventType": "专场招聘会",
+    "organizer": "济南大学",
+    "school": "济南大学",
+    "startDate": "2026-10-14",
+    "endDate": "2026-10-14",
+    "timeText": "09:30 - 11:30",
+    "location": "就业指导中心5楼",
+    "city": "济南",
+    "sourceKey": "ujn",
+    "sourceName": "济南大学",
+    "sourceUrl": "https://school.gxjy.sdei.edu.cn/ujn/school/TblCareerFairReviewRecord/detail/20261010090933fc8facb4",
+    "evidenceLevel": "官方",
+    "exhibitorStatus": "企业名单未公布",
+    "exhibitorUrl": "",
+    "admissionNotes": "未明确拒绝则默认可尝试入场",
+    "updatedAt": "2026-10-10 12:03:23"
+  },
+  {
+    "id": "242de0f5756c9a16",
+    "title": "中化泉州石化有限公司2027届毕业生宣讲会",
+    "eventType": "企业宣讲会",
+    "organizer": "济南大学",
+    "school": "济南大学",
+    "startDate": "2026-10-14",
+    "endDate": "2026-10-14",
+    "timeText": "09:30 - 11:30",
+    "location": "宣讲-就业指导中心403室【主校区】",
+    "city": "济南",
+    "sourceKey": "ujn",
+    "sourceName": "济南大学",
+    "sourceUrl": "https://school.gxjy.sdei.edu.cn/ujn/school/TblCareerFairReviewRecord/detail/202610101034201c89645c",
+    "evidenceLevel": "官方",
+    "exhibitorStatus": "企业名单未公布",
+    "exhibitorUrl": "",
+    "admissionNotes": "未明确拒绝则默认可尝试入场",
+    "updatedAt": "2026-10-10 12:03:23"
   },
   {
     "id": "511a347c907f697a",
@@ -840,7 +720,27 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:11:02"
+    "updatedAt": "2026-10-10 12:03:42"
+  },
+  {
+    "id": "ee60f49791ad8cae",
+    "title": "中石化胜利建设工程有限公司",
+    "eventType": "综合招聘会",
+    "organizer": "山东建筑大学",
+    "school": "山东建筑大学",
+    "startDate": "2026-10-14",
+    "endDate": "2026-10-14",
+    "timeText": "14:00\n",
+    "location": "山东建筑大学 · 博文楼105室，教室号BW105",
+    "city": "济南",
+    "sourceKey": "sdjzu",
+    "sourceName": "山东建筑大学",
+    "sourceUrl": "https://sdjzu.bysjy.com.cn/detail/career?id=725849",
+    "evidenceLevel": "官方",
+    "exhibitorStatus": "企业名单未公布",
+    "exhibitorUrl": "",
+    "admissionNotes": "未明确拒绝则默认可尝试入场",
+    "updatedAt": "2026-10-10 12:03:43"
   },
   {
     "id": "45ee89820d903038",
@@ -860,7 +760,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:11:03"
+    "updatedAt": "2026-10-10 12:03:44"
   },
   {
     "id": "ded3a696810c251d",
@@ -880,7 +780,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:11:19"
+    "updatedAt": "2026-10-10 12:04:00"
   },
   {
     "id": "018710b765b17edb",
@@ -900,7 +800,27 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:47"
+    "updatedAt": "2026-10-10 12:03:23"
+  },
+  {
+    "id": "211c8b8178589d8a",
+    "title": "中国水电十二局2027届校园招聘宣讲会",
+    "eventType": "企业宣讲会",
+    "organizer": "济南大学",
+    "school": "济南大学",
+    "startDate": "2026-10-14",
+    "endDate": "2026-10-14",
+    "timeText": "14:30 - 16:30",
+    "location": "宣讲-就业指导中心403室【主校区】",
+    "city": "济南",
+    "sourceKey": "ujn",
+    "sourceName": "济南大学",
+    "sourceUrl": "https://school.gxjy.sdei.edu.cn/ujn/school/TblCareerFairReviewRecord/detail/202610091659355e572987",
+    "evidenceLevel": "官方",
+    "exhibitorStatus": "企业名单未公布",
+    "exhibitorUrl": "",
+    "admissionNotes": "未明确拒绝则默认可尝试入场",
+    "updatedAt": "2026-10-10 12:03:23"
   },
   {
     "id": "97df140de97eb058",
@@ -920,7 +840,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:48"
+    "updatedAt": "2026-10-10 12:03:24"
   },
   {
     "id": "f6b32b953c892eea",
@@ -940,7 +860,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:11:18"
+    "updatedAt": "2026-10-10 12:03:59"
   },
   {
     "id": "664f1fe7cf73b867",
@@ -960,7 +880,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:11:04"
+    "updatedAt": "2026-10-10 12:03:45"
   },
   {
     "id": "9581721f38433a3b",
@@ -980,7 +900,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:47"
+    "updatedAt": "2026-10-10 12:03:23"
   },
   {
     "id": "f28600a95943ebd3",
@@ -1000,7 +920,27 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:47"
+    "updatedAt": "2026-10-10 12:03:23"
+  },
+  {
+    "id": "560fc7612cdce6e9",
+    "title": "浙江亚厦装饰股份有限公司杭州分公司",
+    "eventType": "综合招聘会",
+    "organizer": "山东建筑大学",
+    "school": "山东建筑大学",
+    "startDate": "2026-10-15",
+    "endDate": "2026-10-15",
+    "timeText": "13:30\n",
+    "location": "山东建筑大学 · 博文楼212室，教室号BW212",
+    "city": "济南",
+    "sourceKey": "sdjzu",
+    "sourceName": "山东建筑大学",
+    "sourceUrl": "https://sdjzu.bysjy.com.cn/detail/career?id=724493",
+    "evidenceLevel": "官方",
+    "exhibitorStatus": "企业名单未公布",
+    "exhibitorUrl": "",
+    "admissionNotes": "未明确拒绝则默认可尝试入场",
+    "updatedAt": "2026-10-10 12:03:46"
   },
   {
     "id": "020bac767b41bd91",
@@ -1020,7 +960,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:48"
+    "updatedAt": "2026-10-10 12:03:24"
   },
   {
     "id": "dcefb133ee4af8a1",
@@ -1040,7 +980,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:48"
+    "updatedAt": "2026-10-10 12:03:24"
   },
   {
     "id": "37e3828e97554701",
@@ -1060,7 +1000,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:47"
+    "updatedAt": "2026-10-10 12:03:23"
   },
   {
     "id": "145f88c69b93256a",
@@ -1080,7 +1020,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:11:10"
+    "updatedAt": "2026-10-10 12:03:50"
   },
   {
     "id": "00473a3d6df4cb1b",
@@ -1100,7 +1040,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:47"
+    "updatedAt": "2026-10-10 12:03:23"
   },
   {
     "id": "7fcfc7c715c95d14",
@@ -1120,7 +1060,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:48"
+    "updatedAt": "2026-10-10 12:03:24"
   },
   {
     "id": "65bbcf26a32b1f19",
@@ -1140,27 +1080,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:47"
-  },
-  {
-    "id": "8911179dc950c6a8",
-    "title": "山东美晨科技集团股份有限公司27届校园招聘线下宣讲会",
-    "eventType": "企业宣讲会",
-    "organizer": "济南大学",
-    "school": "济南大学",
-    "startDate": "2026-10-16",
-    "endDate": "2026-10-16",
-    "timeText": "09:30 - 11:30",
-    "location": "面试专用-就业中心401-1室【主校区】",
-    "city": "济南",
-    "sourceKey": "ujn",
-    "sourceName": "济南大学",
-    "sourceUrl": "https://school.gxjy.sdei.edu.cn/ujn/school/TblCareerFairReviewRecord/detail/202609181335272bbec492",
-    "evidenceLevel": "官方",
-    "exhibitorStatus": "企业名单未公布",
-    "exhibitorUrl": "",
-    "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:47"
+    "updatedAt": "2026-10-10 12:03:23"
   },
   {
     "id": "44714a26dabd80aa",
@@ -1180,7 +1100,27 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:47"
+    "updatedAt": "2026-10-10 12:03:23"
+  },
+  {
+    "id": "8911179dc950c6a8",
+    "title": "山东美晨科技集团股份有限公司27届校园招聘线下宣讲会",
+    "eventType": "企业宣讲会",
+    "organizer": "济南大学",
+    "school": "济南大学",
+    "startDate": "2026-10-16",
+    "endDate": "2026-10-16",
+    "timeText": "09:30 - 11:30",
+    "location": "面试专用-就业中心401-1室【主校区】",
+    "city": "济南",
+    "sourceKey": "ujn",
+    "sourceName": "济南大学",
+    "sourceUrl": "https://school.gxjy.sdei.edu.cn/ujn/school/TblCareerFairReviewRecord/detail/202609181335272bbec492",
+    "evidenceLevel": "官方",
+    "exhibitorStatus": "企业名单未公布",
+    "exhibitorUrl": "",
+    "admissionNotes": "未明确拒绝则默认可尝试入场",
+    "updatedAt": "2026-10-10 12:03:23"
   },
   {
     "id": "44f0834be39a2669",
@@ -1200,7 +1140,47 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:48"
+    "updatedAt": "2026-10-10 12:03:24"
+  },
+  {
+    "id": "09b10f811f7c6fea",
+    "title": "双鲸药业2027校园宣讲会",
+    "eventType": "企业宣讲会",
+    "organizer": "山东中医药大学",
+    "school": "山东中医药大学",
+    "startDate": "2026-10-16",
+    "endDate": "2026-10-16",
+    "timeText": "14:00 - 17:00",
+    "location": "就业创业赋能中心107教室【长清校区】",
+    "city": "济南",
+    "sourceKey": "sdutcm",
+    "sourceName": "山东中医药大学",
+    "sourceUrl": "https://school.gxjy.sdei.edu.cn/sdutcm/school/TblCareerFairReviewRecord/detail/20261009082228452f7777",
+    "evidenceLevel": "官方",
+    "exhibitorStatus": "企业名单未公布",
+    "exhibitorUrl": "",
+    "admissionNotes": "未明确拒绝则默认可尝试入场",
+    "updatedAt": "2026-10-10 12:03:56"
+  },
+  {
+    "id": "e3d692d6d092b4d6",
+    "title": "国瓷材料2027届秋季校园招聘",
+    "eventType": "综合招聘会",
+    "organizer": "济南大学",
+    "school": "济南大学",
+    "startDate": "2026-10-16",
+    "endDate": "2026-10-16",
+    "timeText": "14:30 - 16:30",
+    "location": "面试专用-就业中心401-2室【主校区】",
+    "city": "济南",
+    "sourceKey": "ujn",
+    "sourceName": "济南大学",
+    "sourceUrl": "https://school.gxjy.sdei.edu.cn/ujn/school/TblCareerFairReviewRecord/detail/20261009093146ffb85c56",
+    "evidenceLevel": "官方",
+    "exhibitorStatus": "企业名单未公布",
+    "exhibitorUrl": "",
+    "admissionNotes": "未明确拒绝则默认可尝试入场",
+    "updatedAt": "2026-10-10 12:03:23"
   },
   {
     "id": "ebd1d1fcf2b8b1c0",
@@ -1220,7 +1200,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:47"
+    "updatedAt": "2026-10-10 12:03:23"
   },
   {
     "id": "9bee8b016507668f",
@@ -1240,7 +1220,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:47"
+    "updatedAt": "2026-10-10 12:03:23"
   },
   {
     "id": "01acaa7adc63ee89",
@@ -1260,7 +1240,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:11:13"
+    "updatedAt": "2026-10-10 12:03:54"
   },
   {
     "id": "cfe99dd8d65d7564",
@@ -1280,7 +1260,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:48"
+    "updatedAt": "2026-10-10 12:03:24"
   },
   {
     "id": "6131e7eb822e9ca2",
@@ -1300,7 +1280,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:47"
+    "updatedAt": "2026-10-10 12:03:23"
   },
   {
     "id": "f02724d75e36f47d",
@@ -1320,7 +1300,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:47"
+    "updatedAt": "2026-10-10 12:03:23"
   },
   {
     "id": "3cf3c80b203fd33f",
@@ -1340,7 +1320,27 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:47"
+    "updatedAt": "2026-10-10 12:03:23"
+  },
+  {
+    "id": "bfbbefcc440a543a",
+    "title": "中国石化齐鲁石化公司2027年校园招聘",
+    "eventType": "综合招聘会",
+    "organizer": "济南大学",
+    "school": "济南大学",
+    "startDate": "2026-10-19",
+    "endDate": "2026-10-19",
+    "timeText": "18:30 - 20:30",
+    "location": "宣讲-就业指导中心402室【主校区】",
+    "city": "济南",
+    "sourceKey": "ujn",
+    "sourceName": "济南大学",
+    "sourceUrl": "https://school.gxjy.sdei.edu.cn/ujn/school/TblCareerFairReviewRecord/detail/202610091036246d7a4223",
+    "evidenceLevel": "官方",
+    "exhibitorStatus": "企业名单未公布",
+    "exhibitorUrl": "",
+    "admissionNotes": "未明确拒绝则默认可尝试入场",
+    "updatedAt": "2026-10-10 12:03:23"
   },
   {
     "id": "18823b7e3dd148b6",
@@ -1360,7 +1360,27 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:47"
+    "updatedAt": "2026-10-10 12:03:23"
+  },
+  {
+    "id": "8d98c0a9a6c1b002",
+    "title": "科力锐科技2027届秋季校园招聘",
+    "eventType": "综合招聘会",
+    "organizer": "济南大学",
+    "school": "济南大学",
+    "startDate": "2026-10-20",
+    "endDate": "2026-10-20",
+    "timeText": "18:30 - 20:30",
+    "location": "面试专用-就业中心401-2室【主校区】",
+    "city": "济南",
+    "sourceKey": "ujn",
+    "sourceName": "济南大学",
+    "sourceUrl": "https://school.gxjy.sdei.edu.cn/ujn/school/TblCareerFairReviewRecord/detail/20261009102947599b7288",
+    "evidenceLevel": "官方",
+    "exhibitorStatus": "企业名单未公布",
+    "exhibitorUrl": "",
+    "admissionNotes": "未明确拒绝则默认可尝试入场",
+    "updatedAt": "2026-10-10 12:03:23"
   },
   {
     "id": "0b25a4541bfbdd7d",
@@ -1380,7 +1400,27 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:11:19"
+    "updatedAt": "2026-10-10 12:04:00"
+  },
+  {
+    "id": "a08e51f7c9c1041d",
+    "title": "中国电建集团山东电力建设第三工程有限公司2027年校园招聘宣讲会",
+    "eventType": "企业宣讲会",
+    "organizer": "济南大学",
+    "school": "济南大学",
+    "startDate": "2026-10-21",
+    "endDate": "2026-10-21",
+    "timeText": "14:30 - 16:30",
+    "location": "宣讲-就业指导中心403室【主校区】",
+    "city": "济南",
+    "sourceKey": "ujn",
+    "sourceName": "济南大学",
+    "sourceUrl": "https://school.gxjy.sdei.edu.cn/ujn/school/TblCareerFairReviewRecord/detail/20261009172700072c4887",
+    "evidenceLevel": "官方",
+    "exhibitorStatus": "企业名单未公布",
+    "exhibitorUrl": "",
+    "admissionNotes": "未明确拒绝则默认可尝试入场",
+    "updatedAt": "2026-10-10 12:03:23"
   },
   {
     "id": "e90fca031c374cf0",
@@ -1400,7 +1440,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:48"
+    "updatedAt": "2026-10-10 12:03:25"
   },
   {
     "id": "55f1652c38a1a02f",
@@ -1420,7 +1460,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:47"
+    "updatedAt": "2026-10-10 12:03:23"
   },
   {
     "id": "db42d90422748372",
@@ -1440,7 +1480,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:11:19"
+    "updatedAt": "2026-10-10 12:04:00"
   },
   {
     "id": "4383090e7011a00f",
@@ -1460,7 +1500,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:48"
+    "updatedAt": "2026-10-10 12:03:25"
   },
   {
     "id": "f01052f595f7961d",
@@ -1480,7 +1520,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:11:15"
+    "updatedAt": "2026-10-10 12:03:56"
   },
   {
     "id": "8f31515968e1f913",
@@ -1500,7 +1540,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:11:15"
+    "updatedAt": "2026-10-10 12:03:56"
   },
   {
     "id": "f54e4a21fcc74498",
@@ -1520,7 +1560,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:11:15"
+    "updatedAt": "2026-10-10 12:03:56"
   },
   {
     "id": "f4a32289b3e4a5f1",
@@ -1540,7 +1580,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:11:15"
+    "updatedAt": "2026-10-10 12:03:56"
   },
   {
     "id": "f19c9aa9f861a15f",
@@ -1560,7 +1600,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:11:15"
+    "updatedAt": "2026-10-10 12:03:56"
   },
   {
     "id": "fc7a5ca602196cca",
@@ -1580,7 +1620,27 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:47"
+    "updatedAt": "2026-10-10 12:03:23"
+  },
+  {
+    "id": "efffbe60562aaebd",
+    "title": "先声药业2027届校园招聘",
+    "eventType": "综合招聘会",
+    "organizer": "山东中医药大学",
+    "school": "山东中医药大学",
+    "startDate": "2026-10-27",
+    "endDate": "2026-10-27",
+    "timeText": "14:00 - 17:00",
+    "location": "就业创业赋能中心107教室【长清校区】",
+    "city": "济南",
+    "sourceKey": "sdutcm",
+    "sourceName": "山东中医药大学",
+    "sourceUrl": "https://school.gxjy.sdei.edu.cn/sdutcm/school/TblCareerFairReviewRecord/detail/20261009131744c7750086",
+    "evidenceLevel": "官方",
+    "exhibitorStatus": "企业名单未公布",
+    "exhibitorUrl": "",
+    "admissionNotes": "未明确拒绝则默认可尝试入场",
+    "updatedAt": "2026-10-10 12:03:56"
   },
   {
     "id": "32f1743d9e6a1717",
@@ -1600,7 +1660,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:47"
+    "updatedAt": "2026-10-10 12:03:23"
   },
   {
     "id": "4c5f4f85bf393223",
@@ -1620,7 +1680,7 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:47"
+    "updatedAt": "2026-10-10 12:03:23"
   },
   {
     "id": "eabaa47520c9a051",
@@ -1640,7 +1700,27 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:11:18"
+    "updatedAt": "2026-10-10 12:03:59"
+  },
+  {
+    "id": "07b740fdc78934dc",
+    "title": "禹王集团宣讲会",
+    "eventType": "企业宣讲会",
+    "organizer": "济南大学",
+    "school": "济南大学",
+    "startDate": "2026-10-30",
+    "endDate": "2026-10-30",
+    "timeText": "09:30 - 11:30",
+    "location": "宣讲-就业指导中心403室【主校区】",
+    "city": "济南",
+    "sourceKey": "ujn",
+    "sourceName": "济南大学",
+    "sourceUrl": "https://school.gxjy.sdei.edu.cn/ujn/school/TblCareerFairReviewRecord/detail/2026100914191198ccdbe5",
+    "evidenceLevel": "官方",
+    "exhibitorStatus": "企业名单未公布",
+    "exhibitorUrl": "",
+    "admissionNotes": "未明确拒绝则默认可尝试入场",
+    "updatedAt": "2026-10-10 12:03:23"
   },
   {
     "id": "dc94c9eff73a2a37",
@@ -1660,6 +1740,6 @@ const OFFLINE_EVENTS = [
     "exhibitorStatus": "企业名单未公布",
     "exhibitorUrl": "",
     "admissionNotes": "未明确拒绝则默认可尝试入场",
-    "updatedAt": "2026-10-09 17:10:47"
+    "updatedAt": "2026-10-10 12:03:23"
   }
 ];

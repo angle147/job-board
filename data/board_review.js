@@ -1,5 +1,5 @@
 // 待人工核验队列 — 由 build_personal_board.py 生成
-// 更新时间: 2026-10-11 12:27:25
+// 更新时间: 2026-10-11 17:11:34
 // 共 25 条
 
 const REVIEW_JOBS = [
@@ -1222,7 +1222,7 @@ const REVIEW_JOBS = [
     "priorityScore": 50
   },
   {
-    "id": "yingjiesheng_12",
+    "id": "yingjiesheng_15",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "广东信源物流设备有限公司",
@@ -1273,7 +1273,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_53",
+    "id": "yingjiesheng_56",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "重庆素美医药有限公司",

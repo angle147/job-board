@@ -1,5 +1,5 @@
 // 国企校招岗位 — 由 build_personal_board.py 生成
-// 更新时间: 2026-10-11 17:11:34
+// 更新时间: 2026-10-12 09:12:06
 // 共 342 条
 
 const SOE_JOBS = [
@@ -3623,53 +3623,6 @@ const SOE_JOBS = [
     "priorityScore": 22
   },
   {
-    "id": "transport_iguopin_cmhk-209512105005549810",
-    "boardSection": "国企校招",
-    "source": "中远海运与招商局官方招聘",
-    "companyName": "上海长江轮船有限公司",
-    "companyType": "央国企",
-    "industry": "水上运输业",
-    "recruitType": "校园招聘",
-    "targetYears": "待核验",
-    "location": "上海-浦东新区",
-    "positions": "行政管理",
-    "status": "新发现",
-    "updateTime": "2026-08-03",
-    "deadline": "2026-10-14",
-    "applyLink": "https://cmhk.iguopin.com/job/detail?id=209512105005549810",
-    "noticeLink": "https://cmhk.iguopin.com/job",
-    "examInfo": "",
-    "companyScale": "1000-2000人",
-    "notes": "【岗位职责】\n1.负责撰写行政公文、会议纪要、工作报告、汇报材料及领导讲话稿，确保文字材料内容准确、格式规范、逻辑严密。\n2.协助组织公司级会议及大型活动，承担会务筹备、议程安排、现场协调及会后跟踪督办等工作。\n3.负责公司本部文件批办工作；负责重点工作事项的督办、协调、跟进、落实和信息反馈。\n4.完成领导交办的其他工作。\n【任职资格】\n1.全日制大学本科及以上学历，行政管理、汉语言文学、公共管理、外语类等相关专业优先。\n2.年龄在30周岁及以下，大学英语六级及以上，具备良好的英语读写和基本会话能力。\n3.具备较强的逻辑思维能力、文字表达能力。\n4.担当作为，吃苦耐劳，工作认真细致，熟练掌握各类办公软件的应用，有较强的沟通协调能力和团队合作精神。\n5.中共党员、具有大型企业行政、党务等相关实习经历者优先考虑。\n6.符合公司任职回避相关制度规定，无违纪违法记录。",
-    "majorReq": "管理学全类、文学全类、公共管理类",
-    "educationReq": "本科",
-    "positionCode": "",
-    "recruitmentCount": "1",
-    "registrationStart": "",
-    "registrationEnd": "2026-10-14",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "上海长江轮船有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "直接招聘",
-    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
-    "ownershipEvidenceUrl": "https://cmhk.iguopin.com",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "官方原文",
-    "sourceLinks": [
-      "https://cmhk.iguopin.com/job",
-      "https://cmhk.iguopin.com/job/detail?id=209512105005549810"
-    ],
-    "discoverySources": [
-      "中远海运与招商局官方招聘"
-    ],
-    "reviewReasons": [],
-    "priorityScore": 21
-  },
-  {
     "id": "transport_iguopin_cmhk-217348075469931685",
     "boardSection": "国企校招",
     "source": "中远海运与招商局官方招聘",
@@ -4561,6 +4514,53 @@ const SOE_JOBS = [
     ],
     "reviewReasons": [],
     "priorityScore": 20
+  },
+  {
+    "id": "transport_iguopin_cmhk-209512105005549810",
+    "boardSection": "国企校招",
+    "source": "中远海运与招商局官方招聘",
+    "companyName": "上海长江轮船有限公司",
+    "companyType": "央国企",
+    "industry": "水上运输业",
+    "recruitType": "校园招聘",
+    "targetYears": "待核验",
+    "location": "上海-浦东新区",
+    "positions": "行政管理",
+    "status": "新发现",
+    "updateTime": "2026-08-03",
+    "deadline": "2026-10-14",
+    "applyLink": "https://cmhk.iguopin.com/job/detail?id=209512105005549810",
+    "noticeLink": "https://cmhk.iguopin.com/job",
+    "examInfo": "",
+    "companyScale": "1000-2000人",
+    "notes": "【岗位职责】\n1.负责撰写行政公文、会议纪要、工作报告、汇报材料及领导讲话稿，确保文字材料内容准确、格式规范、逻辑严密。\n2.协助组织公司级会议及大型活动，承担会务筹备、议程安排、现场协调及会后跟踪督办等工作。\n3.负责公司本部文件批办工作；负责重点工作事项的督办、协调、跟进、落实和信息反馈。\n4.完成领导交办的其他工作。\n【任职资格】\n1.全日制大学本科及以上学历，行政管理、汉语言文学、公共管理、外语类等相关专业优先。\n2.年龄在30周岁及以下，大学英语六级及以上，具备良好的英语读写和基本会话能力。\n3.具备较强的逻辑思维能力、文字表达能力。\n4.担当作为，吃苦耐劳，工作认真细致，熟练掌握各类办公软件的应用，有较强的沟通协调能力和团队合作精神。\n5.中共党员、具有大型企业行政、党务等相关实习经历者优先考虑。\n6.符合公司任职回避相关制度规定，无违纪违法记录。",
+    "majorReq": "管理学全类、文学全类、公共管理类",
+    "educationReq": "本科",
+    "positionCode": "",
+    "recruitmentCount": "1",
+    "registrationStart": "",
+    "registrationEnd": "2026-10-14",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "上海长江轮船有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接招聘",
+    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
+    "ownershipEvidenceUrl": "https://cmhk.iguopin.com",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://cmhk.iguopin.com/job",
+      "https://cmhk.iguopin.com/job/detail?id=209512105005549810"
+    ],
+    "discoverySources": [
+      "中远海运与招商局官方招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 11
   },
   {
     "id": "transport_iguopin_cosco-218749116333687103",

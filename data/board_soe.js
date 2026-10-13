@@ -1,6 +1,6 @@
 // 国企校招岗位 — 由 build_personal_board.py 生成
-// 更新时间: 2026-10-12 17:11:26
-// 共 344 条
+// 更新时间: 2026-10-13 11:55:14
+// 共 343 条
 
 const SOE_JOBS = [
   {
@@ -14430,52 +14430,6 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "国务院国资委人才招聘_sasac-central-35931609",
-    "boardSection": "国企校招",
-    "source": "国务院国资委人才招聘",
-    "companyName": "中国汽研",
-    "companyType": "央国企",
-    "industry": "综合",
-    "recruitType": "校招",
-    "targetYears": "2027届",
-    "location": "全国",
-    "positions": "中国汽研2027届校园招聘正式启动",
-    "status": "新发现",
-    "updateTime": "2026-09-15",
-    "deadline": "待核验",
-    "applyLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35931609/content.html",
-    "noticeLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35931609/content.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "中国汽研",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "官方原文",
-    "sourceLinks": [
-      "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35931609/content.html"
-    ],
-    "discoverySources": [
-      "国务院国资委人才招聘"
-    ],
-    "reviewReasons": [],
-    "priorityScore": 0
-  },
-  {
     "id": "国务院国资委人才招聘_sasac-central-36034794",
     "boardSection": "国企校招",
     "source": "国务院国资委人才招聘",
@@ -16009,7 +15963,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "国务院国资委人才招聘_sasac-central-36034700",
+    "id": "国务院国资委人才招聘_sasac-central-36049782",
     "boardSection": "国企校招",
     "source": "国务院国资委人才招聘",
     "companyName": "航空工业集团",
@@ -16020,10 +15974,10 @@ const SOE_JOBS = [
     "location": "全国",
     "positions": "航空工业集团下属企业招聘",
     "status": "新发现",
-    "updateTime": "2026-10-09",
+    "updateTime": "2026-10-13",
     "deadline": "待核验",
-    "applyLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c36034700/content.html",
-    "noticeLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c36034700/content.html",
+    "applyLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c36049782/content.html",
+    "noticeLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c36049782/content.html",
     "examInfo": "",
     "companyScale": "",
     "notes": "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准",
@@ -16046,6 +16000,7 @@ const SOE_JOBS = [
     "fitReason": "尚未取得可验证的专业要求",
     "evidenceLevel": "官方原文",
     "sourceLinks": [
+      "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c36049782/content.html",
       "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c36034700/content.html",
       "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35937290/content.html"
     ],
@@ -16102,7 +16057,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "sasac_6",
+    "id": "sasac_7",
     "boardSection": "国企校招",
     "source": "山东省国资委",
     "companyName": "山东能源集团",

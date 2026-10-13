@@ -1,10 +1,28 @@
 // 校招/社招岗位数据 — 自动爬取生成
-// 更新时间: 2026-10-12 17:10:38
-// 共 18 条
+// 更新时间: 2026-10-13 11:54:24
+// 共 17 条
 
 const JOBS = [
   {
     id: 1,
+    companyName: "山东省商业集团有限公司",
+    companyType: "央国企",
+    industry: "综合",
+    recruitType: "校招/社招",
+    targetYears: "2025届,2026届",
+    location: "",
+    positions: "",
+    status: "未投递",
+    updateTime: "2026-10-12",
+    deadline: "招满为止",
+    applyLink: "https://lushang.hotjob.cn/",
+    noticeLink: "http://gzw.shandong.gov.cn/articles/ch00223/202610/8449aba9-0e2f-4072-bbbd-9838d535639b.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 山东省国资委 [2026-10-12]"
+  },
+  {
+    id: 2,
     companyName: "山东健康集团有限公司",
     companyType: "央国企",
     industry: "医药健康",
@@ -22,7 +40,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-10-04]"
   },
   {
-    id: 2,
+    id: 3,
     companyName: "山东健康集团",
     companyType: "央国企",
     industry: "医药健康",
@@ -40,7 +58,7 @@ const JOBS = [
     notes: "硕士及以上、博士优先 | 来源: 山东省国资委 [2026-10-04]"
   },
   {
-    id: 3,
+    id: 4,
     companyName: "中国广电山东网络有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -58,7 +76,7 @@ const JOBS = [
     notes: "博士优先 | 来源: 山东省国资委 [2026-10-02]"
   },
   {
-    id: 4,
+    id: 5,
     companyName: "关于延长山东省电子口岸有限公司",
     companyType: "央国企",
     industry: "电子/半导体",
@@ -76,7 +94,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-10-02]"
   },
   {
-    id: 5,
+    id: 6,
     companyName: "山东省电子口岸有限公司",
     companyType: "央国企",
     industry: "电子/半导体",
@@ -94,7 +112,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-09-11]"
   },
   {
-    id: 6,
+    id: 7,
     companyName: "山东能源集团",
     companyType: "央国企",
     industry: "能源/电力",
@@ -112,7 +130,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-09-10]"
   },
   {
-    id: 8,
+    id: 9,
     companyName: "山东黄河生态发展集团有限公司",
     companyType: "央国企",
     industry: "环保",
@@ -130,7 +148,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-09-07]"
   },
   {
-    id: 9,
+    id: 10,
     companyName: "山东土地资本投资集团有限公司",
     companyType: "央国企",
     industry: "金融/银行",
@@ -148,7 +166,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-09-07]"
   },
   {
-    id: 10,
+    id: 11,
     companyName: "山东省国际信托股份有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -164,24 +182,6 @@ const JOBS = [
     examInfo: "",
     companyScale: "",
     notes: "来源: 山东省国资委 [2026-09-04]"
-  },
-  {
-    id: 11,
-    companyName: "山东省商业集团有限公司",
-    companyType: "央国企",
-    industry: "综合",
-    recruitType: "校招/社招",
-    targetYears: "2026届",
-    location: "",
-    positions: "",
-    status: "未投递",
-    updateTime: "2026-09-02",
-    deadline: "招满为止",
-    applyLink: "",
-    noticeLink: "http://gzw.shandong.gov.cn/articles/ch00223/202609/2798a42e-a66b-4328-9e70-71cde78d3f07.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 山东省国资委 [2026-09-02]"
   },
   {
     id: 12,
@@ -308,23 +308,5 @@ const JOBS = [
     examInfo: "",
     companyScale: "",
     notes: "来源: 山东省国资委 [2026-08-17]"
-  },
-  {
-    id: 19,
-    companyName: "山能融资租赁（深圳）有限公司",
-    companyType: "央国企",
-    industry: "综合",
-    recruitType: "校招/社招",
-    targetYears: "2026届",
-    location: "",
-    positions: "",
-    status: "未投递",
-    updateTime: "2026-08-14",
-    deadline: "招满为止",
-    applyLink: "",
-    noticeLink: "http://gzw.shandong.gov.cn/articles/ch00223/202608/ffbe15be-1db3-43d5-990d-be53445696f4.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 山东省国资委 [2026-08-14]"
   }
 ];

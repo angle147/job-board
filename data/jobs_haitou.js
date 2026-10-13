@@ -1,6 +1,6 @@
 // 海投网 — 交通/物流/仓储行业校招
-// 2026-10-13 11:49:35
-// 178 条
+// 2026-10-13 17:05:24
+// 175 条
 
 const JOBS_HAITOU = [
   {
@@ -3149,60 +3149,6 @@ const JOBS_HAITOU = [
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7Y8U5ztzz.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7Y8U5ztzz.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 海投网 [2026-10-13] | "
-  },
-  {
-    id: "176",
-    companyName: "上海寰宇物流 宣讲会",
-    companyType: "企业",
-    industry: "邮政/物流",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "全国",
-    positions: "上海寰宇物流 宣讲会",
-    status: "未投递",
-    updateTime: "2026-10-13",
-    deadline: "招满为止",
-    applyLink: "https://campus.niuqizp.com/schedule-788y5ztMZ.html",
-    noticeLink: "https://campus.niuqizp.com/schedule-788y5ztMZ.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 海投网 [2026-10-13] | "
-  },
-  {
-    id: "177",
-    companyName: "中国铁路北京局 26届",
-    companyType: "企业",
-    industry: "铁路/轨交",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "全国",
-    positions: "春招",
-    status: "未投递",
-    updateTime: "2026-10-13",
-    deadline: "招满为止",
-    applyLink: "https://campus.niuqizp.com/schedule-7ysm5zNzN.html",
-    noticeLink: "https://campus.niuqizp.com/schedule-7ysm5zNzN.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 海投网 [2026-10-13] | "
-  },
-  {
-    id: "178",
-    companyName: "甘肃省铁路投资建设 26届",
-    companyType: "企业",
-    industry: "铁路/轨交",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "全国",
-    positions: "春招",
-    status: "未投递",
-    updateTime: "2026-10-13",
-    deadline: "招满为止",
-    applyLink: "https://campus.niuqizp.com/schedule-7kmy5zNz5.html",
-    noticeLink: "https://campus.niuqizp.com/schedule-7kmy5zNz5.html",
     examInfo: "",
     companyScale: "",
     notes: "来源: 海投网 [2026-10-13] | "

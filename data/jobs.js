@@ -1,10 +1,28 @@
 // 校招/社招岗位数据 — 自动爬取生成
-// 更新时间: 2026-10-14 12:12:33
-// 共 17 条
+// 更新时间: 2026-10-14 17:10:55
+// 共 18 条
 
 const JOBS = [
   {
     id: 1,
+    companyName: "泰山财产保险股份有限公司",
+    companyType: "央国企",
+    industry: "金融/银行",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "",
+    positions: "",
+    status: "未投递",
+    updateTime: "2026-10-14",
+    deadline: "招满为止",
+    applyLink: "",
+    noticeLink: "http://gzw.shandong.gov.cn/articles/ch00223/202610/d8641b51-b410-410f-959f-46ea4a923c9e.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 山东省国资委 [2026-10-14]"
+  },
+  {
+    id: 2,
     companyName: "山东省商业集团有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -22,7 +40,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-10-12]"
   },
   {
-    id: 2,
+    id: 3,
     companyName: "山东健康集团有限公司",
     companyType: "央国企",
     industry: "医药健康",
@@ -40,7 +58,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-10-04]"
   },
   {
-    id: 3,
+    id: 4,
     companyName: "山东健康集团",
     companyType: "央国企",
     industry: "医药健康",
@@ -58,7 +76,7 @@ const JOBS = [
     notes: "硕士及以上、博士优先 | 来源: 山东省国资委 [2026-10-04]"
   },
   {
-    id: 4,
+    id: 5,
     companyName: "中国广电山东网络有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -76,7 +94,7 @@ const JOBS = [
     notes: "博士优先 | 来源: 山东省国资委 [2026-10-02]"
   },
   {
-    id: 5,
+    id: 6,
     companyName: "关于延长山东省电子口岸有限公司",
     companyType: "央国企",
     industry: "电子/半导体",
@@ -94,7 +112,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-10-02]"
   },
   {
-    id: 6,
+    id: 7,
     companyName: "山东省电子口岸有限公司",
     companyType: "央国企",
     industry: "电子/半导体",
@@ -112,7 +130,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-09-11]"
   },
   {
-    id: 7,
+    id: 8,
     companyName: "山东能源集团",
     companyType: "央国企",
     industry: "能源/电力",
@@ -130,7 +148,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-09-10]"
   },
   {
-    id: 9,
+    id: 10,
     companyName: "山东黄河生态发展集团有限公司",
     companyType: "央国企",
     industry: "环保",
@@ -148,7 +166,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-09-07]"
   },
   {
-    id: 10,
+    id: 11,
     companyName: "山东土地资本投资集团有限公司",
     companyType: "央国企",
     industry: "金融/银行",
@@ -166,7 +184,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-09-07]"
   },
   {
-    id: 11,
+    id: 12,
     companyName: "山东省国际信托股份有限公司",
     companyType: "央国企",
     industry: "综合",
@@ -184,7 +202,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-09-04]"
   },
   {
-    id: 12,
+    id: 13,
     companyName: "兖矿资本管理有限公司",
     companyType: "央国企",
     industry: "能源/电力",
@@ -202,7 +220,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-08-24]"
   },
   {
-    id: 13,
+    id: 14,
     companyName: "山东发展投资控股集团有限公司",
     companyType: "央国企",
     industry: "金融/银行",
@@ -220,7 +238,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-08-21]"
   },
   {
-    id: 14,
+    id: 15,
     companyName: "关于延长山东健康集团有限公司",
     companyType: "央国企",
     industry: "医药健康",
@@ -238,7 +256,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-08-20]"
   },
   {
-    id: 15,
+    id: 16,
     companyName: "山东省土地发展集团有限公司",
     companyType: "央国企",
     industry: "地产/物业",
@@ -256,7 +274,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-08-19]"
   },
   {
-    id: 16,
+    id: 17,
     companyName: "山东省轻工业设计院",
     companyType: "央国企",
     industry: "交通设计/规划",
@@ -274,7 +292,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-08-18]"
   },
   {
-    id: 17,
+    id: 18,
     companyName: "山东省能源建筑设计院",
     companyType: "央国企",
     industry: "交通设计/规划",
@@ -292,7 +310,7 @@ const JOBS = [
     notes: "来源: 山东省国资委 [2026-08-18]"
   },
   {
-    id: 18,
+    id: 19,
     companyName: "山东省科创集团有限公司",
     companyType: "央国企",
     industry: "综合",

@@ -1,6 +1,6 @@
 // 海投网 — 交通/物流/仓储行业校招
-// 2026-10-14 12:08:02
-// 177 条
+// 2026-10-14 17:06:28
+// 175 条
 
 const JOBS_HAITOU = [
   {
@@ -3149,42 +3149,6 @@ const JOBS_HAITOU = [
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7r885zZaa.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7r885zZaa.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 海投网 [2026-10-14] | "
-  },
-  {
-    id: "176",
-    companyName: "重庆铁马 26届",
-    companyType: "企业",
-    industry: "综合",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "全国",
-    positions: "春招",
-    status: "未投递",
-    updateTime: "2026-10-14",
-    deadline: "招满为止",
-    applyLink: "https://campus.niuqizp.com/schedule-7rkU5zZ5t.html",
-    noticeLink: "https://campus.niuqizp.com/schedule-7rkU5zZ5t.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 海投网 [2026-10-14] | "
-  },
-  {
-    id: "177",
-    companyName: "江西省港口 26届",
-    companyType: "企业",
-    industry: "港口/航运",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "全国",
-    positions: "春招",
-    status: "未投递",
-    updateTime: "2026-10-14",
-    deadline: "招满为止",
-    applyLink: "https://campus.niuqizp.com/schedule-7s8k5zZ5Z.html",
-    noticeLink: "https://campus.niuqizp.com/schedule-7s8k5zZ5Z.html",
     examInfo: "",
     companyScale: "",
     notes: "来源: 海投网 [2026-10-14] | "

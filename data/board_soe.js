@@ -1,6 +1,6 @@
 // 国企校招岗位 — 由 build_personal_board.py 生成
-// 更新时间: 2026-10-14 12:13:27
-// 共 345 条
+// 更新时间: 2026-10-14 17:11:39
+// 共 351 条
 
 const SOE_JOBS = [
   {
@@ -12506,6 +12506,53 @@ const SOE_JOBS = [
     "priorityScore": 1
   },
   {
+    "id": "transport_iguopin_cosco-222460073002141676",
+    "boardSection": "国企校招",
+    "source": "中远海运与招商局官方招聘",
+    "companyName": "青岛远洋船员职业学院",
+    "companyType": "央国企",
+    "industry": "教育",
+    "recruitType": "校园招聘",
+    "targetYears": "待核验",
+    "location": "青岛-黄岛区",
+    "positions": "人事薪酬管理岗（2701）",
+    "status": "新发现",
+    "updateTime": "2026-10-14",
+    "deadline": "2026-12-31",
+    "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=222460073002141676",
+    "noticeLink": "https://coscoshipping.iguopin.com/job",
+    "examInfo": "",
+    "companyScale": "300-500人",
+    "notes": "（一）基本条件\n1．政治面貌：中共党员\n2．学历专业要求：人力资源管理、劳动与社会保障、会计学、财务管理等相关专业，硕士研究生及以上学历。\n3．年龄：28周岁及以下（1999年1月1日及以后出生）\n（二）专业知识要求（需具备的任职资格）\n1．熟悉《劳动合同法》《社会保险法》、个税、公积金等国家及地方劳动人事政策法规；\n2．掌握薪酬体系设计、薪酬核算、绩效奖金测算、人工成本预算、工资总额管控相关业务；\n3．熟悉社保公积金增减员、基数申报、补缴、稽核等全流程业务；\n4．了解人力资源管理全模块知识，掌握职级薪级、津补贴、经济补偿金、加班费核算规则；\n5．熟悉国资监管关于人工成本、工资总额管理相关规定等。\n（三）素质能力要求（需具备的工作能力）\n1．数据能力：熟练使用Excel（VLOOKUP、数据透视表、函数），能独立搭建薪酬台账、开展人工成本分析；\n2．系统操作：熟练操作SAP-HR系统、个税申报系统、社保公积金网上申报平台；\n3．文字能力：能够起草薪酬制度、方案、报告、统计分析材料；\n4．风险把控：具备用工风险识别能力，能预判薪酬、社保相关合规风险；\n5．综合能力：对外接洽属地人社、财税机构，对内接待员工薪酬答疑；具有极强的薪酬数据保密意识，严守薪酬保密纪律。",
+    "majorReq": "经济学类、财政学类、应用经济学类、工商管理类、会计类",
+    "educationReq": "硕士",
+    "positionCode": "",
+    "recruitmentCount": "1",
+    "registrationStart": "",
+    "registrationEnd": "2026-12-31",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "青岛远洋船员职业学院",
+    "contractEmployer": "待核验",
+    "employmentType": "直接招聘",
+    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
+    "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://coscoshipping.iguopin.com/job",
+      "https://coscoshipping.iguopin.com/job/detail?id=222460073002141676"
+    ],
+    "discoverySources": [
+      "中远海运与招商局官方招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 1
+  },
+  {
     "id": "transport_iguopin_cosco-221545009617307101",
     "boardSection": "国企校招",
     "source": "中远海运与招商局官方招聘",
@@ -13305,6 +13352,147 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
+    "id": "transport_iguopin_cmhk-220390576263005188",
+    "boardSection": "国企校招",
+    "source": "中远海运与招商局官方招聘",
+    "companyName": "辽宁港口集团有限公司",
+    "companyType": "央国企",
+    "industry": "水上运输业",
+    "recruitType": "校园招聘",
+    "targetYears": "待核验",
+    "location": "葫芦岛-绥中县",
+    "positions": "安全及化工类相关岗位（绥中）",
+    "status": "新发现",
+    "updateTime": "2026-10-14",
+    "deadline": "2026-12-31",
+    "applyLink": "https://cmhk.iguopin.com/job/detail?id=220390576263005188",
+    "noticeLink": "https://cmhk.iguopin.com/job",
+    "examInfo": "",
+    "companyScale": "10000-30000人",
+    "notes": "按照公司要求，参与港口安全管理、港口生产辅助业务等工作。本科及以上学历应届毕业生，并在2027年7月末之前取得国家认可的毕业证和学位证。",
+    "majorReq": "资源环境与安全全类、环境保护类、安全类、材料与化工类",
+    "educationReq": "本科",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "2026-12-31",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "辽宁港口集团有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接招聘",
+    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
+    "ownershipEvidenceUrl": "https://cmhk.iguopin.com",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://cmhk.iguopin.com/job",
+      "https://cmhk.iguopin.com/job/detail?id=220390576263005188"
+    ],
+    "discoverySources": [
+      "中远海运与招商局官方招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 0
+  },
+  {
+    "id": "transport_iguopin_cmhk-220390534387074050",
+    "boardSection": "国企校招",
+    "source": "中远海运与招商局官方招聘",
+    "companyName": "辽宁港口集团有限公司",
+    "companyType": "央国企",
+    "industry": "水上运输业",
+    "recruitType": "校园招聘",
+    "targetYears": "待核验",
+    "location": "营口",
+    "positions": "安全及化工类相关岗位（营口）",
+    "status": "新发现",
+    "updateTime": "2026-10-14",
+    "deadline": "2026-12-31",
+    "applyLink": "https://cmhk.iguopin.com/job/detail?id=220390534387074050",
+    "noticeLink": "https://cmhk.iguopin.com/job",
+    "examInfo": "",
+    "companyScale": "10000-30000人",
+    "notes": "按照公司要求，参与港口安全管理、港口生产辅助业务等工作。本科及以上学历应届毕业生，并在2027年7月末之前取得国家认可的毕业证和学位证。",
+    "majorReq": "资源环境与安全全类、环境保护类、安全类",
+    "educationReq": "本科",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "2026-12-31",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "辽宁港口集团有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接招聘",
+    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
+    "ownershipEvidenceUrl": "https://cmhk.iguopin.com",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://cmhk.iguopin.com/job",
+      "https://cmhk.iguopin.com/job/detail?id=220390534387074050"
+    ],
+    "discoverySources": [
+      "中远海运与招商局官方招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 0
+  },
+  {
+    "id": "transport_iguopin_cmhk-220390501184963586",
+    "boardSection": "国企校招",
+    "source": "中远海运与招商局官方招聘",
+    "companyName": "辽宁港口集团有限公司",
+    "companyType": "央国企",
+    "industry": "水上运输业",
+    "recruitType": "校园招聘",
+    "targetYears": "待核验",
+    "location": "大连",
+    "positions": "安全和化工类相关岗位（大连）",
+    "status": "新发现",
+    "updateTime": "2026-10-14",
+    "deadline": "2026-12-31",
+    "applyLink": "https://cmhk.iguopin.com/job/detail?id=220390501184963586",
+    "noticeLink": "https://cmhk.iguopin.com/job",
+    "examInfo": "",
+    "companyScale": "10000-30000人",
+    "notes": "按照公司要求，参与港口安全管理、港口生产辅助业务等工作。本科及以上学历应届毕业生，并在2027年7月末之前取得国家认可的毕业证和学位证。",
+    "majorReq": "资源环境与安全全类、环境保护类、安全类、材料与化工类",
+    "educationReq": "本科",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "2026-12-31",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "辽宁港口集团有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接招聘",
+    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
+    "ownershipEvidenceUrl": "https://cmhk.iguopin.com",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://cmhk.iguopin.com/job",
+      "https://cmhk.iguopin.com/job/detail?id=220390501184963586"
+    ],
+    "discoverySources": [
+      "中远海运与招商局官方招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 0
+  },
+  {
     "id": "transport_iguopin_cmhk-220389516110726134",
     "boardSection": "国企校招",
     "source": "中远海运与招商局官方招聘",
@@ -14057,54 +14245,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "transport_iguopin_cosco-218791618306638100",
-    "boardSection": "国企校招",
-    "source": "中远海运与招商局官方招聘",
-    "companyName": "海南中远海运沥青运输有限公司",
-    "companyType": "央国企",
-    "industry": "水上运输业",
-    "recruitType": "校园招聘",
-    "targetYears": "待核验",
-    "location": "广州",
-    "positions": "航运经营岗-广州",
-    "status": "新发现",
-    "updateTime": "2026-09-22",
-    "deadline": "2027-06-30",
-    "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=218791618306638100",
-    "noticeLink": "https://coscoshipping.iguopin.com/job",
-    "examInfo": "",
-    "companyScale": "50人以下",
-    "notes": "岗位职责：\n1、负责市场开发、揽货和客户维护等；负责收集整理市场及行业相关信息，完成市场调研有关工作；\n2、负责船舶调度、商务、经营信息统计分析等，协助制定、调整及推进营销计划，进行航次效益核算和航次效益分析等。\n\n任职条件：\n1、交通运输、物流管理、航运管理、经济管理、市场营销、法律、外语等相关专业全日制本科及以上学历；\n2、具备较强的学习能力、抗压能力、统筹能力、时间管理能力，责任心强，富有团队协作精神；\n3、大学英语六级以上水平，具有良好的中英文沟通能力，熟练使用常用办公软件。",
-    "majorReq": "详见职位描述",
-    "educationReq": "本科",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "2027-06-30",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "海南中远海运沥青运输有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "直接招聘",
-    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
-    "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "官方原文",
-    "sourceLinks": [
-      "https://coscoshipping.iguopin.com/job",
-      "https://coscoshipping.iguopin.com/job/detail?id=218791618306638100"
-    ],
-    "discoverySources": [
-      "中远海运与招商局官方招聘"
-    ],
-    "reviewReasons": [],
-    "priorityScore": 0
-  },
-  {
-    "id": "qyzp_8",
+    "id": "qyzp_12",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "东方电气集团",
@@ -14197,7 +14338,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_15",
+    "id": "qyzp_19",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "中国中车2027",
@@ -14244,7 +14385,54 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_5",
+    "id": "qyzp_2",
+    "boardSection": "国企校招",
+    "source": "央企招聘公告",
+    "companyName": "中国冶金地质总局",
+    "companyType": "央国企",
+    "industry": "综合",
+    "recruitType": "校招",
+    "targetYears": "2027届",
+    "location": "全国",
+    "positions": "中国冶金地质总局2027届校园招聘公告",
+    "status": "新发现",
+    "updateTime": "2026-10-14",
+    "deadline": "待核验",
+    "applyLink": "https://mp.weixin.qq.com/s/72Js4f5vUukcIiU0rKI9RQ",
+    "noticeLink": "http://job.mohrss.gov.cn/qyzp/index.jhtml",
+    "examInfo": "",
+    "companyScale": "",
+    "notes": "",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "中国冶金地质总局",
+    "contractEmployer": "待核验",
+    "employmentType": "待核验",
+    "ownershipRelation": "待核验",
+    "ownershipEvidenceUrl": "",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "http://job.mohrss.gov.cn/qyzp/index.jhtml",
+      "https://mp.weixin.qq.com/s/72Js4f5vUukcIiU0rKI9RQ"
+    ],
+    "discoverySources": [
+      "央企招聘公告"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 0
+  },
+  {
+    "id": "qyzp_9",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "中国化学工程20",
@@ -14291,7 +14479,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_9",
+    "id": "qyzp_13",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "中国华电2027",
@@ -14338,7 +14526,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_12",
+    "id": "qyzp_16",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "中国华能集团",
@@ -14385,7 +14573,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_16",
+    "id": "qyzp_20",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "中国国新2027",
@@ -14708,7 +14896,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_3",
+    "id": "qyzp_7",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "中国石化2027",
@@ -14801,7 +14989,54 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_18",
+    "id": "qyzp_3",
+    "boardSection": "国企校招",
+    "source": "央企招聘公告",
+    "companyName": "中国绿发2027",
+    "companyType": "央国企",
+    "industry": "综合",
+    "recruitType": "校招",
+    "targetYears": "待核验",
+    "location": "全国",
+    "positions": "中国绿发2027年校园招聘火热启动",
+    "status": "新发现",
+    "updateTime": "2026-10-14",
+    "deadline": "待核验",
+    "applyLink": "https://mp.weixin.qq.com/s/G8yyZiw9Qbgyg4JxRMKNyg",
+    "noticeLink": "http://job.mohrss.gov.cn/qyzp/index.jhtml",
+    "examInfo": "",
+    "companyScale": "",
+    "notes": "",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "中国绿发2027",
+    "contractEmployer": "待核验",
+    "employmentType": "待核验",
+    "ownershipRelation": "待核验",
+    "ownershipEvidenceUrl": "",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "http://job.mohrss.gov.cn/qyzp/index.jhtml",
+      "https://mp.weixin.qq.com/s/G8yyZiw9Qbgyg4JxRMKNyg"
+    ],
+    "discoverySources": [
+      "央企招聘公告"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 0
+  },
+  {
+    "id": "qyzp_22",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "中国能建2027",
@@ -14894,7 +15129,54 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_6",
+    "id": "qyzp_4",
+    "boardSection": "国企校招",
+    "source": "央企招聘公告",
+    "companyName": "中国资源循环集团",
+    "companyType": "央国企",
+    "industry": "综合",
+    "recruitType": "校招",
+    "targetYears": "2027届",
+    "location": "全国",
+    "positions": "中国资源循环集团2027届校园招聘",
+    "status": "新发现",
+    "updateTime": "2026-10-14",
+    "deadline": "待核验",
+    "applyLink": "https://mp.weixin.qq.com/s/upD6TekoG5CFBlXZJr36cQ",
+    "noticeLink": "http://job.mohrss.gov.cn/qyzp/index.jhtml",
+    "examInfo": "",
+    "companyScale": "",
+    "notes": "",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "中国资源循环集团",
+    "contractEmployer": "待核验",
+    "employmentType": "待核验",
+    "ownershipRelation": "待核验",
+    "ownershipEvidenceUrl": "",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "http://job.mohrss.gov.cn/qyzp/index.jhtml",
+      "https://mp.weixin.qq.com/s/upD6TekoG5CFBlXZJr36cQ"
+    ],
+    "discoverySources": [
+      "央企招聘公告"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 0
+  },
+  {
+    "id": "qyzp_10",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "中国远洋海运集团",
@@ -15033,52 +15315,6 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "国务院国资委人才招聘_sasac-central-35936655",
-    "boardSection": "国企校招",
-    "source": "国务院国资委人才招聘",
-    "companyName": "中国通服海南公司",
-    "companyType": "央国企",
-    "industry": "综合",
-    "recruitType": "校招",
-    "targetYears": "2027届",
-    "location": "全国",
-    "positions": "中国通服海南公司2027届校园招聘",
-    "status": "新发现",
-    "updateTime": "2026-09-16",
-    "deadline": "待核验",
-    "applyLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35936655/content.html",
-    "noticeLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35936655/content.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "中国通服海南公司",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "官方原文",
-    "sourceLinks": [
-      "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35936655/content.html"
-    ],
-    "discoverySources": [
-      "国务院国资委人才招聘"
-    ],
-    "reviewReasons": [],
-    "priorityScore": 0
-  },
-  {
     "id": "国务院国资委人才招聘_sasac-central-35954334",
     "boardSection": "国企校招",
     "source": "国务院国资委人才招聘",
@@ -15125,7 +15361,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_24",
+    "id": "qyzp_28",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "中汽中心",
@@ -15264,7 +15500,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_14",
+    "id": "qyzp_18",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "中船集团",
@@ -15357,7 +15593,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_2",
+    "id": "qyzp_6",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "保利集团",
@@ -15404,7 +15640,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_21",
+    "id": "qyzp_25",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "兵器未来科学家·",
@@ -15451,7 +15687,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_39",
+    "id": "qyzp_43",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "国家管网春季招聘",
@@ -15498,7 +15734,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_1",
+    "id": "qyzp_5",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "国家管网集团",
@@ -15545,7 +15781,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_10",
+    "id": "qyzp_14",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "国家能源集团",
@@ -15592,7 +15828,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_11",
+    "id": "qyzp_15",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "国机集团",
@@ -15685,7 +15921,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_4",
+    "id": "qyzp_8",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "国药集团",
@@ -15778,7 +16014,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_17",
+    "id": "qyzp_21",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "招商局集团",
@@ -15825,7 +16061,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_27",
+    "id": "qyzp_31",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "正元地理信息集团",
@@ -16010,7 +16246,7 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "qyzp_13",
+    "id": "qyzp_17",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
     "companyName": "航空工业成飞20",
@@ -16151,7 +16387,54 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "sasac_7",
+    "id": "qyzp_1",
+    "boardSection": "国企校招",
+    "source": "央企招聘公告",
+    "companyName": "通用技术集团",
+    "companyType": "央国企",
+    "industry": "综合",
+    "recruitType": "校招",
+    "targetYears": "2027届",
+    "location": "全国",
+    "positions": "通用技术集团2027届校园招聘正式启动",
+    "status": "新发现",
+    "updateTime": "2026-10-14",
+    "deadline": "待核验",
+    "applyLink": "https://mp.weixin.qq.com/s/dLRcfHNin7feqe0_34XeEQ",
+    "noticeLink": "http://job.mohrss.gov.cn/qyzp/index.jhtml",
+    "examInfo": "",
+    "companyScale": "",
+    "notes": "",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "通用技术集团",
+    "contractEmployer": "待核验",
+    "employmentType": "待核验",
+    "ownershipRelation": "待核验",
+    "ownershipEvidenceUrl": "",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "http://job.mohrss.gov.cn/qyzp/index.jhtml",
+      "https://mp.weixin.qq.com/s/dLRcfHNin7feqe0_34XeEQ"
+    ],
+    "discoverySources": [
+      "央企招聘公告"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 0
+  },
+  {
+    "id": "sasac_8",
     "boardSection": "国企校招",
     "source": "山东省国资委",
     "companyName": "山东能源集团",

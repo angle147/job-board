@@ -1,10 +1,74 @@
 // 中国公共招聘网 — 中央企业招聘公告
-// 2026-10-14 12:03:09
-// 52 条
+// 2026-10-14 17:00:32
+// 53 条
 
 const JOBS_QYZP = [
   {
     "id": "1",
+    "companyName": "通用技术集团",
+    "companyType": "央国企",
+    "industry": "综合",
+    "recruitType": "校招",
+    "targetYears": "2027",
+    "location": "全国",
+    "positions": "通用技术集团2027届校园招聘正式启动",
+    "status": "未投递",
+    "updateTime": "2026-10-14",
+    "deadline": "",
+    "applyLink": "https://mp.weixin.qq.com/s/dLRcfHNin7feqe0_34XeEQ",
+    "noticeLink": "http://job.mohrss.gov.cn/qyzp/index.jhtml",
+    "examInfo": ""
+  },
+  {
+    "id": "2",
+    "companyName": "中国冶金地质总局",
+    "companyType": "央国企",
+    "industry": "综合",
+    "recruitType": "校招",
+    "targetYears": "2027",
+    "location": "全国",
+    "positions": "中国冶金地质总局2027届校园招聘公告",
+    "status": "未投递",
+    "updateTime": "2026-10-14",
+    "deadline": "",
+    "applyLink": "https://mp.weixin.qq.com/s/72Js4f5vUukcIiU0rKI9RQ",
+    "noticeLink": "http://job.mohrss.gov.cn/qyzp/index.jhtml",
+    "examInfo": ""
+  },
+  {
+    "id": "3",
+    "companyName": "中国绿发2027",
+    "companyType": "央国企",
+    "industry": "综合",
+    "recruitType": "校招",
+    "targetYears": "",
+    "location": "全国",
+    "positions": "中国绿发2027年校园招聘火热启动",
+    "status": "未投递",
+    "updateTime": "2026-10-14",
+    "deadline": "",
+    "applyLink": "https://mp.weixin.qq.com/s/G8yyZiw9Qbgyg4JxRMKNyg",
+    "noticeLink": "http://job.mohrss.gov.cn/qyzp/index.jhtml",
+    "examInfo": ""
+  },
+  {
+    "id": "4",
+    "companyName": "中国资源循环集团",
+    "companyType": "央国企",
+    "industry": "综合",
+    "recruitType": "校招",
+    "targetYears": "2027",
+    "location": "全国",
+    "positions": "中国资源循环集团2027届校园招聘",
+    "status": "未投递",
+    "updateTime": "2026-10-14",
+    "deadline": "",
+    "applyLink": "https://mp.weixin.qq.com/s/upD6TekoG5CFBlXZJr36cQ",
+    "noticeLink": "http://job.mohrss.gov.cn/qyzp/index.jhtml",
+    "examInfo": ""
+  },
+  {
+    "id": "5",
     "companyName": "国家管网集团",
     "companyType": "央国企",
     "industry": "综合",
@@ -20,7 +84,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "2",
+    "id": "6",
     "companyName": "保利集团",
     "companyType": "央国企",
     "industry": "综合",
@@ -36,7 +100,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "3",
+    "id": "7",
     "companyName": "中国石化2027",
     "companyType": "央国企",
     "industry": "综合",
@@ -52,7 +116,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "4",
+    "id": "8",
     "companyName": "国药集团",
     "companyType": "央国企",
     "industry": "综合",
@@ -68,7 +132,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "5",
+    "id": "9",
     "companyName": "中国化学工程20",
     "companyType": "央国企",
     "industry": "综合",
@@ -84,7 +148,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "6",
+    "id": "10",
     "companyName": "中国远洋海运集团",
     "companyType": "央国企",
     "industry": "综合",
@@ -100,7 +164,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "7",
+    "id": "11",
     "companyName": "中国石油启动20",
     "companyType": "央国企",
     "industry": "综合",
@@ -116,7 +180,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "8",
+    "id": "12",
     "companyName": "东方电气集团",
     "companyType": "央国企",
     "industry": "综合",
@@ -132,7 +196,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "9",
+    "id": "13",
     "companyName": "中国华电2027",
     "companyType": "央国企",
     "industry": "综合",
@@ -148,7 +212,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "10",
+    "id": "14",
     "companyName": "国家能源集团",
     "companyType": "央国企",
     "industry": "综合",
@@ -164,7 +228,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "11",
+    "id": "15",
     "companyName": "国机集团",
     "companyType": "央国企",
     "industry": "综合",
@@ -180,7 +244,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "12",
+    "id": "16",
     "companyName": "中国华能集团",
     "companyType": "央国企",
     "industry": "综合",
@@ -196,7 +260,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "13",
+    "id": "17",
     "companyName": "航空工业成飞20",
     "companyType": "央国企",
     "industry": "综合",
@@ -212,7 +276,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "14",
+    "id": "18",
     "companyName": "中船集团",
     "companyType": "央国企",
     "industry": "综合",
@@ -228,7 +292,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "15",
+    "id": "19",
     "companyName": "中国中车2027",
     "companyType": "央国企",
     "industry": "综合",
@@ -244,7 +308,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "16",
+    "id": "20",
     "companyName": "中国国新2027",
     "companyType": "央国企",
     "industry": "综合",
@@ -260,7 +324,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "17",
+    "id": "21",
     "companyName": "招商局集团",
     "companyType": "央国企",
     "industry": "综合",
@@ -276,7 +340,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "18",
+    "id": "22",
     "companyName": "中国能建2027",
     "companyType": "央国企",
     "industry": "综合",
@@ -292,7 +356,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "19",
+    "id": "23",
     "companyName": "中盐集团",
     "companyType": "央国企",
     "industry": "综合",
@@ -308,7 +372,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "20",
+    "id": "24",
     "companyName": "中国融通集团",
     "companyType": "央国企",
     "industry": "综合",
@@ -324,7 +388,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "21",
+    "id": "25",
     "companyName": "兵器未来科学家·",
     "companyType": "央国企",
     "industry": "综合",
@@ -340,7 +404,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "22",
+    "id": "26",
     "companyName": "中国物流2026",
     "companyType": "央国企",
     "industry": "综合",
@@ -356,7 +420,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "23",
+    "id": "27",
     "companyName": "中粮集团",
     "companyType": "央国企",
     "industry": "综合",
@@ -372,7 +436,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "24",
+    "id": "28",
     "companyName": "中汽中心",
     "companyType": "央国企",
     "industry": "综合",
@@ -388,7 +452,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "25",
+    "id": "29",
     "companyName": "中国电科12所2",
     "companyType": "央国企",
     "industry": "综合",
@@ -404,7 +468,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "26",
+    "id": "30",
     "companyName": "中国机械科学研究总院",
     "companyType": "央国企",
     "industry": "综合",
@@ -420,7 +484,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "27",
+    "id": "31",
     "companyName": "正元地理信息集团",
     "companyType": "央国企",
     "industry": "综合",
@@ -436,7 +500,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "28",
+    "id": "32",
     "companyName": "中国国际工程咨询有限公司",
     "companyType": "央国企",
     "industry": "综合",
@@ -452,7 +516,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "29",
+    "id": "33",
     "companyName": "中国矿产资源集团",
     "companyType": "央国企",
     "industry": "综合",
@@ -468,7 +532,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "30",
+    "id": "34",
     "companyName": "中国建科2026",
     "companyType": "央国企",
     "industry": "综合",
@@ -484,7 +548,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "31",
+    "id": "35",
     "companyName": "中国绿发2026",
     "companyType": "央国企",
     "industry": "综合",
@@ -500,7 +564,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "32",
+    "id": "36",
     "companyName": "中国星网2026",
     "companyType": "央国企",
     "industry": "综合",
@@ -516,7 +580,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "33",
+    "id": "37",
     "companyName": "中国铝业集团",
     "companyType": "央国企",
     "industry": "综合",
@@ -532,7 +596,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "34",
+    "id": "38",
     "companyName": "中国电子2026",
     "companyType": "央国企",
     "industry": "综合",
@@ -548,7 +612,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "35",
+    "id": "39",
     "companyName": "中国化学工程20",
     "companyType": "央国企",
     "industry": "综合",
@@ -564,7 +628,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "36",
+    "id": "40",
     "companyName": "中国南方航空20",
     "companyType": "央国企",
     "industry": "综合",
@@ -580,7 +644,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "37",
+    "id": "41",
     "companyName": "中国有研科技集团",
     "companyType": "央国企",
     "industry": "综合",
@@ -596,7 +660,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "38",
+    "id": "42",
     "companyName": "哈电集团",
     "companyType": "央国企",
     "industry": "综合",
@@ -612,7 +676,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "39",
+    "id": "43",
     "companyName": "国家管网春季招聘",
     "companyType": "央国企",
     "industry": "综合",
@@ -628,7 +692,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "40",
+    "id": "44",
     "companyName": "中国航空工业集团",
     "companyType": "央国企",
     "industry": "综合",
@@ -644,7 +708,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "41",
+    "id": "45",
     "companyName": "中国国新2026",
     "companyType": "央国企",
     "industry": "综合",
@@ -660,7 +724,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "42",
+    "id": "46",
     "companyName": "中国融通集团",
     "companyType": "央国企",
     "industry": "综合",
@@ -676,7 +740,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "43",
+    "id": "47",
     "companyName": "华侨城集团",
     "companyType": "央国企",
     "industry": "综合",
@@ -692,7 +756,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "44",
+    "id": "48",
     "companyName": "中粮集团",
     "companyType": "央国企",
     "industry": "综合",
@@ -708,7 +772,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "45",
+    "id": "49",
     "companyName": "国药集团",
     "companyType": "央国企",
     "industry": "综合",
@@ -724,7 +788,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "46",
+    "id": "50",
     "companyName": "华润五丰2026",
     "companyType": "央国企",
     "industry": "综合",
@@ -740,7 +804,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "47",
+    "id": "51",
     "companyName": "中广核2026届",
     "companyType": "央国企",
     "industry": "综合",
@@ -756,7 +820,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "48",
+    "id": "52",
     "companyName": "中国网安2026",
     "companyType": "央国企",
     "industry": "综合",
@@ -772,7 +836,7 @@ const JOBS_QYZP = [
     "examInfo": ""
   },
   {
-    "id": "49",
+    "id": "53",
     "companyName": "南方电网公司",
     "companyType": "央国企",
     "industry": "综合",
@@ -784,54 +848,6 @@ const JOBS_QYZP = [
     "updateTime": "2026-03-20",
     "deadline": "",
     "applyLink": "https://mp.weixin.qq.com/s/DRU4o-t9nXimQeOENjOVLA",
-    "noticeLink": "http://job.mohrss.gov.cn/qyzp/index.jhtml",
-    "examInfo": ""
-  },
-  {
-    "id": "50",
-    "companyName": "中国一重集团",
-    "companyType": "央国企",
-    "industry": "综合",
-    "recruitType": "校招",
-    "targetYears": "2026",
-    "location": "全国",
-    "positions": "中国一重集团有限公司2026届校园招聘正式启动",
-    "status": "未投递",
-    "updateTime": "2026-03-19",
-    "deadline": "",
-    "applyLink": "https://mp.weixin.qq.com/s/WLhOT8xxEsM-Z966m82BmA",
-    "noticeLink": "http://job.mohrss.gov.cn/qyzp/index.jhtml",
-    "examInfo": ""
-  },
-  {
-    "id": "51",
-    "companyName": "中国移动2026",
-    "companyType": "央国企",
-    "industry": "综合",
-    "recruitType": "校招",
-    "targetYears": "",
-    "location": "全国",
-    "positions": "中国移动2026春季校园招聘正式开启",
-    "status": "未投递",
-    "updateTime": "2026-03-18",
-    "deadline": "",
-    "applyLink": "https://mp.weixin.qq.com/s/j-iF7pR9tQqfPOFelEYtdA",
-    "noticeLink": "http://job.mohrss.gov.cn/qyzp/index.jhtml",
-    "examInfo": ""
-  },
-  {
-    "id": "52",
-    "companyName": "中汽中心",
-    "companyType": "央国企",
-    "industry": "综合",
-    "recruitType": "校招",
-    "targetYears": "",
-    "location": "全国",
-    "positions": "中汽中心2026春季校园招聘",
-    "status": "未投递",
-    "updateTime": "2026-03-18",
-    "deadline": "",
-    "applyLink": "https://mp.weixin.qq.com/s/Bx0HKinLcBbmYG7Lz0xVtQ",
     "noticeLink": "http://job.mohrss.gov.cn/qyzp/index.jhtml",
     "examInfo": ""
   }

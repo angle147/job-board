@@ -1,6 +1,6 @@
 // 校招/社招岗位数据 — 自动爬取生成
-// 更新时间: 2026-10-15 17:11:01
-// 共 18 条
+// 更新时间: 2026-10-16 11:44:32
+// 共 17 条
 
 const JOBS = [
   {
@@ -308,23 +308,5 @@ const JOBS = [
     examInfo: "",
     companyScale: "",
     notes: "来源: 山东省国资委 [2026-08-18]"
-  },
-  {
-    id: 19,
-    companyName: "山东省科创集团有限公司",
-    companyType: "央国企",
-    industry: "综合",
-    recruitType: "校招/社招",
-    targetYears: "2026届",
-    location: "",
-    positions: "",
-    status: "未投递",
-    updateTime: "2026-08-17",
-    deadline: "招满为止",
-    applyLink: "",
-    noticeLink: "http://gzw.shandong.gov.cn/articles/ch00223/202608/2f3dda72-9205-4fd9-9e54-5de3e92a6957.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 山东省国资委 [2026-08-17]"
   }
 ];

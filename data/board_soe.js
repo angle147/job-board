@@ -1,6 +1,6 @@
 // 国企校招岗位 — 由 build_personal_board.py 生成
-// 更新时间: 2026-10-16 11:45:19
-// 共 349 条
+// 更新时间: 2026-10-16 17:11:17
+// 共 350 条
 
 const SOE_JOBS = [
   {
@@ -1594,6 +1594,53 @@ const SOE_JOBS = [
     "sourceLinks": [
       "https://coscoshipping.iguopin.com/job",
       "https://coscoshipping.iguopin.com/job/detail?id=218794373293277460"
+    ],
+    "discoverySources": [
+      "中远海运与招商局官方招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 31
+  },
+  {
+    "id": "transport_iguopin_cmhk-217335148574672032",
+    "boardSection": "国企校招",
+    "source": "中远海运与招商局官方招聘",
+    "companyName": "上海长江轮船有限公司",
+    "companyType": "央国企",
+    "industry": "水上运输业",
+    "recruitType": "校园招聘",
+    "targetYears": "待核验",
+    "location": "上海",
+    "positions": "干散货运输经营管理",
+    "status": "新发现",
+    "updateTime": "2026-10-16",
+    "deadline": "2026-12-06",
+    "applyLink": "https://cmhk.iguopin.com/job/detail?id=217335148574672032",
+    "noticeLink": "https://cmhk.iguopin.com/job",
+    "examInfo": "",
+    "companyScale": "1000-2000人",
+    "notes": "【工作职责】\n项目管理、营销方案、租船管理、客户管理、商务、数字化系统操作等。\n【任职资格】\n本科及以上学历，运输/营销/经济/工商管理等专业。具备熟练使用办公软件能力；英语水平良好为佳；性格外向，责任心好，表达能力强。身心健康，抗压能力强，能适应西非轮岗和出差或临时性异地办公。",
+    "majorReq": "经济学全类、交通运输类、工商管理类",
+    "educationReq": "本科",
+    "positionCode": "",
+    "recruitmentCount": "1",
+    "registrationStart": "",
+    "registrationEnd": "2026-12-06",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "上海长江轮船有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接招聘",
+    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
+    "ownershipEvidenceUrl": "https://cmhk.iguopin.com",
+    "exclusionReasons": [],
+    "fitLevel": "已确认适配",
+    "fitReason": "专业要求含目标专业、上级专业或不限专业",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://cmhk.iguopin.com/job",
+      "https://cmhk.iguopin.com/job/detail?id=217335148574672032"
     ],
     "discoverySources": [
       "中远海运与招商局官方招聘"
@@ -11331,53 +11378,6 @@ const SOE_JOBS = [
     "priorityScore": 1
   },
   {
-    "id": "transport_iguopin_cosco-219179455531188503",
-    "boardSection": "国企校招",
-    "source": "中远海运与招商局官方招聘",
-    "companyName": "中远海运船员管理有限公司青岛分公司",
-    "companyType": "央国企",
-    "industry": "水上运输业",
-    "recruitType": "校园招聘",
-    "targetYears": "待核验",
-    "location": "青岛-市南区",
-    "positions": "财税室/预算室财务会计岗",
-    "status": "新发现",
-    "updateTime": "2026-09-21",
-    "deadline": "2026-12-19",
-    "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=219179455531188503",
-    "noticeLink": "https://coscoshipping.iguopin.com/job",
-    "examInfo": "",
-    "companyScale": "1000-2000人",
-    "notes": "一、岗位职责\n1.在部门领导的带领下，在室经理的指导下，落实财税预算室相关工作;\n2.根据国家税法及主管税务机关的要求，做好分/子公司增值税、个人所得税等各项税金的计算、增值税进项税认证抵扣、税金申报、税款缴纳工作;\n3.做好分/子公司每季度企业所得税申报及缴交工作。向总部提供年度企业所得税汇缴清算相关备案资料，配合母公司做好年度企业所得税汇算清缴工作;\n4.做好分/子公司陆岸人员及船员个人所得税申报数据审核、年度综合所得汇算工作;\n5.负责税务管理报表编制工作，并通过久其报表系统上报总部；编制税务月报表、税务统计表、重点税源表等报表并通过税务平台系统上报主管税务局;\n6.做好财税政策收集研究，以及与主管税务部门协调税务工作;\n7.按税务机关、总部要求，对分/子公司开展的税务监督检查工作进行布置、反馈、整改落实;\n8.负责编制分/子公司月度财务管理报表和应收账款账龄分析表;\n9.负责分/子公司部分船舶派员收入、成本的核算；船员福利费、培训费核算工作;\n10.做好财务管理部公文的收发、拟办和流转，文书档案的收集、汇总、立卷、归档工作;\n11.完成上级领导交办的其他任务。\n二、任职要求\n1.坚决拥护中国共产党的领导（中共党员优先）；\n2.遵纪守法，无违法犯罪记录；\n3.持有助理会计师职称（注册会计师优先）；\n4.了解国家和地区相关的法律法规政策；\n5.具有良好的计划执行、沟通协调能力；\n6.工作积极主动，工作责任心强；\n7.具有一定的学习创新能力；\n8.具有一定的抗压能力。",
-    "majorReq": "会计类、财务会计类",
-    "educationReq": "硕士",
-    "positionCode": "",
-    "recruitmentCount": "1",
-    "registrationStart": "",
-    "registrationEnd": "2026-12-19",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "中远海运船员管理有限公司青岛分公司",
-    "contractEmployer": "待核验",
-    "employmentType": "直接招聘",
-    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
-    "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "官方原文",
-    "sourceLinks": [
-      "https://coscoshipping.iguopin.com/job",
-      "https://coscoshipping.iguopin.com/job/detail?id=219179455531188503"
-    ],
-    "discoverySources": [
-      "中远海运与招商局官方招聘"
-    ],
-    "reviewReasons": [],
-    "priorityScore": 1
-  },
-  {
     "id": "transport_iguopin_cosco-219064046756823319",
     "boardSection": "国企校招",
     "source": "中远海运与招商局官方招聘",
@@ -12921,6 +12921,53 @@ const SOE_JOBS = [
     "sourceLinks": [
       "https://cmhk.iguopin.com/job",
       "https://cmhk.iguopin.com/job/detail?id=222394753797326589"
+    ],
+    "discoverySources": [
+      "中远海运与招商局官方招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 1
+  },
+  {
+    "id": "transport_iguopin_cosco-222808781866666674",
+    "boardSection": "国企校招",
+    "source": "中远海运与招商局官方招聘",
+    "companyName": "新世纪标志（深圳）有限公司",
+    "companyType": "央国企",
+    "industry": "制造业",
+    "recruitType": "校园招聘",
+    "targetYears": "待核验",
+    "location": "汕尾-海丰县",
+    "positions": "财务部财务分析与管理岗",
+    "status": "新发现",
+    "updateTime": "2026-10-16",
+    "deadline": "2027-01-14",
+    "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=222808781866666674",
+    "noticeLink": "https://coscoshipping.iguopin.com/job",
+    "examInfo": "",
+    "companyScale": "100-300人",
+    "notes": "1.财务相关专业本科及以上学历，持有会计从业资格证书。\n2.具有良好学习能力、独立工作能力和财务分析能力。\n3.工作细致，责任感强，良好的沟通能力，团队精神。",
+    "majorReq": "财政学类",
+    "educationReq": "本科",
+    "positionCode": "",
+    "recruitmentCount": "1",
+    "registrationStart": "",
+    "registrationEnd": "2027-01-14",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "新世纪标志（深圳）有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接招聘",
+    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
+    "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://coscoshipping.iguopin.com/job",
+      "https://coscoshipping.iguopin.com/job/detail?id=222808781866666674"
     ],
     "discoverySources": [
       "中远海运与招商局官方招聘"

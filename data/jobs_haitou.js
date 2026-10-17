@@ -1,5 +1,5 @@
 // 海投网 — 交通/物流/仓储行业校招
-// 2026-10-17 09:05:24
+// 2026-10-17 17:05:26
 // 177 条
 
 const JOBS_HAITOU = [
@@ -59,6 +59,24 @@ const JOBS_HAITOU = [
   },
   {
     id: "4",
+    companyName: "湖北交投 26届校招",
+    companyType: "企业",
+    industry: "公路/高速",
+    recruitType: "春招",
+    targetYears: "2026届",
+    location: "全国",
+    positions: "湖北交投 26届校招",
+    status: "未投递",
+    updateTime: "2026-10-17",
+    deadline: "招满为止",
+    applyLink: "https://campus.niuqizp.com/schedule-7lkYNn5tz.html",
+    noticeLink: "https://campus.niuqizp.com/schedule-7lkYNn5tz.html",
+    examInfo: "",
+    companyScale: "",
+    notes: "来源: 海投网 [2026-10-17] | "
+  },
+  {
+    id: "5",
     companyName: "海南港航 2027届校招",
     companyType: "企业",
     industry: "港口/航运",
@@ -76,7 +94,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "5",
+    id: "6",
     companyName: "珠海港 26届校招",
     companyType: "企业",
     industry: "综合",
@@ -94,7 +112,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "6",
+    id: "7",
     companyName: "JCTRANS 2026届管培生",
     companyType: "企业",
     industry: "综合",
@@ -112,7 +130,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "7",
+    id: "8",
     companyName: "华夏航空 27届校招",
     companyType: "企业",
     industry: "航空",
@@ -130,7 +148,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "8",
+    id: "9",
     companyName: "中谷海运 26届校招",
     companyType: "企业",
     industry: "港口/航运",
@@ -148,7 +166,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "9",
+    id: "10",
     companyName: "享道出行 27届校招",
     companyType: "企业",
     industry: "综合",
@@ -166,7 +184,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "10",
+    id: "11",
     companyName: "东航技术 卓越航空工程师计划",
     companyType: "企业",
     industry: "航空",
@@ -184,7 +202,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "11",
+    id: "12",
     companyName: "东航 27届校招宣讲会",
     companyType: "企业",
     industry: "综合",
@@ -202,7 +220,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "12",
+    id: "13",
     companyName: "湖北交投 27届校招",
     companyType: "企业",
     industry: "公路/高速",
@@ -220,7 +238,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "13",
+    id: "14",
     companyName: "辽港 27届校招",
     companyType: "企业",
     industry: "综合",
@@ -238,7 +256,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "14",
+    id: "15",
     companyName: "中外运 27年校招",
     companyType: "企业",
     industry: "综合",
@@ -256,7 +274,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "15",
+    id: "16",
     companyName: "象屿 2027届",
     companyType: "企业",
     industry: "综合",
@@ -274,7 +292,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "16",
+    id: "17",
     companyName: "中国长航 2027届校招",
     companyType: "企业",
     industry: "综合",
@@ -292,7 +310,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "17",
+    id: "18",
     companyName: "蜀道 2027届蜀道晨星管培生校招",
     companyType: "企业",
     industry: "综合",
@@ -310,7 +328,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "18",
+    id: "19",
     companyName: "广州邮政 27届校招",
     companyType: "企业",
     industry: "邮政/物流",
@@ -328,7 +346,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "19",
+    id: "20",
     companyName: "德邦 2027届校招线下宣讲会",
     companyType: "企业",
     industry: "综合",
@@ -346,7 +364,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "20",
+    id: "21",
     companyName: "众合科技 2027届校招",
     companyType: "企业",
     industry: "综合",
@@ -364,7 +382,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "21",
+    id: "22",
     companyName: "福船,福建港口,工控轻纺设计院 2027届秋季校招",
     companyType: "企业",
     industry: "港口/航运",
@@ -382,7 +400,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "22",
+    id: "23",
     companyName: "象屿 27届",
     companyType: "企业",
     industry: "综合",
@@ -400,7 +418,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "23",
+    id: "24",
     companyName: "东航 第二期远航飞行人才项目",
     companyType: "企业",
     industry: "综合",
@@ -418,7 +436,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "24",
+    id: "25",
     companyName: "东航 校招",
     companyType: "企业",
     industry: "综合",
@@ -436,7 +454,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "25",
+    id: "26",
     companyName: "浙江交通 2027届校招宣讲会",
     companyType: "企业",
     industry: "公路/高速",
@@ -454,7 +472,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "26",
+    id: "27",
     companyName: "中国通号 2027届校招宣讲会",
     companyType: "企业",
     industry: "综合",
@@ -472,7 +490,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "27",
+    id: "28",
     companyName: "福建港口,福汽 27届",
     companyType: "企业",
     industry: "港口/航运",
@@ -490,7 +508,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "28",
+    id: "29",
     companyName: "成都市公共交通 27届",
     companyType: "企业",
     industry: "公路/高速",
@@ -508,7 +526,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "29",
+    id: "30",
     companyName: "航空工业通飞 27届",
     companyType: "企业",
     industry: "航空",
@@ -526,7 +544,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "30",
+    id: "31",
     companyName: "地铁 27届秋季校招",
     companyType: "企业",
     industry: "铁路/轨交",
@@ -544,7 +562,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "31",
+    id: "32",
     companyName: "招商局太平湾 27届校招",
     companyType: "企业",
     industry: "综合",
@@ -562,7 +580,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "32",
+    id: "33",
     companyName: "中国外运 27届校招",
     companyType: "企业",
     industry: "综合",
@@ -580,7 +598,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "33",
+    id: "34",
     companyName: "招商局 27届校招宣讲会",
     companyType: "企业",
     industry: "综合",
@@ -598,7 +616,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "34",
+    id: "35",
     companyName: "招商局 2027届校招宣讲会",
     companyType: "企业",
     industry: "综合",
@@ -616,7 +634,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "35",
+    id: "36",
     companyName: "星商创新 27届",
     companyType: "企业",
     industry: "综合",
@@ -634,7 +652,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "36",
+    id: "37",
     companyName: "东航 27届校招",
     companyType: "企业",
     industry: "综合",
@@ -652,7 +670,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "37",
+    id: "38",
     companyName: "东航 27届全球校招",
     companyType: "企业",
     industry: "综合",
@@ -670,7 +688,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "38",
+    id: "39",
     companyName: "吉祥航空 2026退役军人及随军家属专场",
     companyType: "企业",
     industry: "航空",
@@ -688,7 +706,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "39",
+    id: "40",
     companyName: "货拉拉 27届校招",
     companyType: "企业",
     industry: "综合",
@@ -706,7 +724,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "40",
+    id: "41",
     companyName: "中通快运 27届秋季校招",
     companyType: "企业",
     industry: "综合",
@@ -724,7 +742,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "41",
+    id: "42",
     companyName: "江苏交控 27届第一批次校招",
     companyType: "企业",
     industry: "综合",
@@ -742,7 +760,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "42",
+    id: "43",
     companyName: "中远海运物流 2027届校招",
     companyType: "企业",
     industry: "港口/航运",
@@ -760,7 +778,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "43",
+    id: "44",
     companyName: "顺丰 2027届管培生计划",
     companyType: "企业",
     industry: "综合",
@@ -778,7 +796,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "44",
+    id: "45",
     companyName: "中国东方航空 27届校招",
     companyType: "企业",
     industry: "航空",
@@ -796,7 +814,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "45",
+    id: "46",
     companyName: "湖北交投 湖北交投集团部分子公司管理岗位公开遴选",
     companyType: "企业",
     industry: "公路/高速",
@@ -814,7 +832,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "46",
+    id: "47",
     companyName: "长龙航空,LOONGAIR 2027届校招",
     companyType: "企业",
     industry: "航空",
@@ -832,7 +850,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "47",
+    id: "48",
     companyName: "东航 第八期燕计划管培生项目",
     companyType: "企业",
     industry: "综合",
@@ -850,7 +868,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "48",
+    id: "49",
     companyName: "顺丰 2027届校招",
     companyType: "企业",
     industry: "综合",
@@ -868,7 +886,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "49",
+    id: "50",
     companyName: "中通 2027届校招宣讲会",
     companyType: "企业",
     industry: "综合",
@@ -886,7 +904,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "50",
+    id: "51",
     companyName: "中集 2027届校招",
     companyType: "企业",
     industry: "综合",
@@ -904,7 +922,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "51",
+    id: "52",
     companyName: "安吉物流 2027届校招",
     companyType: "企业",
     industry: "邮政/物流",
@@ -922,7 +940,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "52",
+    id: "53",
     companyName: "中远海运特运 27届校招",
     companyType: "企业",
     industry: "港口/航运",
@@ -940,7 +958,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "53",
+    id: "54",
     companyName: "深城交 2027届校招",
     companyType: "企业",
     industry: "综合",
@@ -958,7 +976,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "54",
+    id: "55",
     companyName: "满帮 2027届校招",
     companyType: "企业",
     industry: "综合",
@@ -976,7 +994,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "55",
+    id: "56",
     companyName: "四川邮政 27届校招",
     companyType: "企业",
     industry: "邮政/物流",
@@ -994,7 +1012,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "56",
+    id: "57",
     companyName: "中远海运,COSCO SHIPPING 27届全球校招",
     companyType: "企业",
     industry: "港口/航运",
@@ -1012,7 +1030,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "57",
+    id: "58",
     companyName: "成都轨道 26届第三批次校招",
     companyType: "企业",
     industry: "综合",
@@ -1030,7 +1048,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "58",
+    id: "59",
     companyName: "黑大第十六届校友双选会 26届双选会",
     companyType: "企业",
     industry: "综合",
@@ -1048,7 +1066,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "59",
+    id: "60",
     companyName: "北京地铁 2027届校招",
     companyType: "企业",
     industry: "铁路/轨交",
@@ -1066,7 +1084,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "60",
+    id: "61",
     companyName: "安徽邮政 27届",
     companyType: "企业",
     industry: "邮政/物流",
@@ -1084,7 +1102,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "61",
+    id: "62",
     companyName: "湖南高速 27届校招",
     companyType: "企业",
     industry: "公路/高速",
@@ -1102,7 +1120,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "62",
+    id: "63",
     companyName: "江苏港口 27届",
     companyType: "企业",
     industry: "港口/航运",
@@ -1120,7 +1138,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "63",
+    id: "64",
     companyName: "四川邮政 27届",
     companyType: "企业",
     industry: "邮政/物流",
@@ -1138,7 +1156,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "64",
+    id: "65",
     companyName: "顺丰 27届校招",
     companyType: "企业",
     industry: "综合",
@@ -1156,7 +1174,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "65",
+    id: "66",
     companyName: "中通快递 2027届校招宣讲会",
     companyType: "企业",
     industry: "邮政/物流",
@@ -1174,7 +1192,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "66",
+    id: "67",
     companyName: "江苏铁路 26届",
     companyType: "企业",
     industry: "铁路/轨交",
@@ -1192,7 +1210,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "67",
+    id: "68",
     companyName: "长基供应链 27届管培生",
     companyType: "企业",
     industry: "邮政/物流",
@@ -1210,7 +1228,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "68",
+    id: "69",
     companyName: "深城交 26届校招",
     companyType: "企业",
     industry: "综合",
@@ -1228,7 +1246,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "69",
+    id: "70",
     companyName: "中车科技创新, 中车赛德 27届校招",
     companyType: "企业",
     industry: "铁路/轨交",
@@ -1246,7 +1264,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "70",
+    id: "71",
     companyName: "中车科创 26-27届校招",
     companyType: "企业",
     industry: "铁路/轨交",
@@ -1264,7 +1282,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "71",
+    id: "72",
     companyName: "申通 27届校招宣讲会",
     companyType: "企业",
     industry: "综合",
@@ -1282,7 +1300,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "72",
+    id: "73",
     companyName: "金温铁道 2027届校招",
     companyType: "企业",
     industry: "铁路/轨交",
@@ -1300,7 +1318,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "73",
+    id: "74",
     companyName: "象屿 27届校招",
     companyType: "企业",
     industry: "综合",
@@ -1318,7 +1336,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "74",
+    id: "75",
     companyName: "浙江交通 27届校招",
     companyType: "企业",
     industry: "公路/高速",
@@ -1336,7 +1354,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "75",
+    id: "76",
     companyName: "中国南山 2027届校招",
     companyType: "企业",
     industry: "综合",
@@ -1354,7 +1372,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "76",
+    id: "77",
     companyName: "曹操出行 2027届校招",
     companyType: "企业",
     industry: "综合",
@@ -1372,7 +1390,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "77",
+    id: "78",
     companyName: "德邦 2027届校招宣讲会",
     companyType: "企业",
     industry: "综合",
@@ -1390,7 +1408,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "78",
+    id: "79",
     companyName: "象屿,XMXYG 27届校招",
     companyType: "企业",
     industry: "综合",
@@ -1408,7 +1426,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "79",
+    id: "80",
     companyName: "曹操出行 27届",
     companyType: "企业",
     industry: "综合",
@@ -1426,7 +1444,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "80",
+    id: "81",
     companyName: "中谷海运 27届校招",
     companyType: "企业",
     industry: "港口/航运",
@@ -1444,7 +1462,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "81",
+    id: "82",
     companyName: "广州地铁 2027届校招",
     companyType: "企业",
     industry: "铁路/轨交",
@@ -1462,7 +1480,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "82",
+    id: "83",
     companyName: "陕西邮政 2027届校招",
     companyType: "企业",
     industry: "邮政/物流",
@@ -1480,7 +1498,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "83",
+    id: "84",
     companyName: "河北邮政 27届",
     companyType: "企业",
     industry: "邮政/物流",
@@ -1498,7 +1516,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "84",
+    id: "85",
     companyName: "安徽交控 2027届校招",
     companyType: "企业",
     industry: "综合",
@@ -1516,7 +1534,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "85",
+    id: "86",
     companyName: "卡斯柯 27届校招",
     companyType: "企业",
     industry: "综合",
@@ -1534,7 +1552,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "86",
+    id: "87",
     companyName: "江苏邮政 27届校招",
     companyType: "企业",
     industry: "邮政/物流",
@@ -1552,7 +1570,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "87",
+    id: "88",
     companyName: "山东邮政 2027届校招",
     companyType: "企业",
     industry: "邮政/物流",
@@ -1570,7 +1588,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "88",
+    id: "89",
     companyName: "吉祥航空,JUNEYAO AIR 27届校招",
     companyType: "企业",
     industry: "航空",
@@ -1588,7 +1606,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "89",
+    id: "90",
     companyName: "华夏航空 2027届校招",
     companyType: "企业",
     industry: "航空",
@@ -1606,7 +1624,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "90",
+    id: "91",
     companyName: "天津港,TIANJIN PORT GROUP 27届校招",
     companyType: "企业",
     industry: "综合",
@@ -1624,7 +1642,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "91",
+    id: "92",
     companyName: "中外运 27届校招",
     companyType: "企业",
     industry: "综合",
@@ -1642,7 +1660,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "92",
+    id: "93",
     companyName: "中交三航物资 2027届校招",
     companyType: "企业",
     industry: "综合",
@@ -1660,7 +1678,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "93",
+    id: "94",
     companyName: "厦航 27届校招",
     companyType: "企业",
     industry: "综合",
@@ -1678,7 +1696,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "94",
+    id: "95",
     companyName: "河北邮政 2027届",
     companyType: "企业",
     industry: "邮政/物流",
@@ -1696,7 +1714,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "95",
+    id: "96",
     companyName: "蜀道铁路投资 26届",
     companyType: "企业",
     industry: "铁路/轨交",
@@ -1714,7 +1732,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "96",
+    id: "97",
     companyName: "安踏物流ANTA Logistics 27届校招",
     companyType: "企业",
     industry: "邮政/物流",
@@ -1732,7 +1750,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "97",
+    id: "98",
     companyName: "极兔速递 28届",
     companyType: "企业",
     industry: "综合",
@@ -1750,7 +1768,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "98",
+    id: "99",
     companyName: "盛威,Safewell 27届校招",
     companyType: "企业",
     industry: "综合",
@@ -1768,7 +1786,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "99",
+    id: "100",
     companyName: "传化Transfar 27届校招",
     companyType: "企业",
     industry: "综合",
@@ -1786,7 +1804,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "100",
+    id: "101",
     companyName: "北京航天万源科技 27届",
     companyType: "企业",
     industry: "综合",
@@ -1804,7 +1822,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "101",
+    id: "102",
     companyName: "河北高速 2026年社招",
     companyType: "企业",
     industry: "公路/高速",
@@ -1822,7 +1840,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "102",
+    id: "103",
     companyName: "德邦快递,DEPPON EXPRESS 2027届校招宣讲会",
     companyType: "企业",
     industry: "邮政/物流",
@@ -1840,7 +1858,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "103",
+    id: "104",
     companyName: "中交第三 27届",
     companyType: "企业",
     industry: "综合",
@@ -1858,7 +1876,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "104",
+    id: "105",
     companyName: "新石器 NEOLIX AI 27届校招",
     companyType: "企业",
     industry: "综合",
@@ -1876,7 +1894,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "105",
+    id: "106",
     companyName: "菜鸟 27届",
     companyType: "企业",
     industry: "综合",
@@ -1894,7 +1912,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "106",
+    id: "107",
     companyName: "航天恒星 27届",
     companyType: "企业",
     industry: "综合",
@@ -1912,7 +1930,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "107",
+    id: "108",
     companyName: "满帮 27届",
     companyType: "企业",
     industry: "综合",
@@ -1930,7 +1948,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "108",
+    id: "109",
     companyName: "中通快递 27届",
     companyType: "企业",
     industry: "邮政/物流",
@@ -1948,7 +1966,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "109",
+    id: "110",
     companyName: "遨森电商AOSOM 27届校招",
     companyType: "企业",
     industry: "综合",
@@ -1966,7 +1984,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "110",
+    id: "111",
     companyName: "中通快递 27届校招",
     companyType: "企业",
     industry: "邮政/物流",
@@ -1984,7 +2002,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "111",
+    id: "112",
     companyName: "满帮 27届校招",
     companyType: "企业",
     industry: "综合",
@@ -2002,7 +2020,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "112",
+    id: "113",
     companyName: "智加科技 2027届校招",
     companyType: "企业",
     industry: "综合",
@@ -2020,7 +2038,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "113",
+    id: "114",
     companyName: "中远海运船员管理 27届校招",
     companyType: "企业",
     industry: "港口/航运",
@@ -2038,7 +2056,7 @@ const JOBS_HAITOU = [
     notes: "来源: 海投网 [2026-10-17] | "
   },
   {
-    id: "114",
+    id: "115",
     companyName: "倍通供应链 27届校招",
     companyType: "企业",
     industry: "邮政/物流",
@@ -2051,24 +2069,6 @@ const JOBS_HAITOU = [
     deadline: "招满为止",
     applyLink: "https://campus.niuqizp.com/schedule-7lYkN5C5N.html",
     noticeLink: "https://campus.niuqizp.com/schedule-7lYkN5C5N.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 海投网 [2026-10-17] | "
-  },
-  {
-    id: "115",
-    companyName: "春秋航空 2027届校招",
-    companyType: "企业",
-    industry: "航空",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "全国",
-    positions: "春秋航空 2027届校招",
-    status: "未投递",
-    updateTime: "2026-10-17",
-    deadline: "招满为止",
-    applyLink: "https://campus.niuqizp.com/schedule-7ymrN5zaN.html",
-    noticeLink: "https://campus.niuqizp.com/schedule-7ymrN5zaN.html",
     examInfo: "",
     companyScale: "",
     notes: "来源: 海投网 [2026-10-17] | "

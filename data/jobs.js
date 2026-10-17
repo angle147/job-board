@@ -1,6 +1,6 @@
 // 校招/社招岗位数据 — 自动爬取生成
-// 更新时间: 2026-10-16 17:10:31
-// 共 17 条
+// 更新时间: 2026-10-17 09:10:03
+// 共 14 条
 
 const JOBS = [
   {
@@ -74,24 +74,6 @@ const JOBS = [
     examInfo: "",
     companyScale: "",
     notes: "硕士及以上、博士优先 | 来源: 山东省国资委 [2026-10-04]"
-  },
-  {
-    id: 5,
-    companyName: "中国广电山东网络有限公司",
-    companyType: "央国企",
-    industry: "综合",
-    recruitType: "校招/社招",
-    targetYears: "2026届",
-    location: "",
-    positions: "",
-    status: "未投递",
-    updateTime: "2026-10-02",
-    deadline: "2026-10-16",
-    applyLink: "",
-    noticeLink: "http://gzw.shandong.gov.cn/articles/ch00223/202610/933ee398-2f4d-4260-a98c-97f53e3e36e3.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "博士优先 | 来源: 山东省国资委 [2026-10-02]"
   },
   {
     id: 6,
@@ -272,41 +254,5 @@ const JOBS = [
     examInfo: "",
     companyScale: "",
     notes: "来源: 山东省国资委 [2026-08-19]"
-  },
-  {
-    id: 17,
-    companyName: "山东省轻工业设计院",
-    companyType: "央国企",
-    industry: "交通设计/规划",
-    recruitType: "社招",
-    targetYears: "2026届",
-    location: "",
-    positions: "",
-    status: "未投递",
-    updateTime: "2026-08-18",
-    deadline: "招满为止",
-    applyLink: "",
-    noticeLink: "http://gzw.shandong.gov.cn/articles/ch00223/202608/c8ecc325-6e08-4db9-8dec-918877334815.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 山东省国资委 [2026-08-18]"
-  },
-  {
-    id: 18,
-    companyName: "山东省能源建筑设计院",
-    companyType: "央国企",
-    industry: "交通设计/规划",
-    recruitType: "春招",
-    targetYears: "2026届",
-    location: "",
-    positions: "",
-    status: "未投递",
-    updateTime: "2026-08-18",
-    deadline: "招满为止",
-    applyLink: "",
-    noticeLink: "http://gzw.shandong.gov.cn/articles/ch00223/202608/599b27b1-0779-4967-829e-187d086985e5.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 山东省国资委 [2026-08-18]"
   }
 ];

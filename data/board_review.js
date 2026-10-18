@@ -1,5 +1,5 @@
 // 待人工核验队列 — 由 build_personal_board.py 生成
-// 更新时间: 2026-10-18 09:10:37
+// 更新时间: 2026-10-18 17:11:15
 // 共 30 条
 
 const REVIEW_JOBS = [
@@ -1124,7 +1124,7 @@ const REVIEW_JOBS = [
     "priorityScore": 50
   },
   {
-    "id": "yingjiesheng_11",
+    "id": "yingjiesheng_12",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "上海麟果果供应链管理有限公司",
@@ -1175,7 +1175,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_51",
+    "id": "yingjiesheng_52",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "之江电影集团有限公司",
@@ -1226,7 +1226,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_10",
+    "id": "yingjiesheng_1",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "宝山钢铁股份有限公司",
@@ -1237,13 +1237,13 @@ const REVIEW_JOBS = [
     "location": "武汉",
     "positions": "职位描述",
     "status": "待处理",
-    "updateTime": "2026-10-16",
+    "updateTime": "2026-10-18",
     "deadline": "招满为止",
     "applyLink": "https://m.yingjiesheng.com/job-008-122-444.html",
     "noticeLink": "https://m.yingjiesheng.com/job-008-122-444.html",
     "examInfo": "",
     "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-10-16] | 来源: 前程无忧(51JOB)",
+    "notes": "来源: 应届生求职网 [2026-10-18] | 来源: 前程无忧(51JOB)",
     "majorReq": "",
     "educationReq": "",
     "positionCode": "",
@@ -1277,7 +1277,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_53",
+    "id": "yingjiesheng_54",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "广东优贝科技股份有限公司",
@@ -1328,7 +1328,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_45",
+    "id": "yingjiesheng_46",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "广东美的厨房电器制造有限公司",
@@ -1379,7 +1379,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_56",
+    "id": "yingjiesheng_57",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "广州海颐软件有限公司",
@@ -1430,7 +1430,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_42",
+    "id": "yingjiesheng_43",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "深圳市华运国际物流有限公司",
@@ -1481,7 +1481,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_44",
+    "id": "yingjiesheng_45",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "深圳市朴朴网络科技有限公司",
@@ -1532,7 +1532,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_48",
+    "id": "yingjiesheng_49",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "苏州源东科技有限公司",

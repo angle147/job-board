@@ -1,5 +1,5 @@
 // 线下活动来源健康 — 由 scrape_offline_events.py 生成
-// 更新时间: 2026-10-18 09:10:36
+// 更新时间: 2026-10-18 17:11:14
 
 const OFFLINE_SOURCES = [
   {
@@ -7,8 +7,8 @@ const OFFLINE_SOURCES = [
     "name": "济南大学",
     "platform": "sdei",
     "required": true,
-    "lastSuccessAt": "2026-10-18T09:09:55",
-    "lastNewAt": "2026-10-18T09:09:55",
+    "lastSuccessAt": "2026-10-18T17:10:32",
+    "lastNewAt": "2026-10-18T17:10:32",
     "activeCount": 29,
     "consecutiveFailures": 0
   },
@@ -17,8 +17,8 @@ const OFFLINE_SOURCES = [
     "name": "齐鲁工业大学",
     "platform": "sdei",
     "required": true,
-    "lastSuccessAt": "2026-10-18T09:09:56",
-    "lastNewAt": "2026-10-18T09:09:56",
+    "lastSuccessAt": "2026-10-18T17:10:34",
+    "lastNewAt": "2026-10-18T17:10:34",
     "activeCount": 17,
     "consecutiveFailures": 0
   },
@@ -27,8 +27,8 @@ const OFFLINE_SOURCES = [
     "name": "山东大学济南校区",
     "platform": "generic",
     "required": true,
-    "lastSuccessAt": "2026-10-18T09:09:57",
-    "lastNewAt": "2026-10-18T09:09:57",
+    "lastSuccessAt": "2026-10-18T17:10:34",
+    "lastNewAt": "2026-10-18T17:10:34",
     "activeCount": 3,
     "consecutiveFailures": 0
   },
@@ -37,7 +37,7 @@ const OFFLINE_SOURCES = [
     "name": "山东交通学院",
     "platform": "generic",
     "required": true,
-    "lastSuccessAt": "2026-10-18T09:10:01",
+    "lastSuccessAt": "2026-10-18T17:10:38",
     "lastNewAt": "",
     "activeCount": 0,
     "consecutiveFailures": 0
@@ -47,7 +47,7 @@ const OFFLINE_SOURCES = [
     "name": "山东建筑大学",
     "platform": "bysjy",
     "required": true,
-    "lastSuccessAt": "2026-10-18T09:10:14",
+    "lastSuccessAt": "2026-10-18T17:10:52",
     "lastNewAt": "2026-10-16T17:10:51",
     "activeCount": 0,
     "consecutiveFailures": 0
@@ -57,7 +57,7 @@ const OFFLINE_SOURCES = [
     "name": "山东财经大学",
     "platform": "generic",
     "required": true,
-    "lastSuccessAt": "2026-10-18T09:10:19",
+    "lastSuccessAt": "2026-10-18T17:10:57",
     "lastNewAt": "2026-10-17T17:10:39",
     "activeCount": 0,
     "consecutiveFailures": 0
@@ -67,7 +67,7 @@ const OFFLINE_SOURCES = [
     "name": "山东师范大学",
     "platform": "sdei",
     "required": true,
-    "lastSuccessAt": "2026-10-18T09:10:20",
+    "lastSuccessAt": "2026-10-18T17:10:58",
     "lastNewAt": "",
     "activeCount": 0,
     "consecutiveFailures": 0
@@ -77,7 +77,7 @@ const OFFLINE_SOURCES = [
     "name": "山东职业学院",
     "platform": "sdei",
     "required": true,
-    "lastSuccessAt": "2026-10-18T09:10:21",
+    "lastSuccessAt": "2026-10-18T17:10:58",
     "lastNewAt": "",
     "activeCount": 0,
     "consecutiveFailures": 0
@@ -87,8 +87,8 @@ const OFFLINE_SOURCES = [
     "name": "山东中医药大学",
     "platform": "sdei",
     "required": false,
-    "lastSuccessAt": "2026-10-18T09:10:22",
-    "lastNewAt": "2026-10-18T09:10:22",
+    "lastSuccessAt": "2026-10-18T17:10:59",
+    "lastNewAt": "2026-10-18T17:10:59",
     "activeCount": 7,
     "consecutiveFailures": 0
   },
@@ -97,7 +97,7 @@ const OFFLINE_SOURCES = [
     "name": "山东女子学院",
     "platform": "generic",
     "required": false,
-    "lastSuccessAt": "2026-10-18T09:10:23",
+    "lastSuccessAt": "2026-10-18T17:11:00",
     "lastNewAt": "",
     "activeCount": 0,
     "consecutiveFailures": 0
@@ -107,7 +107,7 @@ const OFFLINE_SOURCES = [
     "name": "山东青年政治学院",
     "platform": "sdei",
     "required": false,
-    "lastSuccessAt": "2026-10-18T09:10:23",
+    "lastSuccessAt": "2026-10-18T17:11:01",
     "lastNewAt": "",
     "activeCount": 0,
     "consecutiveFailures": 0
@@ -117,8 +117,8 @@ const OFFLINE_SOURCES = [
     "name": "山东管理学院",
     "platform": "sdei",
     "required": false,
-    "lastSuccessAt": "2026-10-18T09:10:24",
-    "lastNewAt": "2026-10-18T09:10:24",
+    "lastSuccessAt": "2026-10-18T17:11:02",
+    "lastNewAt": "2026-10-18T17:11:02",
     "activeCount": 2,
     "consecutiveFailures": 0
   },
@@ -127,8 +127,8 @@ const OFFLINE_SOURCES = [
     "name": "山东农业工程学院济南校区",
     "platform": "sdei",
     "required": false,
-    "lastSuccessAt": "2026-10-18T09:10:25",
-    "lastNewAt": "2026-10-18T09:10:25",
+    "lastSuccessAt": "2026-10-18T17:11:03",
+    "lastNewAt": "2026-10-18T17:11:03",
     "activeCount": 4,
     "consecutiveFailures": 0
   },
@@ -137,7 +137,7 @@ const OFFLINE_SOURCES = [
     "name": "齐鲁师范学院济南校区",
     "platform": "generic",
     "required": false,
-    "lastSuccessAt": "2026-10-18T09:10:27",
+    "lastSuccessAt": "2026-10-18T17:11:05",
     "lastNewAt": "",
     "activeCount": 0,
     "consecutiveFailures": 0
@@ -147,7 +147,7 @@ const OFFLINE_SOURCES = [
     "name": "济南职业学院",
     "platform": "generic",
     "required": false,
-    "lastSuccessAt": "2026-10-18T09:10:34",
+    "lastSuccessAt": "2026-10-18T17:11:12",
     "lastNewAt": "",
     "activeCount": 0,
     "consecutiveFailures": 0
@@ -157,7 +157,7 @@ const OFFLINE_SOURCES = [
     "name": "济南市人力资源和社会保障局",
     "platform": "generic",
     "required": false,
-    "lastSuccessAt": "2026-10-18T09:10:35",
+    "lastSuccessAt": "2026-10-18T17:11:13",
     "lastNewAt": "",
     "activeCount": 0,
     "consecutiveFailures": 0
@@ -167,7 +167,7 @@ const OFFLINE_SOURCES = [
     "name": "济南市公共就业服务中心",
     "platform": "generic",
     "required": false,
-    "lastSuccessAt": "2026-10-18T09:10:36",
+    "lastSuccessAt": "2026-10-18T17:11:14",
     "lastNewAt": "",
     "activeCount": 0,
     "consecutiveFailures": 0

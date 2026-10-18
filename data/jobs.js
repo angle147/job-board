@@ -1,6 +1,6 @@
 // 校招/社招岗位数据 — 自动爬取生成
-// 更新时间: 2026-10-17 17:10:14
-// 共 14 条
+// 更新时间: 2026-10-18 09:09:54
+// 共 13 条
 
 const JOBS = [
   {
@@ -236,23 +236,5 @@ const JOBS = [
     examInfo: "",
     companyScale: "",
     notes: "来源: 山东省国资委 [2026-08-20]"
-  },
-  {
-    id: 16,
-    companyName: "山东省土地发展集团有限公司",
-    companyType: "央国企",
-    industry: "地产/物业",
-    recruitType: "社招",
-    targetYears: "2026届",
-    location: "",
-    positions: "",
-    status: "未投递",
-    updateTime: "2026-08-19",
-    deadline: "招满为止",
-    applyLink: "",
-    noticeLink: "http://gzw.shandong.gov.cn/articles/ch00223/202608/87b10585-ab84-42eb-8cda-db25a9922b39.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 山东省国资委 [2026-08-19]"
   }
 ];

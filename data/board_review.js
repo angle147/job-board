@@ -1,6 +1,6 @@
 // 待人工核验队列 — 由 build_personal_board.py 生成
-// 更新时间: 2026-10-17 17:11:38
-// 共 32 条
+// 更新时间: 2026-10-18 09:10:37
+// 共 30 条
 
 const REVIEW_JOBS = [
   {
@@ -1124,7 +1124,7 @@ const REVIEW_JOBS = [
     "priorityScore": 50
   },
   {
-    "id": "yingjiesheng_12",
+    "id": "yingjiesheng_11",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "上海麟果果供应链管理有限公司",
@@ -1175,7 +1175,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_54",
+    "id": "yingjiesheng_51",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "之江电影集团有限公司",
@@ -1226,7 +1226,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_11",
+    "id": "yingjiesheng_10",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "宝山钢铁股份有限公司",
@@ -1277,7 +1277,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_56",
+    "id": "yingjiesheng_53",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "广东优贝科技股份有限公司",
@@ -1328,7 +1328,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_49",
+    "id": "yingjiesheng_45",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "广东美的厨房电器制造有限公司",
@@ -1379,7 +1379,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_59",
+    "id": "yingjiesheng_56",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "广州海颐软件有限公司",
@@ -1430,58 +1430,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_60",
-    "boardSection": "国企校招",
-    "source": "应届生求职网",
-    "companyName": "广州海颐软件有限公司",
-    "companyType": "央国企",
-    "industry": "综合",
-    "recruitType": "春招",
-    "targetYears": "2027届",
-    "location": "广州",
-    "positions": "产品经理-nyjy（2027届）",
-    "status": "待处理",
-    "updateTime": "2026-10-16",
-    "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-122-275.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-122-275.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-10-16] | 来源: 前程无忧(51JOB)",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "招满为止",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "广州海颐软件有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "第三方线索",
-    "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-122-275.html"
-    ],
-    "discoverySources": [
-      "应届生求职网"
-    ],
-    "reviewReasons": [
-      "尚未取得可验证的专业要求",
-      "明确截止日期待核验",
-      "第三方来源仅作线索，需反查官方原文和国企控制关系",
-      "缺少可验证的官方原文"
-    ],
-    "priorityScore": 0
-  },
-  {
-    "id": "yingjiesheng_46",
+    "id": "yingjiesheng_42",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "深圳市华运国际物流有限公司",
@@ -1532,7 +1481,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_48",
+    "id": "yingjiesheng_44",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "深圳市朴朴网络科技有限公司",
@@ -1583,58 +1532,7 @@ const REVIEW_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "yingjiesheng_1",
-    "boardSection": "国企校招",
-    "source": "应届生求职网",
-    "companyName": "燕加隆家居建材股份有限公司",
-    "companyType": "央国企",
-    "industry": "邮政/物流",
-    "recruitType": "春招",
-    "targetYears": "2027届",
-    "location": "深圳",
-    "positions": "职位描述",
-    "status": "待处理",
-    "updateTime": "2026-10-17",
-    "deadline": "招满为止",
-    "applyLink": "https://m.yingjiesheng.com/job-008-114-017.html",
-    "noticeLink": "https://m.yingjiesheng.com/job-008-114-017.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "来源: 应届生求职网 [2026-10-17] | 来源: 前程无忧(51JOB)",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "招满为止",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "燕加隆家居建材股份有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "第三方线索",
-    "sourceLinks": [
-      "https://m.yingjiesheng.com/job-008-114-017.html"
-    ],
-    "discoverySources": [
-      "应届生求职网"
-    ],
-    "reviewReasons": [
-      "尚未取得可验证的专业要求",
-      "明确截止日期待核验",
-      "第三方来源仅作线索，需反查官方原文和国企控制关系",
-      "缺少可验证的官方原文"
-    ],
-    "priorityScore": 0
-  },
-  {
-    "id": "yingjiesheng_51",
+    "id": "yingjiesheng_48",
     "boardSection": "国企校招",
     "source": "应届生求职网",
     "companyName": "苏州源东科技有限公司",

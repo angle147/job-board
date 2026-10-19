@@ -1,5 +1,5 @@
 // 国企校招岗位 — 由 build_personal_board.py 生成
-// 更新时间: 2026-10-19 11:56:23
+// 更新时间: 2026-10-19 17:11:25
 // 共 351 条
 
 const SOE_JOBS = [
@@ -519,6 +519,53 @@ const SOE_JOBS = [
     ],
     "reviewReasons": [],
     "priorityScore": 35
+  },
+  {
+    "id": "transport_iguopin_cosco-223167367763462819",
+    "boardSection": "国企校招",
+    "source": "中远海运与招商局官方招聘",
+    "companyName": "青岛远洋船员职业学院",
+    "companyType": "央国企",
+    "industry": "教育",
+    "recruitType": "校园招聘",
+    "targetYears": "待核验",
+    "location": "青岛-黄岛区",
+    "positions": "专任教师岗（2701）",
+    "status": "新发现",
+    "updateTime": "2026-10-19",
+    "deadline": "2026-12-31",
+    "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=223167367763462819",
+    "noticeLink": "https://coscoshipping.iguopin.com/job",
+    "examInfo": "",
+    "companyScale": "300-500人",
+    "notes": "（一）基本条件\n1．政治面貌：中共党员或中共预备党员优先；\n2．学历专业要求：交通运输工程、船舶与海洋工程、力学、机械工程等相关专业，硕士研究生及以上学历；\n3．年龄：28周岁及以下（1999年1月1日及以后出生），具有海上船舶工作资历者，年龄可适当放宽。\n（二）专业知识要求（需具备的任职资格）\n1．具备航海技术、船舶操纵与避碰、船舶货运等航海技术基础理论知识，或具备轮机工程技术、船舶动力装置、船舶电气等轮机工程基础理论知识，了解国际海事公约和国内相关法规要求；\n2．熟悉船员教育培训的规律和特点，了解成人教育教学原理与方法；\n3．能够使用航海模拟器或轮机模拟器等教学设备进行教学演示和操作指导；\n4．具备良好的专业英语应用能力，能熟练阅读英文航海出版物和技术资料。\n（三）素质能力要求（需具备的工作能力）\n1．热爱船员培训事业，认同职业教育理念，具备良好的语言表达与沟通能力，善于与学员交流互动；\n2．具有较强的计算机操作能力、文字处理和数据分析能力，能够熟练运用相关办公软件；\n3．具有良好的心理素质和抗压能力，具备较强的学习能力和执行能力，能够快速适应岗位工作要求；\n4．具有较强的保密意识、风险意识和法律意识，廉洁自律，能够严格履行岗位职责。",
+    "majorReq": "力学类（工学）、交通运输类、海洋工程类、交通运输工程类、船舶与海洋工程类",
+    "educationReq": "硕士",
+    "positionCode": "",
+    "recruitmentCount": "4",
+    "registrationStart": "",
+    "registrationEnd": "2026-12-31",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "青岛远洋船员职业学院",
+    "contractEmployer": "待核验",
+    "employmentType": "直接招聘",
+    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
+    "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com",
+    "exclusionReasons": [],
+    "fitLevel": "已确认适配",
+    "fitReason": "专业要求含目标专业、上级专业或不限专业",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://coscoshipping.iguopin.com/job",
+      "https://coscoshipping.iguopin.com/job/detail?id=223167367763462819"
+    ],
+    "discoverySources": [
+      "中远海运与招商局官方招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 34
   },
   {
     "id": "transport_iguopin_cosco-218796172146376980",
@@ -11229,53 +11276,6 @@ const SOE_JOBS = [
     "sourceLinks": [
       "https://coscoshipping.iguopin.com/job",
       "https://coscoshipping.iguopin.com/job/detail?id=218792222202528048"
-    ],
-    "discoverySources": [
-      "中远海运与招商局官方招聘"
-    ],
-    "reviewReasons": [],
-    "priorityScore": 1
-  },
-  {
-    "id": "transport_iguopin_cosco-218791936318767408",
-    "boardSection": "国企校招",
-    "source": "中远海运与招商局官方招聘",
-    "companyName": "鑫三利集装箱服务有限公司",
-    "companyType": "央国企",
-    "industry": "装卸搬运和仓储业",
-    "recruitType": "校园招聘",
-    "targetYears": "待核验",
-    "location": "青岛-市南区、青岛-黄岛区",
-    "positions": "财务岗",
-    "status": "新发现",
-    "updateTime": "2026-09-21",
-    "deadline": "2026-12-17",
-    "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=218791936318767408",
-    "noticeLink": "https://coscoshipping.iguopin.com/job",
-    "examInfo": "",
-    "companyScale": "500-1000人",
-    "notes": "任职条件：\n1、本科及以上学历，财会类相关专业优先；\n2、具备良好的财务专业知识和实务操作能力，能准确、高效地完成财务核算、账务处理等工作；\n3、有国内知名会计师事务所审计、合并报表相关实习经验，或上市公司财务报告相关实习经验优先；\n4、工作严谨细致，责任心强，有较强的抗压能力、良好的沟通和配合能力、较强的逻辑思考能力和管理能力；\n5、数据分析与新工具应用能力：有FineBI、Power BI、VBA、Python等工具应用经验的优先。\n\n岗位职责：\n1、按照新会计准则规定及国际会计准则，编制月度合并报表及财务报告附注；\n2、分析公司财务状况和经营成果，撰写财务分析报告；\n3、识别与评估潜在财务风险，维护公司资金及资产安全；\n4、负责协调各部门进行预算编制，按照预算内容监控和审批重大合同与项目开支；\n5、协助总部对下属公司的信息系统及整体财务管理流程进行梳理和提升，以提升整体财务管理水平；\n6、领导交办的其他工作。",
-    "majorReq": "经济学类",
-    "educationReq": "本科",
-    "positionCode": "",
-    "recruitmentCount": "1",
-    "registrationStart": "",
-    "registrationEnd": "2026-12-17",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "鑫三利集装箱服务有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "直接招聘",
-    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
-    "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "官方原文",
-    "sourceLinks": [
-      "https://coscoshipping.iguopin.com/job",
-      "https://coscoshipping.iguopin.com/job/detail?id=218791936318767408"
     ],
     "discoverySources": [
       "中远海运与招商局官方招聘"

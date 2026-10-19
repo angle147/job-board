@@ -1,6 +1,6 @@
 // 济南地方国企官方招聘 — 自动采集
-// 更新时间: 2026-10-19 11:55:35
-// 共 29 条
+// 更新时间: 2026-10-19 17:10:39
+// 共 30 条
 
 const JOBS_LOCAL_SOE = [
   {
@@ -314,6 +314,30 @@ const JOBS_LOCAL_SOE = [
     ownershipRelation: "控制关系待核验",
     ownershipEvidenceUrl: "https://jngzw.jinan.gov.cn/col/col23870/index.html",
     sourceKey: "jinan_sasac"
+  },
+  {
+    id: "local_soe_b194bf80c6dc3437",
+    companyName: "山东颐养健康集团融资租赁有限公司",
+    companyType: "省属国企线索",
+    industry: "综合",
+    recruitType: "公开招聘",
+    targetYears: "",
+    location: "济南市",
+    positions: "不要错过！这家驻济省属企业公开招聘了",
+    status: "未投递",
+    updateTime: "2026-10-17",
+    deadline: "2026-10-27",
+    applyLink: "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_18a21c464d2e45c292fc7eb6c2ed18c0.html",
+    noticeLink: "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_18a21c464d2e45c292fc7eb6c2ed18c0.html",
+    examInfo: "以公告为准",
+    companyScale: "",
+    notes: "来源: 济南市人社局国企招聘动态",
+    actualEmployer: "山东颐养健康集团融资租赁有限公司",
+    contractEmployer: "待核验",
+    employmentType: "直接用工",
+    ownershipRelation: "控制关系待核验",
+    ownershipEvidenceUrl: "https://jnhrss.jinan.gov.cn/col/col18309/index.html",
+    sourceKey: "jinan_hrss_soe"
   },
   {
     id: "local_soe_5a3b0e789aed07e3",

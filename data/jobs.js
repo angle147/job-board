@@ -1,6 +1,6 @@
 // 校招/社招岗位数据 — 自动爬取生成
-// 更新时间: 2026-10-18 17:10:30
-// 共 13 条
+// 更新时间: 2026-10-19 11:55:35
+// 共 12 条
 
 const JOBS = [
   {
@@ -218,23 +218,5 @@ const JOBS = [
     examInfo: "",
     companyScale: "",
     notes: "来源: 山东省国资委 [2026-08-21]"
-  },
-  {
-    id: 15,
-    companyName: "关于延长山东健康集团有限公司",
-    companyType: "央国企",
-    industry: "医药健康",
-    recruitType: "社招",
-    targetYears: "2026届",
-    location: "",
-    positions: "",
-    status: "未投递",
-    updateTime: "2026-08-20",
-    deadline: "招满为止",
-    applyLink: "",
-    noticeLink: "http://gzw.shandong.gov.cn/articles/ch00223/202608/a286f88f-6c53-441c-9840-6acaa3753a67.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 山东省国资委 [2026-08-20]"
   }
 ];

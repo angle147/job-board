@@ -1,6 +1,6 @@
 // 中远海运集团、招商局集团官方人才招聘平台 — 校园招聘岗位
-// 更新时间: 2026-10-18 17:00:51
-// 共 320 条
+// 更新时间: 2026-10-19 11:46:10
+// 共 321 条
 
 const JOBS_COSCO = [
   {
@@ -6502,6 +6502,32 @@ const JOBS_COSCO = [
     "employmentType": "直接招聘",
     "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
     "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com"
+  },
+  {
+    "id": "cmhk-222690418540677255",
+    "companyName": "中国长江航运集团有限公司",
+    "companyType": "央国企",
+    "industry": "水上运输业",
+    "recruitType": "校园招聘",
+    "targetYears": "2027届",
+    "location": "武汉",
+    "positions": "合规管理岗(J34011)",
+    "majorReq": "法律类",
+    "educationReq": "硕士",
+    "recruitmentCount": "1",
+    "status": "未投递",
+    "updateTime": "2026-10-19",
+    "deadline": "2026-11-15",
+    "applyLink": "https://cmhk.iguopin.com/job/detail?id=222690418540677255",
+    "noticeLink": "https://cmhk.iguopin.com/job",
+    "examInfo": "",
+    "companyScale": "10000-30000人",
+    "notes": "工作职责\n1.负责各部门制定、更新、发布规章制度，统筹公司制度的审核、汇编及合规管理体系搭建。\n2.负责编制并落实年度合规管理计划及专项合规工作方案，确保各项合规工作有序推进。\n3.负责识别、评估、监测并报告公司合规风险，为重大新产品、新项目开发及重大合同签订提供前置合规审查与专业支持。\n4.负责推动合规管理数智化转型，组织合规培训与日常咨询，培育和宣导公司合规文化。\n5.参与公司合同管理，处理本部诉讼或仲裁事务，指导子公司重大纠纷案件，并负责案件统计分析及信息上报。\n6.参与公司法务系统的日常运行、维护与优化，保障系统功能有效支持业务。\n7.参与公司相关专项活动，完成领导交办的其他工作任务。\n\n任职资格\n1.2027届高校毕业生，硕士及以上学历，财务、法律、企业管理相关专业；通过法律职业资格考试。\n2.熟练使用Office办公软件，具备良好的分析能力。\n3.吃苦耐劳，抗压能力强；工作严谨细致，责任心强；具备良好的沟通协调能力和团队合作精神。",
+    "actualEmployer": "中国长江航运集团有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接招聘",
+    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
+    "ownershipEvidenceUrl": "https://cmhk.iguopin.com"
   },
   {
     "id": "cmhk-217335148574672032",

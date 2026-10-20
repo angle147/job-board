@@ -1,6 +1,6 @@
 // 济南地方国企官方招聘 — 自动采集
-// 更新时间: 2026-10-20 12:12:43
-// 共 30 条
+// 更新时间: 2026-10-20 17:10:05
+// 共 29 条
 
 const JOBS_LOCAL_SOE = [
   {
@@ -693,30 +693,6 @@ const JOBS_LOCAL_SOE = [
     companyScale: "",
     notes: "来源: 济南市人社局国企招聘动态",
     actualEmployer: "山东省土地发展集团有限公司",
-    contractEmployer: "待核验",
-    employmentType: "直接用工",
-    ownershipRelation: "控制关系待核验",
-    ownershipEvidenceUrl: "https://jnhrss.jinan.gov.cn/col/col18309/index.html",
-    sourceKey: "jinan_hrss_soe"
-  },
-  {
-    id: "local_soe_6bc4791e1b0a61ee",
-    companyName: "快来报名！这家驻济省属企业公开",
-    companyType: "省属国企线索",
-    industry: "综合",
-    recruitType: "公开招聘",
-    targetYears: "",
-    location: "济南市",
-    positions: "快来报名！这家驻济省属企业公开招聘了",
-    status: "未投递",
-    updateTime: "2026-08-20",
-    deadline: "待核验",
-    applyLink: "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_94a1e91d0b5a40b59115b2892ca5048a.html",
-    noticeLink: "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_94a1e91d0b5a40b59115b2892ca5048a.html",
-    examInfo: "以公告为准",
-    companyScale: "",
-    notes: "来源: 济南市人社局国企招聘动态",
-    actualEmployer: "快来报名！这家驻济省属企业公开",
     contractEmployer: "待核验",
     employmentType: "直接用工",
     ownershipRelation: "控制关系待核验",

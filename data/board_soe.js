@@ -1,6 +1,6 @@
 // 国企校招岗位 — 由 build_personal_board.py 生成
-// 更新时间: 2026-10-20 17:10:49
-// 共 355 条
+// 更新时间: 2026-10-21 11:46:14
+// 共 356 条
 
 const SOE_JOBS = [
   {
@@ -137,6 +137,53 @@ const SOE_JOBS = [
     "sourceLinks": [
       "https://coscoshipping.iguopin.com/job",
       "https://coscoshipping.iguopin.com/job/detail?id=218792950249816340"
+    ],
+    "discoverySources": [
+      "中远海运与招商局官方招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 46
+  },
+  {
+    "id": "transport_iguopin_cosco-218792076794396948",
+    "boardSection": "国企校招",
+    "source": "中远海运与招商局官方招聘",
+    "companyName": "青岛远洋大亚物流有限公司",
+    "companyType": "央国企",
+    "industry": "多式联运和运输代理业",
+    "recruitType": "校园招聘",
+    "targetYears": "待核验",
+    "location": "连云港-连云区",
+    "positions": "外勤单证合岗",
+    "status": "新发现",
+    "updateTime": "2026-09-18",
+    "deadline": "2026-12-17",
+    "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=218792076794396948",
+    "noticeLink": "https://coscoshipping.iguopin.com/job",
+    "examInfo": "",
+    "companyScale": "300-500人",
+    "notes": "岗位职责\n\n1. 学习掌握物流运输相关专业知识，熟悉业务流程；\n2. 负责对接车站、码头等外部合作单位，落实货物发运全流程相关事务；\n3. 对接船公司及船代，办理换单等业务操作；\n4. 及时处置业务突发事项，保障货物发运工作有序推进；\n5. 完成上级交办的其他工作任务。\n\n 任职要求\n\n1. 本科及以上学历，国际经济与贸易、语言类、管理类等相关专业优先；\n2. 具备优秀的学习领悟能力，工作主观能动性强，可快速适配业务场景；\n3. 性格外向，擅长沟通表达与组织协调，具备良好团队协作精神；勇于接受工作挑战，能够吃苦耐劳。",
+    "majorReq": "外国语言文学类、物流管理与工程类",
+    "educationReq": "本科",
+    "positionCode": "",
+    "recruitmentCount": "1",
+    "registrationStart": "",
+    "registrationEnd": "2026-12-17",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "青岛远洋大亚物流有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接招聘",
+    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
+    "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com",
+    "exclusionReasons": [],
+    "fitLevel": "可尝试",
+    "fitReason": "专业名称或范围相近",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://coscoshipping.iguopin.com/job",
+      "https://coscoshipping.iguopin.com/job/detail?id=218792076794396948"
     ],
     "discoverySources": [
       "中远海运与招商局官方招聘"
@@ -6208,53 +6255,6 @@ const SOE_JOBS = [
     "priorityScore": 5
   },
   {
-    "id": "transport_iguopin_cosco-218828983532257554",
-    "boardSection": "国企校招",
-    "source": "中远海运与招商局官方招聘",
-    "companyName": "广州南沙海港集装箱码头有限公司",
-    "companyType": "央国企",
-    "industry": "多式联运和运输代理业",
-    "recruitType": "校园招聘",
-    "targetYears": "待核验",
-    "location": "广州-南沙区",
-    "positions": "现场技术员",
-    "status": "新发现",
-    "updateTime": "2026-09-19",
-    "deadline": "2026-11-30",
-    "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=218828983532257554",
-    "noticeLink": "https://coscoshipping.iguopin.com/job",
-    "examInfo": "",
-    "companyScale": "500-1000人",
-    "notes": "任职条件：1.本科及以上学历，机械、机电、自动化等相关专业。 2.有英文阅读和较强的文字表达和沟通协调能力。 3.工作积极主动，有较强的责任心，吃苦耐劳。 4.能适应三班工作，身体健康，无恐高症，职业体检合格。\n岗位职责：依据公司各项管理规章制度及部门各项设备抢修管理规章制度、应急预案，完成公司大型设备生产过程中的故障抢修、故障上报统计、遗留问题处理，履行交接班制度等各项工作任务，确保大型设备最大限度满足生产需要。",
-    "majorReq": "机械类、电气类、自动化类",
-    "educationReq": "本科",
-    "positionCode": "",
-    "recruitmentCount": "4",
-    "registrationStart": "",
-    "registrationEnd": "2026-11-30",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "广州南沙海港集装箱码头有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "直接招聘",
-    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
-    "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "官方原文",
-    "sourceLinks": [
-      "https://coscoshipping.iguopin.com/job",
-      "https://coscoshipping.iguopin.com/job/detail?id=218828983532257554"
-    ],
-    "discoverySources": [
-      "中远海运与招商局官方招聘"
-    ],
-    "reviewReasons": [],
-    "priorityScore": 4
-  },
-  {
     "id": "transport_iguopin_cosco-218817893339496727",
     "boardSection": "国企校招",
     "source": "中远海运与招商局官方招聘",
@@ -8276,6 +8276,53 @@ const SOE_JOBS = [
     "priorityScore": 1
   },
   {
+    "id": "transport_iguopin_cosco-218792002236449044",
+    "boardSection": "国企校招",
+    "source": "中远海运与招商局官方招聘",
+    "companyName": "中远海运能源运输股份有限公司",
+    "companyType": "央国企",
+    "industry": "交通运输、仓储和邮政业",
+    "recruitType": "校园招聘",
+    "targetYears": "待核验",
+    "location": "上海",
+    "positions": "客户营销部战略规划岗",
+    "status": "新发现",
+    "updateTime": "2026-09-22",
+    "deadline": "2026-11-10",
+    "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=218792002236449044",
+    "noticeLink": "https://coscoshipping.iguopin.com/job",
+    "examInfo": "",
+    "companyScale": "500-1000人",
+    "notes": "工作职责：\n1.负责跟踪航运市场动态，撰写并发布行业市场分析报告。\n2.协助做好船舶新增、新航线开辟等业务的市场分析论证报告。\n3.负责客户开发和客户维护、货源揽取等工作，安排适装货物，为船舶提供安全泊位和航线。\n4.负责客户满意度的调查和反馈，协助处理客户投诉、不合格货运质量问题或事故。\n5.负责跟踪船舶动态，掌握船舶航行状态等。\n任职条件：\n1.学历：硕士研究生及以上学历\n2.专业:国际航运、航运管理、供应链管理、物流管理等相关专业。\n3.具有良好的品行和职业道德，具备较强的工作责任心和市场洞察、良好的沟通协调能力，能熟练使用各类办公软件，英文水平较好，身体健康，具备一定抗压能力。\n4.中共党员优先。",
+    "majorReq": "水上运输类",
+    "educationReq": "硕士",
+    "positionCode": "",
+    "recruitmentCount": "1",
+    "registrationStart": "",
+    "registrationEnd": "2026-11-10",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "中远海运能源运输股份有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接招聘",
+    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
+    "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://coscoshipping.iguopin.com/job",
+      "https://coscoshipping.iguopin.com/job/detail?id=218792002236449044"
+    ],
+    "discoverySources": [
+      "中远海运与招商局官方招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 1
+  },
+  {
     "id": "transport_iguopin_cmhk-222690418540677255",
     "boardSection": "国企校招",
     "source": "中远海运与招商局官方招聘",
@@ -8456,53 +8503,6 @@ const SOE_JOBS = [
     "sourceLinks": [
       "https://coscoshipping.iguopin.com/job",
       "https://coscoshipping.iguopin.com/job/detail?id=219501619182568128"
-    ],
-    "discoverySources": [
-      "中远海运与招商局官方招聘"
-    ],
-    "reviewReasons": [],
-    "priorityScore": 1
-  },
-  {
-    "id": "transport_iguopin_cosco-218827649290600764",
-    "boardSection": "国企校招",
-    "source": "中远海运与招商局官方招聘",
-    "companyName": "广州南沙海港集装箱码头有限公司",
-    "companyType": "央国企",
-    "industry": "多式联运和运输代理业",
-    "recruitType": "校园招聘",
-    "targetYears": "待核验",
-    "location": "广州-南沙区",
-    "positions": "系统支持技术员",
-    "status": "新发现",
-    "updateTime": "2026-09-19",
-    "deadline": "2026-11-30",
-    "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=218827649290600764",
-    "noticeLink": "https://coscoshipping.iguopin.com/job",
-    "examInfo": "",
-    "companyScale": "500-1000人",
-    "notes": "任职条件：1、大学本科及以上，计算机类专业。 2、熟悉SQL SERVER或Oracle等数据库，掌握SQL语言编写数据库查询语句、存储过程等。 3、对互联网行业的开发工作有浓厚的兴趣，喜欢广泛接触新事物，逻辑清晰，思维灵活，有快速自学的能力。 4、良好的语言表达能力，善于沟通，工作主动性强，有责任心，具备团队合作精神。\n岗位职责：1、负责生产系统管理、维护、优化等，确保生产的稳定性。2、根据公司业务发展方向，负责或参与产品架构设计。3、负责码头区域内各种业务系统的管理和维护。4、支持业务上线、架构设计部署，业务系统运维。",
-    "majorReq": "计算机类、计算机科学与技术类",
-    "educationReq": "本科",
-    "positionCode": "",
-    "recruitmentCount": "1",
-    "registrationStart": "",
-    "registrationEnd": "2026-11-30",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "广州南沙海港集装箱码头有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "直接招聘",
-    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
-    "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "官方原文",
-    "sourceLinks": [
-      "https://coscoshipping.iguopin.com/job",
-      "https://coscoshipping.iguopin.com/job/detail?id=218827649290600764"
     ],
     "discoverySources": [
       "中远海运与招商局官方招聘"
@@ -9913,6 +9913,53 @@ const SOE_JOBS = [
     "sourceLinks": [
       "https://coscoshipping.iguopin.com/job",
       "https://coscoshipping.iguopin.com/job/detail?id=218792128552108308"
+    ],
+    "discoverySources": [
+      "中远海运与招商局官方招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 1
+  },
+  {
+    "id": "transport_iguopin_cosco-218792079663300884",
+    "boardSection": "国企校招",
+    "source": "中远海运与招商局官方招聘",
+    "companyName": "中远海运（海南）有限公司",
+    "companyType": "央国企",
+    "industry": "水上运输业",
+    "recruitType": "校园招聘",
+    "targetYears": "待核验",
+    "location": "海口-秀英区、海口-龙华区、海口-琼山区、海口-美兰区",
+    "positions": "财务管理岗位",
+    "status": "新发现",
+    "updateTime": "2026-09-18",
+    "deadline": "2026-12-17",
+    "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=218792079663300884",
+    "noticeLink": "https://coscoshipping.iguopin.com/job",
+    "examInfo": "",
+    "companyScale": "50人以下",
+    "notes": "1.具备一定的英语读写能力，熟悉OFFICE等日常办公软件使用操作；\n2.有较好的沟通能力、服务意识、创新意识，责任心强；\n3.财务管理相关专业、获得注册会计师等证书者优先考虑。",
+    "majorReq": "会计类",
+    "educationReq": "硕士",
+    "positionCode": "",
+    "recruitmentCount": "1",
+    "registrationStart": "",
+    "registrationEnd": "2026-12-17",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "中远海运（海南）有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "直接招聘",
+    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
+    "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "https://coscoshipping.iguopin.com/job",
+      "https://coscoshipping.iguopin.com/job/detail?id=218792079663300884"
     ],
     "discoverySources": [
       "中远海运与招商局官方招聘"
@@ -12788,53 +12835,6 @@ const SOE_JOBS = [
     "priorityScore": 1
   },
   {
-    "id": "transport_iguopin_cosco-222234717141862029",
-    "boardSection": "国企校招",
-    "source": "中远海运与招商局官方招聘",
-    "companyName": "厦门中远海运物流供应链有限公司",
-    "companyType": "央国企",
-    "industry": "多式联运和运输代理业",
-    "recruitType": "校园招聘",
-    "targetYears": "待核验",
-    "location": "厦门-思明区",
-    "positions": "法务风控岗",
-    "status": "新发现",
-    "updateTime": "2026-10-12",
-    "deadline": "2027-01-10",
-    "applyLink": "https://coscoshipping.iguopin.com/job/detail?id=222234717141862029",
-    "noticeLink": "https://coscoshipping.iguopin.com/job",
-    "examInfo": "",
-    "companyScale": "100-300人",
-    "notes": "一、岗位职责 ：\n协助处理合同起草与审查、合规风控、业务咨询等日常法律事务，助力公司各项业务稳健合规发展。协助处理合同起草与审查、合规风控、业务咨询等日常法律事务，助力公司各项业务稳健合规发展。\n二、任职要求\n（一）教育背景：本科及以上学历，法学等相关专业优先，具备扎实的法律理论基础，通过国家统一法律职业资格考试者优先。\n（二）核心能力：\n  1.综合素养：具备严谨的逻辑思维、出色的文字撰写与沟通能力；\n  2.学习与抗压：保持强烈的求知欲，具备快速学习与自我迭代的能力，能适应高强度的工作节奏，敢于迎接挑战。\n三、加分条件：\n（一）外语能力特别突出且在重大活动中担任过翻译人员；\n（二）担任过校级学生干部或在全国学联组织任职的；\n（三）荣获过国家级或国际竞赛奖项。",
-    "majorReq": "法学类、政治学类、社会学类、民族学类、马克思主义理论类、公安学类、法律类、社会工作类、警务类",
-    "educationReq": "硕士",
-    "positionCode": "",
-    "recruitmentCount": "1",
-    "registrationStart": "",
-    "registrationEnd": "2027-01-10",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "厦门中远海运物流供应链有限公司",
-    "contractEmployer": "待核验",
-    "employmentType": "直接招聘",
-    "ownershipRelation": "国聘官方企业人才招聘平台；企业页面标注国企",
-    "ownershipEvidenceUrl": "https://coscoshipping.iguopin.com",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "官方原文",
-    "sourceLinks": [
-      "https://coscoshipping.iguopin.com/job",
-      "https://coscoshipping.iguopin.com/job/detail?id=222234717141862029"
-    ],
-    "discoverySources": [
-      "中远海运与招商局官方招聘"
-    ],
-    "reviewReasons": [],
-    "priorityScore": 1
-  },
-  {
     "id": "transport_iguopin_cosco-222232952547837595",
     "boardSection": "国企校招",
     "source": "中远海运与招商局官方招聘",
@@ -14761,6 +14761,52 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
+    "id": "国务院国资委人才招聘_sasac-central-36075409",
+    "boardSection": "国企校招",
+    "source": "国务院国资委人才招聘",
+    "companyName": "中国南方电网有限责任公司",
+    "companyType": "央国企",
+    "industry": "综合",
+    "recruitType": "校招",
+    "targetYears": "2027届",
+    "location": "全国",
+    "positions": "中国南方电网有限责任公司2027年校园招聘公告",
+    "status": "新发现",
+    "updateTime": "2026-10-21",
+    "deadline": "待核验",
+    "applyLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c36075409/content.html",
+    "noticeLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c36075409/content.html",
+    "examInfo": "",
+    "companyScale": "",
+    "notes": "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "中国南方电网有限责任公司",
+    "contractEmployer": "待核验",
+    "employmentType": "待核验",
+    "ownershipRelation": "待核验",
+    "ownershipEvidenceUrl": "",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c36075409/content.html"
+    ],
+    "discoverySources": [
+      "国务院国资委人才招聘"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 0
+  },
+  {
     "id": "qyzp_20",
     "boardSection": "国企校招",
     "source": "央企招聘公告",
@@ -14984,52 +15030,6 @@ const SOE_JOBS = [
     "evidenceLevel": "官方原文",
     "sourceLinks": [
       "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c36002453/content.html"
-    ],
-    "discoverySources": [
-      "国务院国资委人才招聘"
-    ],
-    "reviewReasons": [],
-    "priorityScore": 0
-  },
-  {
-    "id": "国务院国资委人才招聘_sasac-central-35948550",
-    "boardSection": "国企校招",
-    "source": "国务院国资委人才招聘",
-    "companyName": "中国电气装备集团",
-    "companyType": "央国企",
-    "industry": "综合",
-    "recruitType": "校招",
-    "targetYears": "2027届",
-    "location": "全国",
-    "positions": "中国电气装备集团2027届校园招聘正式启动",
-    "status": "新发现",
-    "updateTime": "2026-09-18",
-    "deadline": "待核验",
-    "applyLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35948550/content.html",
-    "noticeLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35948550/content.html",
-    "examInfo": "",
-    "companyScale": "",
-    "notes": "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准",
-    "majorReq": "",
-    "educationReq": "",
-    "positionCode": "",
-    "recruitmentCount": "",
-    "registrationStart": "",
-    "registrationEnd": "",
-    "examDate": "",
-    "competitionRatio": "",
-    "pastScoreLine": "",
-    "actualEmployer": "中国电气装备集团",
-    "contractEmployer": "待核验",
-    "employmentType": "待核验",
-    "ownershipRelation": "待核验",
-    "ownershipEvidenceUrl": "",
-    "exclusionReasons": [],
-    "fitLevel": "待核验",
-    "fitReason": "尚未取得可验证的专业要求",
-    "evidenceLevel": "官方原文",
-    "sourceLinks": [
-      "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35948550/content.html"
     ],
     "discoverySources": [
       "国务院国资委人才招聘"
@@ -15545,6 +15545,52 @@ const SOE_JOBS = [
     ],
     "discoverySources": [
       "央企招聘公告"
+    ],
+    "reviewReasons": [],
+    "priorityScore": 0
+  },
+  {
+    "id": "国务院国资委人才招聘_sasac-central-36074834",
+    "boardSection": "国企校招",
+    "source": "国务院国资委人才招聘",
+    "companyName": "中电信数智科技有限公司",
+    "companyType": "央国企",
+    "industry": "综合",
+    "recruitType": "校招",
+    "targetYears": "2027届",
+    "location": "全国",
+    "positions": "中电信数智科技有限公司2027校园招聘正式启动",
+    "status": "新发现",
+    "updateTime": "2026-10-21",
+    "deadline": "待核验",
+    "applyLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c36074834/content.html",
+    "noticeLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c36074834/content.html",
+    "examInfo": "",
+    "companyScale": "",
+    "notes": "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准",
+    "majorReq": "",
+    "educationReq": "",
+    "positionCode": "",
+    "recruitmentCount": "",
+    "registrationStart": "",
+    "registrationEnd": "",
+    "examDate": "",
+    "competitionRatio": "",
+    "pastScoreLine": "",
+    "actualEmployer": "中电信数智科技有限公司",
+    "contractEmployer": "待核验",
+    "employmentType": "待核验",
+    "ownershipRelation": "待核验",
+    "ownershipEvidenceUrl": "",
+    "exclusionReasons": [],
+    "fitLevel": "待核验",
+    "fitReason": "尚未取得可验证的专业要求",
+    "evidenceLevel": "官方原文",
+    "sourceLinks": [
+      "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c36074834/content.html"
+    ],
+    "discoverySources": [
+      "国务院国资委人才招聘"
     ],
     "reviewReasons": [],
     "priorityScore": 0
@@ -16342,21 +16388,21 @@ const SOE_JOBS = [
     "priorityScore": 0
   },
   {
-    "id": "国务院国资委人才招聘_sasac-central-35948533",
+    "id": "国务院国资委人才招聘_sasac-central-36076038",
     "boardSection": "国企校招",
     "source": "国务院国资委人才招聘",
-    "companyName": "航天精工",
+    "companyName": "航空工业下属中国飞机强度研究所",
     "companyType": "央国企",
     "industry": "综合",
     "recruitType": "校招",
     "targetYears": "2027届",
     "location": "全国",
-    "positions": "航天精工2027届校园招聘正式启动",
+    "positions": "航空工业下属中国飞机强度研究所2027届校园招聘正式启动",
     "status": "新发现",
-    "updateTime": "2026-09-18",
+    "updateTime": "2026-10-21",
     "deadline": "待核验",
-    "applyLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35948533/content.html",
-    "noticeLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35948533/content.html",
+    "applyLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c36076038/content.html",
+    "noticeLink": "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c36076038/content.html",
     "examInfo": "",
     "companyScale": "",
     "notes": "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准",
@@ -16369,7 +16415,7 @@ const SOE_JOBS = [
     "examDate": "",
     "competitionRatio": "",
     "pastScoreLine": "",
-    "actualEmployer": "航天精工",
+    "actualEmployer": "航空工业下属中国飞机强度研究所",
     "contractEmployer": "待核验",
     "employmentType": "待核验",
     "ownershipRelation": "待核验",
@@ -16379,7 +16425,7 @@ const SOE_JOBS = [
     "fitReason": "尚未取得可验证的专业要求",
     "evidenceLevel": "官方原文",
     "sourceLinks": [
-      "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c35948533/content.html"
+      "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c36076038/content.html"
     ],
     "discoverySources": [
       "国务院国资委人才招聘"

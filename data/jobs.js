@@ -1,6 +1,6 @@
 // 校招/社招岗位数据 — 自动爬取生成
-// 更新时间: 2026-10-20 17:10:05
-// 共 11 条
+// 更新时间: 2026-10-21 11:45:30
+// 共 10 条
 
 const JOBS = [
   {
@@ -38,24 +38,6 @@ const JOBS = [
     examInfo: "",
     companyScale: "",
     notes: "来源: 山东省国资委 [2026-10-12]"
-  },
-  {
-    id: 3,
-    companyName: "山东健康集团有限公司",
-    companyType: "央国企",
-    industry: "医药健康",
-    recruitType: "社招",
-    targetYears: "2026届",
-    location: "",
-    positions: "",
-    status: "未投递",
-    updateTime: "2026-10-04",
-    deadline: "2026-10-20",
-    applyLink: "",
-    noticeLink: "http://gzw.shandong.gov.cn/articles/ch00223/202610/0fb87450-02b7-4461-a1ea-6a4a60f86d3f.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 山东省国资委 [2026-10-04]"
   },
   {
     id: 4,

@@ -1,8 +1,27 @@
 // 国务院国资委 — 人才招聘栏目
-// 更新时间: 2026-10-21 17:10:28
-// 共 25 条
+// 更新时间: 2026-10-22 11:34:45
+// 共 26 条
 
 const JOBS_SASAC_CENTRAL = [
+  {
+    id: "sasac-central-36078063",
+    companyName: "中国物流所属广西公司",
+    companyType: "央国企",
+    industry: "交通",
+    recruitType: "社招",
+    targetYears: "",
+    location: "全国",
+    positions: "中国物流所属广西公司社会招聘公告",
+    majorReq: "",
+    educationReq: "",
+    status: "未投递",
+    updateTime: "2026-10-22",
+    deadline: "",
+    applyLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c36078063/content.html",
+    noticeLink: "http://www.sasac.gov.cn/n2588035/n2588325/n2588350/c36078063/content.html",
+    examInfo: "",
+    notes: "国务院国资委人才招聘栏目官方公告；具体岗位、专业和截止时间以公告及报名页为准"
+  },
   {
     id: "sasac-central-36075409",
     companyName: "中国南方电网有限责任公司",

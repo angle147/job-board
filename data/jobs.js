@@ -1,6 +1,6 @@
 // 校招/社招岗位数据 — 自动爬取生成
-// 更新时间: 2026-10-22 18:06:51
-// 共 10 条
+// 更新时间: 2026-10-23 11:58:01
+// 共 9 条
 
 const JOBS = [
   {
@@ -164,23 +164,5 @@ const JOBS = [
     examInfo: "",
     companyScale: "",
     notes: "来源: 山东省国资委 [2026-09-04]"
-  },
-  {
-    id: 13,
-    companyName: "兖矿资本管理有限公司",
-    companyType: "央国企",
-    industry: "能源/电力",
-    recruitType: "校招/社招",
-    targetYears: "2026届",
-    location: "",
-    positions: "",
-    status: "未投递",
-    updateTime: "2026-08-24",
-    deadline: "招满为止",
-    applyLink: "",
-    noticeLink: "http://gzw.shandong.gov.cn/articles/ch00223/202608/6e4779ec-c9d0-4b4d-8eeb-45d35e06658e.html",
-    examInfo: "",
-    companyScale: "",
-    notes: "来源: 山东省国资委 [2026-08-24]"
   }
 ];
